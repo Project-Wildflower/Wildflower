@@ -200,7 +200,7 @@
 /datum/codex_entry/transfer_valve
 	associated_paths = list(/obj/item/device/transfer_valve)
 	mechanics_text = "This machine is used to merge the contents of two different gas tanks. Plug the tanks into the transfer, then open the valve to mix them together. You can also attach various assembly devices to trigger this process."
-	antag_text = "With a tank of hot phoron and cold oxygen, this benign little atmospheric device becomes an incredibly deadly bomb. You don't want to be anywhere near it when it goes off."
+	antag_text = "With a tank of hot plasma and cold oxygen, this benign little atmospheric device becomes an incredibly deadly bomb. You don't want to be anywhere near it when it goes off."
 
 /datum/codex_entry/gas_tank
 	associated_paths = list(/obj/item/tank)

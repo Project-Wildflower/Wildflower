@@ -456,7 +456,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/analysis)
 "aV" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4;
@@ -508,7 +508,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/quartermaster/expedition/atmos)
 "be" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/machinery/door/firedoor,
 /obj/effect/paint/silver,
 /obj/machinery/door/blast/regular{
@@ -3270,7 +3270,7 @@
 /area/maintenance/fifthdeck/fore)
 "gZ" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/effect/paint/silver,
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -3282,7 +3282,7 @@
 /area/shuttle/petrov/cell2)
 "ha" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/effect/paint/silver,
 /turf/simulated/floor/reinforced,
 /area/shuttle/petrov/cell2)
@@ -8878,7 +8878,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/canister)
 "te" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/sign/warning/compressed_gas{
 	dir = 8;
@@ -10127,7 +10127,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "wn" = (
 /obj/structure/table/standard,
 /obj/item/storage/toolbox/mechanical,
@@ -10136,7 +10136,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "wr" = (
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/effect/floor_decal/industrial/outline/red,
@@ -10495,7 +10495,7 @@
 /area/shuttle/petrov/security)
 "xO" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /obj/effect/paint/silver,
 /turf/simulated/floor/reinforced,
@@ -11010,7 +11010,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "zv" = (
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/machinery/button/blast_door{
@@ -11688,7 +11688,7 @@
 	},
 /obj/machinery/reagentgrinder,
 /obj/item/reagent_containers/glass/beaker/large,
-/obj/item/stack/material/phoron,
+/obj/item/stack/material/plasma,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/petrov/analysis)
 "Cm" = (
@@ -11768,7 +11768,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "CA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/cyan{
@@ -11844,7 +11844,7 @@
 	name = "Sublimation Chamber"
 	},
 /turf/simulated/floor/reinforced,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "CJ" = (
 /obj/structure/bed/chair/office/comfy/red{
 	dir = 1;
@@ -12002,7 +12002,7 @@
 /area/shuttle/petrov/cell2)
 "Di" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/paint/silver,
 /turf/simulated/floor/reinforced,
@@ -12096,7 +12096,7 @@
 	pixel_x = -21
 	},
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Du" = (
 /obj/structure/table/glass,
 /obj/item/device/paicard,
@@ -12104,7 +12104,7 @@
 /area/shuttle/petrov/rd)
 "Dv" = (
 /turf/simulated/floor/reinforced,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Dw" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -12362,7 +12362,7 @@
 /obj/item/device/scanner/reagent,
 /obj/item/device/scanner/spectrometer/adv,
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Em" = (
 /turf/simulated/wall/prepainted,
 /area/quartermaster/storage)
@@ -12435,7 +12435,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/vending/phoronresearch{
+/obj/machinery/vending/plasmaresearch{
 	dir = 4;
 	icon_state = "generic"
 	},
@@ -12517,7 +12517,7 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "EK" = (
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/effect/floor_decal/industrial/outline/red,
@@ -12584,7 +12584,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Fg" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -12836,7 +12836,7 @@
 /area/quartermaster/hangar)
 "Gx" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/effect/paint/silver,
 /turf/simulated/floor/reinforced,
 /area/shuttle/petrov/cell3)
@@ -13107,10 +13107,10 @@
 /area/shuttle/petrov/maint)
 "Ht" = (
 /obj/machinery/air_sensor{
-	id_tag = "phoron_sensor"
+	id_tag = "plasma_sensor"
 	},
 /turf/simulated/floor/reinforced,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Hu" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -13547,7 +13547,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "IU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -13586,7 +13586,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Ja" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -14061,7 +14061,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "KI" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -14230,7 +14230,7 @@
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/silver,
 /turf/simulated/floor/plating,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Lj" = (
 /turf/simulated/floor/wood/walnut{
 	icon_state = "walnut_broken5"
@@ -14389,7 +14389,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "LL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -14774,12 +14774,12 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/analysis)
 "Ng" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/machinery/door/firedoor,
 /obj/effect/paint/silver,
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/reinforced,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Nh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -15157,15 +15157,15 @@
 /area/quartermaster/storage)
 "OC" = (
 /obj/structure/table/standard,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
+/obj/item/stack/material/plasma,
+/obj/item/stack/material/plasma,
 /obj/machinery/alarm{
 	dir = 8;
 	icon_state = "alarm0";
 	pixel_x = 21
 	},
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "OD" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/research{
@@ -15695,7 +15695,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/research{
 	id_tag = null;
-	name = "Phoron Sublimation Lab"
+	name = "Plasma Sublimation Lab"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -15705,7 +15705,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "QJ" = (
 /obj/effect/paint/hull,
 /obj/structure/sign/solgov,
@@ -15810,7 +15810,7 @@
 "Rc" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/reinforced,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Rd" = (
 /obj/machinery/light{
 	dir = 8
@@ -15960,11 +15960,11 @@
 	dir = 1;
 	frequency = 1441;
 	icon_state = "map_injector";
-	id = "phoron_in";
+	id = "plasma_in";
 	use_power = 1
 	},
 /turf/simulated/floor/reinforced,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "RE" = (
 /obj/machinery/suit_storage_unit/science,
 /obj/machinery/light{
@@ -16338,7 +16338,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Tg" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -17199,13 +17199,13 @@
 /turf/simulated/floor/lino,
 /area/shuttle/petrov/rd)
 "Wy" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /obj/machinery/atmospherics/unary/vent_pump/tank{
 	dir = 1;
 	external_pressure_bound = 0;
 	external_pressure_bound_default = 0;
 	icon_state = "map_vent_in";
-	id_tag = "phoron_out";
+	id_tag = "plasma_out";
 	initialize_directions = 1;
 	internal_pressure_bound = 4000;
 	internal_pressure_bound_default = 4000;
@@ -17215,18 +17215,18 @@
 	use_power = 0
 	},
 /turf/simulated/floor/reinforced,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Wz" = (
 /obj/machinery/computer/air_control{
 	dir = 2;
-	input_tag = "phoron_in";
+	input_tag = "plasma_in";
 	name = "Test Chamber Gas Monitor";
-	output_tag = "phoron_out";
+	output_tag = "plasma_out";
 	sensor_name = "Test Chamber";
-	sensor_tag = "phoron_sensor"
+	sensor_tag = "plasma_sensor"
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "WD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -17261,7 +17261,7 @@
 "WG" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/white/monotile,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "WH" = (
 /obj/machinery/suit_storage_unit/mining,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -17473,7 +17473,7 @@
 "XG" = (
 /obj/effect/paint/silver,
 /turf/simulated/wall/ocp_wall,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "XH" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 10;
@@ -17529,7 +17529,7 @@
 "XQ" = (
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "XT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -17629,7 +17629,7 @@
 "Yk" = (
 /obj/effect/paint/silver,
 /turf/simulated/wall/titanium,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "Ym" = (
 /turf/simulated/floor/plating,
 /area/quartermaster/storage)
@@ -17784,7 +17784,7 @@
 /area/vacant/bar)
 "YJ" = (
 /turf/simulated/floor/tiled/white,
-/area/shuttle/petrov/phoron)
+/area/shuttle/petrov/plasma)
 "YL" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;

@@ -328,11 +328,11 @@
 	for(var/obj/machinery/power/rad_collector/Rad in world)
 		if(Rad.anchored)
 			if(!Rad.P)
-				var/obj/item/tank/phoron/Phoron = new/obj/item/tank/phoron(Rad)
-				Phoron.air_contents.gas[GAS_PHORON] = 70
+				var/obj/item/tank/plasma/Plasma = new/obj/item/tank/plasma(Rad)
+				Plasma.air_contents.gas[GAS_PLASMA] = 70
 				Rad.drainratio = 0
-				Rad.P = Phoron
-				Phoron.forceMove(Rad)
+				Rad.P = Plasma
+				Plasma.forceMove(Rad)
 
 			if(!Rad.active)
 				Rad.toggle_power()

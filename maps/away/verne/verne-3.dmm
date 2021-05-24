@@ -258,7 +258,7 @@
 "aR" = (
 /obj/structure/table/standard,
 /obj/item/reagent_containers/glass/beaker/large,
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 6
 	},
 /obj/item/reagent_containers/glass/beaker/insulated/large,

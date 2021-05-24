@@ -70,7 +70,7 @@
 		if(63 to 64)
 			var/t = rand(4,7)
 			for(var/i = 0, i < t, ++i)
-				var/newcoin = pick(/obj/item/material/coin/silver, /obj/item/material/coin/silver, /obj/item/material/coin/silver, /obj/item/material/coin/iron, /obj/item/material/coin/iron, /obj/item/material/coin/iron, /obj/item/material/coin/gold, /obj/item/material/coin/diamond, /obj/item/material/coin/phoron, /obj/item/material/coin/uranium, /obj/item/material/coin/platinum)
+				var/newcoin = pick(/obj/item/material/coin/silver, /obj/item/material/coin/silver, /obj/item/material/coin/silver, /obj/item/material/coin/iron, /obj/item/material/coin/iron, /obj/item/material/coin/iron, /obj/item/material/coin/gold, /obj/item/material/coin/diamond, /obj/item/material/coin/plasma, /obj/item/material/coin/uranium, /obj/item/material/coin/platinum)
 				new newcoin(src)
 		if(65 to 66)
 			new/obj/item/clothing/suit/ianshirt(src)

@@ -478,7 +478,7 @@ obj/random/closet //A couple of random closets to spice up maint
 				/obj/item/material/coin/iron = 4,
 				/obj/item/material/coin/uranium = 3,
 				/obj/item/material/coin/platinum = 1,
-				/obj/item/material/coin/phoron = 1)
+				/obj/item/material/coin/plasma = 1)
 
 /obj/random/toy
 	name = "random toy"
@@ -980,9 +980,9 @@ something, make sure it's not in one of the other lists.*/
 				/obj/item/clothing/suit/straight_jacket = 6,
 				/obj/item/clothing/head/helmet/merc = 3,
 				/obj/item/stack/material/diamond/ten = 7,
-				/obj/item/stack/material/glass/phoronrglass/ten = 7,
+				/obj/item/stack/material/glass/plasmarglass/ten = 7,
 				/obj/item/stack/material/marble/ten = 8,
-				/obj/item/stack/material/phoron/ten = 7,
+				/obj/item/stack/material/plasma/ten = 7,
 				/obj/item/stack/material/gold/ten = 7,
 				/obj/item/stack/material/silver/ten = 7,
 				/obj/item/stack/material/osmium/ten = 7,

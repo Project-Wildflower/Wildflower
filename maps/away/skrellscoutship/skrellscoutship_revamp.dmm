@@ -326,7 +326,7 @@
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
 "bn" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/structure/cable/yellow{
 	d1 = 4;
 	d2 = 8;
@@ -375,10 +375,10 @@
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/maintenance/power)
 "bA" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /obj/structure/cable/green{
@@ -394,7 +394,7 @@
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
 "bB" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -408,10 +408,10 @@
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/robotics)
 "bD" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -431,7 +431,7 @@
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/maintenance/power)
 "bF" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/maintenance/power)
@@ -560,7 +560,7 @@
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/maintenance/power)
 "bX" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /obj/structure/cable/green{
@@ -587,7 +587,7 @@
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
 "bZ" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/skrell/orange,
@@ -674,8 +674,8 @@
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
 "cs" = (
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced,
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /obj/structure/cable/green{
@@ -686,12 +686,12 @@
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
 "cu" = (
-/obj/structure/window/phoronreinforced,
+/obj/structure/window/plasmareinforced,
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
 "cv" = (
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced,
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/skrell/orange,
@@ -849,7 +849,7 @@
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/maintenance/power)
 "dg" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -1016,8 +1016,8 @@
 "dD" = (
 /obj/machinery/reagentgrinder,
 /obj/item/reagent_containers/glass/beaker/large,
-/obj/item/stack/material/phoron/fifty,
-/obj/item/stack/material/phoron/fifty,
+/obj/item/stack/material/plasma/fifty,
+/obj/item/stack/material/plasma/fifty,
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
 "dE" = (
@@ -1346,14 +1346,14 @@
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/command/armory)
 "eD" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /obj/structure/table/rack,
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
 /obj/item/device/binoculars,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/red,
@@ -1366,7 +1366,7 @@
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/command/armory)
 "eF" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /obj/structure/table/rack,
@@ -1401,16 +1401,16 @@
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/command/armory)
 "eJ" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/command/armory)
 "eL" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/skrell/green,
@@ -1434,7 +1434,7 @@
 /obj/item/gun/energy/gun/skrell,
 /obj/item/gun/energy/gun/skrell,
 /obj/item/gun/energy/gun/skrell,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/red,
@@ -1521,7 +1521,7 @@
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/robotics)
 "fj" = (
-/obj/structure/window/phoronreinforced,
+/obj/structure/window/plasmareinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
@@ -1659,7 +1659,7 @@
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/robotics)
 "fA" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -1961,7 +1961,7 @@
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/hangar)
 "gr" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /obj/machinery/door/blast/regular/open{
 	dir = 2;
@@ -3167,7 +3167,7 @@
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/robotics)
 "jQ" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/skrell/green,
@@ -3176,11 +3176,11 @@
 /obj/structure/table/rack,
 /obj/structure/window/basic,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/stack/material/glass/phoronrglass/ten,
-/obj/item/stack/material/glass/phoronrglass/ten,
-/obj/item/stack/material/glass/phoronrglass/ten,
-/obj/item/stack/material/glass/phoronrglass/ten,
-/obj/item/stack/material/glass/phoronrglass/ten,
+/obj/item/stack/material/glass/plasmarglass/ten,
+/obj/item/stack/material/glass/plasmarglass/ten,
+/obj/item/stack/material/glass/plasmarglass/ten,
+/obj/item/stack/material/glass/plasmarglass/ten,
+/obj/item/stack/material/glass/plasmarglass/ten,
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/robotics)
 "jV" = (
@@ -3255,7 +3255,7 @@
 /area/ship/skrellscoutship/robotics)
 "kh" = (
 /obj/structure/table/rack,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /obj/item/melee/energy/machete,
@@ -3583,7 +3583,7 @@
 /area/ship/skrellscoutship/dock)
 "lK" = (
 /obj/effect/paint/black,
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/skrellscoutship/crew/rec)
 "lQ" = (
@@ -3715,7 +3715,7 @@
 /area/ship/skrellscoutship/robotics)
 "nJ" = (
 /obj/effect/paint/black,
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/skrellscoutship/crew/kitchen)
 "nK" = (
@@ -3727,7 +3727,7 @@
 /area/ship/skrellscoutship/crew/rec)
 "nR" = (
 /obj/effect/paint/black,
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/skrellscoutship/crew/medbay)
 "nT" = (
@@ -3775,7 +3775,7 @@
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/atmos)
 "oK" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
@@ -3848,7 +3848,7 @@
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/crew/quarters)
 "pO" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/carpet/purple,
 /area/ship/skrellscoutship/crew/rec)
@@ -3993,7 +3993,7 @@
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/robotics)
 "rR" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/crew/quarters)
@@ -4094,7 +4094,7 @@
 /area/ship/skrellscoutship/corridor)
 "ug" = (
 /obj/effect/paint/black,
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/crew/quarters)
 "uk" = (
@@ -4107,7 +4107,7 @@
 /area/ship/skrellscoutship/crew/rec)
 "uB" = (
 /obj/effect/paint/black,
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/machinery/door/blast/regular/open{
 	dir = 2;
 	id_tag = "xil_shuttle";
@@ -4233,7 +4233,7 @@
 /area/ship/skrellscoutship/robotics)
 "wo" = (
 /obj/effect/paint/black,
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4382,7 +4382,7 @@
 /area/ship/skrellscoutship/command/bridge)
 "yF" = (
 /obj/structure/table/rack,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /obj/item/gun/energy/gun/skrell,
@@ -4398,14 +4398,14 @@
 /obj/item/gun/energy/pulse_rifle/skrell,
 /obj/item/gun/energy/pulse_rifle/skrell,
 /obj/item/gun/energy/pulse_rifle/skrell,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/robotics)
 "yV" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/crew/kitchen)
@@ -4471,7 +4471,7 @@
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutshuttle)
 "Ac" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "main_airlock_window"
@@ -4575,7 +4575,7 @@
 /obj/item/bodybag/cryobag,
 /obj/item/bodybag/cryobag,
 /obj/item/autopsy_scanner,
-/obj/item/stack/material/phoron/fifty,
+/obj/item/stack/material/plasma/fifty,
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/robotics)
 "Ce" = (
@@ -4592,7 +4592,7 @@
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/crew/quarters)
 "Cm" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/command/bridge)
@@ -4651,7 +4651,7 @@
 /turf/simulated/wall/r_wall,
 /area/ship/skrellscoutshuttle)
 "Dj" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/crew/rec)
@@ -4671,7 +4671,7 @@
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
 "Dy" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/wings/port)
@@ -4728,12 +4728,12 @@
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/command/bridge)
 "Ex" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/wings/starboard)
 "ET" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/crew/medbay)
@@ -4755,7 +4755,7 @@
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/command/bridge)
 "Fk" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/maintenance/atmos)
@@ -5050,7 +5050,7 @@
 /area/ship/skrellscoutshuttle)
 "Kx" = (
 /obj/effect/paint/black,
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /turf/simulated/wall/r_wall,
 /area/ship/skrellscoutship/crew/rec)
 "Kz" = (
@@ -5376,7 +5376,7 @@
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/command/bridge)
 "OG" = (
-/obj/structure/window/phoronreinforced,
+/obj/structure/window/plasmareinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
@@ -5484,7 +5484,7 @@
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
 "PK" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/command/armory)
@@ -5723,7 +5723,7 @@
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/rec)
 "TO" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
@@ -5949,7 +5949,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/skrellscoutship/wings/port)
 "Wf" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/effect/paint/black,
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutshuttle)
@@ -6005,7 +6005,7 @@
 /area/ship/skrellscoutship/wings/port)
 "WS" = (
 /obj/effect/paint/black,
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/skrellscoutship/crew/quarters)
 "WZ" = (

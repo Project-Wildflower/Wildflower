@@ -29,7 +29,7 @@
 	if(default_reinf_type)
 		reinf_material = SSmaterials.get_material_by_name(default_reinf_type)
 	base_state = icon_state
-	
+
 	if(!stacktype)
 		stacktype = material.stack_type
 	if(islist(material.stack_origin_tech))
@@ -47,7 +47,7 @@
 	if(!material)
 		return
 	recipes = material.get_recipes(reinf_material && reinf_material.name)
-	..() 
+	..()
 
 /obj/item/stack/material/get_codex_value()
 	return (material && !material.hidden_from_codex) ? "[lowertext(material.display_name)] (material)" : ..()
@@ -75,7 +75,7 @@
 
 	if(material_flags & USE_MATERIAL_PLURAL_NAME)
 		plural_name = material.sheet_plural_name
-	
+
 	if(amount>1)
 		SetName("[material.use_name] [plural_name]")
 		desc = "A stack of [material.use_name] [plural_name]."
@@ -200,18 +200,18 @@
 /obj/item/stack/material/uranium/ten
 	amount = 10
 
-/obj/item/stack/material/phoron
-	name = "solid phoron"
-	icon_state = "sheet-phoron"
-	plural_icon_state = "sheet-phoron-mult"
-	max_icon_state = "sheet-phoron-max"
-	default_type = MATERIAL_PHORON
+/obj/item/stack/material/plasma
+	name = "solid plasma"
+	icon_state = "sheet-plasma"
+	plural_icon_state = "sheet-plasma-mult"
+	max_icon_state = "sheet-plasma-max"
+	default_type = MATERIAL_PLASMA
 	material_flags = USE_MATERIAL_SINGULAR_NAME|USE_MATERIAL_PLURAL_NAME
 
-/obj/item/stack/material/phoron/ten
+/obj/item/stack/material/plasma/ten
 	amount = 10
 
-/obj/item/stack/material/phoron/fifty
+/obj/item/stack/material/plasma/fifty
 	amount = 50
 
 /obj/item/stack/material/plastic
@@ -477,7 +477,7 @@
 	default_type = MATERIAL_GLASS
 
 /obj/item/stack/material/glass/on_update_icon()
-	if(reinf_material) 
+	if(reinf_material)
 		icon_state = "sheet-glass-reinf"
 		base_state = icon_state
 		plural_icon_state = "sheet-glass-reinf-mult"
@@ -509,16 +509,16 @@
 /obj/item/stack/material/glass/reinforced/fifty
 	amount = 50
 
-/obj/item/stack/material/glass/phoronglass
+/obj/item/stack/material/glass/plasmaglass
 	name = "borosilicate glass"
-	default_type = MATERIAL_PHORON_GLASS
+	default_type = MATERIAL_PLASMA_GLASS
 
-/obj/item/stack/material/glass/phoronrglass
+/obj/item/stack/material/glass/plasmarglass
 	name = "reinforced borosilicate glass"
-	default_type = MATERIAL_PHORON_GLASS
+	default_type = MATERIAL_PLASMA_GLASS
 	default_reinf_type = MATERIAL_STEEL
 
-/obj/item/stack/material/glass/phoronrglass/ten
+/obj/item/stack/material/glass/plasmarglass/ten
 	amount = 10
 
 /obj/item/stack/material/aliumium

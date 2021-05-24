@@ -690,7 +690,7 @@ Ccomp's first proc.
 	SSstatistics.add_field_details("admin_verb","CC") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
 /* This proc is DEFERRED. Does not do anything.
-/client/proc/cmd_admin_remove_phoron()
+/client/proc/cmd_admin_remove_plasma()
 	set category = "Debug"
 	set name = "Stabilize Atmos."
 	if(!holder)

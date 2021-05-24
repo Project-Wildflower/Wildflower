@@ -2385,7 +2385,7 @@
 /area/map_template/mininghome_living_south)
 "vc" = (
 /obj/structure/table/steel,
-/obj/item/stack/material/phoron/ten,
+/obj/item/stack/material/plasma/ten,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/mininghome_solars)
 "vs" = (

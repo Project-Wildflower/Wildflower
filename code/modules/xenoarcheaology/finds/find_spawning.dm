@@ -43,7 +43,7 @@
 		if(prob(30))
 			descriptors.Add("is encircled with bands of [pick("quadrinium","cordite","ferritic-alloy","plasteel","duranium")]")
 		if(prob(30))
-			descriptors.Add("menaces with spikes of [pick("solid phoron","uranium","white pearl","black steel")]")
+			descriptors.Add("menaces with spikes of [pick("solid plasma","uranium","white pearl","black steel")]")
 		if(descriptors.len > 0)
 			decorations = "It "
 			for(var/index=1, index <= descriptors.len, index++)
@@ -290,7 +290,7 @@
 
 /obj/item/archaeological_find/material/exotic
 	item_type = "rare material lump"
-	possible_materials = list(MATERIAL_ALIENALLOY, MATERIAL_PHORON, MATERIAL_HYDROGEN, MATERIAL_PHORON_GLASS)
+	possible_materials = list(MATERIAL_ALIENALLOY, MATERIAL_PLASMA, MATERIAL_HYDROGEN, MATERIAL_PLASMA_GLASS)
 
 /obj/item/archaeological_find/crystal
 	item_type = "crystal"

@@ -565,7 +565,7 @@
 /area/medical/chemistry)
 "abm" = (
 /obj/structure/table/standard,
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 6
 	},
 /obj/item/reagent_containers/dropper,
@@ -14045,7 +14045,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 5
 	},
 /obj/machinery/light{
@@ -16573,7 +16573,7 @@
 "dsd" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d1port)
 "dtb" = (
@@ -17452,7 +17452,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/medical/foyer/storeroom)
 "eJy" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d1starboard)
 "eKb" = (
@@ -18459,10 +18459,10 @@
 /area/security/storage)
 "gHb" = (
 /obj/structure/closet/crate,
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 50
 	},
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 50
 	},
 /obj/machinery/light/small{
@@ -18996,11 +18996,11 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
+/obj/item/stack/material/plasma,
+/obj/item/stack/material/plasma,
+/obj/item/stack/material/plasma,
+/obj/item/stack/material/plasma,
+/obj/item/stack/material/plasma,
 /obj/item/storage/box/beakers,
 /obj/machinery/light/spot{
 	dir = 1
@@ -19481,7 +19481,7 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/development)
 "iej" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d1port)
 "igb" = (
@@ -19819,7 +19819,7 @@
 "izd" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d1starboard)
 "iAS" = (
@@ -22473,7 +22473,7 @@
 	icon_state = "intact"
 	},
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d1port)
 "lKb" = (
@@ -24249,7 +24249,7 @@
 	icon_state = "intact"
 	},
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d1starboard)
 "nZZ" = (
@@ -25635,7 +25635,7 @@
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/visible/blue,
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d1port)
 "pJb" = (
@@ -25751,7 +25751,7 @@
 "pRm" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/visible/blue,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d1starboard)
 "pSb" = (
@@ -25925,7 +25925,7 @@
 /obj/item/stack/material/glass/reinforced{
 	amount = 30
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/plasmarglass{
 	amount = 5
 	},
 /obj/structure/window/reinforced{
@@ -26665,16 +26665,16 @@
 "qTX" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/crate,
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 25
 	},
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 25
 	},
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 25
 	},
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 25
 	},
 /obj/structure/cable/green{
@@ -27431,7 +27431,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/rnd/xenobiology/xenoflora)
 "rKb" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/machinery/door/blast/regular{
 	density = 0;
@@ -27475,7 +27475,7 @@
 /area/security/armoury)
 "rLb" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	density = 0;
 	dir = 1;
@@ -29131,7 +29131,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
 	dir = 6
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d1starboard)
 "tsb" = (
@@ -29984,7 +29984,7 @@
 /turf/simulated/floor/tiled,
 /area/security/detectives_office)
 "vci" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d1starboard)
 "vcy" = (
@@ -31025,7 +31025,7 @@
 	dir = 5
 	},
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d1port)
 "xSf" = (

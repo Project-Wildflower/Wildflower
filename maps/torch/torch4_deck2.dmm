@@ -3664,7 +3664,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/foreport)
 "ha" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular/open{
 	id_tag = "bsdwindow";
 	name = "Drive Containment"
@@ -7263,7 +7263,7 @@
 	id_tag = "SupermatterPort";
 	name = "Reactor Blast Door"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/engine_room)
 "qe" = (
@@ -9078,7 +9078,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
 /area/engineering/atmos)
@@ -9488,7 +9488,7 @@
 /area/engineering/drone_fabrication)
 "vD" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow{
 	dir = 1;
@@ -10071,7 +10071,7 @@
 /turf/simulated/floor/tiled,
 /area/engineering/engineering_bay)
 "xw" = (
-/obj/effect/wingrille_spawn/reinforced_phoron/full,
+/obj/effect/wingrille_spawn/reinforced_plasma/full,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	icon_state = "pdoor0";
@@ -12589,12 +12589,12 @@
 	icon_state = "pdoor0";
 	id_tag = "prototype_chamber_blast"
 	},
-/obj/effect/wingrille_spawn/reinforced_phoron/full,
+/obj/effect/wingrille_spawn/reinforced_plasma/full,
 /turf/simulated/floor/reinforced/airless,
 /area/vacant/prototype/engine)
 "Ek" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/engineering/wastetank)
 "El" = (
@@ -12603,7 +12603,7 @@
 	id_tag = "SupermatterPort";
 	name = "Reactor Blast Door"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/engine_room)
 "Eo" = (
@@ -13125,7 +13125,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/fuelbay)
 "Fs" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/engineering/fuelbay)
 "Ft" = (
@@ -13166,7 +13166,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/fuelbay)
 "Fy" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
@@ -13547,7 +13547,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/engine_room)
 "GR" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
@@ -13766,7 +13766,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/drone_fabrication)
 "Hs" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /turf/simulated/floor/reinforced,
 /area/engineering/wastetank)
@@ -14861,7 +14861,7 @@
 	id_tag = "SupermatterPort";
 	name = "Reactor Blast Door"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/engine_room)
@@ -15844,7 +15844,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/vacant/prototype/control)
 "Ok" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id_tag = "fusion_observation"
@@ -16402,7 +16402,7 @@
 /area/engineering/atmos)
 "Qb" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4;
@@ -16661,7 +16661,7 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/seconddeck/fore)
 "QN" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/engineering/wastetank)
 "QQ" = (
@@ -16822,7 +16822,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/vacant/prototype/control)
 "Rk" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id_tag = "fusion_observation"
@@ -17422,7 +17422,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/wingrille_spawn/reinforced_phoron/full,
+/obj/effect/wingrille_spawn/reinforced_plasma/full,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	icon_state = "pdoor0";
@@ -17734,7 +17734,7 @@
 /area/maintenance/seconddeck/aftstarboard)
 "Un" = (
 /obj/machinery/atmospherics/tvalve/mirrored/digital{
-	name = "phoron bypass valve"
+	name = "plasma bypass valve"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/engine_room)
@@ -17821,7 +17821,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/aftstarboard)
 "Va" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4;
 	icon_state = "intact"
@@ -18602,7 +18602,7 @@
 	dir = 4;
 	icon_state = "map_connector"
 	},
-/obj/machinery/portable_atmospherics/canister/empty/phoron,
+/obj/machinery/portable_atmospherics/canister/empty/plasma,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
 "Xo" = (

@@ -1878,7 +1878,7 @@ GLOBAL_LIST_INIT(dream_tokens, list(
 	"an ally", "darkness", "light", "a scientist",
 	"a monkey", "a catastrophe", "a loved one", "a gun",
 	"warmth", "freezing", "the sun", "a hat",
-	"a ruined station", "a planet", "phoron", "air",
+	"a ruined station", "a planet", "plasma", "air",
 	"the medical bay", "the bridge", "blinking lights", "a blue light",
 	"an abandoned laboratory", "NanoTrasen", "pirates", "mercenaries",
 	"blood", "healing", "power", "respect",

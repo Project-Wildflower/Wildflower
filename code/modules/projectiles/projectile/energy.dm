@@ -75,8 +75,8 @@
 			if(T && (T != TO) && (TO.z == T.z) && !mob.blinded)
 				to_chat(mob, SPAN_NOTICE("You see a bright light to \the [dir2text(get_dir(T,TO))]"))
 			CHECK_TICK
-				
-/obj/item/projectile/energy/electrode	//has more pain than a beam because it's harder to hit 
+
+/obj/item/projectile/energy/electrode	//has more pain than a beam because it's harder to hit
 	name = "electrode"
 	icon_state = "spark"
 	fire_sound = 'sound/weapons/Taser.ogg'
@@ -128,8 +128,8 @@
 	damage_type = TOX
 	weaken = 5
 
-/obj/item/projectile/energy/phoron
-	name = "phoron bolt"
+/obj/item/projectile/energy/plasma
+	name = "plasma bolt"
 	icon_state = "energy"
 	fire_sound = 'sound/effects/stealthoff.ogg'
 	damage = 20

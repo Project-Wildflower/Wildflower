@@ -189,9 +189,9 @@
 	desc = "A secure weapons crate."
 	closet_appearance = /decl/closet_appearance/crate/secure/weapon
 
-/obj/structure/closet/crate/secure/phoron
-	name = "phoron crate"
-	desc = "A secure phoron crate."
+/obj/structure/closet/crate/secure/plasma
+	name = "plasma crate"
+	desc = "A secure plasma crate."
 	closet_appearance = /decl/closet_appearance/crate/secure/hazard
 
 /obj/structure/closet/crate/secure/shuttle
@@ -228,7 +228,7 @@
 	storage_capacity = 2 * MOB_LARGE
 	storage_types = CLOSET_STORAGE_ITEMS|CLOSET_STORAGE_STRUCTURES
 
-/obj/structure/closet/crate/secure/large/phoron
+/obj/structure/closet/crate/secure/large/plasma
 	closet_appearance = /decl/closet_appearance/large_crate/secure/hazard
 
 //fluff variant

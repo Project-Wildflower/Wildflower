@@ -12,19 +12,19 @@
 /area/template_noop)
 "d" = (
 /obj/machinery/artifact,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
-/obj/structure/window/phoronreinforced,
+/obj/structure/window/plasmareinforced,
 /turf/simulated/floor/fixed/alium/ruin,
 /area/template_noop)
 "e" = (

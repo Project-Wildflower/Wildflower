@@ -28,15 +28,15 @@
 	containername = "robotics assembly crate"
 	access = access_robotics
 
-/decl/hierarchy/supply_pack/science/phoron
-	name = "Parts - Phoron device kit"
-	contains = list(/obj/item/tank/phoron = 3,
+/decl/hierarchy/supply_pack/science/plasma
+	name = "Parts - Plasma device kit"
+	contains = list(/obj/item/tank/plasma = 3,
 					/obj/item/device/assembly/igniter = 3,
 					/obj/item/device/assembly/prox_sensor = 3,
 					/obj/item/device/assembly/timer = 3)
 	cost = 10
-	containertype = /obj/structure/closet/crate/secure/phoron
-	containername = "phoron assembly crate"
+	containertype = /obj/structure/closet/crate/secure/plasma
+	containername = "plasma assembly crate"
 	access = access_tox_storage
 
 /decl/hierarchy/supply_pack/science/scanner_module

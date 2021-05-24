@@ -638,7 +638,7 @@
 /area/map_template/icarus/driver/west)
 "rN" = (
 /obj/effect/floor_decal/corner/yellow/mono,
-/obj/structure/closet/crate/secure/large/phoron/experimentalsm,
+/obj/structure/closet/crate/secure/large/plasma/experimentalsm,
 /turf/simulated/floor/tiled,
 /area/map_template/icarus/eng)
 "rW" = (

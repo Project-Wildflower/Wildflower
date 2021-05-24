@@ -18,8 +18,8 @@
 
 /datum/design/item/mining/plasmacutter
 	id = "plasmacutter"
-	req_tech = list(TECH_MATERIAL = 4, TECH_PHORON = 3, TECH_ENGINEERING = 3)
-	materials = list(MATERIAL_STEEL = 1500, MATERIAL_GLASS = 500, MATERIAL_GOLD = 500, MATERIAL_PHORON = 500)
+	req_tech = list(TECH_MATERIAL = 4, TECH_PLASMA = 3, TECH_ENGINEERING = 3)
+	materials = list(MATERIAL_STEEL = 1500, MATERIAL_GLASS = 500, MATERIAL_GOLD = 500, MATERIAL_PLASMA = 500)
 	build_path = /obj/item/gun/energy/plasmacutter
 	sort_string = "KAAAC"
 

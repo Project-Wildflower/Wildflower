@@ -105,7 +105,7 @@
 				if(MATERIAL_URANIUM)
 					ore_type = ORE_NUCLEAR
 					data_value = 3
-				if(MATERIAL_PHORON, MATERIAL_OSMIUM, MATERIAL_HYDROGEN)
+				if(MATERIAL_PLASMA, MATERIAL_OSMIUM, MATERIAL_HYDROGEN)
 					ore_type = ORE_EXOTIC
 					data_value = 4
 
@@ -126,7 +126,7 @@
 			if(76 to INFINITY) result = "huge quantities"
 
 		scandata += "- [result] of [ore_type]."
-	
+
 	return list(jointext(scandata, "<br>"), new_data)
 
 #undef  ORE_SURFACE

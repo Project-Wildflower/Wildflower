@@ -9,7 +9,7 @@
 #define ATM_O2      3 // Oxygen.
 #define ATM_N2      4 // Nitrogen.
 #define ATM_CO2     5 // Carbon dioxide.
-#define ATM_P       6 // Phoron.
+#define ATM_P       6 // Plasma.
 #define ATM_N2O     7 // Nitrous oxide.
 #define ATM_H2      8 // Hydrogen.
 #define ATM_CH3BR   9 // Methyl bromide.

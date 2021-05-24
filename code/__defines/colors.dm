@@ -125,7 +125,7 @@
 #define WOOD_COLOR_YELLOW      "#e3994e"
 
 #define GLASS_COLOR            "#aaccff"
-#define GLASS_COLOR_PHORON     "#7c3a9a"
+#define GLASS_COLOR_PLASMA     "#7c3a9a"
 #define GLASS_COLOR_TINTED     "#222222"
 #define GLASS_COLOR_FROSTED    "#eeeeee"
 

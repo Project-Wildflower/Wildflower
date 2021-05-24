@@ -7,7 +7,7 @@ GLOBAL_LIST_INIT(weighted_minerals_sparse, \
 		MATERIAL_DIAMOND =      5, \
 		MATERIAL_GOLD =         8, \
 		MATERIAL_SILVER =       8, \
-		MATERIAL_PHORON =      10, \
+		MATERIAL_PLASMA =      10, \
 		MATERIAL_QUARTZ =       3, \
 		MATERIAL_PYRITE =       3, \
 		MATERIAL_SPODUMENE =    3, \
@@ -28,7 +28,7 @@ GLOBAL_LIST_INIT(weighted_minerals_rich, \
 		MATERIAL_DIAMOND =      5, \
 		MATERIAL_GOLD =        10, \
 		MATERIAL_SILVER =      10, \
-		MATERIAL_PHORON =      20, \
+		MATERIAL_PLASMA =      20, \
 		MATERIAL_QUARTZ =       1, \
 		MATERIAL_PYRITE =       1, \
 		MATERIAL_SPODUMENE =    1, \

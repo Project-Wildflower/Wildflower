@@ -68,11 +68,11 @@
 	containername = "nitrogen canister crate"
 	containertype = /obj/structure/largecrate
 
-/decl/hierarchy/supply_pack/atmospherics/canister_phoron
-	name = "Gas - Phoron gas canister"
-	contains = list(/obj/machinery/portable_atmospherics/canister/phoron)
+/decl/hierarchy/supply_pack/atmospherics/canister_plasma
+	name = "Gas - Plasma gas canister"
+	contains = list(/obj/machinery/portable_atmospherics/canister/plasma)
 	cost = 70
-	containername = "phoron gas canister crate"
+	containername = "plasma gas canister crate"
 	containertype = /obj/structure/closet/crate/secure/large
 	access = access_atmospherics
 
@@ -106,11 +106,11 @@
 	cost = 15
 	containername = "fuel tank crate"
 
-/decl/hierarchy/supply_pack/atmospherics/phoron
-	name = "Gas - Phoron tanks"
-	contains = list(/obj/item/tank/phoron = 3)
+/decl/hierarchy/supply_pack/atmospherics/plasma
+	name = "Gas - Plasma tanks"
+	contains = list(/obj/item/tank/plasma = 3)
 	cost = 30
-	containername = "phoron tank crate"
+	containername = "plasma tank crate"
 
 /decl/hierarchy/supply_pack/atmospherics/voidsuit
 	name = "EVA - Atmospherics voidsuit"

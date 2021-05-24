@@ -82,8 +82,8 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 			return_name = "Gold"
 		if(MATERIAL_SILVER)
 			return_name = "Silver"
-		if(MATERIAL_PHORON)
-			return_name = "Solid Phoron"
+		if(MATERIAL_PLASMA)
+			return_name = "Solid Plasma"
 		if(MATERIAL_URANIUM)
 			return_name = "Uranium"
 		if(MATERIAL_DIAMOND)
@@ -664,7 +664,7 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 			if(linked_destroy)
 				dat += "<LI>Destructive Analyzer <A href='?src=\ref[src];disconnect=destroy'>(Disconnect)</A>"
 			else
-				if (can_analyze == TRUE) 
+				if (can_analyze == TRUE)
 					dat += "<LI>(No Destructive Analyzer Linked)"
 			if(linked_lathe)
 				dat += "<LI>Protolathe <A href='?src=\ref[src];disconnect=lathe'>(Disconnect)</A>"
@@ -879,7 +879,7 @@ won't update every console in existence) but it's more of a hassle to do. Also, 
 /obj/machinery/computer/rdconsole/core
 	name = "core fabricator console"
 	id = 1
-	
+
 
 #undef CHECK_LATHE
 #undef CHECK_IMPRINTER

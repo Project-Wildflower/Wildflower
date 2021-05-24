@@ -287,7 +287,7 @@
 /turf/simulated/floor/reinforced/nitrogen,
 /area/voxship/engineering)
 "aQ" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/machinery/atmospherics/pipe/simple/hidden/blue{
 	dir = 4;
 	icon_state = "intact"
@@ -509,7 +509,7 @@
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/scavship)
 "bp" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /turf/simulated/floor/plating/vox,
 /area/voxship/engineering)
 "bq" = (
@@ -551,7 +551,7 @@
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/voxship/engineering)
 "bu" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 4;
 	icon_state = "intact"
@@ -1724,7 +1724,7 @@
 /area/voxship/thrusters)
 "dK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_plasma/hull,
 /obj/machinery/door/blast/regular{
 	density = 0;
 	dir = 4;

@@ -44,7 +44,7 @@
 
 	breath_type =             GAS_METHYL_BROMIDE
 	exhale_type =             GAS_METHANE
-	poison_types =            list(GAS_PHORON)
+	poison_types =            list(GAS_PLASMA)
 
 	reagent_tag =             IS_MANTID
 	genders =                 list(MALE)

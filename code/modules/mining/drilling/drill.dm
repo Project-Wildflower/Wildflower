@@ -29,7 +29,7 @@
 		MATERIAL_GOLD =     /obj/item/ore/gold,
 		MATERIAL_SILVER =   /obj/item/ore/silver,
 		MATERIAL_DIAMOND =  /obj/item/ore/diamond,
-		MATERIAL_PHORON =   /obj/item/ore/phoron,
+		MATERIAL_PLASMA =   /obj/item/ore/plasma,
 		MATERIAL_OSMIUM =   /obj/item/ore/osmium,
 		MATERIAL_HYDROGEN = /obj/item/ore/hydrogen,
 		MATERIAL_SAND =     /obj/item/ore/glass,
@@ -257,7 +257,7 @@
 	icon_state = "mining_brace"
 	obj_flags = OBJ_FLAG_ROTATABLE
 	interact_offline = 1
-	
+
 	machine_name = "mining drill brace"
 	machine_desc = "A mobile support strut that provides support for the head of a mining drill when anchored. Placed on either side of the drill head."
 

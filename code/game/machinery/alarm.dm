@@ -12,7 +12,7 @@
 		GAS_NITROGEN,
 		GAS_CO2,
 		GAS_N2O,
-		GAS_PHORON
+		GAS_PLASMA
 	)
 
 ////////////////////////////////////////
@@ -295,7 +295,7 @@
 
 	if(!istype(location))
 		return FALSE
-	
+
 	if(breach_cooldown)
 		return FALSE
 
@@ -610,7 +610,7 @@
 		if(AALARM_SCREEN_SENSORS)
 			var/list/selected
 			var/thresholds[0]
-			
+
 			var/breach_data = list("selected" = breach_pressure)
 			data["breach_data"] = breach_data
 

@@ -915,7 +915,7 @@
 "da" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/crate,
-/obj/item/stack/material/phoron,
+/obj/item/stack/material/plasma,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "dd" = (

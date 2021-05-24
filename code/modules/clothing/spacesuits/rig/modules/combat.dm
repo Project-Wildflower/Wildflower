@@ -278,7 +278,7 @@
 
 	interface_name = "mounted plasma cutter"
 	interface_desc = "A forearm-mounted suit-powered plasma cutter."
-	origin_tech = list(TECH_MATERIAL = 5, TECH_PHORON = 4, TECH_ENGINEERING = 7, TECH_COMBAT = 5)
+	origin_tech = list(TECH_MATERIAL = 5, TECH_PLASMA = 4, TECH_ENGINEERING = 7, TECH_COMBAT = 5)
 
 	gun = /obj/item/gun/energy/plasmacutter/mounted
 

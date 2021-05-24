@@ -2460,7 +2460,7 @@
 /area/miningstation/prep2)
 "fV" = (
 /obj/structure/table/rack,
-/obj/item/stack/material/phoron/fifty,
+/obj/item/stack/material/plasma/fifty,
 /turf/simulated/floor/tiled/techfloor,
 /area/miningstation/vault)
 "fW" = (

@@ -86,7 +86,7 @@
 	. = ..()
 	nitrogen_retardation_factor = rand(0.01, 1)	//Higher == N2 slows reaction more
 	thermal_release_modifier = rand(100, 1000000)		//Higher == more heat released during reaction
-	phoron_release_modifier = rand(0, 100000)		//Higher == less phoron released by reaction
+	plasma_release_modifier = rand(0, 100000)		//Higher == less plasma released by reaction
 	oxygen_release_modifier = rand(0, 100000)		//Higher == less oxygen released at high temperature/power
 	radiation_release_modifier = rand(0, 100)    //Higher == more radiation released with more power.
 	reaction_power_modifier =  rand(0, 100)			//Higher == more overall power
@@ -102,15 +102,15 @@
 	icon_state = "darkmatter_shard"
 	base_icon_state = "darkmatter_shard"
 	thermal_release_modifier = 0 //Basically inert
-	phoron_release_modifier = 100000000000
+	plasma_release_modifier = 100000000000
 	oxygen_release_modifier = 100000000000
 	radiation_release_modifier = 1
 
-/obj/structure/closet/crate/secure/large/phoron/experimentalsm
+/obj/structure/closet/crate/secure/large/plasma/experimentalsm
 	name = "experimental supermatter crate"
 	desc = "Are you sure you want to open this?"
 
-/obj/structure/closet/crate/secure/large/phoron/experimentalsm/WillContain()
+/obj/structure/closet/crate/secure/large/plasma/experimentalsm/WillContain()
 	return list(/obj/machinery/power/supermatter/randomsample)
 
 /obj/effect/floor_decal/cti
@@ -119,9 +119,9 @@
 	icon = 'verne.dmi'
 	icon_state = "CTILogo"
 
-/datum/reagent/toxin/phoron/safe
+/datum/reagent/toxin/plasma/safe
 	name = "tericadone"
-	description = "Phoron substitute currently in laboratory testing"
+	description = "Plasma substitute currently in laboratory testing"
 	taste_mult = 1.5
 	reagent_state = LIQUID
 	color = "#ffc4ff"
@@ -134,35 +134,35 @@
 
 /obj/item/reagent_containers/glass/bottle/tericadone/New()
 	..()
-	reagents.add_reagent(/datum/reagent/toxin/phoron/safe , 60)
+	reagents.add_reagent(/datum/reagent/toxin/plasma/safe , 60)
 	update_icon()
 
-/datum/reagent/toxin/phoron/safe/touch_mob(var/mob/living/L, var/amount)
+/datum/reagent/toxin/plasma/safe/touch_mob(var/mob/living/L, var/amount)
 	return
 
-/datum/reagent/toxin/phoron/safe/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+/datum/reagent/toxin/plasma/safe/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	return
 
-/datum/reagent/toxin/phoron/safe/affect_touch(var/mob/living/carbon/M, var/alien, var/removed)
+/datum/reagent/toxin/plasma/safe/affect_touch(var/mob/living/carbon/M, var/alien, var/removed)
 	return
 
-/datum/reagent/toxin/phoron/safe/touch_turf(var/turf/simulated/T)
+/datum/reagent/toxin/plasma/safe/touch_turf(var/turf/simulated/T)
 	return
 
-/datum/chemical_reaction/oxycodone/nophoron
-	catalysts = list(/datum/reagent/toxin/phoron/safe = 5)
+/datum/chemical_reaction/oxycodone/noplasma
+	catalysts = list(/datum/reagent/toxin/plasma/safe = 5)
 
-/datum/chemical_reaction/peridaxon/nophoron
-	catalysts = list(/datum/reagent/toxin/phoron/safe = 5)
+/datum/chemical_reaction/peridaxon/noplasma
+	catalysts = list(/datum/reagent/toxin/plasma/safe = 5)
 
-/datum/chemical_reaction/leporazine/nophoron
-	catalysts = list(/datum/reagent/toxin/phoron/safe = 5)
+/datum/chemical_reaction/leporazine/noplasma
+	catalysts = list(/datum/reagent/toxin/plasma/safe = 5)
 
-/datum/chemical_reaction/dexalin/nophoron
-	required_reagents = list(/datum/reagent/acetone = 2, /datum/reagent/toxin/phoron/safe = 0.1)
+/datum/chemical_reaction/dexalin/noplasma
+	required_reagents = list(/datum/reagent/acetone = 2, /datum/reagent/toxin/plasma/safe = 0.1)
 
-/datum/chemical_reaction/clonexadone/nophoron
-	required_reagents = list(/datum/reagent/cryoxadone = 1, /datum/reagent/sodium = 1, /datum/reagent/toxin/phoron/safe = 0.1)
+/datum/chemical_reaction/clonexadone/noplasma
+	required_reagents = list(/datum/reagent/cryoxadone = 1, /datum/reagent/sodium = 1, /datum/reagent/toxin/plasma/safe = 0.1)
 
 /obj/machinery/suit_storage_unit/engineering/verne
 	req_access = list(access_verne)

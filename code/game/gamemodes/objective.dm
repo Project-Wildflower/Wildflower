@@ -228,7 +228,7 @@ var/global/list/all_objectives = list()
 		"a pair of magboots" = /obj/item/clothing/shoes/magboots,
 		"the [station_name()] blueprints" = /obj/item/blueprints,
 		"a nasa voidsuit" = /obj/item/clothing/suit/space/void,
-		"28 moles of phoron (full tank)" = /obj/item/tank,
+		"28 moles of plasma (full tank)" = /obj/item/tank,
 		"a sample of slime extract" = /obj/item/slime_extract,
 		"a piece of corgi meat" = /obj/item/reagent_containers/food/snacks/meat/corgi,
 		"a chief science officer's jumpsuit" = /obj/item/clothing/under/rank/research_director,
@@ -399,7 +399,7 @@ var/global/list/all_objectives = list()
 			target = MATERIAL_PLASTEEL
 			target_amount = 100
 		if(4)
-			target = MATERIAL_PHORON
+			target = MATERIAL_PLASMA
 			target_amount = 100
 		if(5)
 			target = MATERIAL_SILVER
@@ -425,7 +425,7 @@ var/global/list/all_objectives = list()
 
 /datum/objective/borer_reproduce
 	explanation_text = "Reproduce at least once."
-	
+
 /datum/objective/ninja_highlander
    explanation_text = "You aspire to be a Grand Master of the Spider Clan. Kill all of your fellow acolytes."
 

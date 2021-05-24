@@ -92,8 +92,8 @@
 			return
 
 // Preset types - left here for the code that uses them
-/obj/item/material/shard/phoron/New(loc)
-	..(loc, MATERIAL_PHORON_GLASS)
+/obj/item/material/shard/plasma/New(loc)
+	..(loc, MATERIAL_PLASMA_GLASS)
 
 /obj/item/material/shard/shrapnel
 	name = "shrapnel"

@@ -107,7 +107,7 @@
 	name = "Oxycodone"
 	result = /datum/reagent/tramadol/oxycodone
 	required_reagents = list(/datum/reagent/ethanol = 1, /datum/reagent/tramadol = 1)
-	catalysts = list(/datum/reagent/toxin/phoron = 5)
+	catalysts = list(/datum/reagent/toxin/plasma = 5)
 	result_amount = 1
 
 /datum/chemical_reaction/sterilizine
@@ -180,14 +180,14 @@
 	name = "Peridaxon"
 	result = /datum/reagent/peridaxon
 	required_reagents = list(/datum/reagent/bicaridine = 2, /datum/reagent/clonexadone = 2)
-	catalysts = list(/datum/reagent/toxin/phoron = 5)
+	catalysts = list(/datum/reagent/toxin/plasma = 5)
 	result_amount = 2
 
 /datum/chemical_reaction/leporazine
 	name = "Leporazine"
 	result = /datum/reagent/leporazine
 	required_reagents = list(/datum/reagent/silicon = 1, /datum/reagent/copper = 1)
-	catalysts = list(/datum/reagent/toxin/phoron = 5)
+	catalysts = list(/datum/reagent/toxin/plasma = 5)
 	result_amount = 2
 
 /datum/chemical_reaction/cryptobiolin
@@ -213,7 +213,7 @@
 /datum/chemical_reaction/dexalin
 	name = "Dexalin"
 	result = /datum/reagent/dexalin
-	required_reagents = list(/datum/reagent/acetone = 2, /datum/reagent/toxin/phoron = 0.1)
+	required_reagents = list(/datum/reagent/acetone = 2, /datum/reagent/toxin/plasma = 0.1)
 	inhibitors = list(/datum/reagent/water = 1) // Messes with cryox
 	result_amount = 1
 
@@ -263,7 +263,7 @@
 	name = "Nanite Fluid"
 	result = /datum/reagent/nanitefluid
 	required_reagents = list(/datum/reagent/cryoxadone = 1, /datum/reagent/aluminium = 1, /datum/reagent/iron = 1)
-	catalysts = list(/datum/reagent/toxin/phoron = 5)
+	catalysts = list(/datum/reagent/toxin/plasma = 5)
 	result_amount = 3
 	minimum_temperature = (-25 CELSIUS) - 100
 	maximum_temperature = -25 CELSIUS
@@ -336,7 +336,7 @@
 /datum/chemical_reaction/potassium_chlorophoride
 	name = "Potassium Chlorophoride"
 	result = /datum/reagent/toxin/potassium_chlorophoride
-	required_reagents = list(/datum/reagent/toxin/potassium_chloride = 1, /datum/reagent/toxin/phoron = 1, /datum/reagent/chloralhydrate = 1)
+	required_reagents = list(/datum/reagent/toxin/potassium_chloride = 1, /datum/reagent/toxin/plasma = 1, /datum/reagent/chloralhydrate = 1)
 	result_amount = 4
 
 /datum/chemical_reaction/zombiepowder
@@ -411,7 +411,7 @@
 	name = "Condensed Capsaicin"
 	result = /datum/reagent/capsaicin/condensed
 	required_reagents = list(/datum/reagent/capsaicin = 2)
-	catalysts = list(/datum/reagent/toxin/phoron = 5)
+	catalysts = list(/datum/reagent/toxin/plasma = 5)
 	result_amount = 1
 
 /datum/chemical_reaction/coolant
@@ -431,7 +431,7 @@
 /datum/chemical_reaction/lexorin
 	name = "Lexorin"
 	result = /datum/reagent/lexorin
-	required_reagents = list(/datum/reagent/toxin/phoron = 1, /datum/reagent/hydrazine = 1, /datum/reagent/ammonia = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1, /datum/reagent/hydrazine = 1, /datum/reagent/ammonia = 1)
 	result_amount = 3
 
 /datum/chemical_reaction/methylphenidate
@@ -479,18 +479,18 @@
 	result_amount = 3
 
 /* Solidification */
-/datum/chemical_reaction/phoronsolidification
-	name = "Solid Phoron"
+/datum/chemical_reaction/plasmasolidification
+	name = "Solid Plasma"
 	result = null
-	required_reagents = list(/datum/reagent/iron = 5, /datum/reagent/toxin/phoron = 20)
+	required_reagents = list(/datum/reagent/iron = 5, /datum/reagent/toxin/plasma = 20)
 	result_amount = 1
 	minimum_temperature = (-80 CELSIUS) - 100
 	maximum_temperature = -80 CELSIUS
 	mix_message = "The solution hardens and begins to crystallize."
 
-/datum/chemical_reaction/phoronsolidification/on_reaction(var/datum/reagents/holder, var/created_volume, var/reaction_flags)
+/datum/chemical_reaction/plasmasolidification/on_reaction(var/datum/reagents/holder, var/created_volume, var/reaction_flags)
 	..()
-	new /obj/item/stack/material/phoron(get_turf(holder.my_atom), created_volume)
+	new /obj/item/stack/material/plasma(get_turf(holder.my_atom), created_volume)
 
 /datum/chemical_reaction/plastication
 	name = "Plastic"
@@ -939,13 +939,13 @@
 /datum/chemical_reaction/slime/spawn
 	name = "Slime Spawn"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/grey
 
 /datum/chemical_reaction/slime/spawn/on_reaction(var/datum/reagents/holder)
 	..()
-	holder.my_atom.visible_message("<span class='warning'>Infused with phoron, the core begins to quiver and grow, and soon a new baby slime emerges from it!</span>")
+	holder.my_atom.visible_message("<span class='warning'>Infused with plasma, the core begins to quiver and grow, and soon a new baby slime emerges from it!</span>")
 	new /mob/living/carbon/slime(get_turf(holder.my_atom))
 
 /datum/chemical_reaction/slime/monkey
@@ -964,7 +964,7 @@
 /datum/chemical_reaction/slime/mutate
 	name = "Mutation Toxin"
 	result = /datum/reagent/slimetoxin
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/green
 
@@ -972,7 +972,7 @@
 /datum/chemical_reaction/slime/metal
 	name = "Slime Metal"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/metal
 
@@ -987,7 +987,7 @@
 /datum/chemical_reaction/slime/crit
 	name = "Slime Crit"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/gold
 	var/list/possible_mobs = list(
@@ -1009,7 +1009,7 @@
 /datum/chemical_reaction/slime/bork
 	name = "Slime Bork"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/silver
 
@@ -1033,7 +1033,7 @@
 /datum/chemical_reaction/slime/frost
 	name = "Slime Frost Oil"
 	result = /datum/reagent/frostoil
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 10
 	required = /obj/item/slime_extract/blue
 
@@ -1041,7 +1041,7 @@
 /datum/chemical_reaction/slime/freeze
 	name = "Slime Freeze"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/darkblue
 	mix_message = "The slime extract begins to vibrate violently!"
@@ -1066,7 +1066,7 @@
 /datum/chemical_reaction/slime/fire
 	name = "Slime fire"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/orange
 	mix_message = "The slime extract begins to vibrate violently!"
@@ -1079,7 +1079,7 @@
 		return
 
 	var/turf/location = get_turf(holder.my_atom)
-	location.assume_gas(GAS_PHORON, 250, 1400)
+	location.assume_gas(GAS_PLASMA, 250, 1400)
 	location.hotspot_expose(700, 400)
 
 //Yellow
@@ -1097,7 +1097,7 @@
 /datum/chemical_reaction/slime/cell
 	name = "Slime Powercell"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/yellow
 
@@ -1121,7 +1121,7 @@
 /datum/chemical_reaction/slime/psteroid
 	name = "Slime Steroid"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/purple
 
@@ -1140,20 +1140,20 @@
 /datum/chemical_reaction/slime/plasma
 	name = "Slime Plasma"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/darkpurple
 
 /datum/chemical_reaction/slime/plasma/on_reaction(var/datum/reagents/holder)
 	..()
-	var/obj/item/stack/material/phoron/P = new (get_turf(holder.my_atom))
+	var/obj/item/stack/material/plasma/P = new (get_turf(holder.my_atom))
 	P.amount = 10
 
 //Red
 /datum/chemical_reaction/slime/glycerol
 	name = "Slime Glycerol"
 	result = /datum/reagent/glycerol
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 8
 	required = /obj/item/slime_extract/red
 
@@ -1174,7 +1174,7 @@
 /datum/chemical_reaction/slime/ppotion
 	name = "Slime Potion"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/pink
 
@@ -1186,7 +1186,7 @@
 /datum/chemical_reaction/slime/mutate2
 	name = "Advanced Mutation Toxin"
 	result = /datum/reagent/aslimetoxin
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/black
 
@@ -1194,7 +1194,7 @@
 /datum/chemical_reaction/slime/explosion
 	name = "Slime Explosion"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/oil
 	mix_message = "The slime extract begins to vibrate violently!"
@@ -1211,7 +1211,7 @@
 	result = null
 	result_amount = 1
 	required = /obj/item/slime_extract/lightpink
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 
 /datum/chemical_reaction/slime/potion2/on_reaction(var/datum/reagents/holder)
 	..()
@@ -1221,7 +1221,7 @@
 /datum/chemical_reaction/slime/golem
 	name = "Slime Golem"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/adamantine
 
@@ -1246,7 +1246,7 @@
 /datum/chemical_reaction/slime/camera
 	name = "Slime Camera"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	result_amount = 1
 	required = /obj/item/slime_extract/sepia
 
@@ -1258,7 +1258,7 @@
 /datum/chemical_reaction/slime/teleport
 	name = "Slime Teleport"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	required = /obj/item/slime_extract/bluespace
 	reaction_sound = 'sound/effects/teleport.ogg'
 
@@ -1276,7 +1276,7 @@
 /datum/chemical_reaction/slime/paint
 	name = "Slime Paint"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	required = /obj/item/slime_extract/pyrite
 
 /datum/chemical_reaction/slime/paint/on_reaction(var/datum/reagents/holder)
@@ -1287,7 +1287,7 @@
 /datum/chemical_reaction/slime/extract_enhance
 	name = "Extract Enhancer"
 	result = null
-	required_reagents = list(/datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/toxin/plasma = 1)
 	required = /obj/item/slime_extract/cerulean
 
 /datum/chemical_reaction/slime/extract_enhance/on_reaction(var/datum/reagents/holder)
@@ -1800,10 +1800,10 @@
 	required_reagents = list(/datum/reagent/ethanol/tequilla = 2, /datum/reagent/drink/juice/orange = 1)
 	result_amount = 3
 
-/datum/chemical_reaction/phoron_special
+/datum/chemical_reaction/plasma_special
 	name = "Toxins Special"
 	result = /datum/reagent/ethanol/toxins_special
-	required_reagents = list(/datum/reagent/ethanol/rum = 2, /datum/reagent/ethanol/vermouth = 2, /datum/reagent/toxin/phoron = 2)
+	required_reagents = list(/datum/reagent/ethanol/rum = 2, /datum/reagent/ethanol/vermouth = 2, /datum/reagent/toxin/plasma = 2)
 	result_amount = 6
 
 /datum/chemical_reaction/beepsky_smash
@@ -2220,10 +2220,10 @@
 	result_amount = 6
 	mix_message = "The solution begins to gleam with a fey inner light."
 
-/datum/chemical_reaction/oxyphoron
-	name = "Oxyphoron"
-	result = /datum/reagent/toxin/phoron/oxygen
-	required_reagents = list(/datum/reagent/water = 1, /datum/reagent/toxin/phoron = 1)
+/datum/chemical_reaction/oxyplasma
+	name = "Oxyplasma"
+	result = /datum/reagent/toxin/plasma/oxygen
+	required_reagents = list(/datum/reagent/water = 1, /datum/reagent/toxin/plasma = 1)
 	result_amount = 2
 	mix_message = "The solution boils violently, shedding wisps of vapor."
 
@@ -2231,7 +2231,7 @@
 	name = "Deuterium"
 	result = null
 	required_reagents = list(/datum/reagent/water = 10)
-	catalysts = list(/datum/reagent/toxin/phoron/oxygen = 5)
+	catalysts = list(/datum/reagent/toxin/plasma/oxygen = 5)
 	result_amount = 1
 	mix_message = "The solution makes a loud cracking sound as it crystalizes."
 
@@ -2301,7 +2301,7 @@
 
 	required_reagents = list(
 		/datum/reagent/mindbreaker = 2,
-		/datum/reagent/toxin/phoron = 1,
+		/datum/reagent/toxin/plasma = 1,
 		/datum/reagent/blood = 1
 	)
 
@@ -2449,7 +2449,7 @@
 		/datum/reagent/silicon = 2
 	)
 	catalysts = list(
-		/datum/reagent/toxin/phoron = 1
+		/datum/reagent/toxin/plasma = 1
 	)
 	result_amount = 3
 	mix_message = "The solution hardens and begins to crystallize."

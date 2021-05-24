@@ -949,7 +949,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/recandlockers)
 "fc" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/machinery/door/blast/regular{
 	icon_state = "pdoor0";
@@ -1949,7 +1949,7 @@
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/hall)
 "kX" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	icon_state = "pdoor0";
 	id_tag = "testlab2"
@@ -3817,7 +3817,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab2/fixedsecurity)
 "ue" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/blast/regular{
 	icon_state = "pdoor0";
@@ -4194,7 +4194,7 @@
 	icon_state = "pdoor0";
 	id_tag = "testlab3"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab2/test2)
@@ -4292,7 +4292,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/map_template/oldlab2/bathroom)
 "wC" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -4698,7 +4698,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/Airlock)
 "yZ" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	icon_state = "pdoor0";
 	id_tag = "testlab1"
@@ -6919,7 +6919,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/hall)
 "Kn" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab2/test2)
@@ -7347,7 +7347,7 @@
 	icon_state = "pdoor0";
 	id_tag = "testlab1"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab2/test1)
 "Mt" = (
@@ -8222,7 +8222,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/map_template/oldlab2/recandlockers)
 "QU" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	icon_state = "pdoor0";
 	id_tag = "testlab3"
@@ -8834,7 +8834,7 @@
 	icon_state = "pdoor0";
 	id_tag = "testlab2"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab2/test1)
 "Uv" = (

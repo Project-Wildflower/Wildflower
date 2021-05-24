@@ -64,5 +64,5 @@
 /obj/item/material/coin/platinum
 	default_material = MATERIAL_PLATINUM
 
-/obj/item/material/coin/phoron
-	default_material = MATERIAL_PHORON
+/obj/item/material/coin/plasma
+	default_material = MATERIAL_PLASMA

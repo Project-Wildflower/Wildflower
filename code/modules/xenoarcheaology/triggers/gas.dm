@@ -26,6 +26,6 @@
 	name = "concentration of nitrogen"
 	gas_needed = list(GAS_N2 = 5)
 
-/datum/artifact_trigger/gas/phoron
-	name = "concentration of phoron"
-	gas_needed = list(GAS_PHORON = 5)
+/datum/artifact_trigger/gas/plasma
+	name = "concentration of plasma"
+	gas_needed = list(GAS_PLASMA = 5)

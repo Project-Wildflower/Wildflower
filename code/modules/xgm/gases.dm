@@ -34,12 +34,12 @@
 	symbol_html = "CH<sub>3</sub>Br"
 	symbol = "CH3Br"
 
-/decl/xgm_gas/phoron
-	id = GAS_PHORON
-	name = "Phoron"
+/decl/xgm_gas/plasma
+	id = GAS_PLASMA
+	name = "Plasma"
 
 	//Note that this has a significant impact on TTV yield.
-	//Because it is so high, any leftover phoron soaks up a lot of heat and drops the yield pressure.
+	//Because it is so high, any leftover plasma soaks up a lot of heat and drops the yield pressure.
 	specific_heat = 200	// J/(mol*K)
 
 	//Hypothetical group 14 (same as carbon), period 8 element.
@@ -50,7 +50,7 @@
 	tile_color = "#ff9940"
 	overlay_limit = 0.7
 	flags = XGM_GAS_FUEL | XGM_GAS_CONTAMINANT | XGM_GAS_FUSION_FUEL
-	breathed_product = /datum/reagent/toxin/phoron
+	breathed_product = /datum/reagent/toxin/plasma
 	symbol_html = "Ph"
 	symbol = "Ph"
 

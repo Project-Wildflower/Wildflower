@@ -152,22 +152,22 @@
 
 /datum/access/network
 	region = ACCESS_REGION_COMMAND
-	
+
 /datum/access/chapel_office
 	region = ACCESS_REGION_SERVICE
-	
+
 /datum/access/bar
 	region = ACCESS_REGION_SERVICE
-	
+
 /datum/access/kitchen
 	region = ACCESS_REGION_SERVICE
-	
+
 /datum/access/eva
 	region = ACCESS_REGION_GENERAL
-	
+
 /datum/access/crematorium
 	region = ACCESS_REGION_MEDBAY
-	
+
 /datum/access/janitor
 	region = ACCESS_REGION_SERVICE
 
@@ -195,10 +195,10 @@
 	desc = "Petrov Analysis Lab"
 	region = ACCESS_REGION_RESEARCH
 
-/var/const/access_petrov_phoron = "ACCESS_TORCH_PETROV_PHORON" //203
-/datum/access/petrov_phoron
-	id = access_petrov_phoron
-	desc = "Petrov Phoron Sublimation Lab"
+/var/const/access_petrov_plasma = "ACCESS_TORCH_PETROV_PLASMA" //203
+/datum/access/petrov_plasma
+	id = access_petrov_plasma
+	desc = "Petrov Plasma Sublimation Lab"
 	region = ACCESS_REGION_RESEARCH
 
 /var/const/access_petrov_toxins = "ACCESS_TORCH_PETROV_TOXINS" //204

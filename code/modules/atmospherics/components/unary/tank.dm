@@ -59,7 +59,7 @@
 	return air_contents
 
 /obj/machinery/atmospherics/unary/tank/attackby(var/obj/item/W as obj, var/mob/user as mob)
-	if(isWrench(W))		
+	if(isWrench(W))
 		if (air_contents.return_pressure() > 2*ONE_ATMOSPHERE)
 			to_chat(user, "<span class='warning'>You cannot unwrench \the [src], it is too exerted due to internal pressure.</span>")
 			add_fingerprint(user)
@@ -69,7 +69,7 @@
 		to_chat(user, "<span class='notice'>You begin to unfasten \the [src]...</span>")
 
 		if (do_after(user, 40, src))
-			user.visible_message("<span class='notice'>\The [user] unfastens \the [src].</span>", "<span class='notice'>You have unfastened \the [src].</span>", "You hear a ratchet.")		
+			user.visible_message("<span class='notice'>\The [user] unfastens \the [src].</span>", "<span class='notice'>You have unfastened \the [src].</span>", "You hear a ratchet.")
 			new /obj/item/pipe/tank(loc, src)
 			qdel(src)
 
@@ -93,10 +93,10 @@
 	icon_state = "co2"
 	filling = list(GAS_CO2 = 1)
 
-/obj/machinery/atmospherics/unary/tank/phoron
-	name = "Pressure Tank (Phoron)"
-	icon_state = "phoron"
-	filling = list(GAS_PHORON = 1)
+/obj/machinery/atmospherics/unary/tank/plasma
+	name = "Pressure Tank (Plasma)"
+	icon_state = "plasma"
+	filling = list(GAS_PLASMA = 1)
 
 /obj/machinery/atmospherics/unary/tank/nitrous_oxide
 	name = "Pressure Tank (Nitrous Oxide)"
@@ -114,7 +114,7 @@
 	name =  "Pressure Tank"
 	desc = "A large vessel containing pressurized gas."
 	color =  PIPE_COLOR_WHITE
-	connect_types = CONNECT_TYPE_REGULAR|CONNECT_TYPE_REGULAR|CONNECT_TYPE_SCRUBBER|CONNECT_TYPE_FUEL	
+	connect_types = CONNECT_TYPE_REGULAR|CONNECT_TYPE_REGULAR|CONNECT_TYPE_SCRUBBER|CONNECT_TYPE_FUEL
 	w_class = ITEM_SIZE_HUGE
 	level = 1
 	dir = SOUTH

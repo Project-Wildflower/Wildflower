@@ -165,7 +165,7 @@
 		if (emagged)
 			log_and_message_admins("used an emagged light replacer.", U)
 			L.create_reagents(5)
-			L.reagents.add_reagent(/datum/reagent/toxin/phoron, 5)
+			L.reagents.add_reagent(/datum/reagent/toxin/plasma, 5)
 		target.insert_bulb(L)
 
 

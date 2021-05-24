@@ -9,7 +9,7 @@
 	integrity = 50
 	shard_type = SHARD_SHARD
 	tableslam_noise = 'sound/effects/Glasshit.ogg'
-	hardness = MATERIAL_RIGID + 10	
+	hardness = MATERIAL_RIGID + 10
 	melting_point = T0C + 100
 	weight = 14
 	brute_armor = 1
@@ -29,18 +29,18 @@
 /material/glass/is_brittle()
 	return ..() && !is_reinforced()
 
-/material/glass/phoron
-	name = MATERIAL_PHORON_GLASS
+/material/glass/plasma
+	name = MATERIAL_PLASMA_GLASS
 	lore_text = "An extremely heat-resistant form of glass."
 	display_name = "borosilicate glass"
-	stack_type = /obj/item/stack/material/glass/phoronglass
+	stack_type = /obj/item/stack/material/glass/plasmaglass
 	flags = MATERIAL_BRITTLE
 	hardness = MATERIAL_HARD
 	integrity = 70
 	brute_armor = 2
 	burn_armor = 5
 	melting_point = T0C + 4000
-	icon_colour = GLASS_COLOR_PHORON
+	icon_colour = GLASS_COLOR_PLASMA
 	stack_origin_tech = list(TECH_MATERIAL = 4)
 	wire_product = null
 	construction_difficulty = MATERIAL_HARD_DIY

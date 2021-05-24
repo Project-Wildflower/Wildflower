@@ -183,7 +183,7 @@
 
 	else if(istype(W, /obj/item/stack/material) && !glass)
 		var/obj/item/stack/material/S = W
-		var/material_name = S.get_material_name()		
+		var/material_name = S.get_material_name()
 		if (S)
 			if (S.get_amount() >= 1)
 				if(material_name == MATERIAL_GLASS && S.reinf_material)
@@ -193,7 +193,7 @@
 						if (S.use(1))
 							to_chat(user, "<span class='notice'>You installed reinforced glass windows into the airlock assembly.</span>")
 							glass = 1
-				else if(!(material_name in list(MATERIAL_GOLD, MATERIAL_SILVER, MATERIAL_DIAMOND, MATERIAL_URANIUM, MATERIAL_PHORON, MATERIAL_SANDSTONE)))
+				else if(!(material_name in list(MATERIAL_GOLD, MATERIAL_SILVER, MATERIAL_DIAMOND, MATERIAL_URANIUM, MATERIAL_PLASMA, MATERIAL_SANDSTONE)))
 					to_chat(user, "You cannot make an airlock out of that material.")
 					return
 				else

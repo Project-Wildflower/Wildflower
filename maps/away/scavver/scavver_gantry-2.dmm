@@ -154,7 +154,7 @@
 /turf/simulated/floor/airless,
 /area/scavver/yachtup)
 "bA" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 2;
 	id_tag = "scavver_window_teg";
@@ -736,7 +736,7 @@
 /area/scavver/harvestpod)
 "gf" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 2;
 	id_tag = "scavver_window_teg";
@@ -5312,7 +5312,7 @@
 /turf/space,
 /area/space)
 "Uh" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 8;
 	id_tag = "scavver_window_teg";

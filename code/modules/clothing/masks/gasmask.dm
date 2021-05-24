@@ -15,7 +15,7 @@
 		bio = ARMOR_BIO_STRONG
 		)
 	filtered_gases = list(
-		GAS_PHORON,
+		GAS_PLASMA,
 		GAS_N2O,
 		GAS_CHLORINE,
 		GAS_AMMONIA,
@@ -146,7 +146,7 @@
 //Plague Dr suit can be found in clothing/suits/bio.dm
 /obj/item/clothing/mask/gas/plaguedoctor
 	name = "plague doctor mask"
-	desc = "A modernised version of the classic design, this mask will not only filter out phoron but it can also be connected to an air supply."
+	desc = "A modernised version of the classic design, this mask will not only filter out plasma but it can also be connected to an air supply."
 	icon_state = "plaguedoctor"
 	item_state = "plaguedoctor"
 	armor = list(
@@ -214,7 +214,7 @@
 	species_restricted = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)
 	filtered_gases = list(
 		GAS_OXYGEN,
-		GAS_PHORON,
+		GAS_PLASMA,
 		GAS_N2O,
 		GAS_CHLORINE,
 		GAS_AMMONIA,

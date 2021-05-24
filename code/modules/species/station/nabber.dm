@@ -87,7 +87,7 @@
 		BP_LIVER =    /obj/item/organ/internal/liver/insectoid/nabber,
 		BP_HEART =    /obj/item/organ/internal/heart/open,
 		BP_STOMACH =  /obj/item/organ/internal/stomach,
-		BP_PHORON =   /obj/item/organ/internal/phoron,
+		BP_PLASMA =   /obj/item/organ/internal/plasma,
 		BP_ACETONE =  /obj/item/organ/internal/acetone,
 		BP_VOICE =    /obj/item/organ/internal/voicebox/nabber
 		)

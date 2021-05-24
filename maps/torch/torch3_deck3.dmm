@@ -5267,7 +5267,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
 	dir = 6
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3starboard)
 "km" = (
@@ -5866,7 +5866,7 @@
 	icon_state = "intact"
 	},
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3starboard)
 "lI" = (
@@ -7052,7 +7052,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftstarboard)
 "oB" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3starboard)
 "oC" = (
@@ -7746,7 +7746,7 @@
 "ql" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3starboard)
 "qn" = (
@@ -8166,15 +8166,15 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/starboard)
 "rA" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8;
 	icon_state = "rwindow"
 	},
 /obj/structure/closet/crate,
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 50
 	},
-/obj/item/stack/material/phoron{
+/obj/item/stack/material/plasma{
 	amount = 50
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -13356,7 +13356,7 @@
 /turf/simulated/floor/grass,
 /area/crew_quarters/observation)
 "FR" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8;
 	icon_state = "rwindow"
 	},
@@ -16432,7 +16432,7 @@
 "Nu" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "Nw" = (
@@ -16898,7 +16898,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3port)
 "OT" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/alarm{
 	dir = 8;
@@ -17096,7 +17096,7 @@
 /obj/structure/lattice,
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/visible/blue,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3starboard)
 "PE" = (
@@ -17208,10 +17208,10 @@
 /obj/structure/table/rack{
 	dir = 8
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/plasmarglass{
 	amount = 20
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/plasmarglass{
 	amount = 20
 	},
 /obj/item/stack/material/titanium/ten,
@@ -17579,7 +17579,7 @@
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/visible/blue,
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "Ra" = (
@@ -17835,7 +17835,7 @@
 	icon_state = "intact"
 	},
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "RT" = (
@@ -19485,7 +19485,7 @@
 /turf/simulated/open,
 /area/maintenance/thirddeck/aftport)
 "Ws" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "Wu" = (
@@ -19582,7 +19582,7 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
 "WF" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3starboard)
 "WG" = (
@@ -20445,7 +20445,7 @@
 	dir = 5
 	},
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "Ze" = (

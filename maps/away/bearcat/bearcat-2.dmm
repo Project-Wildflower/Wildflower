@@ -4849,7 +4849,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/atmospherics/portables_connector,
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/plasmarglass{
 	amount = 5
 	},
 /obj/machinery/light/small{
@@ -4886,7 +4886,7 @@
 /area/ship/scrap/maintenance/engine/aft)
 "iy" = (
 /obj/machinery/atmospherics/portables_connector,
-/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /obj/machinery/light/small{
 	dir = 1;
 	icon_state = "bulb1"
@@ -5098,21 +5098,21 @@
 /turf/simulated/floor/airless,
 /area/ship/scrap/maintenance/engine/aft)
 "iV" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction,
 /turf/simulated/floor/reinforced/airless,
 /area/ship/scrap/maintenance/engine/aft)
 "iW" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
 /obj/machinery/meter/turf,
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -5121,13 +5121,13 @@
 /turf/simulated/floor/reinforced/airless,
 /area/ship/scrap/maintenance/engine/aft)
 "iX" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
@@ -5140,11 +5140,11 @@
 /turf/simulated/floor/reinforced/airless,
 /area/ship/scrap/maintenance/engine/aft)
 "iY" = (
-/obj/structure/window/phoronreinforced,
+/obj/structure/window/plasmareinforced,
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/plasmarglass{
 	amount = 20
 	},
 /turf/simulated/floor/airless,
@@ -5218,9 +5218,9 @@
 /turf/simulated/floor/airless,
 /area/ship/scrap/maintenance/engine/aft)
 "jg" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
 /turf/simulated/floor/reinforced/airless,
@@ -5285,7 +5285,7 @@
 /area/ship/scrap/maintenance/atmos)
 "js" = (
 /obj/machinery/atmospherics/valve/open,
-/obj/item/material/shard/phoron,
+/obj/item/material/shard/plasma,
 /turf/simulated/floor/airless,
 /area/ship/scrap/maintenance/engine/aft)
 "jt" = (
@@ -5302,10 +5302,10 @@
 /turf/simulated/floor/reinforced,
 /area/ship/scrap/maintenance/engine/aft)
 "jv" = (
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced,
+/obj/structure/window/plasmareinforced{
 	dir = 4;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
 	dir = 1
@@ -5321,9 +5321,9 @@
 /turf/simulated/floor/reinforced,
 /area/ship/scrap/maintenance/engine/aft)
 "jw" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1;
-	icon_state = "phoronrwindow"
+	icon_state = "plasmarwindow"
 	},
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
@@ -5401,7 +5401,7 @@
 /turf/simulated/floor/airless,
 /area/ship/scrap/maintenance/engine/aft)
 "jG" = (
-/obj/item/material/shard/phoron,
+/obj/item/material/shard/plasma,
 /turf/simulated/floor/airless,
 /area/ship/scrap/maintenance/engine/aft)
 "jH" = (

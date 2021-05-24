@@ -59,7 +59,7 @@
 
 		to_chat(user, SPAN_NOTICE("You pry out the data drive from \the [src]."))
 		playsound(loc, 'sound/items/Crowbar.ogg', 50, 1)
-		drive.origin_tech = list(TECH_DATA = rand(4,5), TECH_ENGINEERING = rand(4,5), TECH_PHORON = rand(4,5), TECH_COMBAT = rand(2,5), TECH_ESOTERIC = rand(0,6))
+		drive.origin_tech = list(TECH_DATA = rand(4,5), TECH_ENGINEERING = rand(4,5), TECH_PLASMA = rand(4,5), TECH_COMBAT = rand(2,5), TECH_ESOTERIC = rand(0,6))
 		var/obj/item/stock_parts/computer/hard_drive/cluster/extracted_drive = drive
 		user.put_in_hands(extracted_drive)
 		drive = null

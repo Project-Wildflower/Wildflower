@@ -342,14 +342,14 @@
 	name = "Jetpack module"
 	desc = "A carbon dioxide jetpack suitable for low-gravity mining operations."
 	id = "borg_jetpack_module"
-	materials = list(MATERIAL_STEEL = 10000, MATERIAL_PHORON = 15000, MATERIAL_URANIUM = 20000)
+	materials = list(MATERIAL_STEEL = 10000, MATERIAL_PLASMA = 15000, MATERIAL_URANIUM = 20000)
 	build_path = /obj/item/borg/upgrade/jetpack
 
 /datum/design/item/robot_upgrade/rcd
 	name = "RCD module"
 	desc = "A rapid construction device module for use during construction operations."
 	id = "borg_rcd_module"
-	materials = list(MATERIAL_STEEL = 25000, MATERIAL_PHORON = 10000, MATERIAL_GOLD = 1000, MATERIAL_SILVER = 1000)
+	materials = list(MATERIAL_STEEL = 25000, MATERIAL_PLASMA = 10000, MATERIAL_GOLD = 1000, MATERIAL_SILVER = 1000)
 	build_path = /obj/item/borg/upgrade/rcd
 
 /datum/design/item/robot_upgrade/syndicate
@@ -433,7 +433,7 @@
 	name = "RCD"
 	id = "mech_rcd"
 	time = 90
-	materials = list(MATERIAL_STEEL = 30000, MATERIAL_PHORON = 25000, MATERIAL_SILVER = 15000, MATERIAL_GOLD = 15000)
+	materials = list(MATERIAL_STEEL = 30000, MATERIAL_PLASMA = 25000, MATERIAL_SILVER = 15000, MATERIAL_GOLD = 15000)
 	req_tech = list(TECH_MATERIAL = 4, TECH_BLUESPACE = 3, TECH_MAGNET = 4, TECH_POWER = 4, TECH_ENGINEERING = 4)
 	build_path = /obj/item/mech_equipment/mounted_system/rcd
 
@@ -485,7 +485,7 @@
 	name = "exosuit manouvering unit"
 	id = "mech_ionjets"
 	time = 30
-	materials = list(MATERIAL_STEEL = 20000, MATERIAL_ALUMINIUM = 10000, MATERIAL_PHORON = 2500)
+	materials = list(MATERIAL_STEEL = 20000, MATERIAL_ALUMINIUM = 10000, MATERIAL_PLASMA = 2500)
 	req_tech = list(TECH_ENGINEERING = 2, TECH_MAGNET = 2)
 	build_path = /obj/item/mech_equipment/ionjets
 // End mechs.
@@ -656,8 +656,8 @@
 	category = "Hardsuits"
 	name = "Plasma Cutter"
 	build_path = /obj/item/rig_module/mounted/plasmacutter
-	materials = list(MATERIAL_STEEL = 2000, MATERIAL_GLASS = 1000, MATERIAL_PLASTIC = 1000, MATERIAL_GOLD = 700, MATERIAL_PHORON = 500)
-	req_tech = list(TECH_MATERIAL = 4, TECH_PHORON = 3, TECH_ENGINEERING = 6, TECH_COMBAT = 4)
+	materials = list(MATERIAL_STEEL = 2000, MATERIAL_GLASS = 1000, MATERIAL_PLASTIC = 1000, MATERIAL_GOLD = 700, MATERIAL_PLASMA = 500)
+	req_tech = list(TECH_MATERIAL = 4, TECH_PLASMA = 3, TECH_ENGINEERING = 6, TECH_COMBAT = 4)
 	id = "rig_plasmacutter"
 	sort_string = "VCCAB"
 

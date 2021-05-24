@@ -68,7 +68,7 @@
 /turf/space,
 /area/space)
 "ap" = (
-/obj/structure/closet/crate/secure/large/phoron/experimentalsm,
+/obj/structure/closet/crate/secure/large/plasma/experimentalsm,
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/smresearch)
@@ -1101,7 +1101,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -4275,7 +4275,7 @@
 /area/verne/engineering/atmospherics)
 "Mz" = (
 /obj/effect/paint_stripe/gunmetal,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 2;
 	id_tag = "SupermatterVerne";
@@ -4569,7 +4569,7 @@
 "Po" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/effect/paint_stripe/gunmetal,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 2;
 	id_tag = "SupermatterVerne";
@@ -4749,7 +4749,7 @@
 	pixel_y = -9
 	},
 /obj/effect/floor_decal/corner/red/mono,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4781,7 +4781,7 @@
 /area/verne/engineering/thrustgen)
 "Si" = (
 /obj/effect/paint_stripe/gunmetal,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id_tag = "SupermatterVerne";
@@ -4920,7 +4920,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/verne/engineering/atmospherics)
 "TD" = (
-/obj/machinery/atmospherics/unary/tank/phoron{
+/obj/machinery/atmospherics/unary/tank/plasma{
 	dir = 8
 	},
 /turf/simulated/floor/reinforced/airless,
@@ -5452,7 +5452,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/verne/engineering/external)
 "YZ" = (
-/obj/machinery/atmospherics/unary/tank/phoron{
+/obj/machinery/atmospherics/unary/tank/plasma{
 	dir = 4
 	},
 /turf/simulated/floor/reinforced/airless,
@@ -5464,7 +5464,7 @@
 	dir = 4;
 	id_tag = "enginecoreverne"
 	},
-/obj/structure/closet/crate/secure/large/phoron/experimentalsm,
+/obj/structure/closet/crate/secure/large/plasma/experimentalsm,
 /turf/simulated/floor/reinforced/airless,
 /area/verne/engineering/smresearch)
 "Zf" = (
@@ -5522,7 +5522,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/thrustgen)
 "Zy" = (
-/obj/machinery/atmospherics/unary/tank/phoron{
+/obj/machinery/atmospherics/unary/tank/plasma{
 	dir = 4
 	},
 /obj/machinery/light{

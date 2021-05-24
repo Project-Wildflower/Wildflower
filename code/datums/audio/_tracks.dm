@@ -227,7 +227,7 @@
 
 /decl/audio/track/pwmur
 	source = 'sound/music/pwmur.ogg'
-	title = "phoron will make us rich"
+	title = "plasma will make us rich"
 	author = "Earthcrusher"
 	license = /decl/license/cc_by_nc_sa_3_0
 	url = "https://soundcloud.com/alexanderdivine/phoron-will-make-us-rich"

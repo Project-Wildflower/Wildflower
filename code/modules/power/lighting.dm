@@ -20,7 +20,7 @@
 #define LIGHTMODE_EMERGENCY "emergency_lighting"
 #define LIGHTMODE_READY "ready"
 
-#define LIGHT_PHORON_EXPLODE_THRESHOLD 5 // This many units of phoron have to be in the bulb for it to explode
+#define LIGHT_PLASMA_EXPLODE_THRESHOLD 5 // This many units of plasma have to be in the bulb for it to explode
 
 
 // Light frames! The unfinished form of a light fixture.
@@ -740,7 +740,7 @@
 	update_icon()
 
 // attack bulb/tube with object
-// if a syringe, can inject phoron to make it explode
+// if a syringe, can inject plasma to make it explode
 /obj/item/light/attackby(var/obj/item/I, var/mob/user)
 	if(istype(I, /obj/item/reagent_containers/syringe) && status == LIGHT_OK)
 		var/obj/item/reagent_containers/syringe/S = I
@@ -750,8 +750,8 @@
 				create_reagents(5)
 				S.reagents.trans_to_obj(src, 5)
 				to_chat(user, SPAN_WARNING("You inject the solution into [src]."))
-				if (reagents.get_reagent_amount(/datum/reagent/toxin/phoron) >= LIGHT_PHORON_EXPLODE_THRESHOLD)
-					log_and_message_admins("injected a light with phoron, rigging it to explode.", user)
+				if (reagents.get_reagent_amount(/datum/reagent/toxin/plasma) >= LIGHT_PLASMA_EXPLODE_THRESHOLD)
+					log_and_message_admins("injected a light with plasma, rigging it to explode.", user)
 				return
 			else
 				to_chat(user, SPAN_WARNING("[src] is already filled with fluid!"))
@@ -783,7 +783,7 @@
 /obj/item/light/proc/switch_on()
 	switchcount++
 	if(reagents)
-		if (reagents.get_reagent_amount(/datum/reagent/toxin/phoron) >= LIGHT_PHORON_EXPLODE_THRESHOLD)
+		if (reagents.get_reagent_amount(/datum/reagent/toxin/plasma) >= LIGHT_PLASMA_EXPLODE_THRESHOLD)
 			visible_message(SPAN_DANGER("[src] flares brilliantly!"), SPAN_DANGER("You hear a loud crack!"))
 			log_and_message_admins("Rigged light explosion, last touched by [fingerprintslast]")
 			var/turf/T = get_turf(loc)

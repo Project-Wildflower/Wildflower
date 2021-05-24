@@ -15,7 +15,7 @@
 	natural_weapon = /obj/item/natural_weapon/claws
 	can_escape = TRUE
 
-	max_gas = list(GAS_PHORON = 2, GAS_CO2 = 5)
+	max_gas = list(GAS_PLASMA = 2, GAS_CO2 = 5)
 
 	response_help = "pets"
 	response_harm = "hits"

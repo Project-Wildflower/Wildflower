@@ -363,7 +363,7 @@
 /datum/design/circuit/pacman
 	name = "PACMAN-type generator"
 	id = "pacman"
-	req_tech = list(TECH_DATA = 3, TECH_PHORON = 3, TECH_POWER = 3, TECH_ENGINEERING = 3)
+	req_tech = list(TECH_DATA = 3, TECH_PLASMA = 3, TECH_POWER = 3, TECH_ENGINEERING = 3)
 	build_path = /obj/item/stock_parts/circuitboard/pacman
 	sort_string = "JBAAA"
 
@@ -674,7 +674,7 @@
 /datum/design/circuit/bluespace_relay
 	name = "bluespace relay"
 	id = "bluespacerelay"
-	req_tech = list(TECH_DATA = 5, TECH_BLUESPACE = 5, TECH_PHORON = 5)
+	req_tech = list(TECH_DATA = 5, TECH_BLUESPACE = 5, TECH_PLASMA = 5)
 	build_path = /obj/item/stock_parts/circuitboard/bluespacerelay
 	sort_string = "PAAAH"
 

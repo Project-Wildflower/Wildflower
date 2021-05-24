@@ -1221,7 +1221,7 @@
 /turf/simulated/floor/tiled/airless,
 /area/lost_supply_base/common)
 "dg" = (
-/obj/structure/closet/crate/secure/phoron{
+/obj/structure/closet/crate/secure/plasma{
 	name = "mineral crate";
 	req_access = newlist()
 	},
@@ -1231,7 +1231,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/structure/closet/crate/secure/phoron{
+/obj/structure/closet/crate/secure/plasma{
 	name = "mineral crate";
 	req_access = newlist()
 	},
@@ -1521,7 +1521,7 @@
 	},
 /area/lost_supply_base/common)
 "eD" = (
-/obj/machinery/atmospherics/unary/tank/phoron{
+/obj/machinery/atmospherics/unary/tank/plasma{
 	dir = 2;
 	volume = 3200
 	},
@@ -1561,14 +1561,14 @@
 /turf/simulated/floor/tiled/airless,
 /area/lost_supply_base/common)
 "eQ" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /turf/simulated/floor/airless,
 /area/lost_supply_base)
 "eS" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
-/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /turf/simulated/floor/airless,
 /area/lost_supply_base)
 "eT" = (

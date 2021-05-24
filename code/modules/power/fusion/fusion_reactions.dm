@@ -35,7 +35,7 @@ proc/get_fusion_reaction(var/p_react, var/s_react, var/m_energy)
 // Material fuels
 //  deuterium
 //  tritium
-//  phoron
+//  plasma
 //  supermatter
 
 // Gaseous/reagent fuels
@@ -106,9 +106,9 @@ proc/get_fusion_reaction(var/p_react, var/s_react, var/m_energy)
 	instability = 2
 	minimum_reaction_temperature = 10000
 
-/decl/fusion_reaction/phoron_hydrogen
+/decl/fusion_reaction/plasma_hydrogen
 	p_react = GAS_HYDROGEN
-	s_react = GAS_PHORON
+	s_react = GAS_PLASMA
 	energy_consumption = 10
 	energy_production = 0
 	instability = 5
@@ -116,15 +116,15 @@ proc/get_fusion_reaction(var/p_react, var/s_react, var/m_energy)
 	minimum_reaction_temperature = 8000
 
 // VERY UNIDEAL REACTIONS.
-/decl/fusion_reaction/phoron_supermatter
+/decl/fusion_reaction/plasma_supermatter
 	p_react = "supermatter"
-	s_react = GAS_PHORON
+	s_react = GAS_PLASMA
 	energy_consumption = 0
 	energy_production = 5
 	radiation = 40
 	instability = 20
 
-/decl/fusion_reaction/phoron_supermatter/handle_reaction_special(var/obj/effect/fusion_em_field/holder)
+/decl/fusion_reaction/plasma_supermatter/handle_reaction_special(var/obj/effect/fusion_em_field/holder)
 
 	wormhole_event(GetConnectedZlevels(holder))
 

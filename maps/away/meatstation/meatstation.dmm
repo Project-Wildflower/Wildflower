@@ -5499,11 +5499,11 @@
 /turf/space,
 /area/space)
 "mE" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /turf/simulated/floor/airless,
 /area/meatstation/engineering)
 "mF" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /turf/space,
 /area/space)
 "mG" = (
@@ -5719,7 +5719,7 @@
 /turf/simulated/floor/airless,
 /area/meatstation/engineering)
 "nl" = (
-/obj/item/stack/material/phoron/ten,
+/obj/item/stack/material/plasma/ten,
 /turf/simulated/floor/airless,
 /area/meatstation/engineering)
 "nm" = (

@@ -130,25 +130,25 @@
 	frame_path = /obj/structure/wall_frame
 
 
-/obj/effect/wallframe_spawn/phoron
-	name = "phoron wall frame window spawner"
+/obj/effect/wallframe_spawn/plasma
+	name = "plasma wall frame window spawner"
 	icon_state = "p-wingrille"
-	win_path = /obj/structure/window/phoronbasic/full
+	win_path = /obj/structure/window/plasmabasic/full
 
 
-/obj/effect/wallframe_spawn/reinforced_phoron
-	name = "reinforced phoron wall frame window spawner"
+/obj/effect/wallframe_spawn/reinforced_plasma
+	name = "reinforced plasma wall frame window spawner"
 	icon_state = "pr-wingrille"
-	win_path = /obj/structure/window/phoronreinforced/full
+	win_path = /obj/structure/window/plasmareinforced/full
 
-/obj/effect/wallframe_spawn/reinforced_phoron/ascent
-	name = "reinforced ascent reinforced phoron wall frame window spawner"
+/obj/effect/wallframe_spawn/reinforced_plasma/ascent
+	name = "reinforced ascent reinforced plasma wall frame window spawner"
 	frame_path = /obj/structure/wall_frame/hull/ascent
 
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium
 	frame_path = /obj/structure/wall_frame/titanium
 
-/obj/effect/wallframe_spawn/reinforced_phoron/hull
+/obj/effect/wallframe_spawn/reinforced_plasma/hull
 	frame_path = /obj/structure/wall_frame/hull
 
 

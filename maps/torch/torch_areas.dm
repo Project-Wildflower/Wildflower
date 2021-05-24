@@ -478,10 +478,10 @@
 	name = "\improper SRV Petrov - Isolation Lab"
 	icon_state = "xeno_lab"
 
-/area/shuttle/petrov/phoron
+/area/shuttle/petrov/plasma
 	name = "\improper SRV Petrov - Sublimation Lab"
 	icon_state = "toxstorage"
-	req_access = list(access_petrov_phoron)
+	req_access = list(access_petrov_plasma)
 
 /area/shuttle/petrov/custodial
 	name = "\improper SRV Petrov - Custodial"

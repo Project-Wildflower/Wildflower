@@ -395,7 +395,7 @@ var/list/global/tank_gauge_cache = list()
 
 /obj/item/tank/Process()
 	//Allow for reactions
-	air_contents.react() //cooking up air tanks - add phoron and oxygen, then heat above PHORON_MINIMUM_BURN_TEMPERATURE
+	air_contents.react() //cooking up air tanks - add plasma and oxygen, then heat above PLASMA_MINIMUM_BURN_TEMPERATURE
 	check_status()
 
 /obj/item/tank/on_update_icon(var/override)
@@ -539,7 +539,7 @@ var/list/global/tank_gauge_cache = list()
 ///Prewelded tanks
 /////////////////////////////////
 
-/obj/item/tank/phoron/welded
+/obj/item/tank/plasma/welded
 	tank_flags = TANK_FLAG_WELDED
 /obj/item/tank/oxygen/welded
 	tank_flags = TANK_FLAG_WELDED
@@ -549,14 +549,14 @@ var/list/global/tank_gauge_cache = list()
 /////////////////////////////////
 
 /obj/item/tank/proc/onetankbomb()
-	var/phoron_amt = 4 + rand(4)
+	var/plasma_amt = 4 + rand(4)
 	var/oxygen_amt = 6 + rand(8)
 
-	air_contents.gas[GAS_PHORON] = phoron_amt
+	air_contents.gas[GAS_PLASMA] = plasma_amt
 	air_contents.gas[GAS_OXYGEN] = oxygen_amt
 	air_contents.update_values()
 	SET_FLAGS(tank_flags, TANK_FLAG_WELDED | TANK_FLAG_WIRED)
-	air_contents.temperature = PHORON_MINIMUM_BURN_TEMPERATURE-1
+	air_contents.temperature = PLASMA_MINIMUM_BURN_TEMPERATURE-1
 
 	var/obj/item/device/assembly_holder/H = new(src)
 	proxyassembly.assembly = H
@@ -565,7 +565,7 @@ var/list/global/tank_gauge_cache = list()
 	H.update_icon()
 	update_icon(TRUE)
 
-/obj/item/tank/phoron/onetankbomb/Initialize()
+/obj/item/tank/plasma/onetankbomb/Initialize()
 	. = ..()
 	onetankbomb()
 

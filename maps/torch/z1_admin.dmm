@@ -8798,7 +8798,7 @@
 	},
 /area/acting/backstage)
 "aPD" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /turf/unsimulated/floor{
 	icon_state = "plating";
 	name = "plating"

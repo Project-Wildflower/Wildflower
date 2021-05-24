@@ -13,7 +13,7 @@
 /obj/item/organ/internal/eyes/insectoid/nabber
 	name = "compound eyes"
 	innate_flash_protection = FLASH_PROTECTION_VULNERABLE
-	phoron_guard = 1
+	plasma_guard = 1
 	action_button_name = "Toggle Eye Shields"
 	eye_icon = 'icons/mob/human_races/species/nabber/eyes.dmi'
 	var/eyes_shielded
@@ -73,18 +73,18 @@
 	. = ..()
 	color = rgb(new_dna.GetUIValue(DNA_UI_EYES_R), new_dna.GetUIValue(DNA_UI_EYES_G), new_dna.GetUIValue(DNA_UI_EYES_B))
 
-/obj/item/organ/internal/phoron
-	name = "phoron storage"
+/obj/item/organ/internal/plasma
+	name = "plasma storage"
 	icon_state = "stomach"
 	color = "#ed81f1"
-	organ_tag = BP_PHORON
+	organ_tag = BP_PLASMA
 	parent_organ = BP_CHEST
 	can_be_printed = FALSE
 	var/dexalin_level = 10
-	var/phoron_level = 5
+	var/plasma_level = 5
 	var/raw_amount = 0.1
 
-/obj/item/organ/internal/phoron/Process()
+/obj/item/organ/internal/plasma/Process()
 	if(owner)
 		var/amount = raw_amount
 		if(is_broken())
@@ -92,13 +92,13 @@
 		else if(is_bruised())
 			amount *= 0.8
 
-		var/phoron_volume_raw = owner.reagents.get_reagent_amount(/datum/reagent/toxin/phoron)
+		var/plasma_volume_raw = owner.reagents.get_reagent_amount(/datum/reagent/toxin/plasma)
 
-		if(phoron_volume_raw < phoron_level || !phoron_volume_raw)
-			owner.reagents.add_reagent(/datum/reagent/toxin/phoron, amount)
+		if(plasma_volume_raw < plasma_level || !plasma_volume_raw)
+			owner.reagents.add_reagent(/datum/reagent/toxin/plasma, amount)
 	..()
 
-/obj/item/organ/internal/phoron/can_recover()
+/obj/item/organ/internal/plasma/can_recover()
 	return TRUE
 
 /obj/item/organ/internal/liver/insectoid/nabber

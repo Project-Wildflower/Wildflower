@@ -276,6 +276,6 @@
 	cointype["coin, iron"] = /obj/item/material/coin/iron
 	cointype["coin, diamond"] = /obj/item/material/coin/diamond
 	cointype["coin, uranium"] = /obj/item/material/coin/uranium
-	cointype["coin, phoron"] = /obj/item/material/coin/phoron
+	cointype["coin, plasma"] = /obj/item/material/coin/plasma
 	cointype["coin, platinum"] = /obj/item/material/coin/platinum
 	gear_tweaks += new/datum/gear_tweak/path(cointype)

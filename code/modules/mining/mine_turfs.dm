@@ -382,7 +382,7 @@ var/list/mining_floors = list()
 			if(6)
 				var/quantity = rand(1,3)
 				for(var/i=0, i<quantity, i++)
-					new /obj/item/material/shard/phoron(src)
+					new /obj/item/material/shard/plasma(src)
 
 			if(7)
 				var/obj/item/stack/material/uranium/R = new(src)

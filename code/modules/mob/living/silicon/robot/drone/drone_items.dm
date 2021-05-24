@@ -66,7 +66,7 @@
 		/obj/item/reagent_containers/glass,
 		/obj/item/reagent_containers/pill,
 		/obj/item/reagent_containers/ivbag,
-		/obj/item/stack/material/phoron,
+		/obj/item/stack/material/plasma,
 		/obj/item/storage/pill_bottle,
 		)
 

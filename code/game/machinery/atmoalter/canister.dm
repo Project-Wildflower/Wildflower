@@ -54,8 +54,8 @@
 	canister_color = "purple"
 	can_label = 0
 
-/obj/machinery/portable_atmospherics/canister/phoron
-	name = "\improper Canister \[Phoron\]"
+/obj/machinery/portable_atmospherics/canister/plasma
+	name = "\improper Canister \[Plasma\]"
 	icon_state = "orange"
 	canister_color = "orange"
 	can_label = 0
@@ -92,9 +92,9 @@
 /obj/machinery/portable_atmospherics/canister/empty/oxygen
 	icon_state = "blue"
 	canister_type = /obj/machinery/portable_atmospherics/canister/oxygen
-/obj/machinery/portable_atmospherics/canister/empty/phoron
+/obj/machinery/portable_atmospherics/canister/empty/plasma
 	icon_state = "orange"
-	canister_type = /obj/machinery/portable_atmospherics/canister/phoron
+	canister_type = /obj/machinery/portable_atmospherics/canister/plasma
 /obj/machinery/portable_atmospherics/canister/empty/nitrogen
 	icon_state = "red"
 	canister_type = /obj/machinery/portable_atmospherics/canister/nitrogen
@@ -229,7 +229,7 @@ update_flag
 	else
 		can_label = 0
 
-	air_contents.react() //cooking up air cans - add phoron and oxygen, then heat above PHORON_MINIMUM_BURN_TEMPERATURE
+	air_contents.react() //cooking up air cans - add plasma and oxygen, then heat above PLASMA_MINIMUM_BURN_TEMPERATURE
 
 /obj/machinery/portable_atmospherics/canister/proc/return_temperature()
 	var/datum/gas_mixture/GM = src.return_air()
@@ -337,7 +337,7 @@ update_flag
 			"\[N2O\]" = "redws", \
 			"\[N2\]" = "red", \
 			"\[O2\]" = "blue", \
-			"\[Phoron\]" = "orange", \
+			"\[Plasma\]" = "orange", \
 			"\[CO2\]" = "black", \
 			"\[H2\]" = "purple", \
 			"\[Air\]" = "grey", \
@@ -356,10 +356,10 @@ update_flag
 		return STATUS_CLOSE
 	return ..()
 
-/obj/machinery/portable_atmospherics/canister/phoron/New()
+/obj/machinery/portable_atmospherics/canister/plasma/New()
 	..()
 
-	src.air_contents.adjust_gas(GAS_PHORON, MolesForPressure())
+	src.air_contents.adjust_gas(GAS_PLASMA, MolesForPressure())
 	src.update_icon()
 	return 1
 
@@ -444,9 +444,9 @@ update_flag
 	src.update_icon()
 	return 1
 
-/obj/machinery/portable_atmospherics/canister/phoron/engine_setup/New()
+/obj/machinery/portable_atmospherics/canister/plasma/engine_setup/New()
 	..()
-	src.air_contents.adjust_gas(GAS_PHORON, MolesForPressure())
+	src.air_contents.adjust_gas(GAS_PLASMA, MolesForPressure())
 	src.update_icon()
 	return 1
 

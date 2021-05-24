@@ -34,7 +34,7 @@
 /turf/simulated/wall/r_wall/ascent,
 /area/ship/ascent_caulship)
 "ai" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/ascent,
+/obj/effect/wallframe_spawn/reinforced_plasma/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "aj" = (
@@ -383,10 +383,10 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "bh" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /turf/simulated/floor/ascent,
@@ -423,10 +423,10 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "bl" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /obj/structure/cable/cyan{
@@ -447,7 +447,7 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "bn" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /turf/simulated/floor/ascent,
@@ -473,8 +473,8 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "bq" = (
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced,
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /obj/structure/cable/cyan{
@@ -485,7 +485,7 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "br" = (
-/obj/structure/window/phoronreinforced,
+/obj/structure/window/plasmareinforced,
 /obj/structure/cable/cyan{
 	d1 = 4;
 	d2 = 8;
@@ -494,8 +494,8 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "bs" = (
-/obj/structure/window/phoronreinforced,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced,
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /obj/structure/cable/cyan{
@@ -519,7 +519,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /turf/simulated/floor/ascent,
@@ -537,7 +537,7 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /obj/structure/cable/cyan,
@@ -682,7 +682,7 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "bO" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /obj/structure/cable/cyan{
@@ -723,7 +723,7 @@
 /obj/machinery/ion_engine{
 	dir = 1
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 1
 	},
 /turf/simulated/floor/ascent,
@@ -752,7 +752,7 @@
 /obj/machinery/light/ascent{
 	dir = 1
 	},
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /obj/item/kharmaan_egg,
@@ -821,7 +821,7 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "ce" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /obj/item/kharmaan_egg,
@@ -985,14 +985,14 @@
 /area/ship/ascent_caulship)
 "ct" = (
 /obj/machinery/light/ascent,
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 4
 	},
 /obj/item/kharmaan_egg,
 /turf/simulated/floor/ascent,
 /area/ship/ascent_caulship)
 "cu" = (
-/obj/structure/window/phoronreinforced{
+/obj/structure/window/plasmareinforced{
 	dir = 8
 	},
 /obj/structure/cable/cyan{

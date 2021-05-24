@@ -2517,16 +2517,16 @@
 /obj/item/stack/material/plastic{
 	amount = 50
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/plasmarglass{
 	amount = 20
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/plasmarglass{
 	amount = 20
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/plasmarglass{
 	amount = 20
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/plasmarglass{
 	amount = 20
 	},
 /turf/unsimulated/floor{

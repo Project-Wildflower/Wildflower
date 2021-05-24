@@ -10,7 +10,7 @@
 /area/map_template/colony/command)
 "ad" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/command)
 "ae" = (
@@ -260,7 +260,7 @@
 /area/map_template/colony/messhall)
 "aJ" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony)
 "aK" = (
@@ -268,7 +268,7 @@
 /area/map_template/colony/messhall)
 "aL" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/engineering)
 "aM" = (
@@ -500,7 +500,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/engineering)
 "bn" = (
@@ -668,7 +668,7 @@
 /area/map_template/colony/bathroom)
 "bz" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/medbay)
 "bA" = (
@@ -975,7 +975,7 @@
 /area/map_template/colony/atmospherics)
 "bZ" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/surgery)
 "ca" = (
@@ -1176,19 +1176,19 @@
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 5
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/colony/atmospherics)
 "cu" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/black{
 	dir = 4
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/colony/atmospherics)
 "cv" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/colony/atmospherics)
 "cw" = (
@@ -1210,13 +1210,13 @@
 /area/map_template/colony)
 "cy" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/colony/atmospherics)
 "cz" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/atmospherics)
 "cA" = (
@@ -1656,7 +1656,7 @@
 /area/map_template/colony)
 "dv" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/messhall)
 "dw" = (
@@ -1689,7 +1689,7 @@
 /area/map_template/colony/engineering)
 "dz" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/atmospherics)
 "dA" = (
@@ -2493,7 +2493,7 @@
 "eS" = (
 /obj/machinery/reagentgrinder,
 /obj/item/reagent_containers/glass/beaker/large,
-/obj/item/stack/material/phoron/ten,
+/obj/item/stack/material/plasma/ten,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
 	},
@@ -2923,8 +2923,8 @@
 /obj/item/stack/material/glass/fifty,
 /obj/item/stack/material/glass/fifty,
 /obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/phoronrglass/ten,
-/obj/item/stack/material/glass/phoronrglass/ten,
+/obj/item/stack/material/glass/plasmarglass/ten,
+/obj/item/stack/material/glass/plasmarglass/ten,
 /obj/item/stack/material/glass/reinforced/fifty,
 /obj/item/stack/material/glass/reinforced/fifty,
 /obj/item/clothing/head/hardhat/orange,
@@ -6119,7 +6119,7 @@
 	icon_state = "intact"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/atmospherics)
 "kE" = (
@@ -6339,7 +6339,7 @@
 	icon_state = "intact"
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/airlock)
 "kZ" = (
@@ -6555,7 +6555,7 @@
 /area/map_template/colony/mineralprocessing)
 "lw" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8;
 	icon_state = "map"
@@ -6583,7 +6583,7 @@
 /area/map_template/colony/hydroponics)
 "ly" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/commons)
 "lz" = (
@@ -6610,7 +6610,7 @@
 /area/map_template/colony/mineralprocessing)
 "lB" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/hydroponics)
 "lC" = (
@@ -7057,7 +7057,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/structure/cable{
 	d2 = 4;
 	icon_state = "0-4"
@@ -7066,7 +7066,7 @@
 /area/map_template/colony/jail)
 "mm" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
@@ -7117,7 +7117,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/cable,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/jail)
 "mq" = (
@@ -7149,7 +7149,7 @@
 "mt" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/jail)
 "mu" = (
@@ -7158,7 +7158,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony/airlock)
@@ -7171,7 +7171,7 @@
 /area/map_template/colony/mineralprocessing)
 "mw" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/map_template/colony/airlock)
 "mx" = (
@@ -8487,7 +8487,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4

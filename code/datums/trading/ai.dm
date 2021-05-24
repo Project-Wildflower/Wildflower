@@ -31,7 +31,7 @@ They sell generic supplies and ask for generic supplies.
 								/obj/item/device/assembly                = TRADER_BLACKLIST_ALL,
 								/obj/item/device/assembly_holder         = TRADER_BLACKLIST_ALL,
 								/obj/item/device/encryptionkey/syndicate = TRADER_BLACKLIST,
-								/obj/item/tank/phoron/onetankbomb = TRADER_BLACKLIST,
+								/obj/item/tank/plasma/onetankbomb = TRADER_BLACKLIST,
 								/obj/item/device/radio                   = TRADER_BLACKLIST_ALL,
 								/obj/item/modular_computer/pda                     = TRADER_BLACKLIST_SUB,
 								/obj/item/device/uplink                  = TRADER_BLACKLIST)
@@ -79,7 +79,7 @@ They sell generic supplies and ask for generic supplies.
 								/obj/item/stack/material/marble           = TRADER_THIS_TYPE,
 								/obj/item/stack/material/diamond          = TRADER_THIS_TYPE,
 								/obj/item/stack/material/uranium          = TRADER_THIS_TYPE,
-								/obj/item/stack/material/phoron           = TRADER_THIS_TYPE,
+								/obj/item/stack/material/plasma           = TRADER_THIS_TYPE,
 								/obj/item/stack/material/plastic          = TRADER_THIS_TYPE,
 								/obj/item/stack/material/gold             = TRADER_THIS_TYPE,
 								/obj/item/stack/material/silver           = TRADER_THIS_TYPE,

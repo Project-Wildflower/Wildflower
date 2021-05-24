@@ -195,7 +195,7 @@
 /area/verne/engineering/workshop)
 "aT" = (
 /obj/effect/paint_stripe/gunmetal,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id_tag = "SupermatterVerne";
@@ -487,7 +487,7 @@
 /turf/simulated/floor/plating,
 /area/verne/hangar)
 "bT" = (
-/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,
+/obj/machinery/portable_atmospherics/canister/plasma/engine_setup,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
@@ -796,7 +796,7 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci)
 "cQ" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/effect/paint_stripe/gunmetal,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open{
@@ -808,7 +808,7 @@
 /area/verne/xenosci)
 "cT" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/effect/paint_stripe/gunmetal,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open{
@@ -819,7 +819,7 @@
 /area/verne/xenosci)
 "cW" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/effect/paint_stripe/gunmetal,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open{
@@ -850,7 +850,7 @@
 /area/verne/xenosci)
 "dg" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/effect/paint_stripe/gunmetal,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open{
@@ -1323,7 +1323,7 @@
 /obj/item/device/scanner/health,
 /obj/item/anodevice,
 /obj/item/anodevice,
-/obj/item/stack/material/phoron,
+/obj/item/stack/material/plasma,
 /obj/structure/window/reinforced,
 /obj/item/device/scanner/spectrometer/adv,
 /obj/item/reagent_containers/dropper,
@@ -2239,7 +2239,7 @@
 	id_tag = "SupermatterVerne";
 	name = "Reactor Blast Door"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /turf/simulated/floor/plating,
 /area/verne/engineering/smresearch/control)
 "mV" = (
@@ -2647,7 +2647,7 @@
 /area/verne/engineering/comms)
 "qI" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,
+/obj/machinery/portable_atmospherics/canister/plasma/engine_setup,
 /turf/simulated/floor/reinforced/airless,
 /area/verne/engineering/external)
 "qL" = (
@@ -2889,7 +2889,7 @@
 /area/verne/xenosci)
 "rY" = (
 /obj/effect/paint_stripe/gunmetal,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 2;
 	id_tag = "SupermatterVerne";
@@ -3015,7 +3015,7 @@
 /area/verne/hangar)
 "tn" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/dispenser/phoron,
+/obj/structure/dispenser/plasma,
 /turf/simulated/floor/reinforced/airless,
 /area/verne/engineering/external)
 "to" = (
@@ -3377,7 +3377,7 @@
 "wc" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /obj/effect/paint_stripe/gunmetal,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_plasma,
 /obj/machinery/door/blast/regular{
 	dir = 2;
 	id_tag = "SupermatterVerne";
@@ -5938,7 +5938,7 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci/workshop)
 "Sq" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/effect/paint_stripe/gunmetal,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open{
@@ -6703,7 +6703,7 @@
 /area/verne/catfish/engineering)
 "YA" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_plasma/titanium,
 /obj/effect/paint_stripe/gunmetal,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open{

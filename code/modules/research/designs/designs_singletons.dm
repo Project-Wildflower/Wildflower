@@ -45,7 +45,7 @@
 	desc = "An advanced trash bag with bluespace properties; capable of holding a plethora of garbage."
 	id = "blutrash"
 	req_tech = list(TECH_BLUESPACE = 5, TECH_MATERIALS = 6)
-	materials = list(MATERIAL_PLASTIC = 5000, MATERIAL_GOLD = 1500, MATERIAL_URANIUM = 250, MATERIAL_PHORON = 1500)
+	materials = list(MATERIAL_PLASTIC = 5000, MATERIAL_GOLD = 1500, MATERIAL_URANIUM = 250, MATERIAL_PLASMA = 1500)
 	build_path = /obj/item/storage/bag/trash/bluespace
 
 /datum/design/item/holosign
