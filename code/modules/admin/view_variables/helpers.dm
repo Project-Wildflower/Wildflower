@@ -195,7 +195,9 @@
 		return FALSE
 	return TRUE
 
+/* Terra: Unused
 /proc/forbidden_varedit_object_types()
  	return list(
 		/datum/admins						//Admins editing their own admin-power object? Yup, sounds like a good idea.
 	)
+*/

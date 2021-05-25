@@ -52,6 +52,8 @@
 	// this needs checking again here because VV's 'Call Proc' option directly calls this proc with the target datum
 	if(!check_rights(R_DEBUG)) return
 	if(config.debugparanoid && !check_rights(R_ADMIN)) return
+	if(target.IsProtected())
+		to_chat(usr, "<span class='danger'>It is forbidden to call procs on this object.</span>")
 
 	if(!holder.callproc)
 		holder.callproc = new(src)
