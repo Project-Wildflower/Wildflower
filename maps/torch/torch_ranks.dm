@@ -85,13 +85,17 @@
 		/datum/species/unathi = list(
 			/datum/mil_branch/expeditionary_corps = list(
 				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5
+				/datum/mil_rank/ec/e5,
+				/datum/mil_rank/ec/e7,
+				/datum/mil_rank/ec/o1
 			)
 		),
 		/datum/species/unathi/yeosa = list(
 			/datum/mil_branch/expeditionary_corps = list(
 				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5
+				/datum/mil_rank/ec/e5,
+				/datum/mil_rank/ec/e7,
+				/datum/mil_rank/ec/o1
 			)
 		),
 		/datum/species/vox = list(
