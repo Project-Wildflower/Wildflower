@@ -35,7 +35,7 @@
 	hunger_factor = 0.2
 
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
-	appearance_flags = HAS_HAIR_COLOR | HAS_SKIN_COLOR | HAS_EYE_COLOR
+	appearance_flags = HAS_HAIR_COLOR | HAS_SKIN_COLOR | HAS_EYE_COLOR | FORCED_XENOWEAR
 	bump_flag = MONKEY
 	swap_flags = MONKEY|SLIME|SIMPLE_ANIMAL
 	push_flags = MONKEY|SLIME|SIMPLE_ANIMAL|ALIEN
@@ -72,5 +72,5 @@
 		)
 
 	inherent_verbs = list(/mob/living/carbon/human/proc/sonar_ping)
-	/datum/species/resomi/get_bodytype(var/mob/living/carbon/human/H)
-		return SPECIES_RESOMI
+/datum/species/resomi/get_bodytype(var/mob/living/carbon/human/H)
+	return SPECIES_RESOMI
