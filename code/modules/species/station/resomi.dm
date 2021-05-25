@@ -21,7 +21,7 @@
 	//deform = 'icons/mob/human_races/species/resomi/body.dmi' //uh oh...
 	damage_overlays = 'icons/mob/human_races/species/resomi/damage_overlay.dmi'
 	damage_mask = 'icons/mob/human_races/species/resomi/damage_mask.dmi'
-	deform = 'icons/mob/human_races/species/resomi/blood_mask.dmi'
+	blood_mask = 'icons/mob/human_races/species/resomi/blood_mask.dmi'
 
 	slowdown = -1
 	total_health = 50
