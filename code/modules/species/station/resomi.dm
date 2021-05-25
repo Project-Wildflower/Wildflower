@@ -72,3 +72,5 @@
 		)
 
 	inherent_verbs = list(/mob/living/carbon/human/proc/sonar_ping)
+	/datum/species/resomi/get_bodytype(var/mob/living/carbon/human/H)
+		return SPECIES_RESOMI
