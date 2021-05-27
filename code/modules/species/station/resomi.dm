@@ -70,7 +70,7 @@
 		/datum/unarmed_attack/claws,
 		/datum/unarmed_attack/stomp/weak
 		)
-	available_cultural_info = = list(
+	available_cultural_info = list(
 		TAG_CULTURE = list(
 			CULTURE_RESOMI
 		)
