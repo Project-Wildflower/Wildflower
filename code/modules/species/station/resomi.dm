@@ -70,6 +70,11 @@
 		/datum/unarmed_attack/claws,
 		/datum/unarmed_attack/stomp/weak
 		)
+	available_cultural_info = = list(
+		TAG_CULTURE = list(
+			CULTURE_RESOMI
+		)
+	)
 
 	inherent_verbs = list(/mob/living/carbon/human/proc/sonar_ping)
 /datum/species/resomi/get_bodytype(var/mob/living/carbon/human/H)
