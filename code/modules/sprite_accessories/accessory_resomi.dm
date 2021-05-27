@@ -35,6 +35,7 @@ datum/sprite_accessory/hair/resomi_sunburst
 	species_allowed = list(SPECIES_RESOMI)
 
 datum/sprite_accessory/hair/resomi_mane
+	name = "Resomi Mane"
 	icon = 'icons/mob/human_races/species/resomi/hair.dmi'
 	icon_state = "resomi_mane"
 	species_allowed = list(SPECIES_RESOMI)
