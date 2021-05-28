@@ -86,6 +86,11 @@
 		)
 	)
 
+	descriptors = list(
+		/datum/mob_descriptor/height = -2,
+		/datum/mob_descriptor/build = -1,
+	)
+
 	inherent_verbs = list(/mob/living/carbon/human/proc/sonar_ping)
 /datum/species/resomi/get_bodytype(var/mob/living/carbon/human/H)
 	return SPECIES_RESOMI
