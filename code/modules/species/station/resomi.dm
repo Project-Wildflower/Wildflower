@@ -29,6 +29,7 @@
 	burn_mod =  1.35
 	metabolism_mod = 2.0
 	mob_size = MOB_SMALL
+	strength = STR_HIGH //They are strong for their size (mobility code go brrrrr)
 	light_sensitive = 6
 	gluttonous = GLUT_TINY
 	blood_volume = 280
@@ -66,7 +67,8 @@
 		BP_L_HAND = /obj/item/organ/external/hand/resomi,
 		BP_R_HAND = /obj/item/organ/external/hand/right/resomi,
 		BP_L_FOOT = /obj/item/organ/external/foot/resomi,
-		BP_R_FOOT =  /obj/item/organ/external/foot/right/resomi
+		BP_R_FOOT =  /obj/item/organ/external/foot/right/resomi,
+		BP_GROIN = /obj/item/organ/external/groin/resomi,
 		)
 
 	override_organ_types = list(
