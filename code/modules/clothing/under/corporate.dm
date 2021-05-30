@@ -15,6 +15,7 @@
 	gender_icons = 1
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_under_corporate_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_corporate_resomi.dmi'
 		)
 
 /obj/item/clothing/under/rank/scientist
@@ -31,6 +32,7 @@
 	gender_icons = 1
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_under_corporate_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_corporate_resomi.dmi'
 		)
 	starting_accessories = list(/obj/item/clothing/accessory/tunic)
 
@@ -48,13 +50,14 @@
 	item_state = "lb_suit"
 	worn_state = "work"
 	armor = list(
-		melee = ARMOR_MELEE_MINOR, 
+		melee = ARMOR_MELEE_MINOR,
 		bio = ARMOR_BIO_MINOR
 		)
 	item_icons = list(slot_w_uniform_str = 'icons/mob/onmob/onmob_under_corporate.dmi')
 	gender_icons = 1
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_under_corporate_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_corporate_resomi.dmi'
 		)
 
 /obj/item/clothing/under/rank/ntpilot
@@ -67,6 +70,7 @@
 	gender_icons = 1
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_under_corporate_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_corporate_resomi.dmi'
 		)
 
 /obj/item/clothing/under/suit_jacket/corp
@@ -80,6 +84,7 @@
 	gender_icons = 1
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_under_corporate_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_corporate_resomi.dmi'
 		)
 
 //NanoTrasen
@@ -117,6 +122,7 @@
 	item_icons = list(slot_w_uniform_str = 'icons/mob/onmob/onmob_under_corporate.dmi')
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_under_corporate_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_corporate_resomi.dmi'
 		)
 
 /obj/item/clothing/under/suit_jacket/corp/nanotrasen
@@ -160,6 +166,7 @@
 	item_icons = list(slot_w_uniform_str = 'icons/mob/onmob/onmob_under_corporate.dmi')
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_under_corporate_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_corporate_resomi.dmi'
 		)
 
 /obj/item/clothing/under/suit_jacket/corp/heph
