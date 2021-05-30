@@ -20,7 +20,8 @@
 	icon_state = "expeditionpt"
 	worn_state = "expeditionpt"
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_under_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_under_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_resomi.dmi'
 		)
 
 /obj/item/clothing/under/solgov/pt/fleet
@@ -45,7 +46,8 @@
 	item_state = "bl_suit"
 	worn_state = "blackutility"
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_under_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_under_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_resomi.dmi'
 		)
 	armor = list(
 		melee = ARMOR_MELEE_MINOR,
@@ -58,7 +60,8 @@
 	icon_state = "blackutility_crew"
 	worn_state = "blackutility_crew"
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_under_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_under_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_resomi.dmi'
 		)
 
 /obj/item/clothing/under/solgov/utility/expeditionary_skirt
@@ -67,7 +70,7 @@
 	icon_state = "blackservicefem"
 	worn_state = "blackservicefem"
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_under_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_under_unathi.dmi',
 		)
 
 /obj/item/clothing/under/solgov/utility/expeditionary_skirt/officer

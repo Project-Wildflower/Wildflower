@@ -10,7 +10,7 @@
 	max_age = 45
 	health_hud_intensity = 3
 
-	blood_color = "#D514F7"
+	blood_color = COLOR_BLOOD_RESOMI
 	flesh_color = "#5F7BB0"
 	base_color = "#001144"
 	tail = "resomitail"
