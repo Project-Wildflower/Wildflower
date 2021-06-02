@@ -44,6 +44,10 @@
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
 
+	species_outfit = list(
+		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
+	)
+
 /datum/job/junior_doctor
 	title = "Medical Resident"
 	department = "Medical"
@@ -86,6 +90,10 @@
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
+
+	species_outfit = list(
+		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/junior/resomi
+	)
 
 /datum/job/doctor
 	title = "Medical Technician"
@@ -134,6 +142,10 @@
 							 /datum/computer_file/program/camera_monitor)
 	skill_points = 22
 
+	species_outfit = list(
+		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+	)
+
 /datum/job/medical_trainee
 	title = "Trainee Medical Technician"
 	department = "Medical"
@@ -179,6 +191,10 @@
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
 
+	species_outfit = list(
+		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+	)
+
 /datum/job/medical_trainee/get_description_blurb()
 	return "You are a Trainee Medical Technician. You are learning how to treat and recover wounded crew from the more experienced medical personnel aboard. You are subordinate to the rest of the medical team."
 
@@ -212,6 +228,10 @@
 	)
 
 	minimal_access = list()
+
+	species_outfit = list(
+		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+	)
 
 /datum/job/chemist/get_description_blurb()
 	return "You are a Laboratory Technician. You make medicine. You are not a doctor or medic, but have surface level knowledge in those fields. You should not be treating patients, but rather providing the the medicine to do so. You are subordinate to Physicians and Medical Techncians."

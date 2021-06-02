@@ -46,3 +46,7 @@
 	name = OUTFIT_JOB_NAME("ERT Leader - Torch")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/command
 	head = /obj/item/clothing/head/beret/solgov/fleet/command
+
+////RESOMI OUTFITS////
+/decl/hierarchy/outfit/job/torch/passenger/passenger/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/generic

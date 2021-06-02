@@ -76,6 +76,9 @@
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX)
+	species_outfit = list(
+		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/exploration/pilot/resomi
+	)
 
 /datum/job/explorer
 	title = "Explorer"
@@ -108,6 +111,9 @@
 	)
 
 	software_on_spawn = list(/datum/computer_file/program/deck_management)
+	species_outfit = list(
+		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/exploration/explorer/resomi
+	)
 
 /datum/job/explorer/get_description_blurb()
 	return "You are an Explorer. Your duty is to go on expeditions to away sites. The Pathfinder is your team leader. You are to look for anything of economic or scientific interest to the SCG - mineral deposits, alien flora/fauna, artifacts. You will also likely encounter hazardous environments, aggressive wildlife or malfunctioning defense systems, so tread carefully."

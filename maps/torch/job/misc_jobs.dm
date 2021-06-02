@@ -48,6 +48,12 @@ Civilian
 		/datum/mil_rank/civ/civ,
 		/datum/mil_rank/civ/contractor
 	)
+	species_outfit = list(
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/passenger/passenger/resomi,
+		)
+	)
+
 
 /datum/job/merchant
 	title = "Merchant"

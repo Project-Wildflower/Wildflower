@@ -92,6 +92,18 @@
 	skill_points = 20
 	possible_goals = list(/datum/goal/achievement/notslimefodder)
 
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov/resomi,
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov/resomi,
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov/resomi,
+		)
+	)
+
 /datum/job/scientist_assistant
 	title = "Research Assistant"
 	department = "Science"
@@ -134,3 +146,14 @@
 		access_radio_sci, access_radio_exp
 	)
 	possible_goals = list(/datum/goal/achievement/notslimefodder)
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov/resomi,
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov/resomi,
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov/resomi,
+		)
+	)

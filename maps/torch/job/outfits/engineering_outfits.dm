@@ -59,3 +59,28 @@
 	id_types = list(/obj/item/card/id/torch/contractor/engineering/roboticist)
 	shoes = /obj/item/clothing/shoes/dutyboots
 	pda_type = /obj/item/modular_computer/pda/roboticist
+
+////RESOMI OUTFITS/////
+/decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/engineer/chief
+
+/*/decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/fleet/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/engineer/chief*/
+
+/decl/hierarchy/outfit/job/torch/crew/engineering/engineer/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/engineer
+
+/decl/hierarchy/outfit/job/torch/crew/engineering/contractor
+	uniform = /obj/item/clothing/under/resomi/solgov/engineer
+
+/decl/hierarchy/outfit/job/torch/crew/engineering/contractor/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/engineer
+
+/decl/hierarchy/outfit/job/torch/crew/engineering/roboticist/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/engineer/roboticist
+
+/decl/hierarchy/outfit/job/torch/crew/engineering/roboticistec/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/engineer/roboticist
+
+/*/decl/hierarchy/outfit/job/torch/crew/engineering/roboticistfleet/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/engineer/roboticist*/

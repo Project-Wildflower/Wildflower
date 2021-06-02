@@ -30,3 +30,15 @@
 /decl/hierarchy/outfit/job/torch/passenger/research/assist/testsubject
 	name = OUTFIT_JOB_NAME("Testing Assistant")
 	uniform = /obj/item/clothing/under/rank/ntwork
+
+////RESOMI OUTFITS////
+/decl/hierarchy/outfit/job/torch/passenger/research/nt_pilot/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/corporate/nt_pilot
+
+/decl/hierarchy/outfit/job/torch/passenger/research/scientist/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/corporate/research/science
+
+/decl/hierarchy/outfit/job/torch/passenger/research/assist/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/corporate/research/science
+
+

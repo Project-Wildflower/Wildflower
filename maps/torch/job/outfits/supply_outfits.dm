@@ -50,3 +50,11 @@
 /decl/hierarchy/outfit/job/torch/passenger/research/prospector/New()
 	..()
 	BACKPACK_OVERRIDE_ENGINEERING
+
+////RESOMI OUTFITS////
+/decl/hierarchy/outfit/job/torch/crew/supply/tech/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/cargo
+
+/decl/hierarchy/outfit/job/torch/crew/supply/contractor/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/generic/passenger
+
