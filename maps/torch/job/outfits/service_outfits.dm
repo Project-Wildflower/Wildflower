@@ -105,3 +105,6 @@
 
 /decl/hierarchy/outfit/job/torch/crew/service/chaplain/ec/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
+
+/decl/hierarchy/outfit/job/torch/crew/service/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew

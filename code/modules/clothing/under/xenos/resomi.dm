@@ -51,6 +51,15 @@
 	icon_state = "resomi_captain_formal"
 	worn_state = "resomi_captain_formal"
 
+////SHOES////
+///CURRENTLY CANNOT WEAR SHOES///
+
+obj/item/clothing/shoes/resomi
+	name = "small shoes"
+	desc = "looks like they were made for a child"
+	icon_state = "brown"
+	species_restricted = list(SPECIES_RESOMI)
+
 ////SOLGOV/////
 ////GENERIC////
 /obj/item/clothing/under/resomi/solgov/generic

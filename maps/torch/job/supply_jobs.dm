@@ -81,7 +81,17 @@
 	software_on_spawn = list(/datum/computer_file/program/supply,
 							 /datum/computer_file/program/deck_management,
 							 /datum/computer_file/program/reports)
-
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/supply/tech/resomi,
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/supply/contractor/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/supply/tech/resomi
+		)
+	)
 /datum/job/mining
 	title = "Prospector"
 	department = "Supply"

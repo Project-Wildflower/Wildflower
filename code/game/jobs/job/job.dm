@@ -104,12 +104,13 @@
 	var/handled_outfit = FALSE
 	if(jb.species_outfit)
 		for (var/branchi in species_outfit)
-			var/s = species_outfit[branchi]
-			var/decl/hierarchy/outfit/O = s[H.species.name]
-			if(O)
-				O = outfit_by_type(O)
-				O.equip(H, jb.title, alt_title)
-				handled_outfit = TRUE
+			if (branchi == branch)
+				var/s = species_outfit[branchi]
+				var/decl/hierarchy/outfit/O = s[H.species.name]
+				if(O)
+					O = outfit_by_type(O)
+					O.equip(H, jb.title, alt_title)
+					handled_outfit = TRUE
 
 	if(!handled_outfit)
 		var/decl/hierarchy/outfit/outfit = get_outfit(H, alt_title, branch, grade)
