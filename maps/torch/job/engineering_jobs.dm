@@ -117,6 +117,12 @@
 	species_outfit = list(
 		BRANCH_SOLGOV = list(
 			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/resomi
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/contractor
 		)
 	)
 
@@ -239,6 +245,9 @@
 		),
 		BRANCH_CONTRACTOR = list(
 			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/roboticistec/resomi,
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/roboticist/resomi,
 		)
 	)
 /datum/job/roboticist/get_description_blurb()
