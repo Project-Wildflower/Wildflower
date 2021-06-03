@@ -45,7 +45,15 @@
 							 /datum/computer_file/program/camera_monitor)
 
 	species_outfit = list(
-		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		)
 	)
 
 /datum/job/junior_doctor
@@ -92,7 +100,15 @@
 							 /datum/computer_file/program/camera_monitor)
 
 	species_outfit = list(
-		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/junior/resomi
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		)
 	)
 
 /datum/job/doctor
@@ -143,7 +159,15 @@
 	skill_points = 22
 
 	species_outfit = list(
-		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		)
 	)
 
 /datum/job/medical_trainee
@@ -192,7 +216,15 @@
 							 /datum/computer_file/program/camera_monitor)
 
 	species_outfit = list(
-		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		)
 	)
 
 /datum/job/medical_trainee/get_description_blurb()
@@ -230,7 +262,15 @@
 	minimal_access = list()
 
 	species_outfit = list(
-		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		)
 	)
 
 /datum/job/chemist/get_description_blurb()
@@ -280,6 +320,17 @@
 		/datum/computer_file/program/camera_monitor
 	)
 	give_psionic_implant_on_join = FALSE
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+		)
+	)
 
 /datum/job/psychiatrist/equip(var/mob/living/carbon/human/H)
 	if(H.mind.role_alt_title == "Psionic Counselor")
