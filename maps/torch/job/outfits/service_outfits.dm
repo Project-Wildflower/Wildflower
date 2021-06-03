@@ -81,40 +81,30 @@
 ////RESOMI OUTFITS//// (IM STARTING TO GO INSANE)
 /decl/hierarchy/outfit/job/torch/crew/service/janitor/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/service/janitor/ec/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/fleet
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/service/cook/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/service/cook/ec/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/fleet
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/service/bartender/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/service/crewman/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/passenger/research/assist/janitor/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/service/chaplain/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/service/chaplain/ec/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/service/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
-	suit = /obj/item/clothing/suit/cloak/resomi

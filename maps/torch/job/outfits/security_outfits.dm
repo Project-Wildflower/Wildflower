@@ -58,4 +58,3 @@
 ////RESOMI OUTFITS////
 /decl/hierarchy/outfit/job/torch/crew/security/maa/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/security
-	suit = /obj/item/clothing/suit/cloak/resomi/security

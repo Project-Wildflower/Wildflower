@@ -218,4 +218,25 @@
 
 /datum/gear/suit/storage/toggle/resomicoat
 	display_name = "small coat (Resomi)"
+	sort_category = "Xenowear"
 	path = /obj/item/clothing/suit/storage/toggle/resomicoat
+
+/datum/gear/suit/resomi
+	display_name = "small grey coat (Resomi)"
+	sort_category = "Xenowear"
+	path = /obj/item/clothing/suit/cloak/resomi
+
+/datum/gear/suit/resomi/engineering_cloak
+	display_name = "small engineering coat (Resomi)"
+	path = /obj/item/clothing/suit/cloak/resomi/engineering
+	allowed_roles = list(/datum/job/engineer, /datum/job/engineer_trainee, /datum/job/senior_engineer)
+
+/datum/gear/suit/resomi/security_cloak
+	display_name = "small security coat (Resomi)"
+	path = /obj/item/clothing/suit/cloak/resomi/security
+	allowed_roles = list(/datum/job/officer)
+
+/datum/gear/suit/resomi/lab_cloak
+	display_name "small lab cloak (Resomi)"
+	path = /obj/item/clothing/suit/cloak/resomi/lab
+	allowed_roles = list(/datum/job/doctor, /datum/job/medical_trainee, /datum/job/chemist, /datum/job/scientist_assistant, /datum/job/scientist)

@@ -27,17 +27,14 @@
 ////RESOMI OUTFITS////
 /decl/hierarchy/outfit/job/torch/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/crew/fleet/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/fleet
-	suit = /obj/item/clothing/suit/cloak/resomi
 
 /decl/hierarchy/outfit/job/torch/passenger/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/passenger
-	suit = /obj/item/clothing/suit/cloak/resomi
+
 
