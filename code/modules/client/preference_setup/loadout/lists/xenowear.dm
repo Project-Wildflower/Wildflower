@@ -237,6 +237,6 @@
 	allowed_roles = list(/datum/job/officer)
 
 /datum/gear/suit/resomi/lab_cloak
-	display_name "small lab cloak (Resomi)"
+	display_name = "small lab cloak (Resomi)"
 	path = /obj/item/clothing/suit/cloak/resomi/lab
 	allowed_roles = list(/datum/job/doctor, /datum/job/medical_trainee, /datum/job/chemist, /datum/job/scientist_assistant, /datum/job/scientist)
