@@ -34,6 +34,7 @@
 	gluttonous = GLUT_TINY
 	blood_volume = 280
 	hunger_factor = 0.2
+	holder_type = /obj/item/holder
 
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
 	appearance_flags = HAS_HAIR_COLOR | HAS_SKIN_COLOR | HAS_EYE_COLOR | FORCED_XENOWEAR | HAS_BASE_SKIN_COLOURS
