@@ -802,6 +802,7 @@ BLIND     // can't see anything
 	var/displays_id = 1
 	var/rolled_down = -1 //0 = unrolled, 1 = rolled, -1 = cannot be toggled
 	var/rolled_sleeves = -1 //0 = unrolled, 1 = rolled, -1 = cannot be toggled
+	var/torn_sleeves = FALSE // If true, sleeves have been ripped off and can no longer toggle
 	sprite_sheets = list(
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_under_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_under_vox_armalis.dmi',
@@ -1027,6 +1028,9 @@ BLIND     // can't see anything
 	if(usr.stat) return
 
 	update_rollsleeves_status()
+	if(torn_sleeves)
+		to_chat(usr, "<span class='notice'>\The [src] has no sleeves!</span>")
+		return
 	if(rolled_sleeves == -1)
 		to_chat(usr, "<span class='notice'>You cannot roll up your [src]'s sleeves!</span>")
 		return
@@ -1043,6 +1047,27 @@ BLIND     // can't see anything
 		body_parts_covered = initial(body_parts_covered)
 		item_state_slots[slot_w_uniform_str] = worn_state + get_gender_suffix()
 		to_chat(usr, "<span class='notice'>You roll down your [src]'s sleeves.</span>")
+	update_clothing_icon()
+
+/obj/item/clothing/under/verb/tearsleeves()
+	set name = "Tear Off Sleeves"
+	set category = "Object"
+	set src in usr
+	if(!istype(usr, /mob/living)) return
+	if(usr.stat) return
+
+	update_rollsleeves_status()
+	if(torn_sleeves)
+		to_chat(usr, "<span class='notice'>\The [src] has no sleeves!</span>")
+		return
+	if(rolled_sleeves != -1) // If sleeves are able to be toggled, toggle them up
+		rolled_sleeves = 1
+		item_state_slots[slot_w_uniform_str] = worn_state + get_gender_suffix("_r_s")
+	body_parts_covered &= ~(ARMS|HANDS)
+	visible_message(SPAN_NOTICE("\The [usr] tears off \the [src]'s sleeves."), SPAN_NOTICE("You tear off \the [src]'s sleeves."))
+	playsound(src, pick(list('sound/effects/rip1.ogg','sound/effects/rip2.ogg')), 25)
+	torn_sleeves = TRUE
+	new /obj/item/stack/medical/bruise_pack/makeshift(usr.loc)
 	update_clothing_icon()
 
 /obj/item/clothing/under/rank/New()
