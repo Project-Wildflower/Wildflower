@@ -16,6 +16,7 @@
 	tail = "resomitail"
 	tail_hair = "feathers"
 	reagent_tag = IS_RESOMI
+	hidden_from_codex = FALSE
 
 	icobase = 'icons/mob/human_races/species/resomi/body.dmi'
 	//deform = 'icons/mob/human_races/species/resomi/body.dmi' //uh oh...
@@ -90,8 +91,8 @@
 	)
 
 	descriptors = list(
-		/datum/mob_descriptor/height = -2,
-		/datum/mob_descriptor/build = -1,
+		/datum/mob_descriptor/height = -3,
+		/datum/mob_descriptor/build = -3,
 	)
 
 	inherent_verbs = list(/mob/living/carbon/human/proc/sonar_ping)
