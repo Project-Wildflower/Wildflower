@@ -104,7 +104,7 @@
 	var/handled_outfit = FALSE
 	if(jb.species_outfit)
 		for (var/branchi in species_outfit)
-			if (branchi == branch)
+			if (branchi == branch.name)
 				var/s = species_outfit[branchi]
 				var/decl/hierarchy/outfit/O = s[H.species.name]
 				if(O)

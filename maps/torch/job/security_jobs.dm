@@ -139,5 +139,8 @@
 	species_outfit = list(
 		BRANCH_SOLGOV = list(
 			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/security/maa/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/security/maa/resomi
 		)
 	)

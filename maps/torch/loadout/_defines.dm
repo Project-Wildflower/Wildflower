@@ -53,8 +53,3 @@
 #define CIVILIAN_BRANCHES list(/datum/mil_branch/civilian, /datum/mil_branch/solgov)
 
 #define SOLGOV_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet, /datum/mil_branch/solgov)
-
-#define BRANCH_SOLGOV "SolGov Employee"
-#define BRANCH_CONTRACTOR "Civilian"
-#define BRANCH_FLEET "Fleet"
-#define BRANCH_CORPS "Expeditionary Corps"

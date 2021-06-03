@@ -101,18 +101,24 @@
 ////RESOMI OUTFITS////
 /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor/senior
+	suit = /obj/item/clothing/suit/cloak/resomi/lab
 
 /decl/hierarchy/outfit/job/torch/crew/medical/junior/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+	suit = /obj/item/clothing/suit/cloak/resomi/lab
 
 /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+	suit = /obj/item/clothing/suit/cloak/resomi/lab
 
 /decl/hierarchy/outfit/job/torch/crew/medical/contractor/paramedic/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor/senior
+	suit = /obj/item/clothing/suit/cloak/resomi/lab
 
 /decl/hierarchy/outfit/job/torch/crew/medical/counselor/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+	suit = /obj/item/clothing/suit/cloak/resomi/lab
 
 /decl/hierarchy/outfit/job/torch/crew/medical/contractor/chemist/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+	suit = /obj/item/clothing/suit/cloak/resomi/lab
