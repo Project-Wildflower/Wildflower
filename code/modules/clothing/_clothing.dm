@@ -1057,12 +1057,11 @@ BLIND     // can't see anything
 	if(usr.stat) return
 
 	update_rollsleeves_status()
-	if(torn_sleeves)
+	if(torn_sleeves || rolled_sleeves == -1)  // If sleeves aren't able to be toggled, assume no sleeves
 		to_chat(usr, "<span class='notice'>\The [src] has no sleeves!</span>")
 		return
-	if(rolled_sleeves != -1) // If sleeves are able to be toggled, toggle them up
-		rolled_sleeves = 1
-		item_state_slots[slot_w_uniform_str] = worn_state + get_gender_suffix("_r_s")
+	rolled_sleeves = 1
+	item_state_slots[slot_w_uniform_str] = worn_state + get_gender_suffix("_r_s")
 	body_parts_covered &= ~(ARMS|HANDS)
 	visible_message(SPAN_NOTICE("\The [usr] tears off \the [src]'s sleeves."), SPAN_NOTICE("You tear off \the [src]'s sleeves."))
 	playsound(src, pick(list('sound/effects/rip1.ogg','sound/effects/rip2.ogg')), 25)
