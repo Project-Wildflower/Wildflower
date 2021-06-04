@@ -388,7 +388,8 @@
 	item_icons = list(slot_head_str = 'maps/torch/icons/mob/onmob_head_solgov.dmi')
 	starting_accessories = null
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_helmet_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_helmet_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_head_resomi.dmi'
 		)
 
 /obj/item/clothing/head/helmet/solgov/command
