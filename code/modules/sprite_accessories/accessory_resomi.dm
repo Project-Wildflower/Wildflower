@@ -44,6 +44,10 @@
 	name = "Resomi Tight"
 	icon_state = "resomi_tight"
 
+/datum/sprite_accessory/hair/resomi/gap
+	name = "Resomi Gap"
+	icon_state = "resomi_gap"
+
 /datum/sprite_accessory/hair/resomi/droopy
 	name = "Resomi Droopy"
 	icon_state = "resomi_droopy"
@@ -51,6 +55,14 @@
 /datum/sprite_accessory/hair/resomi/pointy
 	name = "Resomi Pointy"
 	icon_state = "resomi_pointy"
+
+/datum/sprite_accessory/hair/resomi/chin
+	name = "Resomi Chin"
+	icon_state = "resomi_chin"
+
+/datum/sprite_accessory/hair/resomi/scraggly
+	name = "Resomi Scraggly"
+	icon_state = "resomi_scraggly"
 
 /datum/sprite_accessory/hair/resomi/mushroom
 	name = "Resomi Mushroom"
@@ -79,22 +91,3 @@
 /datum/sprite_accessory/hair/resomi/twies
 	name = "Resomi Twies"
 	icon_state = "resomi_twies"
-
-////FACIAL////
-/datum/sprite_accessory/facial_hair/resomi/
-	name = "Resomi Chin"
-	icon_state = "resomi_chin"
-	icon = 'icons/mob/human_races/species/resomi/hair.dmi'
-	species_allowed = list(SPECIES_RESOMI)
-
-/datum/sprite_accessory/facial_hair/resomi/scraggly
-	name = "Resomi Scraggly"
-	icon_state = "resomi_scraggly"
-
-/datum/sprite_accessory/facial_hair/resomi/gap
-	name = "Resomi Gap"
-	icon_state = "resomi_gap"
-
-/datum/sprite_accessory/facial_hair/resomi/shaved //Im not entirely sure why this is needed, but it is.
-	name = "Shaved"
-	icon_state = "shaved"
