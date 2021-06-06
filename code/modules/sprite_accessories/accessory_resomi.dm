@@ -4,38 +4,90 @@
 	icon_state = "resomi_default"
 	species_allowed = list(SPECIES_RESOMI)
 
-/datum/sprite_accessory/hair/resomi_ears
+/datum/sprite_accessory/hair/resomi/ears
 	name = "Resomi Ears"
-	icon = 'icons/mob/human_races/species/resomi/hair.dmi'
 	icon_state = "resomi_ears"
-	species_allowed = list(SPECIES_RESOMI)
 
-/datum/sprite_accessory/hair/resomi_excited
-	name = "Resomi Spiky"
-	icon = 'icons/mob/human_races/species/resomi/hair.dmi'
-	icon_state = "resomi_spiky"
-	species_allowed = list(SPECIES_RESOMI)
+/datum/sprite_accessory/hair/resomi/excited
+	name = "Resomi Spikey"
+	icon_state = "resomi_spikey"
 
-/datum/sprite_accessory/hair/resomi_hedgehog
+/datum/sprite_accessory/hair/resomi/hedgehog
 	name = "Resomi Hedgehog"
-	icon = 'icons/mob/human_races/species/resomi/hair.dmi'
 	icon_state = "resomi_hedge"
-	species_allowed = list(SPECIES_RESOMI)
 
-/datum/sprite_accessory/hair/resomi_long
+/datum/sprite_accessory/hair/resomi/long
 	name = "Resomi Unpruned"
-	icon = 'icons/mob/human_races/species/resomi/hair.dmi'
 	icon_state = "resomi_long"
-	species_allowed = list(SPECIES_RESOMI)
 
-/datum/sprite_accessory/hair/resomi_sunburst
+/datum/sprite_accessory/hair/resomi/sunburst
 	name = "Resomi Sunburst"
-	icon = 'icons/mob/human_races/species/resomi/hair.dmi'
-	icon_state = "resomi_sunburst_short"
-	species_allowed = list(SPECIES_RESOMI)
+	icon_state = "resomi_burst"
 
-/datum/sprite_accessory/hair/resomi_mane
+/datum/sprite_accessory/hair/resomi/sunburst_short
+	name = "Resomi Sunburst (short)"
+	icon_state = "resomi_burst_short"
+
+/datum/sprite_accessory/hair/resomi/mane
 	name = "Resomi Mane"
-	icon = 'icons/mob/human_races/species/resomi/hair.dmi'
 	icon_state = "resomi_mane"
-	species_allowed = list(SPECIES_RESOMI)
+
+/datum/sprite_accessory/hair/resomi/mohawk
+	name = "Resomi Mohawk"
+	icon_state = "resomi_mohawk"
+
+/datum/sprite_accessory/hair/resomi/long
+	name = "Resomi Long"
+	icon_state = "resomi_long"
+
+/datum/sprite_accessory/hair/resomi/tight
+	name = "Resomi Tight"
+	icon_state = "resomi_tight"
+
+/datum/sprite_accessory/hair/resomi/gap
+	name = "Resomi Gap"
+	icon_state = "resomi_gap"
+
+/datum/sprite_accessory/hair/resomi/droopy
+	name = "Resomi Droopy"
+	icon_state = "resomi_droopy"
+
+/datum/sprite_accessory/hair/resomi/pointy
+	name = "Resomi Pointy"
+	icon_state = "resomi_pointy"
+
+/datum/sprite_accessory/hair/resomi/chin
+	name = "Resomi Chin"
+	icon_state = "resomi_chin"
+
+/datum/sprite_accessory/hair/resomi/scraggly
+	name = "Resomi Scraggly"
+	icon_state = "resomi_scraggly"
+
+/datum/sprite_accessory/hair/resomi/mushroom
+	name = "Resomi Mushroom"
+	icon_state = "resomi_mushroom"
+
+/datum/sprite_accessory/hair/resomi/upright
+	name = "Resomi Upright"
+	icon_state = "resomi_upright"
+
+/datum/sprite_accessory/hair/resomi/backstrafe
+	name = "Resomi Backstrafe"
+	icon_state = "resomi_backstrafe"
+
+/datum/sprite_accessory/hair/resomi/longway
+	name = "Resomi Longway"
+	icon_state = "resomi_longway"
+
+/datum/sprite_accessory/hair/resomi/tree
+	name = "Resomi Tree"
+	icon_state = "resomi_tree"
+
+/datum/sprite_accessory/hair/resomi/fluffy_mohawk
+	name = "Resomi Fluffy Mohawk"
+	icon_state = "resomi_fluffymohawk"
+
+/datum/sprite_accessory/hair/resomi/twies
+	name = "Resomi Twies"
+	icon_state = "resomi_twies"
