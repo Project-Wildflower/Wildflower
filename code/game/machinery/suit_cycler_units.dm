@@ -48,7 +48,7 @@
 	model_text = "Medical"
 	req_access = list(access_medical)
 	available_modifications = list(/decl/item_modifier/space_suit/medical)
-	species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)
+	species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI, SPECIES_RESOMI)
 
 /obj/machinery/suit_cycler/medical/alt
 	available_modifications = list(/decl/item_modifier/space_suit/medical/alt)
