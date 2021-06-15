@@ -474,9 +474,11 @@
 	icon_state = "helm_explorer"
 	item_state = "helm_explorer"
 	sprite_sheets = list(
-		SPECIES_SKRELL = 'maps/torch/icons/mob/skrell/onmob_head_solgov_skrell.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_helmet_solgov_unathi.dmi'
 		)
-	sprite_sheets_obj = list()
+	sprite_sheets_obj = list(
+		SPECIES_UNATHI = 'icons/obj/clothing/species/unathi/obj_head_solgov_unathi.dmi'
+		)
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,
 		bullet = ARMOR_BALLISTIC_MINOR,
@@ -497,9 +499,11 @@
 	icon_state = "void_explorer"
 	item_state = "void_explorer"
 	sprite_sheets = list(
-		SPECIES_UNATHI = 'maps/torch/icons/mob/unathi/onmob_suit_solgov_unathi.dmi'
+		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_suit_solgov_unathi.dmi'
 		)
-	sprite_sheets_obj = list()
+	sprite_sheets_obj = list(
+		SPECIES_UNATHI = 'icons/obj/clothing/species/unathi/obj_suit_solgov_unathi.dmi'
+		)
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,
 		bullet = ARMOR_BALLISTIC_MINOR,
