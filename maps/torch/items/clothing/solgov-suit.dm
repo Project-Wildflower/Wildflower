@@ -499,6 +499,7 @@
 	icon_state = "void_explorer"
 	item_state = "void_explorer"
 	sprite_sheets = list(
+		SPECIES_SKRELL = 'maps/torch/icons/mob/skrell/onmob_head_solgov_skrell.dmi'
 		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_suit_solgov_unathi.dmi'
 		)
 	sprite_sheets_obj = list(
