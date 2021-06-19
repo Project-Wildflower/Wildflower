@@ -19,7 +19,7 @@
 	hidden_from_codex = FALSE
 
 	icobase = 'icons/mob/human_races/species/resomi/body.dmi'
-	//deform = 'icons/mob/human_races/species/resomi/body.dmi' //uh oh...
+	deform = 'icons/mob/human_races/species/resomi/body.dmi'
 	damage_overlays = 'icons/mob/human_races/species/resomi/damage_overlay.dmi'
 	damage_mask = 'icons/mob/human_races/species/resomi/damage_mask.dmi'
 	blood_mask = 'icons/mob/human_races/species/resomi/blood_mask.dmi'

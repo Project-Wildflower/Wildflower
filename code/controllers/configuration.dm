@@ -129,7 +129,7 @@ var/list/gamemode_cache = list()
 	//Mob specific modifiers. NOTE: These will affect different mob types in different ways
 	var/maximum_mushrooms = 15 //After this amount alive, mushrooms will not boom boom
 
-	var/admin_legacy_system = 1	//Defines whether the server uses the legacy admin system with admins.txt or the SQL system. Config option in config.txt
+	var/admin_legacy_system = 0	//Defines whether the server uses the legacy admin system with admins.txt or the SQL system. Config option in config.txt
 	var/ban_legacy_system = 0	//Defines whether the server uses the legacy banning system with the files in /data or the SQL system. Config option in config.txt
 	var/use_age_restriction_for_jobs = 0   //Do jobs use account age restrictions?   --requires database
 	var/use_age_restriction_for_antags = 0 //Do antags use account age restrictions? --requires database

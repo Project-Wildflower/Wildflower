@@ -1,6 +1,7 @@
 /datum/language/resomi
 	name = LANGUAGE_RESOMI
 	desc = "A trilling language spoken by the diminutive Resomi."
+	shorthand = "SCH"
 	speech_verb = "chirps"
 	ask_verb = "chirrups"
 	exclaim_verb = "trills"
