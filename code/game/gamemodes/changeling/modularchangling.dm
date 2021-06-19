@@ -46,7 +46,7 @@ var/list/datum/power/changeling/powerinstances = list()
 /datum/power/changeling/hive_download
 	name = "Hive Absorb"
 	desc = "We can absorb a single DNA from the airwaves, allowing us to use more disguises with help from our fellow changelings."
-	helptext = "Allows you to absorb a single DNA and use it. Does not count towards your absorb objective."
+	helptext = "Allows you to absorb a single DNA and use it."
 	genomecost = 0
 	verbpath = /mob/proc/changeling_hivedownload
 
@@ -88,7 +88,7 @@ var/list/datum/power/changeling/powerinstances = list()
 /datum/power/changeling/extractdna
 	name = "Extract DNA"
 	desc = "We stealthily sting a target and extract the DNA from them."
-	helptext = "Will give you the DNA of your target, allowing you to transform into them. Does not count towards absorb objectives."
+	helptext = "Will give you the DNA of your target, allowing you to transform into them."
 	genomecost = 2
 	allowduringlesserform = 1
 	verbpath = /mob/proc/changeling_extract_dna_sting
