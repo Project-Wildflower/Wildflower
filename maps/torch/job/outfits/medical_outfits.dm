@@ -101,6 +101,7 @@
 ////RESOMI OUTFITS////
 /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor/senior
+	suit = /obj/item/clothing/suit/storage/hooded/resomi/lab
 
 /decl/hierarchy/outfit/job/torch/crew/medical/junior/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor

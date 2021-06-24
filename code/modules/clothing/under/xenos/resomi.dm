@@ -74,9 +74,86 @@
 	name = "small security cloak"
 	icon_state = "cloak_br"
 
-////SHOES////
-///CURRENTLY CANNOT WEAR SHOES///
+////CLOAKS WITH HOODS////
+/obj/item/clothing/suit/storage/hooded/resomi
+	name = "small hooded cloak"
+	desc = "a small hooded cloak for resomi"
+	icon = 'icons/mob/species/resomi/onmob_suit_cloak_resomi.dmi'
+	icon_state = "hcloak_bg"
+	item_state = "hcloak_bg"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
+	flags_inv = HIDESUITSTORAGE|HIDEJUMPSUIT
+	species_restricted = list(SPECIES_RESOMI)
+	sprite_sheets = list(
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_suit_cloak_resomi.dmi'
+	)
+	action_button_name = "Toggle Hood"
+	hoodtype = /obj/item/clothing/head/resomi/hood
+	allowed = list (/obj/item/pen, /obj/item/paper, /obj/item/device/flashlight,/obj/item/storage/fancy/cigarettes, /obj/item/storage/box/matches, /obj/item/reagent_containers/food/drinks/flask)
 
+/obj/item/clothing/suit/storage/hooded/resomi/engineering
+	name = "small hooded engineering cloak"
+	desc = "a small cloak for experienced engineers"
+	icon_state = "hcloak_yg"
+	item_state = "hcloak_yg"
+	siemens_coefficient = 0.8
+	hoodtype = /obj/item/clothing/head/resomi/hood/engineering
+
+/obj/item/clothing/suit/storage/hooded/resomi/lab
+	name = "a small hooded lab cloak"
+	desc = "a small cloak for experienced lab workers"
+	icon_state = "hcloak_wg"
+	item_state = "hcloak_wg"
+	hoodtype = /obj/item/clothing/head/resomi/hood/resomi/lab
+
+/obj/item/clothing/suit/storage/hooded/resomi/security
+	name = "a small hooded security cloak"
+	desc = "a small cloak for experienced security officers"
+	icon_state = "hcloak_br"
+	item_state = "hcloak_br"
+	hoodtype = /obj/item/clothing/head/resomi/hood/security
+
+////HOODS////
+/obj/item/clothing/head/resomi/hood
+	name = "small hood"
+	icon = 'icons/mob/species/resomi/onmob_suit_cloak_resomi.dmi'
+	icon_state = "hood_bg"
+	item_state = "hood_bg"
+	body_parts_covered = HEAD
+	flags_inv = BLOCKHAIR
+	species_restricted = list(SPECIES_RESOMI)
+	sprite_sheets = list(
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_suit_cloak_resomi.dmi'
+	)
+
+/obj/item/clothing/head/resomi/hood/engineering
+	icon_state = "hood_yg"
+	item_state = "hood_yg"
+	siemens_coefficient = 0.8
+
+/obj/item/clothing/head/resomi/hood/resomi/lab
+	icon_state = "hood_wg"
+	item_state = "hood_wg"
+
+/obj/item/clothing/head/resomi/hood/security
+	icon_state = "hood_br"
+	item_state = "hood_br"
+////GLOVES////
+/obj/item/clothing/gloves/resomi
+	name = "small three-fingered gloves"
+	icon_state = "white-glove-nabber" //GIVE PROPER SPRITE
+	item_state = "lgloves"
+	color = COLOR_WHITE
+	permeability_coefficient = 0.05
+	species_restricted = list(SPECIES_RESOMI)
+
+/obj/item/clothing/gloves/resomi/insulated
+	name = "small three-fingered insulated gloves" //barf
+	item_state = "lgloves"
+	siemens_coefficient = 0
+	color = COLOR_YELLOW
+
+////SHOES////
 obj/item/clothing/shoes/resomi
 	name = "small shoes"
 	desc = "looks like they were made for a child"

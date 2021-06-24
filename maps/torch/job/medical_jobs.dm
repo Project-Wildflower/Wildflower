@@ -46,13 +46,13 @@
 
 	species_outfit = list(
 		BRANCH_SOLGOV = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
 		),
 		BRANCH_CORPS = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
 		),
 		BRANCH_CONTRACTOR = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
 		)
 	)
 
@@ -101,13 +101,13 @@
 
 	species_outfit = list(
 		BRANCH_SOLGOV = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
 		),
 		BRANCH_CORPS = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
 		),
 		BRANCH_CONTRACTOR = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
 		)
 	)
 

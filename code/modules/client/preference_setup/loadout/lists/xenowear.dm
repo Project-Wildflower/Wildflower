@@ -185,25 +185,6 @@
 	path = /obj/item/clothing/under/resomi/white
 	flags = GEAR_HAS_COLOR_SELECTION
 
-/datum/gear/uniform/resomi/eng
-	display_name = "uniform, Engineering (Resomi)"
-	path = /obj/item/clothing/under/resomi/yellow
-	allowed_roles = list(/datum/job/medical_trainee, /datum/job/roboticist, /datum/job/scientist_assistant, /datum/job/crew, /datum/job/assistant)
-
-/datum/gear/uniform/resomi/sec
-	display_name = "uniform, Security (Resomi)"
-	path = /obj/item/clothing/under/resomi/red
-	allowed_roles = list(/datum/job/officer, /datum/job/crew, /datum/job/assistant, /datum/job/scientist_assistant)
-
-/datum/gear/uniform/resomi/med
-	display_name = "uniform, Medical (Resomi)"
-	path = /obj/item/clothing/under/resomi/medical
-	allowed_roles = list(/datum/job/doctor, /datum/job/medical_trainee, /datum/job/chemist, /datum/job/assistant, /datum/job/crew, /datum/job/scientist_assistant)
-
-/datum/gear/uniform/resomi/science
-	display_name = "uniform, Science (Resomi)"
-	path = /obj/item/clothing/under/resomi/science
-
 /datum/gear/uniform/resomi/dress
 	display_name = "small dress (Resomi)"
 	path = /obj/item/clothing/under/resomi/dress

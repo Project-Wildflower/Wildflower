@@ -63,7 +63,7 @@
 ////RESOMI OUTFITS/////
 /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/engineer/chief
-	suit = /obj/item/clothing/suit/cloak/resomi/engineering
+	suit = /obj/item/clothing/suit/storage/hooded/resomi/engineering
 
 /*/decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/fleet/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/engineer/chief*/

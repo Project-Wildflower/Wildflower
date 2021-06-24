@@ -48,9 +48,9 @@
 							 /datum/computer_file/program/camera_monitor,
 							 /datum/computer_file/program/shields_monitor)
 	species_outfit = list(
-		BRANCH_SOLGOV = list(
+		BRANCH_CORPS = list(
 			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/resomi
-		)
+		),
 	)
 
 /datum/job/senior_engineer/get_description_blurb()

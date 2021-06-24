@@ -42,6 +42,17 @@
 	                    SKILL_SCIENCE     = SKILL_MAX)
 	skill_points = 20
 	possible_goals = list(/datum/goal/achievement/notslimefodder)
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/research/senior_scientist/resomi,
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/research/senior_scientist/resomi,
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/research/senior_scientist/resomi,
+		)
+	)
 
 /datum/job/scientist
 	title = "Scientist"
