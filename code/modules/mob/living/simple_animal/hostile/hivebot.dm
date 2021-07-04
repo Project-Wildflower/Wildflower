@@ -8,7 +8,6 @@
 	health = 55
 	maxHealth = 55
 	natural_weapon = /obj/item/natural_weapon/drone_slicer
-	projectiletype = /obj/item/projectile/beam/smalllaser
 	faction = "hivebot"
 	min_gas = null
 	max_gas = null
@@ -26,10 +25,17 @@
 	skin_material = null
 	skin_amount =   0
 
+	ai_holder_type = /datum/ai_holder/simple_animal/hivebot
+	say_list_type = /datum/say_list/hivebot
+
 /mob/living/simple_animal/hostile/hivebot/range
 	desc = "A junky looking robot with four spiky legs. It's equipped with some kind of small-bore gun."
 	ranged = 1
 	speed = 7
+	projectiletype = /obj/item/projectile/beam/smalllaser
+	base_attack_cooldown = 3 SECONDS
+
+	ai_holder_type = /datum/ai_holder/simple_animal/hivebot/ranged
 
 /mob/living/simple_animal/hostile/hivebot/rapid
 	ranged = 1
@@ -66,12 +72,13 @@ Teleporter beacon, and its subtypes
 	maxHealth = 200
 	status_flags = 0
 	anchored = TRUE
-	stop_automated_movement = 1
 
 	var/bot_type = /mob/living/simple_animal/hostile/hivebot
-	var/bot_amt = 10
-	var/spawn_delay = 100
+	var/bot_amt = 1
+	var/spawn_delay = 10 SECONDS
 	var/spawn_time = 0
+
+	ai_holder_type = /datum/ai_holder/simple_animal/hivebot/tele
 
 /mob/living/simple_animal/hostile/hivebot/tele/New()
 	..()
@@ -80,6 +87,8 @@ Teleporter beacon, and its subtypes
 	smoke.start()
 	visible_message("<span class='danger'>\The [src] warps in!</span>")
 	playsound(src.loc, 'sound/effects/EMPulse.ogg', 25, 1)
+	set_AI_busy(TRUE)
+	spawn_time = world.time + spawn_delay
 
 /mob/living/simple_animal/hostile/hivebot/tele/proc/warpbots()
 	while(bot_amt > 0 && bot_type)
@@ -90,12 +99,6 @@ Teleporter beacon, and its subtypes
 	qdel(src)
 	return
 
-/mob/living/simple_animal/hostile/hivebot/tele/FindTarget()
-	if(..() && !spawn_time)
-		spawn_time = world.time + spawn_delay
-		visible_message("<span class='danger'>\The [src] turns on!</span>")
-		icon_state = "def_radar"
-	return null
 
 /mob/living/simple_animal/hostile/hivebot/tele/Life()
 	. = ..()
@@ -142,6 +145,7 @@ The megabot
 	can_escape = TRUE
 	armor_type = /datum/extension/armor/toggle
 	ability_cooldown = 3 MINUTES
+	base_attack_cooldown = 2 SECONDS
 
 	pixel_x = -32
 	default_pixel_x = -32
@@ -214,7 +218,7 @@ The megabot
 	update_icon()
 
 /mob/living/simple_animal/hostile/hivebot/mega/proc/deactivate()
-	stop_automation = TRUE
+	set_AI_busy(TRUE)
 	deactivated = TRUE
 	visible_message(SPAN_MFAUNA("\The [src] clicks loudly as its lights fade and its motors grind to a halt!"))
 	update_icon()
@@ -224,7 +228,7 @@ The megabot
 	addtimer(CALLBACK(src, .proc/reactivate), 4 SECONDS)
 
 /mob/living/simple_animal/hostile/hivebot/mega/proc/reactivate()
-	stop_automation = FALSE
+	set_AI_busy(FALSE)
 	deactivated = FALSE
 	visible_message(SPAN_MFAUNA("\The [src] whirs back to life!"))
 	var/datum/extension/armor/toggle/armor = get_extension(src, /datum/extension/armor)
@@ -232,16 +236,56 @@ The megabot
 		armor.toggle(TRUE)
 	update_icon()
 
-/mob/living/simple_animal/hostile/hivebot/mega/OpenFire(target_mob)
+/mob/living/simple_animal/hostile/hivebot/mega/shoot_target(target_mob)
 	if(num_shots <= 0)
 		if(attack_mode == ATTACK_MODE_LASER)
 			switch_mode(ATTACK_MODE_MELEE)
 		return
 	..()
 
-/mob/living/simple_animal/hostile/hivebot/mega/Shoot(target, start, user, bullet)
+/mob/living/simple_animal/hostile/hivebot/mega/shoot(target, start, user, bullet)
 	..()
 	num_shots--
+
+/* AI */
+/datum/ai_holder/simple_animal/hivebot
+	threaten = TRUE
+	threaten_delay = 2 SECOND
+	threaten_timeout = 30 SECONDS
+
+/datum/ai_holder/simple_animal/hivebot/ranged
+	pointblank = TRUE
+
+/datum/ai_holder/simple_animal/hivebot/tele/find_target(list/possible_targets, has_targets_list)
+	. = ..()
+
+	var/mob/living/simple_animal/hostile/hivebot/tele/T = holder
+	if(..() && !T.spawn_time)
+		T.spawn_time = world.time + T.spawn_delay
+		T.visible_message(SPAN_DANGER("\The [src] turns on!"))
+		T.icon_state = "def_radar"
+	return null
+
+/* Say Lists */
+
+/datum/say_list/hivebot
+	speak = list(
+		"Sys-ys-ystem integrity at: 25%.",
+		"Divergent instances detected, resynchronizing protocols...",
+		"Hivelink corrupted, searching for secondary channels..."
+	)
+	say_threaten = list(
+		"T-t-t-target located, analyzing...",
+	 	"S-s-scanning tarrrrrget...",
+		 "Possible thrrrreat detected, obtaining classification..."
+	)
+	say_maybe_target = list("Possible threat detected. Investigating.", "Anomaly detected, commencing vis-visual sweep.", "Investigating.")
+	say_escalate = list(
+		"Target confirmed. Engaging.",
+		"Hossssstile class-classification confirmed. Pacifying.",
+		"Err-rr-ror, classification index corrupted. Assuming target as: Hostile."
+	)
+	say_stand_down = list("Visual lost.", "Error: Target lost.", "Error: Target parameter null.")
 
 #undef ATTACK_MODE_MELEE
 #undef ATTACK_MODE_LASER

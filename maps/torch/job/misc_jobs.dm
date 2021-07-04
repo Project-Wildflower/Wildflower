@@ -54,6 +54,8 @@ Civilian
 		)
 	)
 
+	min_goals = 2
+	max_goals = 7
 
 /datum/job/merchant
 	title = "Merchant"
