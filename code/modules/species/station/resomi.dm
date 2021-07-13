@@ -67,6 +67,9 @@
 		"You start to feel the cold on your skin",
 		)
 
+	inherent_verbs = list(
+		/mob/living/carbon/human/proc/sonar_ping
+	)
 
 	override_limb_types = list(
 		BP_L_HAND = /obj/item/organ/external/hand/resomi,
@@ -98,6 +101,5 @@
 		/datum/mob_descriptor/build = -3,
 	)
 
-	inherent_verbs = list(/mob/living/carbon/human/proc/sonar_ping)
 /datum/species/resomi/get_bodytype(var/mob/living/carbon/human/H)
 	return SPECIES_RESOMI
