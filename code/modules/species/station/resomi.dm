@@ -5,6 +5,8 @@
 	outside of the Goldilocks zone. Extremely fragile, they developed hunting skills \
 	that emphasized taking out their prey without themselves getting hit. They are an \
 	advanced culture on good terms with Skrellian and Human interests."
+	hidden_from_codex = FALSE
+	silent_steps = FALSE
 
 	min_age = 15
 	max_age = 45
@@ -16,7 +18,8 @@
 	tail = "resomitail"
 	tail_hair = "feathers"
 	reagent_tag = IS_RESOMI
-	hidden_from_codex = FALSE
+	speech_sounds = list('sound/voice/trill.ogg')
+	speech_chance = 20
 
 	icobase = 'icons/mob/human_races/species/resomi/body.dmi'
 	deform = 'icons/mob/human_races/species/resomi/body.dmi'
