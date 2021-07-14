@@ -13,11 +13,12 @@
 	icon_state = "steel"
 	obj_flags = 0
 	var/plantedby
-	
+
 /obj/structure/solbanner/exo/Initialize()
 	. = ..()
 	flick("deploy",src)
-
+	if(prob(1))
+		icon_state = "poopsock"
 /obj/structure/solbanner/exo/examine(mob/user)
 	. = ..()
 	if(plantedby)
@@ -56,4 +57,3 @@
 			dudename = "[ID.military_rank.name] [dudename]"
 		E.plantedby = "Planted on [stationdate2text()] by [dudename], [user.get_assignment()] of [GLOB.using_map.full_name]."
 		T.visible_message("<span class='notice'>[user] successfully claims this world with \the [E]!</span>")
-		
