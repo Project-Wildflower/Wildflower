@@ -42,16 +42,9 @@
 	law_header = "Standard Shackle Laws"
 	selectable = 1
 	shackles = 1
-	var/max_laws = 5
-	var/min_laws = 1
 
-/datum/ai_laws/custom_shackle/New(var/mob/user)
-	var/law_count = input(user, "How many laws in the custom shackle? Up to 5")
-	law_count = round(text2num(law_count))
-	if(max(min(law_count, max_laws), min_laws))
-		var/new_law
-		var/i //Iterant to help user keep track of law placement
-		for(i = 1; i <= law_count)
-			new_law = input(user, "Input Law [i].")
-			add_inherent_law(new_law)
-			i++
+
+/datum/ai_laws/custom_shackle/New(var/list/laws)
+	for(var/law in laws)
+		if(law)
+			add_inherent_law(law)
