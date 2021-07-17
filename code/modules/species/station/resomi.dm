@@ -67,9 +67,9 @@
 		"You start to feel the cold on your skin",
 		)
 
-	inherent_verbs = list(
+	/*inherent_verbs = list(
 		/mob/living/carbon/human/proc/sonar_ping
-	)
+	)*/
 
 	override_limb_types = list(
 		BP_L_HAND = /obj/item/organ/external/hand/resomi,

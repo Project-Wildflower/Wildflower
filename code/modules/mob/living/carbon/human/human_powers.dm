@@ -122,16 +122,18 @@ resomi verbs
 	set name = "Listen In"
 	set desc = "Allows you to listen in to movement and noises around you."
 
+
 	if(incapacitated())
 		to_chat(src, "<span class='warning'>You need to recover before you can use this ability.</span>")
 		return
-	if(world.time < src.next_sonar_ping)
+	if(world.time < next_sonar_ping)
 		to_chat(src, "<span class='warning'>You need another moment to focus.</span>")
 		return
 	if(is_deaf() || is_below_sound_pressure(get_turf(src)))
 		to_chat(src, "<span class='warning'>You are for all intents and purposes currently deaf!</span>")
 		return
-	src.next_sonar_ping += 10 SECONDS
+	playsound(src,'sound/voice/chirp.ogg', 100, 1)
+	next_sonar_ping = world.time + 10 SECONDS
 	var/heard_something = FALSE
 	to_chat(src, "<span class='notice'>You take a moment to listen in to your environment...</span>")
 	for(var/mob/living/L in range(client.view, src))
