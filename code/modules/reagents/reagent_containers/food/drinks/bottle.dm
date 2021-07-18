@@ -184,6 +184,14 @@
 		..()
 		reagents.add_reagent(/datum/reagent/ethanol/whiskey, 100)
 
+/obj/item/reagent_containers/food/drinks/bottle/ketchupwhiskey
+	name = "Crown Royal's Ketchup Flavored Whiskey"
+	desc = "A premium single-malt whiskey, gently matured then industralily ruined with artificial ketchup flavor."
+	icon_state = "ketchupwhiskeybottle"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/ethanol/ketchupwhiskey, 100)
+
 /obj/item/reagent_containers/food/drinks/bottle/specialwhiskey
 	name = "Special Blend Whiskey"
 	desc = "Just when you thought regular whiskey was good... This silky, amber goodness has to come along and ruin everything."

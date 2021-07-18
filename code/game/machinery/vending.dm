@@ -16,7 +16,7 @@
 	base_type = /obj/machinery/vending/assist
 	construct_state = /decl/machine_construction/default/panel_closed
 	uncreated_component_parts = null
-	
+
 	machine_name = "vending machine"
 	machine_desc = "Holds an internal stock of items that can be dispensed on-demand or when a charged ID card is swiped, depending on the brand."
 
@@ -610,6 +610,7 @@
 					/obj/item/reagent_containers/food/drinks/bottle/whiskey = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/llanbrydewhiskey = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/specialwhiskey = 5,
+					/obj/item/reagent_containers/food/drinks/bottle/ketchupwhiskey = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/wine = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/small/beer = 15,
 					/obj/item/reagent_containers/food/drinks/bottle/small/alcoholfreebeer = 15,

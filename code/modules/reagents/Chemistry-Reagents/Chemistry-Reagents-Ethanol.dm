@@ -366,6 +366,15 @@
 	glass_name = "whiskey"
 	glass_desc = "The silky, smokey whiskey goodness inside the glass makes the drink look very classy."
 
+/datum/reagent/ethanol/ketchupwhiskey
+	name = "Ketchup Flavored Whiskey"
+	description = "A superb and well-aged single-malt whiskey. Too bad this one is ketchup flavored."
+	taste_description = "grossness"
+	color = "#d6024d"
+
+	glass_name = "ketchup flavored whiskey"
+	glass_desc = "What the hell?"
+
 /datum/reagent/ethanol/wine
 	name = "Wine"
 	description = "An premium alchoholic beverage made from distilled grape juice."
