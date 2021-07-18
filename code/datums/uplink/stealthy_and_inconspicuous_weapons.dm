@@ -38,3 +38,15 @@
 	desc = "A syringe gun disguised as an electronic cigarette with 4 darts included in the box. Chemicals not included!"
 	item_cost = 10
 	path = /obj/item/storage/box/syndie_kit/syringegun
+
+/datum/uplink_item/item/stealthy_weapons/razor_hat
+	name = "Razor-Brimmed Bowler Hat"
+	desc = "This dapper hat hides several microrazors in its brim, and also provides some head protection. Land a trickshot for maximum damage."
+	item_cost = 15
+	path = /obj/item/clothing/head/bowlerhat/razor
+
+/datum/uplink_item/item/stealthy_weapons/carp_plush
+	name = "Dehydrated Space Carp"
+	desc = "An innocuous-looking space carp plushie. Add water and step back for a nasty surprise!"
+	item_cost = 10
+	path = /obj/item/dehydrated_carp
