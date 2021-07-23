@@ -396,7 +396,7 @@ BLIND     // can't see anything
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_head_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_head_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_head_unathi.dmi',
-		SPECIES_NABBER = 'icons/mob/species/nabber/onmob_head_gas.dmi'
+		SPECIES_NABBER = 'icons/mob/species/nabber/onmob_head_gas.dmi',
 		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_head_resomi.dmi'
 	)
 	body_parts_covered = HEAD
