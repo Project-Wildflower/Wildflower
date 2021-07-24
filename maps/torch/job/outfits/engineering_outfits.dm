@@ -72,10 +72,6 @@
 	uniform = /obj/item/clothing/under/resomi/solgov/engineer
 	suit = /obj/item/clothing/suit/cloak/resomi/engineering
 
-/decl/hierarchy/outfit/job/torch/crew/engineering/contractor
-	uniform = /obj/item/clothing/under/resomi/solgov/engineer
-	suit = /obj/item/clothing/suit/cloak/resomi/engineering
-
 /decl/hierarchy/outfit/job/torch/crew/engineering/contractor/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/engineer
 	suit = /obj/item/clothing/suit/cloak/resomi/engineering

@@ -33,10 +33,10 @@
 			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/chaplain/resomi,
 		),
 		BRANCH_CONTRACTOR = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/chaplain/resomi
 		),
 		BRANCH_CORPS = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/cook/ec/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/chaplain/resomi
 		)
 	)
 
@@ -75,10 +75,10 @@
 	minimal_access = list()
 	species_outfit = list(
 		BRANCH_SOLGOV = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/chaplain/resomi,
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/janitor/resomi,
 		),
 		BRANCH_CONTRACTOR = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/janitor/resomi
 		),
 		BRANCH_CORPS = list(
 			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/janitor/ec/resomi
@@ -181,12 +181,12 @@
 	)
 	species_outfit = list(
 		BRANCH_SOLGOV = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/chaplain/resomi,
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/resomi,
 		),
 		BRANCH_CONTRACTOR = list(
 			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/resomi
 		),
 		BRANCH_CORPS = list(
-			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/janitor/ec/resomi
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/service/resomi
 		)
 	)

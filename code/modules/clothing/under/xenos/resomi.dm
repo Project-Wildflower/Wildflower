@@ -176,6 +176,7 @@ obj/item/clothing/shoes/resomi
 
 /obj/item/clothing/under/resomi/solgov/generic/crew
 	name = "resomi crew jumpsuit"
+	icon = 'icons/mob/species/resomi/onmob_under_resomi.dmi'
 	icon_state = "blackutility_crew_s"
 	worn_state = "blackutility_crew"
 

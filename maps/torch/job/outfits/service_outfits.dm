@@ -80,10 +80,10 @@
 
 ////RESOMI OUTFITS//// (IM STARTING TO GO INSANE)
 /decl/hierarchy/outfit/job/torch/crew/service/janitor/resomi
-	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
+	uniform = /obj/item/clothing/under/resomi/solgov/generic/
 
 /decl/hierarchy/outfit/job/torch/crew/service/janitor/ec/resomi
-	uniform = /obj/item/clothing/under/resomi/solgov/generic/fleet
+	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
 
 /decl/hierarchy/outfit/job/torch/crew/service/cook/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
