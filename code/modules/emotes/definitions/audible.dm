@@ -61,8 +61,9 @@
 
 /decl/emote/audible/whistle
 	key = "whistle"
-	emote_message_1p = "You whistle."
-	emote_message_3p = "USER whistles."
+	emote_message_1p = "You whistle a tune."
+	emote_message_3p = "USER whistles a tune."
+	emote_sound = 'sound/voice/whistle.ogg'
 
 /decl/emote/audible/boop
 	key = "boop"
@@ -93,6 +94,7 @@
 /decl/emote/audible/clap
 	key = "clap"
 	emote_message_3p = "USER claps."
+	emote_sound = 'sound/voice/clap.ogg'
 
 /decl/emote/audible/chuckle
 	key = "chuckle"
@@ -194,10 +196,10 @@
 	emote_message_3p = "USER wheezes."
 
 /decl/emote/audible/hiss
-	key ="hiss_"
+	key ="hiss"
 	emote_message_3p_target = "USER hisses softly at TARGET."
 	emote_message_3p = "USER hisses softly."
-	
+
 /decl/emote/audible/lizard_bellow
 	key = "bellow"
 	emote_message_3p_target = "USER bellows deeply at TARGET!"
@@ -208,3 +210,9 @@
 	key = "squeal"
 	emote_message_3p = "USER squeals."
 	emote_sound = 'sound/voice/LizardSqueal.ogg'
+
+/decl/emote/audible/lizard_hiss
+	key = "hiss"
+	emote_message_3p_target = "USER hisses at TARGET!"
+	emote_message_3p = "USER hisses!"
+	emote_sound = 'sound/voice/LizardHiss.ogg'

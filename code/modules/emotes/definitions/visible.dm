@@ -332,3 +332,8 @@
 /decl/emote/visible/tilt
 	key = "tilt"
 	emote_message_3p = "USER tilts USER_THEIR head."
+
+/decl/emote/visible/thump
+	key = "thump"
+	emote_message_3p_target = "USER thumps USER_THEIR tail against the ground."
+	emote_message_3p = "USER thumps USER_THEIR tail against the ground."

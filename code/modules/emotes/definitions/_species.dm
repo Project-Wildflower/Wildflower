@@ -28,7 +28,9 @@
 		/decl/emote/human/fastsway,
 		/decl/emote/human/swag,
 		/decl/emote/human/stopsway,
-		/decl/emote/audible/lizard_bellow
+		/decl/emote/visible/thump,
+		/decl/emote/audible/lizard_bellow,
+		/decl/emote/audible/lizard_hiss
 		)
 
 /datum/species/unathi/yeosa
@@ -40,8 +42,10 @@
 		/decl/emote/human/fastsway,
 		/decl/emote/human/swag,
 		/decl/emote/human/stopsway,
+		/decl/emote/visible/thump,
 		/decl/emote/audible/lizard_bellow,
-		/decl/emote/audible/lizard_squeal
+		/decl/emote/audible/lizard_squeal,
+		/decl/emote/audible/lizard_hiss
 		)
 
 /datum/species/nabber
