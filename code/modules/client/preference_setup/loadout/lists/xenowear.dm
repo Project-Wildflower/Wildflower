@@ -197,11 +197,6 @@
 	display_name = "small formal uniform (Resomi)"
 	path = /obj/item/clothing/under/resomi/formal
 
-/datum/gear/suit/storage/toggle/resomicoat
-	display_name = "small coat (Resomi)"
-	sort_category = "Xenowear"
-	path = /obj/item/clothing/suit/storage/toggle/resomicoat
-
 /datum/gear/suit/resomi
 	display_name = "small grey coat (Resomi)"
 	sort_category = "Xenowear"

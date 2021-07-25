@@ -22,8 +22,6 @@
 /datum/gear/uniform/harness
 	allowed_branches = null
 
-/datum/gear/suit/toggle/resomicoat
-	allowed_branches = CIVILIAN_BRANCHES
 // Patches
 /datum/gear/accessory/cultex_patch
 	display_name = "Cultural Exchange patch"
@@ -32,5 +30,3 @@
 	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
 	whitelisted = list(SPECIES_SKRELL, SPECIES_UNATHI, SPECIES_YEOSA, SPECIES_IPC)
 	sort_category = "Xenowear"
-
-
