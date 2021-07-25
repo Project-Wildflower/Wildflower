@@ -220,4 +220,4 @@
 /datum/gear/suit/resomi/lab_cloak
 	display_name = "small lab cloak (Resomi)"
 	path = /obj/item/clothing/suit/cloak/resomi/lab
-	allowed_roles = list(/datum/job/doctor, /datum/job/medical_trainee, /datum/job/chemist, /datum/job/scientist_assistant, /datum/job/scientist)
+	allowed_roles = list(/datum/job/doctor, /datum/job/medical_trainee, /datum/job/chemist, /datum/job/scientist_assistant, /datum/job/scientist, /datum/job/senior_doctor, /datum/job/junior_doctor)
