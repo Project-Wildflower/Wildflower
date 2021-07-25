@@ -64,3 +64,14 @@
 	body_parts_covered = UPPER_TORSO|ARMS|LOWER_TORSO|LEGS
 	species_restricted = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)
 	siemens_coefficient = 1 //Its literally metal
+
+//Resomi Clothing
+
+/obj/item/clothing/suit/storage/toggle/resomicoat
+ 	name = "small coat"
+ 	desc = "A coat that seems too small to fit a human."
+ 	icon_state = "resomicoat"
+ 	icon_open = "resomicoat_open"
+ 	icon_closed = "resomicoat"
+ 	body_parts_covered = UPPER_TORSO|ARMS|LOWER_TORSO|LEGS
+ 	species_restricted = list(SPECIES_RESOMI)
