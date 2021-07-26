@@ -26,6 +26,7 @@
 	damage_overlays = 'icons/mob/human_races/species/resomi/damage_overlay.dmi'
 	damage_mask = 'icons/mob/human_races/species/resomi/damage_mask.dmi'
 	blood_mask = 'icons/mob/human_races/species/resomi/blood_mask.dmi'
+	robotic_icons = 'icons/mob/human_races/cyberlimbs/resomi/resomi_main.dmi'
 
 	slowdown = -1
 	total_health = 50

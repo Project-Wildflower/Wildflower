@@ -88,7 +88,10 @@ var/list/limb_icon_cache = list()
 	if(force_icon)
 		icon = force_icon
 	else if (BP_IS_ROBOTIC(src))
-		icon = 'icons/mob/human_races/cyberlimbs/robotic.dmi'
+		if(!species.robotic_icons)
+			icon = 'icons/mob/human_races/cyberlimbs/robotic.dmi'
+		else
+			icon = species.robotic_icons
 	else if (!dna)
 		icon = 'icons/mob/human_races/species/human/body.dmi'
 	else if (status & ORGAN_MUTATED)
@@ -198,7 +201,7 @@ var/list/robot_hud_colours = list("#ffffff","#cccccc","#aaaaaa","#888888","#6666
 	return applying
 
 /obj/item/organ/external/proc/bandage_level()
-	if(damage_state_text() == "00") 
+	if(damage_state_text() == "00")
 		return 0
 	if(!is_bandaged())
 		return 0
