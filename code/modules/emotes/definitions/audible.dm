@@ -61,9 +61,8 @@
 
 /decl/emote/audible/whistle
 	key = "whistle"
-	emote_message_1p = "You whistle a tune."
-	emote_message_3p = "USER whistles a tune."
-	emote_sound = 'sound/voice/whistle.ogg'
+	emote_message_1p = "You whistle."
+	emote_message_3p = "USER whistles."
 
 /decl/emote/audible/boop
 	key = "boop"
