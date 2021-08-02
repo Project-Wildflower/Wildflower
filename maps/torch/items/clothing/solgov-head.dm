@@ -456,10 +456,12 @@
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'maps/torch/icons/mob/unathi/onmob_head_solgov_unathi.dmi',
 		SPECIES_SKRELL = 'maps/torch/icons/mob/skrell/onmob_head_solgov_skrell.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_head_solgov_resomi.dmi'
 		)
 	sprite_sheets_obj = list(
 		SPECIES_UNATHI = 'maps/torch/icons/obj/unathi/obj_head_solgov_unathi.dmi',
 		SPECIES_SKRELL = 'maps/torch/icons/obj/skrell/obj_head_solgov_skrell.dmi',
+		SPECIES_RESOMI = 'icons/obj/clothing/species/resomi/obj_head_solgov_resomi.dmi'
 		)
 
 /obj/item/clothing/head/helmet/space/void/medical/alt/sol
@@ -504,10 +506,12 @@
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'maps/torch/icons/mob/unathi/onmob_head_solgov_unathi.dmi',
 		SPECIES_SKRELL = 'maps/torch/icons/mob/skrell/onmob_head_solgov_skrell.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_head_solgov_resomi.dmi'
 		)
 	sprite_sheets_obj = list(
 		SPECIES_UNATHI = 'maps/torch/icons/obj/unathi/obj_head_solgov_unathi.dmi',
 		SPECIES_SKRELL = 'maps/torch/icons/obj/skrell/obj_head_solgov_skrell.dmi',
+		SPECIES_RESOMI = 'icons/obj/clothing/species/resomi/obj_head_solgov_resomi.dmi'
 		)
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,

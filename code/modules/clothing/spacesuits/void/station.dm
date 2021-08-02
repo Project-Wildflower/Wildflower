@@ -459,7 +459,12 @@
 		rad = ARMOR_RAD_SMALL
 		)
 	allowed = list(/obj/item/device/flashlight,/obj/item/tank,/obj/item/device/suit_cooling_unit,/obj/item/storage/toolbox,/obj/item/storage/briefcase/inflatable,/obj/item/device/t_scanner,/obj/item/rcd,/obj/item/rpd)
-
+	sprite_sheets = list(
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_head_solgov_resomi.dmi'
+	)
+	sprite_sheets_obj = list(
+		SPECIES_RESOMI = 'icons/obj/clothing/species/resomi/obj_head_solgov_resomi.dmi'
+	)
 /obj/item/clothing/suit/space/void/pilot/prepared
 	helmet = /obj/item/clothing/head/helmet/space/void/pilot
 	boots = /obj/item/clothing/shoes/magboots

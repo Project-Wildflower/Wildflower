@@ -66,4 +66,4 @@
 	model_text = "Pilot"
 	req_access = list(access_mining_office)
 	available_modifications = list(/decl/item_modifier/space_suit/pilot)
-	species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI)
+	species = list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_UNATHI, SPECIES_RESOMI)

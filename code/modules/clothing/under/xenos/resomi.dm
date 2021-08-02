@@ -193,6 +193,7 @@ obj/item/clothing/shoes/resomi
 ////CORPORATE////
 /obj/item/clothing/under/resomi/solgov/corporate/nt_pilot
 	name = "corporate jumpsuit"
+	icon = 'icons/mob/species/resomi/onmob_under_corporate_fitted_resomi.dmi'
 	icon_state = "pilot_s"
 	worn_state = "pilot"
 	sprite_sheets = list(

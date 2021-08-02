@@ -77,7 +77,12 @@
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX)
 	species_outfit = list(
-		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/exploration/pilot/resomi
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/exploration/pilot/resomi,
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/exploration/pilot/resomi,
+		),
 	)
 
 /datum/job/explorer
@@ -112,7 +117,9 @@
 
 	software_on_spawn = list(/datum/computer_file/program/deck_management)
 	species_outfit = list(
-		SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/exploration/explorer/resomi
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/exploration/explorer/resomi,
+		),
 	)
 
 /datum/job/explorer/get_description_blurb()

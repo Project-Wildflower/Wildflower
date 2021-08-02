@@ -42,7 +42,7 @@
 
 ////RESOMI OUTFITS////
 /decl/hierarchy/outfit/job/torch/crew/exploration/explorer/resomi
-	uniform = /obj/item/clothing/under/resomi/solgov/generic/fleet
+	uniform = /obj/item/clothing/under/resomi/solgov/corporate/nt_pilot
 
 /decl/hierarchy/outfit/job/torch/crew/exploration/pilot/resomi
 	uniform = /obj/item/clothing/under/resomi/solgov/corporate/nt_pilot
