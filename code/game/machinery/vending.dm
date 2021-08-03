@@ -610,7 +610,6 @@
 					/obj/item/reagent_containers/food/drinks/bottle/whiskey = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/llanbrydewhiskey = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/specialwhiskey = 5,
-					/obj/item/reagent_containers/food/drinks/bottle/ketchupwhiskey = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/wine = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/small/beer = 15,
 					/obj/item/reagent_containers/food/drinks/bottle/small/alcoholfreebeer = 15,
