@@ -7,7 +7,6 @@
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
-						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/cmd)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/command
@@ -23,7 +22,7 @@
 	min_rank = 15
 
 	service_hat = /obj/item/clothing/head/solgov/service/expedition/senior_command
-	
+
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/expedition/command/cdr
 	dress_hat = /obj/item/clothing/head/solgov/service/expedition/senior_command
 
@@ -83,7 +82,6 @@
 						 /obj/item/clothing/head/beret/solgov/expedition/engineering,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
-						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/eng)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/engineering/command
@@ -106,6 +104,7 @@
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/security,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
+						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/sec)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/security
@@ -134,7 +133,6 @@
 						 /obj/item/clothing/head/beret/solgov/expedition/security,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
-						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/sec)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/security/command
@@ -157,6 +155,7 @@
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/medical,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
+						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/med)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/medical
@@ -185,7 +184,6 @@
 						 /obj/item/clothing/head/beret/solgov/expedition/medical,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
-						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/med)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/medical/command
@@ -207,6 +205,7 @@
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/supply,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
+						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/sup)
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/supply
 
@@ -236,7 +235,6 @@
 						 /obj/item/clothing/head/beret/solgov/expedition/supply,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
-						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/sup)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/service/command
@@ -254,6 +252,7 @@
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/service,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
+						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/svc)
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/service
 
@@ -283,7 +282,6 @@
 						 /obj/item/clothing/head/beret/solgov/expedition/service,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
-						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/svc)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/service/command
@@ -301,6 +299,7 @@
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/exploration,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
+						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/exp)
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/exploration
 
@@ -330,7 +329,6 @@
 						 /obj/item/clothing/head/beret/solgov/expedition/exploration,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
-						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/exp)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/exploration/command
@@ -349,7 +347,6 @@
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command,
 						 /obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
-						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/gloves/thick/duty/solgov/cmd)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/command
@@ -390,6 +387,7 @@
 	utility_under = /obj/item/clothing/under/solgov/utility/expeditionary/research
 	utility_extra = list(/obj/item/clothing/head/ushanka/solgov,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov,
+						 /obj/item/clothing/shoes/jackboots/unathi,
 						 /obj/item/clothing/suit/storage/toggle/labcoat/science/ec)
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/expeditionary/research
