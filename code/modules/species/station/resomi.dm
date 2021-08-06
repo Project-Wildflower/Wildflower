@@ -90,7 +90,6 @@
 		/datum/unarmed_attack/bite/sharp,
 		/datum/unarmed_attack/claws,
 		/datum/unarmed_attack/stomp/weak,
-		/datum/unarmed_attack/punch
 		)
 	available_cultural_info = list(
 		TAG_CULTURE = list(
