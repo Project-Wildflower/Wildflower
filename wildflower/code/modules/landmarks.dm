@@ -10,8 +10,9 @@
 /obj/effect/landmark/latejoin/cyborg
 	name = "JoinLateCyborg"
 
-//Remove these later.
-#warn REWORK THE EVA BAY TO SUPPLY SUIT CYCLERS PROPERLY, ALL OF THESE NEED TO BE REPLACED WITH SSUs
-#warn REMOVE BOTH RESEARCH SERVERS FROM EACH OTHER IN SCIENCE
-#warn EXAMINE AND PROBABLY FIX ALL THE TELEPORTERS
-#warn Key "bur" in exodus-2 appears weird... Investigate an overlap of a protolathe and control console
+//Mapping Notes. Do not push to production
+#warn Exodus Mapping Notes:
+#warn EVA Has no suit cyclers due to nebula stuff.
+#warn Research servers in science are stacked.
+#warn 3-part Teleporter typepaths were corrupt, will probably need to be made from scratch.
+#warn RND Lab needs reorganization: Stacked console and protolathe due to nebula's rework of the research management backend.

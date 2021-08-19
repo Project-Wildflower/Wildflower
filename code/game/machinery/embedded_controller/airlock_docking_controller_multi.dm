@@ -51,7 +51,7 @@
 
 /obj/machinery/embedded_controller/radio/airlock/docking_port_multi/ui_interact(mob/user, ui_key = "main", var/datum/nanoui/ui = null, var/force_open = 1, var/datum/nanoui/master_ui = null, var/datum/topic_state/state = GLOB.default_state)
 	var/data[0]
-	var/datum/computer/file/embedded_program/airlock/multi_docking/airlock_program
+	var/datum/computer/file/embedded_program/airlock/multi_docking/airlock_program = program // Wildflower change.
 
 	data = list(
 		"chamber_pressure" = round(airlock_program.memory["chamber_sensor_pressure"]),
@@ -61,6 +61,7 @@
 		"docking_status" = airlock_program.master_status,
 		"airlock_disabled" = (airlock_program.docking_enabled && !airlock_program.override_enabled),
 		"override_enabled" = airlock_program.override_enabled,
+		"name" = airlock_program.master_tag //This thing is meant to be used as a mapin, this should probably be reading a var somewhere but this works for now. Wildflower change.
 	)
 
 	ui = SSnano.try_update_ui(user, src, ui_key, ui, data, force_open)

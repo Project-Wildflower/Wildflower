@@ -79,6 +79,7 @@
 /area/centcom)
 "aaQ" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
 	dir = 8;
 	id_tag = "cargo_bay_centcom";
 	pixel_x = 25
@@ -121,6 +122,7 @@
 	id_tag = "QMLoad2"
 	},
 /obj/machinery/door/airlock/external/bolted{
+	frequency = 1380;
 	id_tag = "supply_shuttle_hatch";
 	name = "Shuttle Hatch"
 	},
@@ -170,6 +172,7 @@
 /area/centcom)
 "acd" = (
 /obj/machinery/door/airlock/external/bolted{
+	frequency = 1380;
 	id_tag = "supply_shuttle_hatch";
 	name = "Shuttle Hatch"
 	},
@@ -212,6 +215,7 @@
 /area/shuttle/supply_shuttle)
 "acl" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
 	dir = 8;
 	id_tag = "supply_shuttle";
 	pixel_x = 25;
@@ -403,6 +407,7 @@
 	id_tag = "QMLoad"
 	},
 /obj/machinery/door/airlock/external/bolted{
+	frequency = 1380;
 	id_tag = "supply_shuttle_hatch";
 	name = "Shuttle Hatch"
 	},
@@ -792,6 +797,7 @@
 /area/centcom/holding)
 "aHh" = (
 /obj/machinery/door/airlock/external/bolted{
+	frequency = 1380;
 	id_tag = "escape_shuttle_hatch";
 	name = "Shuttle Hatch"
 	},
@@ -828,6 +834,7 @@
 /area/centcom/holding)
 "aHs" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
 	dir = 1;
 	id_tag = "escape_shuttle";
 	pixel_y = -25;
@@ -1498,6 +1505,7 @@
 /area/centcom/holding)
 "aMe" = (
 /obj/machinery/door/airlock/external/bolted{
+	frequency = 1380;
 	id_tag = "centcom_escape_dock_north_inner";
 	name = "Escape Airlock"
 	},
@@ -1512,6 +1520,7 @@
 	id_tag = "centcom_escape_dock_north_pump"
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port_multi{
+	frequency = 1380;
 	id_tag = "centcom_escape_dock_north_airlock";
 	master_tag = "centcom_escape_dock";
 	pixel_y = 24;
@@ -1531,6 +1540,7 @@
 /area/centcom/holding)
 "aMh" = (
 /obj/machinery/door/airlock/external/bolted{
+	frequency = 1380;
 	id_tag = "centcom_escape_dock_north_outer";
 	name = "Escape Airlock"
 	},
@@ -1918,6 +1928,7 @@
 /area/centcom/holding)
 "aNL" = (
 /obj/machinery/embedded_controller/radio/docking_port_multi{
+	frequency = 1380;
 	child_names_txt = "Airlock One;Airlock Two";
 	child_tags_txt = "centcom_escape_dock_north_airlock;centcom_escape_dock_south_airlock";
 	dir = 1;
@@ -1952,6 +1963,7 @@
 /area/centcom/holding)
 "aNQ" = (
 /obj/machinery/door/airlock/external/bolted{
+	frequency = 1380;
 	id_tag = "centcom_escape_dock_south_inner";
 	name = "Escape Airlock"
 	},
@@ -1966,6 +1978,7 @@
 	id_tag = "centcom_escape_dock_south_pump"
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port_multi{
+	frequency = 1380;
 	dir = 1;
 	id_tag = "centcom_escape_dock_south_airlock";
 	master_tag = "centcom_escape_dock";
@@ -1995,6 +2008,7 @@
 /area/centcom/holding)
 "aOv" = (
 /obj/machinery/door/airlock/external/bolted{
+	frequency = 1380;
 	id_tag = "centcom_escape_dock_south_outer";
 	name = "Escape Airlock"
 	},

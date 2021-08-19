@@ -3139,6 +3139,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
+	frequency = 1380;
 	dir = 1;
 	id_tag = "escape_pod_3";
 	pixel_y = -25;
@@ -3171,6 +3172,7 @@
 /area/exodus/security/meeting)
 "agl" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
+	frequency = 1380;
 	dir = 8;
 	id_tag = "escape_pod_3_berth";
 	pixel_x = 25;
@@ -8256,6 +8258,7 @@
 	pixel_x = 32
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
+	frequency = 1380;
 	dir = 4;
 	id_tag = "escape_pod_1";
 	pixel_x = -25;
@@ -9853,6 +9856,7 @@
 	pixel_x = 32
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
+	frequency = 1380;
 	dir = 4;
 	id_tag = "escape_pod_2";
 	pixel_x = -25;
@@ -10918,6 +10922,7 @@
 /area/exodus/hallway/secondary/entry/pods)
 "auW" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
+	frequency = 1380;
 	id_tag = "escape_pod_1_berth";
 	pixel_x = -25;
 	pixel_y = 25;
@@ -11780,6 +11785,7 @@
 /area/exodus/crew_quarters/sleep/bedrooms)
 "awG" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
+	frequency = 1380;
 	id_tag = "escape_pod_2_berth";
 	pixel_x = -25;
 	pixel_y = 25;
@@ -23223,6 +23229,7 @@
 /area/exodus/research/docking)
 "aTg" = (
 /obj/machinery/embedded_controller/radio/docking_port_multi{
+	frequency = 1380;
 	child_names_txt = "Airlock One;Airlock Two";
 	child_tags_txt = "escape_dock_north_airlock;escape_dock_south_airlock";
 	dir = 1;
@@ -27224,6 +27231,7 @@
 "bbw" = (
 /obj/machinery/light/small,
 /obj/machinery/embedded_controller/radio/airlock/docking_port_multi{
+	frequency = 1380;
 	id_tag = "escape_dock_north_airlock";
 	master_tag = "escape_dock";
 	pixel_y = 25;
@@ -31071,6 +31079,7 @@
 	dir = 1
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port_multi{
+	frequency = 1380;
 	dir = 1;
 	id_tag = "escape_dock_south_airlock";
 	master_tag = "escape_dock";
@@ -35224,6 +35233,7 @@
 /area/exodus/storage/emergency)
 "bqW" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
 	dir = 4;
 	id_tag = "cargo_bay";
 	name = "cargo bay hatch controller";
@@ -44654,6 +44664,7 @@
 /area/exodus/medical/medbay3)
 "bIs" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
+	frequency = 1380;
 	id_tag = "escape_pod_4_berth";
 	pixel_x = -25;
 	pixel_y = 25;
@@ -51323,6 +51334,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
+	frequency = 1380;
 	dir = 1;
 	id_tag = "escape_pod_4";
 	pixel_y = -25;
@@ -67539,6 +67551,7 @@
 /area/exodus/maintenance/medbay)
 "cLc" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
 	id_tag = "engineering_shuttle";
 	pixel_y = 25;
 	tag_door = "engineering_shuttle_hatch"
@@ -68675,6 +68688,7 @@
 "klX" = (
 /obj/machinery/light,
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
 	dir = 1;
 	id_tag = "research_shuttle";
 	pixel_y = -25;
@@ -68980,6 +68994,7 @@
 	dir = 4
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1380;
 	dir = 8;
 	id_tag = "mining_shuttle";
 	pixel_x = 25;
