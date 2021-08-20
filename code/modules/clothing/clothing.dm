@@ -153,7 +153,7 @@
 	if (length(visible))
 		var/list/display = list()
 		for (var/obj/item/clothing/accessory/A in visible)
-			if (A.high_visibility)
+			if (!A.hidden && A.high_visibility)
 				display += "\icon[A] \a [A]"
 		if (length(display))
 			. += " with [english_list(display)] attached"
@@ -195,7 +195,8 @@
 		if (length(visible))
 			var/list/display = list()
 			for (var/obj/item/clothing/accessory/A in visible)
-				display += "[icon2html(A, user)] \a [A]"
+				if (!A.hidden)
+					display += "[icon2html(A, user)] \a [A]"
 			to_chat(user, "Attached to \the [src] are [english_list(display)].")
 		return TOPIC_HANDLED
 	if(href_list["list_armor_damage"])
@@ -243,6 +244,8 @@ BLIND     // can't see anything
 /obj/item/clothing/glasses
 	name = "glasses"
 	icon = 'icons/obj/clothing/obj_eyes.dmi'
+	icon_state = "glasses"
+	item_state = "glasses"
 	w_class = ITEM_SIZE_SMALL
 	body_parts_covered = EYES
 	slot_flags = SLOT_EYES
@@ -282,6 +285,7 @@ BLIND     // can't see anything
 	var/mob/living/carbon/human/wearer = null	//Used for covered rings when dropping
 	body_parts_covered = HANDS
 	slot_flags = SLOT_GLOVES
+	item_flags = ITEM_FLAG_WASHER_ALLOWED
 	attack_verb = list("challenged")
 	species_restricted = list("exclude",SPECIES_NABBER, SPECIES_MONARCH_QUEEN, SPECIES_UNATHI, SPECIES_VOX, SPECIES_VOX_ARMALIS)
 	sprite_sheets = list(
@@ -398,6 +402,7 @@ BLIND     // can't see anything
 	)
 	body_parts_covered = HEAD
 	slot_flags = SLOT_HEAD
+	item_flags = ITEM_FLAG_WASHER_ALLOWED
 	w_class = ITEM_SIZE_SMALL
 	blood_overlay_type = "helmetblood"
 
@@ -512,6 +517,7 @@ BLIND     // can't see anything
 	name = "mask"
 	icon = 'icons/obj/clothing/obj_mask.dmi'
 	slot_flags = SLOT_MASK
+	item_flags = ITEM_FLAG_WASHER_ALLOWED
 	body_parts_covered = FACE|EYES
 	sprite_sheets = list(
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_mask_vox.dmi',
@@ -593,6 +599,7 @@ BLIND     // can't see anything
 	siemens_coefficient = 0.9
 	body_parts_covered = FEET
 	slot_flags = SLOT_FEET
+	item_flags = ITEM_FLAG_WASHER_ALLOWED
 	permeability_coefficient = 0.50
 	force = 2
 	species_restricted = list("exclude", SPECIES_NABBER, SPECIES_UNATHI, SPECIES_VOX, SPECIES_VOX_ARMALIS)
@@ -751,6 +758,7 @@ BLIND     // can't see anything
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 	allowed = list(/obj/item/tank/emergency)
 	slot_flags = SLOT_OCLOTHING
+	item_flags = ITEM_FLAG_WASHER_ALLOWED
 	blood_overlay_type = "suit"
 	siemens_coefficient = 0.9
 	w_class = ITEM_SIZE_NORMAL
@@ -800,6 +808,7 @@ BLIND     // can't see anything
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	permeability_coefficient = 0.90
 	slot_flags = SLOT_ICLOTHING
+	item_flags = ITEM_FLAG_WASHER_ALLOWED
 	w_class = ITEM_SIZE_NORMAL
 	force = 0
 	var/has_sensor = SUIT_HAS_SENSORS //For the crew computer 2 = unable to change mode
