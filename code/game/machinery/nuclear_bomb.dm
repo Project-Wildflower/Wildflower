@@ -157,7 +157,7 @@ var/bomb_set
 		extended = 1
 		if(!src.lighthack)
 			flick("lock", src)
-			update_icon()	
+			update_icon()
 
 /obj/machinery/nuclearbomb/interface_interact(mob/user as mob)
 	if(extended && !panel_open)
@@ -413,7 +413,7 @@ var/bomb_set
 
 /obj/item/folder/envelope/nuke_instructions/Initialize()
 	. = ..()
-	var/obj/item/paper/R = new(src)
+	var/obj/item/paper/R = new(src) //Wildflower Start (Modified instructions to remove references to exact rod round)
 	R.set_content("<center><img src=sollogo.png><br><br>\
 	<b>Warning: Classified<br>[GLOB.using_map.station_name] Self-Destruct System - Instructions</b></center><br><br>\
 	In the event of a Delta-level emergency, this document will guide you through the activation of the vessel's \
@@ -435,6 +435,7 @@ var/bomb_set
 	13) When ready, disable the safety switch.<br>\
 	14) Start the countdown.<br><br>\
 	This concludes the instructions.", "vessel self-destruct instructions")
+//Wildflower end
 
 	//stamp the paper
 	var/image/stampoverlay = image('icons/obj/bureaucracy.dmi')
@@ -459,7 +460,7 @@ var/bomb_set
 	var/announced = 0
 	var/time_to_explosion = 0
 	var/self_destruct_cutoff = 60 //Seconds
-	timeleft = 300 
+	timeleft = 300
 	minTime = 300
 	maxTime = 900
 

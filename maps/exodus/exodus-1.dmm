@@ -2999,7 +2999,6 @@
 /turf/simulated/floor/bluegrid,
 /area/exodus/maintenance/sub/relay_station)
 "hC" = (
-/obj/machinery/telecomms/server/presets/supply,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -5825,6 +5824,10 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/dark,
+/area/exodus/maintenance/telecomms)
+"pb" = (
+/obj/structure/table/woodentable/walnut,
+/turf/simulated/floor/lino,
 /area/exodus/maintenance/telecomms)
 "ps" = (
 /obj/machinery/telecomms/hub/preset,
@@ -36116,7 +36119,7 @@ Sq
 AW
 IR
 Ec
-IL
+pb
 Hz
 IA
 gE

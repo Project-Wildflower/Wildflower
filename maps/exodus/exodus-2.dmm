@@ -1961,11 +1961,12 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/structure/noticeboard{
-	pixel_x = 32
-	},
 /obj/effect/floor_decal/corner/red{
 	dir = 4
+	},
+/obj/structure/noticeboard{
+	dir = 8;
+	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/security/meeting)
@@ -10459,7 +10460,7 @@
 /area/exodus/crew_quarters/sleep/cryo)
 "atW" = (
 /turf/simulated/floor/reinforced,
-/area/space)
+/area/holodeck/alphadeck)
 "atX" = (
 /obj/effect/paint_stripe/blue,
 /turf/simulated/wall/titanium,
@@ -14508,10 +14509,10 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/port)
 "aCf" = (
-/obj/machinery/suit_storage_unit/security,
 /obj/effect/floor_decal/corner/red{
 	dir = 6
 	},
+/obj/machinery/suit_cycler/security,
 /turf/simulated/floor/tiled/dark,
 /area/exodus/ai_monitored/storage/eva)
 "aCg" = (
@@ -14718,37 +14719,35 @@
 /obj/machinery/light_switch{
 	pixel_y = 28
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/blackgrid{
+	light_inner_range = 2;
+	light_max_bright = 3;
+	light_outer_range = 4
+	},
 /area/exodus/security/nuke_storage)
 "aCD" = (
-/obj/structure/closet/crate,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/industrial/hatch/orange,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/security/nuke_storage)
 "aCE" = (
 /turf/simulated/wall/prepainted,
 /area/exodus/security/checkpoint2)
 "aCF" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
 /obj/machinery/alarm{
 	pixel_y = 23
 	},
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/machinery/nuke_cylinder_dispenser,
+/turf/simulated/floor/blackgrid{
+	light_inner_range = 2;
+	light_max_bright = 3;
+	light_outer_range = 4
+	},
 /area/exodus/security/nuke_storage)
 "aCG" = (
 /obj/machinery/nuclearbomb/station,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/effect/floor_decal/industrial/radiation/full,
+/turf/simulated/floor/blackgrid,
 /area/exodus/security/nuke_storage)
 "aCH" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -14765,10 +14764,6 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/exit)
-"aCJ" = (
-/obj/machinery/computer/modular/preset/cardslot/command,
-/turf/simulated/floor/tiled/dark,
-/area/exodus/security/nuke_storage)
 "aCK" = (
 /turf/simulated/wall/prepainted,
 /area/exodus/storage/primary)
@@ -15280,7 +15275,12 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_one)
 "aDU" = (
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/industrial/hatch/orange,
+/obj/machinery/light/small/red{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/security/nuke_storage)
 "aDV" = (
 /obj/structure/closet/gmcloset,
@@ -15303,10 +15303,8 @@
 /turf/simulated/floor/wood/walnut,
 /area/exodus/crew_quarters/bar/cabin)
 "aDW" = (
-/obj/effect/landmark{
-	name = "xeno_spawn";
-	pixel_x = -1
-	},
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/industrial/hatch/orange,
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "east bump";
@@ -15316,7 +15314,10 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/light/small/red{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/security/nuke_storage)
 "aDX" = (
 /obj/machinery/atmospherics/valve,
@@ -15341,35 +15342,14 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/exodus/maintenance/auxsolarport)
 "aEa" = (
-/obj/item/material/coin/silver{
-	pixel_x = 7;
-	pixel_y = 12
-	},
-/obj/item/material/coin/silver{
-	pixel_x = 12;
-	pixel_y = 7
-	},
-/obj/item/material/coin/silver{
-	pixel_x = 4;
-	pixel_y = 8
-	},
-/obj/item/material/coin/silver{
-	pixel_x = -6;
-	pixel_y = 5
-	},
-/obj/item/material/coin/silver{
-	pixel_x = 5;
-	pixel_y = -8
-	},
-/obj/structure/closet/crate{
-	name = "Silver Crate"
-	},
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/industrial/hatch/orange,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/security/nuke_storage)
 "aEb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -16100,14 +16080,13 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/storage/primary)
 "aFt" = (
-/obj/structure/closet/crate,
-/obj/item/stack/material/gold,
-/obj/item/storage/belt/champion,
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/industrial/hatch/orange,
 /obj/machinery/camera/network/command{
 	c_tag = "Vault";
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/security/nuke_storage)
 "aFu" = (
 /obj/machinery/access_button/airlock_interior{
@@ -16128,6 +16107,10 @@
 "aFv" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
+	},
+/obj/effect/floor_decal/industrial/fire{
+	icon_state = "stripe";
+	dir = 1
 	},
 /mob/living/simple_animal/friendly/mouse/brown/Tom,
 /turf/simulated/floor/tiled/dark,
@@ -16168,6 +16151,13 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/fire{
+	icon_state = "stripe";
+	dir = 1
+	},
+/obj/machinery/computer/modular/preset/cardslot/command{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/nuke_storage)
@@ -16730,6 +16720,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/effect/floor_decal/industrial/fire{
+	icon_state = "stripe";
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/nuke_storage)
 "aGw" = (
@@ -16760,6 +16754,10 @@
 	d1 = 1;
 	d2 = 8;
 	icon_state = "1-8"
+	},
+/obj/effect/floor_decal/industrial/fire{
+	icon_state = "stripe";
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/nuke_storage)
@@ -17705,13 +17703,14 @@
 "aIe" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/glass/rag,
-/obj/structure/noticeboard{
-	pixel_x = -30
-	},
 /obj/machinery/door/blast/shutters{
 	dir = 2;
 	id_tag = "bar";
 	name = "Bar Shutters"
+	},
+/obj/structure/noticeboard{
+	dir = 4;
+	pixel_x = -28
 	},
 /turf/simulated/floor/lino,
 /area/exodus/crew_quarters/bar)
@@ -17926,6 +17925,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/machinery/suit_storage_unit/engineering,
 /turf/simulated/floor/tiled/dark,
 /area/exodus/ai_monitored/storage/eva)
 "aIC" = (
@@ -20472,7 +20472,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/ai_monitored/storage/eva)
 "aNO" = (
-/obj/machinery/suit_storage_unit/engineering,
+/obj/machinery/suit_cycler/engineering,
 /turf/simulated/floor/tiled/dark,
 /area/exodus/ai_monitored/storage/eva)
 "aNP" = (
@@ -23962,7 +23962,7 @@
 /area/exodus/medical/patient_a)
 "aUM" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/atmospherics/portables_connector,
+/obj/machinery/atmospherics/unary/cryo_cell,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/medical/sleeper)
 "aUN" = (
@@ -36984,9 +36984,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/research)
 "bur" = (
-/obj/machinery/computer/rdservercontrol{
-	dir = 4
-	},
 /obj/machinery/r_n_d/protolathe,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark,
@@ -39554,8 +39551,9 @@
 /turf/simulated/floor/bluegrid,
 /area/exodus/turret_protected/ai)
 "bzj" = (
-/obj/machinery/r_n_d/server/core,
-/obj/machinery/r_n_d/server/robotics,
+/obj/structure/table/standard,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/simulated/floor/tiled/dark,
 /area/exodus/research/server)
 "bzl" = (
@@ -39787,9 +39785,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/quartermaster/storage)
 "bzL" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/item/ore/coal{
 	pixel_x = 3;
 	pixel_y = 3
@@ -42372,11 +42367,11 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/exodus/turret_protected/ai_upload_foyer)
 "bEs" = (
-/obj/structure/noticeboard{
-	pixel_y = -27
-	},
 /obj/effect/floor_decal/corner/brown{
 	dir = 8
+	},
+/obj/structure/noticeboard{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/office)
@@ -44402,7 +44397,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_three)
 "bHV" = (
-/obj/structure/bed/chair/office/light,
+/obj/structure/bed/chair/office/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/research/server)
 "bHW" = (
@@ -44870,6 +44867,9 @@
 	},
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/machinery/computer/message_monitor{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/research/server)
@@ -45621,6 +45621,9 @@
 	},
 /obj/machinery/light/small{
 	dir = 8
+	},
+/obj/machinery/computer/rdservercontrol{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/research/server)
@@ -46631,10 +46634,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
-"bMj" = (
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
-/area/exodus/quartermaster/miningdock)
 "bMk" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -47286,10 +47285,11 @@
 /turf/simulated/floor/tiled/airless,
 /area/exodus/research/test_area)
 "bNn" = (
-/obj/machinery/computer/message_monitor{
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
+/obj/machinery/computer/modular/preset/filemanager{
+	icon_state = "computer";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
@@ -50968,7 +50968,9 @@
 /turf/simulated/floor/tiled/airless,
 /area/exodus/research/test_area)
 "bUk" = (
-/obj/machinery/mineral/unloading_machine,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/exodus/quartermaster/miningdock)
 "bUl" = (
@@ -51997,13 +51999,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/research/mixing)
-"bWo" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "cargo_mining_conveyor"
-	},
-/turf/simulated/floor/plating,
-/area/exodus/quartermaster/miningdock)
 "bWp" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -56550,10 +56545,11 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/secondary/entry/fore)
 "ceJ" = (
-/obj/structure/noticeboard{
-	pixel_x = 32
-	},
 /obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/noticeboard{
+	dir = 8;
+	pixel_x = 28
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/break_room)
 "ceK" = (
@@ -68132,6 +68128,44 @@
 /obj/machinery/computer/ship/helm,
 /turf/simulated/floor/tiled/steel_grid,
 /area/ship/exodus_pod_mining)
+"eaE" = (
+/obj/structure/closet/crate,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/spacecash/bundle/c1000,
+/obj/item/material/coin/silver{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/item/material/coin/silver{
+	pixel_x = 12;
+	pixel_y = 7
+	},
+/obj/item/material/coin/silver{
+	pixel_x = 5;
+	pixel_y = -8
+	},
+/obj/item/material/coin/silver{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/material/coin/silver{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/effect/floor_decal/industrial/fire{
+	icon_state = "stripe";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/exodus/security/nuke_storage)
 "ejv" = (
 /obj/effect/shuttle_landmark/research_pod_dock,
 /obj/structure/catwalk,
@@ -68298,12 +68332,13 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
 "gcu" = (
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/blackgrid{
+	light_inner_range = 2;
+	light_max_bright = 3;
+	light_outer_range = 4
+	},
 /area/exodus/security/nuke_storage)
 "gdx" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/machinery/conveyor_switch{
 	id_tag = "cargo_mining_conveyor"
 	},
@@ -68682,6 +68717,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/robotics)
+"khd" = (
+/obj/machinery/r_n_d/server/robotics,
+/turf/simulated/floor/bluegrid,
+/area/exodus/research/server)
 "klA" = (
 /turf/simulated/floor/plating,
 /area/space)
@@ -69079,6 +69118,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_research)
+"pFS" = (
+/obj/machinery/r_n_d/server/core,
+/turf/simulated/floor/bluegrid,
+/area/exodus/research/server)
 "pGo" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
@@ -69752,6 +69795,10 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_two)
+"xeI" = (
+/obj/machinery/computer/mining,
+/turf/simulated/wall/prepainted,
+/area/exodus/quartermaster/miningdock)
 "xhz" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
@@ -88005,7 +88052,7 @@ bNr
 bNr
 bNr
 bNr
-tGo
+bNr
 bNr
 tGo
 bNr
@@ -89030,10 +89077,10 @@ aLF
 cLU
 cLU
 bNB
-fKm
+bNr
 bNr
 ult
-tGo
+bNr
 bNr
 tGo
 bNr
@@ -90279,7 +90326,7 @@ aBY
 aCD
 aDU
 aFt
-aDU
+eaE
 aBY
 cLU
 avV
@@ -91085,7 +91132,7 @@ bHg
 aLF
 bJb
 bKH
-bWo
+bUk
 gdx
 jfD
 bPc
@@ -91304,7 +91351,7 @@ ayC
 aoT
 cLU
 aBY
-aCJ
+aCD
 aDW
 aEa
 aGz
@@ -91342,7 +91389,7 @@ bdP
 bdP
 bpd
 bLX
-iKS
+xeI
 bKK
 bKK
 bPc
@@ -91857,7 +91904,7 @@ bGt
 fPv
 bGt
 bGt
-bMj
+xeI
 bJb
 buo
 cUO
@@ -95419,9 +95466,9 @@ ayL
 aBG
 azy
 ayL
-aGT
 azy
-aNO
+azy
+azy
 aJe
 aNH
 aPu
@@ -101667,7 +101714,7 @@ crM
 hsk
 cQw
 rQB
-aQh
+aaf
 csq
 csR
 ctp
@@ -101924,7 +101971,7 @@ cHE
 ffg
 lFM
 rQB
-aQh
+aaf
 csl
 csQ
 csQ
@@ -102181,7 +102228,7 @@ cLc
 cLk
 cLu
 rQB
-aQh
+aaf
 cIl
 cGR
 cGR
@@ -102438,7 +102485,7 @@ cpF
 cLj
 cLt
 bBe
-aQh
+aaf
 cIl
 cGR
 cGR
@@ -102695,7 +102742,7 @@ rQB
 bBe
 cKX
 ccQ
-aQh
+aaf
 cIl
 cGR
 cGR
@@ -102949,9 +102996,9 @@ cea
 cea
 cea
 clW
-aQh
-aQh
-aQh
+aaf
+aaf
+aaf
 aIo
 csA
 csX
@@ -112414,9 +112461,9 @@ bpp
 aXx
 aXx
 bIx
-bDT
+khd
 bKa
-bDT
+pFS
 bMO
 bOt
 bPU

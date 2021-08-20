@@ -70,6 +70,7 @@
 	#include "exodus_overmap.dm"
 	#include "exodus_setup.dm"
 	#include "exodus_shuttles.dm"
+	#include "exodus_holodecks.dm"
 	#include "exodus_unit_testing.dm"
 
 	#include "exodus-1.dmm"

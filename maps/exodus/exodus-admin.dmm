@@ -252,6 +252,11 @@
 	},
 /turf/simulated/floor,
 /area/shuttle/supply_shuttle)
+"adO" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "beach"
+	},
+/area/space)
 "aeQ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger{
@@ -269,6 +274,21 @@
 	icon_state = "steel"
 	},
 /area/centcom)
+"afa" = (
+/obj/effect/overlay/palmtree_l,
+/obj/effect/overlay/coconut,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"agI" = (
+/obj/effect/floor_decal/beach{
+	dir = 1;
+	icon_state = "beachborder"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"aiI" = (
+/turf/simulated/wall/wood,
+/area/space)
 "ala" = (
 /obj/item/device/radio/intercom/specops{
 	pixel_y = 22
@@ -361,10 +381,6 @@
 /area/centcom)
 "awl" = (
 /obj/effect/shuttle_landmark/escape_pod/out/pod2,
-/turf/space,
-/area/space)
-"awB" = (
-/turf/space,
 /turf/space,
 /area/space)
 "ayg" = (
@@ -669,6 +685,21 @@
 /obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/shuttle/escape_shuttle)
+"aFj" = (
+/obj/effect/floor_decal/carpet{
+	dir = 5
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 6
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 10
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "aFC" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Holding Cell"
@@ -1139,6 +1170,18 @@
 	icon_state = "steel"
 	},
 /area/centcom/holding)
+"aKQ" = (
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "aKV" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/regular{
@@ -2115,6 +2158,13 @@
 	icon_state = "wood"
 	},
 /area/centcom/holding)
+"aUe" = (
+/obj/structure/table/holo_woodentable,
+/obj/item/flame/candle{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "aZb" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 1
@@ -2131,6 +2181,23 @@
 	icon_state = "lino"
 	},
 /area/centcom/holding)
+"bcF" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 10;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"bep" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "plant-22"
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"bfr" = (
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "bgb" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 1
@@ -2215,6 +2282,23 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/escape_shuttle)
+"brs" = (
+/obj/structure/window/reinforced/crescent{
+	dir = 1
+	},
+/turf/unsimulated/wall,
+/area/space)
+"brF" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "bvb" = (
 /obj/structure/table/woodentable{
 	dir = 5
@@ -2224,6 +2308,12 @@
 	icon_state = "wood"
 	},
 /area/centcom/holding)
+"bvs" = (
+/obj/structure/bed/chair/holochair{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "bwE" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning{
@@ -2249,6 +2339,24 @@
 	icon_state = "wood"
 	},
 /area/centcom/holding)
+"bAM" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"bDe" = (
+/obj/structure/table/holotable,
+/obj/item/clothing/head/helmet/thunderdome,
+/obj/item/clothing/suit/armor/tdome/green,
+/obj/item/clothing/under/color/green,
+/obj/item/holo/esword/green,
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "bDh" = (
 /obj/structure/table/standard,
 /obj/item/storage/toolbox/electrical,
@@ -2256,6 +2364,23 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"bGp" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"bIj" = (
+/obj/structure/bed/chair/holochair,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
 "bMb" = (
 /obj/structure/table/woodentable{
 	dir = 5
@@ -2265,12 +2390,73 @@
 	icon_state = "wood"
 	},
 /area/centcom/holding)
+"bMB" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"bRf" = (
+/obj/machinery/door/window/holowindoor{
+	base_state = "right";
+	dir = 2;
+	icon_state = "right";
+	name = "Red Corner"
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"bVd" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"bVf" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"bWq" = (
+/obj/structure/bed/chair/wood{
+	dir = 8;
+	holographic = 1;
+	icon_state = "wooden_chair_preview"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"bYM" = (
+/obj/structure/bed/chair/wood{
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"bZV" = (
+/obj/item/beach_ball/holovolleyball,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"ckO" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/holofloor/desert,
+/area/space)
 "cnP" = (
 /obj/item/stool/padded,
 /turf/unsimulated/floor{
 	icon_state = "wood"
 	},
 /area/centcom/holding)
+"cxq" = (
+/obj/structure/table/holo_woodentable,
+/obj/structure/window/reinforced/holowindow,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
 "cxx" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1;
@@ -2279,6 +2465,21 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled,
 /area/shuttle/escape_shuttle)
+"cyy" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "plant-06"
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"cEq" = (
+/obj/machinery/door/window/holowindoor{
+	base_state = "right";
+	dir = 4;
+	icon_state = "right";
+	name = "Green Team"
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
 "cEu" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -2303,6 +2504,18 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/escape_shuttle)
+"cHa" = (
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"cHn" = (
+/obj/structure/bed/chair/wood{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "cIe" = (
 /obj/structure/bed/chair,
 /turf/unsimulated/floor{
@@ -2321,6 +2534,18 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/escape_shuttle)
+"cKW" = (
+/obj/structure/fountain/mundane{
+	alpha = 204;
+	pixel_x = 0
+	},
+/turf/simulated/floor/holofloor/beach/water,
+/area/space)
+"cPC" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert3"
+	},
+/area/space)
 "cQH" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -2332,6 +2557,31 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"cUq" = (
+/obj/structure/window/reinforced/holowindow/disappearing,
+/obj/effect/floor_decal/corner/red/three_quarters,
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"cVu" = (
+/obj/machinery/door/window/holowindoor{
+	base_state = "right";
+	dir = 4;
+	icon_state = "right"
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"dhO" = (
+/obj/structure/bed/chair/wood{
+	dir = 8;
+	holographic = 1;
+	icon_state = "wooden_chair_preview"
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "djD" = (
 /obj/machinery/camera/network/crescent{
 	c_tag = "Shuttle Medical";
@@ -2342,6 +2592,16 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/escape_shuttle)
+"dkr" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"dkE" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "dkK" = (
 /obj/machinery/vending/wallmed1{
 	name = "Emergency NanoMed";
@@ -2355,6 +2615,36 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/escape_shuttle)
+"dkU" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"dma" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"drx" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert1"
+	},
+/area/space)
+"duU" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert0"
+	},
+/area/space)
 "dzr" = (
 /obj/machinery/light{
 	dir = 8
@@ -2378,6 +2668,30 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/escape_shuttle)
+"dDN" = (
+/obj/effect/floor_decal/corner/green/three_quarters{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"dEZ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"dHU" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"dIs" = (
+/obj/machinery/door/unpowered/simple/sandstone,
+/turf/simulated/floor/holofloor/tiled/stone,
+/area/space)
 "dUx" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 9
@@ -2389,6 +2703,17 @@
 	icon_state = "steel"
 	},
 /area/centcom/holding)
+"dVH" = (
+/obj/structure/holonet,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"dVU" = (
+/turf/simulated/floor/holofloor/desert,
+/area/space)
+"dXM" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "edo" = (
 /obj/machinery/light{
 	dir = 8
@@ -2401,6 +2726,34 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/escape_shuttle)
+"edr" = (
+/obj/structure/table/holo_woodentable,
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"ehF" = (
+/obj/structure/table/holo_woodentable,
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"epv" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"esT" = (
+/obj/structure/bed/chair/wood{
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "ewc" = (
 /obj/machinery/vending/coffee,
 /obj/effect/floor_decal/corner/green{
@@ -2420,6 +2773,14 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"eAT" = (
+/obj/effect/floor_decal/beach{
+	dir = 8;
+	icon_state = "beachborder"
+	},
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "eCw" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced/crescent{
@@ -2437,6 +2798,102 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/escape_shuttle)
+"eFe" = (
+/obj/structure/flora/grass/brown,
+/turf/simulated/floor/holofloor/snow,
+/area/space)
+"eGl" = (
+/obj/structure/table/holo_woodentable,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/item/flame/candle{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"eHL" = (
+/obj/structure/window/reinforced/holowindow/disappearing{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/three_quarters{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"eJY" = (
+/obj/structure/flora/grass/both,
+/turf/simulated/floor/holofloor/snow,
+/area/space)
+"eNM" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"eSf" = (
+/obj/structure/bed/chair/holochair{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"eTL" = (
+/obj/structure/bed/chair/wood{
+	dir = 1;
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"eVh" = (
+/obj/structure/table/rack/holorack,
+/obj/effect/landmark/costume/chameleon,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"eXw" = (
+/turf/simulated/floor/holofloor/beach/water,
+/area/space)
+"fbi" = (
+/obj/structure/bed/chair/holochair{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"fcJ" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	dir = 5;
+	icon_state = "beach"
+	},
+/area/space)
+"ffi" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	dir = 6;
+	icon_state = "beach"
+	},
+/area/space)
+"fgf" = (
+/obj/structure/bed/chair/wood{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "fis" = (
 /obj/structure/table/rack,
 /obj/item/clothing/under/color/green,
@@ -2447,10 +2904,48 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"fjJ" = (
+/obj/effect/floor_decal/corner/green/three_quarters,
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"fpd" = (
+/obj/structure/bed/chair/holochair{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"fpB" = (
+/obj/structure/bed/chair/holochair{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "fpV" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/escape_shuttle)
+"frC" = (
+/obj/structure/bed/chair/holochair{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/corners{
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "fsh" = (
 /obj/machinery/light{
 	dir = 4
@@ -2473,10 +2968,79 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/escape_shuttle)
+"ftw" = (
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"fvU" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"fwL" = (
+/obj/structure/flora/ausbushes/genericbush,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"fxn" = (
+/obj/structure/bed/chair/holochair{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "fyA" = (
 /obj/structure/bed/roller,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/escape_shuttle)
+"fzA" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/holofloor/desert,
+/area/space)
+"fzF" = (
+/obj/structure/bed/chair/holochair{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"fzZ" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"fBO" = (
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"fDi" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	dir = 9;
+	icon_state = "beach"
+	},
+/area/space)
+"fDL" = (
+/obj/effect/floor_decal/stoneborder{
+	dir = 8;
+	icon_state = "stoneborder"
+	},
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert2"
+	},
+/area/space)
 "fFh" = (
 /obj/effect/wingrille_spawn/reinforced/crescent,
 /turf/unsimulated/floor{
@@ -2484,6 +3048,14 @@
 	name = "plating"
 	},
 /area/tdome)
+"fGm" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/beach{
+	dir = 8;
+	icon_state = "beachborder"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "fJA" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Thunderdome"
@@ -2497,6 +3069,16 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"fKr" = (
+/obj/structure/bed/chair/wood{
+	dir = 1;
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "fMq" = (
 /obj/structure/table/standard,
 /turf/unsimulated/floor{
@@ -2504,6 +3086,30 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"fOt" = (
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 5
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"fQu" = (
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/tiled/stone,
+/area/space)
+"fRA" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "fRC" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -2520,6 +3126,20 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"fWw" = (
+/obj/effect/floor_decal/beach{
+	dir = 4;
+	icon_state = "beachborder"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"fWy" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "fZb" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -2533,6 +3153,13 @@
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled,
 /area/shuttle/escape_shuttle)
+"gcS" = (
+/obj/structure/table/holo_woodentable,
+/obj/item/reagent_containers/glass/rag{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/space)
 "gcV" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning{
@@ -2550,6 +3177,16 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"giS" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"gjW" = (
+/obj/structure/flora/tree/pine,
+/turf/simulated/floor/holofloor/snow,
+/area/space)
 "gkM" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -2559,6 +3196,17 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"gkS" = (
+/obj/structure/flora/ausbushes/reedbush,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"gof" = (
+/obj/effect/floor_decal/stoneborder/corner{
+	dir = 8;
+	icon_state = "stoneborder_c"
+	},
+/turf/simulated/floor/holofloor/beach/water,
+/area/space)
 "gtc" = (
 /obj/effect/floor_decal/corner/red/three_quarters,
 /turf/unsimulated/floor{
@@ -2566,6 +3214,44 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"gtw" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 5;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert4"
+	},
+/area/space)
+"gzE" = (
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"gAH" = (
+/obj/structure/table/holo_woodentable,
+/obj/structure/window/reinforced/holowindow,
+/obj/structure/window/reinforced/holowindow{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"gHG" = (
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "gMh" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 10
@@ -2575,6 +3261,14 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"gRs" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "gWz" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 10
@@ -2590,6 +3284,13 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"gXL" = (
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"gYM" = (
+/obj/effect/floor_decal/spline/plain,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
 "haH" = (
 /obj/effect/floor_decal/corner/green/three_quarters{
 	dir = 4
@@ -2599,6 +3300,13 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"hbH" = (
+/obj/structure/window/reinforced/holowindow{
+	dir = 8
+	},
+/obj/structure/table/holo_woodentable,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
 "heW" = (
 /obj/effect/floor_decal/corner/green,
 /turf/unsimulated/floor{
@@ -2606,6 +3314,15 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"hhD" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 9;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert2"
+	},
+/area/space)
 "hhT" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/blue/diagonal,
@@ -2617,6 +3334,21 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/escape_shuttle)
+"hnD" = (
+/obj/effect/floor_decal/carpet{
+	dir = 5
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 6
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 9
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "hqi" = (
 /obj/machinery/door/airlock/centcom{
 	name = "General Access"
@@ -2630,6 +3362,13 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"htn" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "hvD" = (
 /obj/machinery/door/airlock/centcom{
 	name = "General Access"
@@ -2650,6 +3389,19 @@
 	icon_state = "white"
 	},
 /area/tdome)
+"hCu" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"hCS" = (
+/turf/simulated/floor/holofloor/tiled/stone,
+/area/space)
 "hDq" = (
 /obj/machinery/gibber,
 /turf/unsimulated/floor{
@@ -2662,6 +3414,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/escape_shuttle)
+"hJU" = (
+/obj/effect/landmark{
+	name = "Holocarp Spawn Random"
+	},
+/turf/simulated/floor/holofloor/space,
+/area/space)
 "hMN" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -2674,6 +3432,35 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"hMW" = (
+/obj/effect/floor_decal/beach{
+	dir = 4;
+	icon_state = "beachborder"
+	},
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"hUM" = (
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 6
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"hVA" = (
+/obj/structure/table/holo_woodentable,
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
 "hYN" = (
 /obj/machinery/door/airlock/command{
 	name = "Thunderdome"
@@ -2686,6 +3473,21 @@
 	icon_state = "lino"
 	},
 /area/tdome)
+"ieg" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 4;
+	icon_state = "spline_plain"
+	},
+/obj/structure/holonet/end{
+	dir = 8;
+	icon_state = "volleynet_end"
+	},
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"ifq" = (
+/obj/effect/floor_decal/corner/red/three_quarters,
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "igT" = (
 /obj/machinery/vending/cigarette,
 /turf/unsimulated/floor{
@@ -2712,6 +3514,38 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeobserve)
+"ixc" = (
+/obj/structure/bed/chair/holochair{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"ixd" = (
+/obj/structure/table/holo_woodentable,
+/obj/item/reagent_containers/food/drinks/teapot{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"iyL" = (
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/wood{
+	icon_state = "wood_broken6"
+	},
+/area/space)
+"iKe" = (
+/obj/structure/window/reinforced/crescent{
+	dir = 8
+	},
+/turf/unsimulated/wall,
+/area/space)
+"iLP" = (
+/obj/structure/bed/chair/holochair,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
 "iMp" = (
 /obj/machinery/door/airlock/centcom{
 	name = "General Access"
@@ -2730,6 +3564,10 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/escape_shuttle)
+"joj" = (
+/obj/structure/flora/ausbushes/palebush,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "jpr" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/unsimulated/floor{
@@ -2741,18 +3579,71 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeobserve)
+"jrf" = (
+/obj/structure/bed/chair/wood{
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"jrk" = (
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"jvv" = (
+/obj/effect/floor_decal/corner/red,
+/obj/effect/floor_decal/corner/green{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "jzQ" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/escape_shuttle)
+"jEI" = (
+/obj/machinery/door/window/holowindoor{
+	dir = 1;
+	name = "Green Corner"
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"jFe" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "plant-06"
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"jGC" = (
+/obj/structure/window/reinforced/holowindow,
+/obj/machinery/door/window/holowindoor{
+	dir = 1;
+	name = "Court Reporter's Box"
+	},
+/obj/structure/bed/chair/holochair,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
 "jHj" = (
 /obj/machinery/vending/coffee,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
 /area/tdome/tdomeobserve)
+"jIP" = (
+/obj/item/beach_ball,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
 "jLF" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -2782,12 +3673,55 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/escape_shuttle)
+"jUr" = (
+/obj/structure/bed/chair/wood{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/tiled/stone,
+/area/space)
+"jWi" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"jYi" = (
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 5
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "kca" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/unsimulated/floor{
 	icon_state = "white"
 	},
 /area/tdome)
+"kei" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/beach{
+	dir = 4;
+	icon_state = "beachborder"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "kfk" = (
 /obj/structure/bed/chair,
 /obj/effect/landmark{
@@ -2819,12 +3753,28 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"kqX" = (
+/obj/structure/table/rack/holorack,
+/turf/simulated/floor/holofloor/wood{
+	icon_state = "wood_broken1"
+	},
+/area/space)
+"ksq" = (
+/turf/simulated/floor/holofloor/lino,
+/area/space)
 "kuG" = (
 /obj/machinery/vending/snack,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
 /area/tdome/tdomeobserve)
+"kyE" = (
+/obj/effect/floor_decal/stoneborder{
+	dir = 8;
+	icon_state = "stoneborder"
+	},
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
 "kBZ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8;
@@ -2873,24 +3823,85 @@
 	icon_state = "white"
 	},
 /area/tdome)
+"kYU" = (
+/obj/effect/floor_decal/beach{
+	dir = 8;
+	icon_state = "beachborder"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "lcs" = (
 /obj/structure/table/reinforced,
 /turf/unsimulated/floor{
 	icon_state = "white"
 	},
 /area/tdome)
+"lex" = (
+/obj/structure/flora/grass/green,
+/turf/simulated/floor/holofloor/snow,
+/area/space)
+"ljj" = (
+/obj/structure/table/holo_woodentable,
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "ljR" = (
 /obj/item/device/camera,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
 /area/tdome/tdomeobserve)
+"lmS" = (
+/obj/structure/table/holotable,
+/obj/machinery/readybutton{
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"lsS" = (
+/obj/structure/window/reinforced/holowindow/disappearing{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/three_quarters{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"lBN" = (
+/obj/structure/table/holo_woodentable,
+/obj/item/device/synthesized_instrument/violin{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/space)
 "lEJ" = (
 /obj/structure/disposalpipe/segment,
 /turf/unsimulated/floor{
 	icon_state = "lino"
 	},
 /area/tdome/tdomeobserve)
+"lJF" = (
+/obj/structure/table/holotable,
+/obj/item/clothing/head/helmet/thunderdome,
+/obj/item/clothing/suit/armor/tdome/red,
+/obj/item/clothing/under/color/red,
+/obj/item/holo/esword/red,
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"lMT" = (
+/obj/structure/window/reinforced/holowindow{
+	dir = 4
+	},
+/obj/structure/flora/pottedplant{
+	icon_state = "plant-10"
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "lOB" = (
 /obj/machinery/button/blast_door{
 	dir = 1;
@@ -2921,6 +3932,17 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeobserve)
+"lQG" = (
+/obj/structure/bed/chair/wood{
+	dir = 8;
+	holographic = 1;
+	icon_state = "wooden_chair_preview"
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "lQQ" = (
 /obj/item/extinguisher,
 /turf/unsimulated/floor{
@@ -2953,6 +3975,11 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"lZB" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "mgi" = (
 /obj/effect/forcefield{
 	desc = "You can't get in. Heh.";
@@ -2970,6 +3997,46 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"mjn" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"mld" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert2"
+	},
+/area/space)
+"mnb" = (
+/obj/structure/window/reinforced/holowindow{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"moK" = (
+/obj/structure/table/holo_woodentable,
+/obj/structure/window/reinforced/holowindow,
+/obj/structure/window/reinforced/holowindow{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"mqG" = (
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/wood{
+	icon_state = "wood_broken3"
+	},
+/area/space)
+"mrt" = (
+/obj/structure/table/holo_woodentable,
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"mwc" = (
+/obj/effect/floor_decal/beach/corner,
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "mHo" = (
 /obj/item/grenade/chem_grenade/cleaner,
 /obj/item/grenade/chem_grenade/cleaner,
@@ -2986,6 +4053,37 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"mMg" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"mQp" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 4;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"mTd" = (
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"mTT" = (
+/obj/structure/table/holo_woodentable,
+/obj/item/tray{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"mVb" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 8;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
 "mXz" = (
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -2994,6 +4092,38 @@
 "mZU" = (
 /obj/effect/shuttle_landmark/escape_pod/out/pod3,
 /turf/space,
+/area/space)
+"nbZ" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	dir = 4;
+	icon_state = "beach"
+	},
+/area/space)
+"ncN" = (
+/obj/structure/curtain{
+	color = "#cd6889"
+	},
+/turf/simulated/floor/holofloor/wood{
+	icon_state = "wood_broken3"
+	},
+/area/space)
+"nfr" = (
+/obj/effect/floor_decal/stoneborder{
+	dir = 1;
+	icon_state = "stoneborder"
+	},
+/turf/simulated/floor/holofloor/beach/water,
+/area/space)
+"niT" = (
+/obj/structure/window/reinforced/holowindow{
+	dir = 1
+	},
+/obj/structure/table/holo_woodentable,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"nAG" = (
+/obj/structure/table/holo_woodentable,
+/turf/simulated/floor/holofloor/carpet,
 /area/space)
 "nBg" = (
 /obj/structure/table/rack,
@@ -3008,6 +4138,13 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"nGc" = (
+/obj/effect/floor_decal/stoneborder/corner{
+	dir = 4;
+	icon_state = "stoneborder_c"
+	},
+/turf/simulated/floor/holofloor/tiled/stone,
+/area/space)
 "nIB" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "thunderdomegen";
@@ -3039,15 +4176,50 @@
 	icon_state = "vault"
 	},
 /area/tdome/tdome2)
+"nLn" = (
+/obj/structure/window/reinforced/holowindow,
+/obj/machinery/door/window/holowindoor{
+	base_state = "right";
+	dir = 1;
+	icon_state = "right";
+	name = "Witness Box"
+	},
+/obj/structure/bed/chair/holochair,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"nOs" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "nPB" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_shuttle)
+"nRh" = (
+/obj/structure/window/reinforced/holowindow/disappearing{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "nSv" = (
 /obj/effect/shuttle_landmark/escape_pod/out/pod1,
 /turf/space,
+/area/space)
+"nTW" = (
+/obj/structure/window/holowindow/full,
+/turf/simulated/floor/holofloor,
 /area/space)
 "nZT" = (
 /obj/effect/floor_decal/corner/red{
@@ -3057,6 +4229,19 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"oaW" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"odt" = (
+/obj/structure/holostool,
+/obj/structure/window/reinforced/holowindow{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "ofF" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 6
@@ -3065,6 +4250,44 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"oif" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	dir = 8;
+	icon_state = "beach"
+	},
+/area/space)
+"oje" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"otR" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 8;
+	icon_state = "spline_plain"
+	},
+/obj/structure/holonet/end,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"ovV" = (
+/obj/effect/floor_decal/spline/plain,
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert1"
+	},
+/area/space)
+"ozU" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet,
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"oJB" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/table/holo_woodentable,
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "oNm" = (
 /obj/machinery/recharger{
 	pixel_y = 4
@@ -3077,6 +4300,21 @@
 	icon_state = "vault"
 	},
 /area/tdome/tdome2)
+"oOV" = (
+/obj/item/clothing/glasses/sunglasses,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"oQS" = (
+/obj/structure/table/holo_woodentable,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/obj/item/flame/candle{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "oVC" = (
 /obj/effect/landmark{
 	name = "tdome2"
@@ -3090,11 +4328,64 @@
 	icon_state = "vault"
 	},
 /area/tdome/tdome2)
+"oWl" = (
+/obj/structure/bed/chair/wood{
+	dir = 1;
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"oWy" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"oXZ" = (
+/obj/structure/window/reinforced/holowindow{
+	dir = 1
+	},
+/obj/structure/window/reinforced/holowindow{
+	dir = 8
+	},
+/obj/structure/table/holo_woodentable,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"pdD" = (
+/obj/structure/bed/chair/wood{
+	dir = 1;
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "pfy" = (
 /turf/unsimulated/floor{
 	icon_state = "bcircuit"
 	},
 /area/tdome)
+"pgp" = (
+/obj/structure/window/reinforced/holowindow/disappearing,
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"pmg" = (
+/obj/structure/bed/chair/wood{
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "pra" = (
 /obj/machinery/flasher{
 	id_tag = "flash";
@@ -3115,6 +4406,13 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"pyz" = (
+/obj/structure/holohoop,
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "pyW" = (
 /obj/effect/landmark{
 	name = "tdome1"
@@ -3128,6 +4426,16 @@
 	icon_state = "vault"
 	},
 /area/tdome/tdome1)
+"pEY" = (
+/obj/effect/floor_decal/stoneborder,
+/turf/simulated/floor/holofloor/beach/water,
+/area/space)
+"pKJ" = (
+/obj/structure/table/rack/holorack,
+/turf/simulated/floor/holofloor/wood{
+	icon_state = "wood_broken2"
+	},
+/area/space)
 "pMA" = (
 /obj/machinery/atmospherics/unary/vent_pump,
 /turf/unsimulated/floor{
@@ -3143,6 +4451,22 @@
 	icon_state = "bcircuit"
 	},
 /area/tdome)
+"pZO" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/structure/table/holo_woodentable,
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"qfW" = (
+/obj/structure/window/reinforced/crescent{
+	dir = 4
+	},
+/obj/structure/window/reinforced/crescent{
+	dir = 8
+	},
+/turf/unsimulated/wall,
+/area/space)
 "qgz" = (
 /obj/item/stack/medical/ointment,
 /obj/item/stack/medical/ointment,
@@ -3152,6 +4476,24 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"qsd" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"quz" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"qyk" = (
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "qBg" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "thunderdomeaxe";
@@ -3162,6 +4504,14 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"qMP" = (
+/obj/structure/flora/ausbushes/genericbush,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 9;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "qUZ" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5
@@ -3170,6 +4520,38 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"rar" = (
+/obj/structure/table/holotable,
+/obj/item/clothing/gloves/boxing/hologlove,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"rij" = (
+/obj/structure/bed/chair/wood{
+	dir = 4;
+	holographic = 1;
+	icon_state = "wooden_chair_preview"
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"riw" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"roA" = (
+/obj/effect/floor_decal/stoneborder/corner,
+/turf/simulated/floor/holofloor/beach/water,
+/area/space)
 "rsb" = (
 /obj/machinery/light{
 	dir = 4
@@ -3182,6 +4564,62 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/escape_shuttle)
+"rtd" = (
+/obj/structure/table/holotable,
+/obj/item/clothing/gloves/boxing/hologlove{
+	icon_state = "boxinggreen";
+	item_state = "boxinggreen"
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"rwj" = (
+/obj/structure/table/holo_woodentable,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"rwq" = (
+/turf/simulated/floor/holofloor/space,
+/area/space)
+"rAB" = (
+/obj/structure/window/reinforced/holowindow{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"rCx" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	dir = 1;
+	icon_state = "beach"
+	},
+/area/space)
+"rLM" = (
+/obj/effect/overlay/palmtree_r,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"rNA" = (
+/obj/structure/window/reinforced/crescent,
+/turf/unsimulated/wall,
+/area/space)
+"rPy" = (
+/obj/structure/curtain{
+	color = "#68ccab"
+	},
+/turf/simulated/floor/holofloor/wood{
+	icon_state = "wood_broken6"
+	},
+/area/space)
+"rXm" = (
+/turf/simulated/wall/sandstone,
+/area/space)
+"rYC" = (
+/obj/structure/table/holotable,
+/obj/machinery/readybutton{
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/corner/green/three_quarters{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "sfj" = (
 /obj/structure/table/rack,
 /obj/item/clothing/under/color/green,
@@ -3194,6 +4632,10 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"sfr" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "smK" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 1
@@ -3202,6 +4644,31 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"smO" = (
+/turf/simulated/floor/holofloor/snow,
+/area/space)
+"suC" = (
+/obj/structure/bed/chair/wood{
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"sxw" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"sBh" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert4"
+	},
+/area/space)
 "sCN" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 9
@@ -3217,6 +4684,10 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"sFn" = (
+/obj/structure/flora/tree/dead,
+/turf/simulated/floor/holofloor/snow,
+/area/space)
 "sMD" = (
 /obj/effect/shuttle_landmark/escape_pod/out/pod4,
 /turf/space,
@@ -3245,6 +4716,36 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"tle" = (
+/obj/effect/landmark{
+	name = "Holocarp Spawn"
+	},
+/turf/simulated/floor/holofloor/reinforced,
+/area/space)
+"tpQ" = (
+/obj/effect/floor_decal/stoneborder{
+	dir = 4;
+	icon_state = "stoneborder"
+	},
+/turf/simulated/floor/holofloor/beach/water,
+/area/space)
+"tqo" = (
+/obj/machinery/door/window/holowindoor{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"tqO" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "trW" = (
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -3258,6 +4759,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/escape_shuttle)
+"ttb" = (
+/obj/structure/window/reinforced/holowindow{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"twq" = (
+/obj/structure/table/rack/holorack,
+/turf/simulated/floor/holofloor/wood{
+	icon_state = "wood_broken3"
+	},
+/area/space)
 "twS" = (
 /obj/machinery/door/airlock/command{
 	name = "Thunderdome Administration"
@@ -3267,6 +4780,35 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"typ" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 4;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert2"
+	},
+/area/space)
+"tCn" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	dir = 8;
+	icon_state = "beachcorner"
+	},
+/area/space)
+"tFL" = (
+/obj/structure/table/holotable,
+/obj/effect/floor_decal/corner/red/three_quarters{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"tOl" = (
+/obj/structure/window/reinforced/holowindow/disappearing,
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "tWl" = (
 /obj/machinery/recharger{
 	pixel_y = 4
@@ -3279,6 +4821,90 @@
 	icon_state = "vault"
 	},
 /area/tdome/tdome1)
+"tZw" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"ube" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	dir = 4;
+	icon_state = "beachcorner"
+	},
+/area/space)
+"ubn" = (
+/obj/structure/flora/ausbushes/genericbush,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 10;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"uci" = (
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"udu" = (
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"upo" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 6;
+	icon_state = "spline_plain"
+	},
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"upW" = (
+/turf/simulated/floor/holofloor/reinforced,
+/area/space)
+"utc" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"utw" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"uyD" = (
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"uzD" = (
+/obj/structure/bed/chair/wood{
+	dir = 1;
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/tiled/stone,
+/area/space)
+"uCF" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"uEq" = (
+/obj/structure/window/reinforced/crescent,
+/obj/structure/window/reinforced/crescent{
+	dir = 1
+	},
+/turf/unsimulated/wall,
+/area/space)
+"uES" = (
+/obj/structure/bed/chair/wood{
+	dir = 1;
+	holographic = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "uFd" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "thunderdomehea";
@@ -3289,6 +4915,27 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"uGD" = (
+/obj/structure/bed/chair/holochair{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"uIO" = (
+/obj/structure/holostool,
+/turf/simulated/floor/holofloor/wood{
+	icon_state = "wood_broken4"
+	},
+/area/space)
 "uOk" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -3301,6 +4948,42 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/escape_shuttle)
+"uQF" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/lino,
+/area/space)
+"vam" = (
+/obj/structure/window/reinforced/holowindow,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"vrt" = (
+/obj/structure/bed/chair/holochair{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet,
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"vrD" = (
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"vsU" = (
+/obj/item/inflatable_duck,
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"vtp" = (
+/obj/machinery/door/window/holowindoor{
+	dir = 4;
+	name = "Red Team"
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
 "vBi" = (
 /obj/machinery/button/blast_door{
 	dir = 1;
@@ -3312,12 +4995,36 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"vDa" = (
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"vGb" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"vGW" = (
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "vHR" = (
 /obj/effect/floor_decal/corner/blue/diagonal{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/escape_shuttle)
+"vMU" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"vTa" = (
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
 "vTe" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 8
@@ -3327,6 +5034,16 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"vVr" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/holofloor/desert,
+/area/space)
+"wac" = (
+/obj/effect/floor_decal/corner/green/three_quarters{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "wjz" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 6
@@ -3339,6 +5056,108 @@
 "wkp" = (
 /turf/unsimulated/wall,
 /area/tdome)
+"wlg" = (
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"wqi" = (
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet,
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 9
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"wvO" = (
+/obj/structure/table/holotable,
+/obj/item/toy/ringbell,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"wwP" = (
+/obj/structure/window/reinforced/crescent{
+	dir = 1
+	},
+/obj/structure/window/reinforced/crescent,
+/turf/unsimulated/wall,
+/area/space)
+"wxw" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"wys" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	icon_state = "desert_dug"
+	},
+/area/space)
+"wAs" = (
+/obj/structure/table/holotable,
+/obj/effect/floor_decal/corner/green/three_quarters,
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"wAP" = (
+/obj/item/beach_ball/holoball,
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"wCS" = (
+/turf/simulated/floor/holofloor/beach/sand,
+/area/space)
+"wDq" = (
+/obj/machinery/door/window/holowindoor{
+	dir = 1;
+	name = "Jury Box"
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 9
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"wEY" = (
+/obj/structure/flora/ausbushes/leafybush,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
+"wFX" = (
+/turf/simulated/floor/holofloor/beach/sand{
+	dir = 10;
+	icon_state = "beach"
+	},
+/area/space)
+"wHY" = (
+/obj/structure/holostool,
+/obj/effect/floor_decal/carpet{
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/carpet{
+	dir = 8
+	},
+/area/space)
+"wIl" = (
+/obj/structure/flora/ausbushes/sunnybush,
+/turf/simulated/floor/holofloor/grass,
+/area/space)
 "wOU" = (
 /obj/machinery/button/blast_door{
 	dir = 1;
@@ -3363,6 +5182,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/escape_shuttle)
+"wUU" = (
+/obj/structure/window/reinforced/crescent{
+	dir = 4
+	},
+/turf/unsimulated/wall,
+/area/space)
+"wZU" = (
+/obj/effect/floor_decal/corner/green/three_quarters{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "xeT" = (
 /obj/structure/table/rack,
 /obj/item/clothing/under/color/red,
@@ -3375,6 +5206,15 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"xeY" = (
+/obj/structure/holohoop{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green{
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "xfb" = (
 /obj/machinery/door/airlock/command{
 	name = "Thunderdome Administration"
@@ -3383,6 +5223,19 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"xjd" = (
+/obj/machinery/door/unpowered/simple/wood,
+/turf/simulated/floor/holofloor/wood,
+/area/space)
+"xnI" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
+"xnP" = (
+/obj/structure/table/holotable,
+/obj/item/device/megaphone,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
 "xog" = (
 /obj/effect/landmark{
 	name = "tdome1"
@@ -3392,6 +5245,49 @@
 	icon_state = "vault"
 	},
 /area/tdome/tdome1)
+"xpo" = (
+/obj/structure/bed/chair/holochair{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/carpet,
+/area/space)
+"xsF" = (
+/obj/effect/floor_decal/stoneborder/corner{
+	dir = 1;
+	icon_state = "stoneborder_c"
+	},
+/turf/simulated/floor/holofloor/tiled/stone,
+/area/space)
+"xxN" = (
+/obj/structure/table/holo_woodentable,
+/turf/simulated/floor/holofloor/tiled/stone,
+/area/space)
+"xyg" = (
+/obj/effect/floor_decal/corner/red,
+/obj/effect/floor_decal/corner/green{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black{
+	dir = 4;
+	icon_state = "corner_white"
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
+"xFT" = (
+/obj/structure/window/reinforced/holowindow{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"xHM" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/tiled,
+/area/space)
 "xIV" = (
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -3405,6 +5301,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/escape_shuttle)
+"xKc" = (
+/obj/structure/curtain,
+/turf/simulated/floor/holofloor/wood{
+	icon_state = "wood_broken4"
+	},
+/area/space)
 "xSD" = (
 /obj/effect/forcefield{
 	desc = "You can't get in. Heh.";
@@ -3426,6 +5328,13 @@
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/escape_shuttle)
+"yjn" = (
+/obj/effect/floor_decal/beach/corner{
+	dir = 8;
+	icon_state = "beachbordercorner"
+	},
+/turf/simulated/floor/holofloor/concrete,
+/area/space)
 "ylZ" = (
 /obj/structure/table/standard,
 /obj/machinery/recharger{
@@ -8697,7 +10606,7 @@ aab
 aab
 aab
 aab
-awB
+aab
 aab
 aab
 aab
@@ -9099,7 +11008,7 @@ aab
 aab
 aab
 aab
-awB
+aab
 aab
 aab
 aab
@@ -11119,7 +13028,7 @@ aab
 aab
 aab
 aab
-awB
+aab
 aab
 aab
 aab
@@ -11525,7 +13434,7 @@ aab
 aab
 aab
 aab
-awB
+aab
 aab
 aab
 aab
@@ -23814,29 +25723,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+aAl
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+wUU
+aAl
 "}
 (102,1,1) = {"
 aab
@@ -24016,29 +25925,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+sfr
+oaW
+uCF
+oaW
+sfr
+oaW
+uCF
+uCF
+dHU
+uci
+uEq
+wCS
+cPC
+wCS
+wCS
+mld
+wCS
+wCS
+fDL
+kyE
+wCS
+brs
 "}
 (103,1,1) = {"
 aab
@@ -24218,29 +26127,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+uCF
+bVf
+fgf
+eNM
+eNM
+fgf
+bAM
+sfr
+dHU
+uci
+uEq
+rXm
+rXm
+rXm
+rXm
+rXm
+rXm
+rLM
+xsF
+nGc
+rLM
+brs
 "}
 (104,1,1) = {"
 aab
@@ -24420,29 +26329,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+uCF
+esT
+ljj
+uci
+uci
+ljj
+uES
+uCF
+dHU
+uci
+uEq
+twq
+rXm
+jUr
+xxN
+uzD
+rXm
+rXm
+dIs
+dIs
+rXm
+brs
 "}
 (105,1,1) = {"
 aab
@@ -24622,29 +26531,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+oaW
+dHU
+bWq
+uci
+uci
+uci
+mjn
+lZB
+dHU
+uci
+uEq
+mqG
+rPy
+hCS
+hCS
+hCS
+hCS
+hCS
+hCS
+hCS
+hCS
+brs
 "}
 (106,1,1) = {"
 aab
@@ -24824,29 +26733,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+sfr
+dHU
+uci
+tqO
+brF
+uci
+fzZ
+eNM
+dkE
+uci
+uEq
+rXm
+rXm
+hCS
+hCS
+fQu
+hCS
+fQu
+hCS
+hCS
+fQu
+brs
 "}
 (107,1,1) = {"
 aab
@@ -25026,29 +26935,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+oaW
+dHU
+uci
+nOs
+hCu
+uci
+xnI
+qsd
+qsd
+qsd
+uEq
+pKJ
+rXm
+hCS
+roA
+tpQ
+tpQ
+tpQ
+tpQ
+tpQ
+gof
+brs
 "}
 (108,1,1) = {"
 aab
@@ -25228,29 +27137,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+uCF
+dHU
+cHn
+uci
+uci
+uci
+mjn
+oaW
+uCF
+sfr
+uEq
+uIO
+xKc
+hCS
+pEY
+eXw
+eXw
+eXw
+eXw
+eXw
+nfr
+brs
 "}
 (109,1,1) = {"
 aab
@@ -25430,29 +27339,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+uCF
+esT
+ljj
+uci
+uci
+ljj
+uES
+uCF
+oaW
+uCF
+uEq
+rXm
+rXm
+hCS
+pEY
+eXw
+eXw
+cKW
+eXw
+eXw
+nfr
+brs
 "}
 (110,1,1) = {"
 aab
@@ -25632,29 +27541,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+uCF
+htn
+lQG
+qsd
+qsd
+lQG
+mMg
+oaW
+sfr
+oaW
+uEq
+kqX
+rXm
+fQu
+pEY
+eXw
+eXw
+eXw
+eXw
+eXw
+nfr
+brs
 "}
 (111,1,1) = {"
 aab
@@ -25834,29 +27743,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+oaW
+lZB
+uCF
+uCF
+oaW
+sfr
+uCF
+uCF
+oaW
+uCF
+uEq
+iyL
+ncN
+hCS
+pEY
+eXw
+eXw
+eXw
+eXw
+eXw
+nfr
+brs
 "}
 (112,1,1) = {"
 aab
@@ -26036,29 +27945,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
 "}
 (113,1,1) = {"
 aab
@@ -26238,29 +28147,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uEq
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+brs
 "}
 (114,1,1) = {"
 aab
@@ -26440,29 +28349,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+mwc
+eAT
+fGm
+fGm
+fGm
+kYU
+eAT
+eAT
+eAT
+eAT
+uEq
+gRs
+bVd
+gRs
+ubn
+uci
+uci
+qMP
+fvU
+gRs
+gRs
+brs
 "}
 (115,1,1) = {"
 aab
@@ -26642,29 +28551,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+agI
+hhD
+mVb
+mVb
+mVb
+otR
+mVb
+mVb
+mVb
+bcF
+uEq
+nTW
+nTW
+nTW
+aiI
+xjd
+xjd
+aiI
+nTW
+nTW
+nTW
+brs
 "}
 (116,1,1) = {"
 aab
@@ -26844,29 +28753,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+agI
+oWy
+wCS
+wCS
+drx
+dVH
+mld
+wCS
+sBh
+ovV
+uEq
+pmg
+eGl
+fKr
+bep
+gXL
+gXL
+bep
+suC
+eGl
+pdD
+brs
 "}
 (117,1,1) = {"
 aab
@@ -27046,29 +28955,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+agI
+oWy
+cPC
+wCS
+wCS
+dVH
+wCS
+wCS
+wCS
+gYM
+uEq
+gXL
+gXL
+gXL
+gXL
+gXL
+gXL
+gXL
+gXL
+gXL
+gXL
+brs
 "}
 (118,1,1) = {"
 aab
@@ -27248,29 +29157,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+agI
+oWy
+wCS
+wCS
+wCS
+dVH
+wCS
+wCS
+wCS
+gYM
+uEq
+gXL
+rwj
+lBN
+gXL
+gXL
+gXL
+gXL
+gXL
+gXL
+rij
+brs
 "}
 (119,1,1) = {"
 aab
@@ -27450,29 +29359,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+agI
+oWy
+wCS
+wCS
+wCS
+dVH
+wCS
+bZV
+cPC
+gYM
+uEq
+gXL
+gXL
+ehF
+gXL
+bYM
+pZO
+pZO
+oWl
+gXL
+oQS
+brs
 "}
 (120,1,1) = {"
 aab
@@ -27652,29 +29561,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+agI
+gtw
+mQp
+typ
+mQp
+ieg
+mQp
+mQp
+mQp
+upo
+uEq
+gXL
+gXL
+mTT
+gXL
+jrf
+aUe
+aUe
+eTL
+gXL
+oQS
+brs
 "}
 (121,1,1) = {"
 aab
@@ -27854,29 +29763,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+yjn
+hMW
+kei
+kei
+kei
+fWw
+kei
+kei
+kei
+hMW
+uEq
+gXL
+gXL
+ehF
+gXL
+suC
+oJB
+oJB
+fKr
+gXL
+dhO
+brs
 "}
 (122,1,1) = {"
 aab
@@ -28056,29 +29965,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uci
+uEq
+rwj
+gcS
+ixd
+gXL
+gXL
+gXL
+gXL
+gXL
+gXL
+gXL
+brs
 "}
 (123,1,1) = {"
 aab
@@ -28258,29 +30167,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
 "}
 (124,1,1) = {"
 aab
@@ -28460,29 +30369,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+vVr
+uEq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+brs
 "}
 (125,1,1) = {"
 aab
@@ -28662,29 +30571,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dVU
+dVU
+fzA
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+uEq
+rwq
+rwq
+rwq
+hJU
+rwq
+rwq
+rwq
+rwq
+hJU
+rwq
+brs
 "}
 (126,1,1) = {"
 aab
@@ -28864,29 +30773,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dVU
+dVU
+dVU
+dVU
+vVr
+dVU
+dVU
+fzA
+dVU
+dVU
+uEq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+brs
 "}
 (127,1,1) = {"
 aab
@@ -29066,29 +30975,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+vVr
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+uEq
+rwq
+hJU
+rwq
+rwq
+rwq
+rwq
+hJU
+rwq
+rwq
+rwq
+brs
 "}
 (128,1,1) = {"
 aab
@@ -29268,29 +31177,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+fzA
+uEq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+brs
 "}
 (129,1,1) = {"
 aab
@@ -29470,29 +31379,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dVU
+dVU
+dVU
+vVr
+dVU
+dVU
+fzA
+dVU
+dVU
+dVU
+uEq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+brs
 "}
 (130,1,1) = {"
 aab
@@ -29672,29 +31581,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dVU
+dVU
+dVU
+dVU
+vVr
+dVU
+dVU
+dVU
+dVU
+dVU
+uEq
+rwq
+rwq
+rwq
+hJU
+rwq
+rwq
+rwq
+rwq
+hJU
+rwq
+brs
 "}
 (131,1,1) = {"
 aab
@@ -29874,29 +31783,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+uEq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+brs
 "}
 (132,1,1) = {"
 aab
@@ -30076,29 +31985,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dVU
+fzA
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+uEq
+rwq
+hJU
+rwq
+rwq
+rwq
+rwq
+hJU
+rwq
+rwq
+rwq
+brs
 "}
 (133,1,1) = {"
 aab
@@ -30278,29 +32187,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dVU
+dVU
+dVU
+dVU
+dVU
+dVU
+vVr
+dVU
+dVU
+fzA
+uEq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+rwq
+brs
 "}
 (134,1,1) = {"
 aab
@@ -30480,29 +32389,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
 "}
 (135,1,1) = {"
 aab
@@ -30682,29 +32591,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dkr
+utw
+dXM
+joj
+udu
+udu
+utw
+dkr
+ckO
+ckO
+uEq
+smO
+smO
+smO
+smO
+smO
+smO
+smO
+eFe
+smO
+smO
+brs
 "}
 (136,1,1) = {"
 aab
@@ -30884,29 +32793,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+utw
+utw
+dXM
+utw
+dkr
+utw
+fRA
+udu
+dXM
+ckO
+uEq
+smO
+eJY
+smO
+smO
+smO
+smO
+smO
+smO
+lex
+smO
+brs
 "}
 (137,1,1) = {"
 aab
@@ -31086,29 +32995,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+udu
+sfr
+sfr
+dkr
+utw
+utw
+udu
+dkr
+dkr
+ckO
+uEq
+smO
+smO
+smO
+sFn
+smO
+smO
+smO
+smO
+smO
+smO
+brs
 "}
 (138,1,1) = {"
 aab
@@ -31288,29 +33197,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+fRA
+sfr
+utw
+dXM
+udu
+udu
+fwL
+ckO
+ckO
+utw
+uEq
+smO
+smO
+smO
+smO
+lex
+smO
+smO
+smO
+sFn
+smO
+brs
 "}
 (139,1,1) = {"
 aab
@@ -31490,29 +33399,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+udu
+utw
+udu
+fRA
+ckO
+ckO
+ckO
+udu
+dkr
+udu
+uEq
+smO
+smO
+smO
+gjW
+smO
+smO
+eJY
+smO
+smO
+eFe
+brs
 "}
 (140,1,1) = {"
 aab
@@ -31692,29 +33601,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+utw
+dkr
+dkr
+ckO
+udu
+dkr
+dkr
+udu
+utw
+udu
+uEq
+smO
+smO
+smO
+smO
+smO
+smO
+smO
+eFe
+smO
+smO
+brs
 "}
 (141,1,1) = {"
 aab
@@ -31894,29 +33803,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+dkr
+utw
+ckO
+ckO
+udu
+fRA
+gkS
+utw
+udu
+dkr
+uEq
+smO
+eJY
+smO
+smO
+smO
+smO
+sFn
+smO
+lex
+smO
+brs
 "}
 (142,1,1) = {"
 aab
@@ -32096,29 +34005,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+udu
+wIl
+ckO
+ckO
+utw
+udu
+dkr
+udu
+dkr
+udu
+uEq
+smO
+smO
+smO
+smO
+smO
+smO
+smO
+smO
+smO
+smO
+brs
 "}
 (143,1,1) = {"
 aab
@@ -32298,29 +34207,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+fRA
+udu
+dkr
+utw
+ckO
+ckO
+udu
+utw
+dXM
+dXM
+uEq
+smO
+smO
+gjW
+smO
+lex
+smO
+smO
+smO
+sFn
+smO
+brs
 "}
 (144,1,1) = {"
 aab
@@ -32500,29 +34409,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+udu
+utw
+udu
+fRA
+udu
+wEY
+udu
+dXM
+dXM
+dXM
+uEq
+smO
+smO
+smO
+smO
+smO
+smO
+eJY
+smO
+smO
+eFe
+brs
 "}
 (145,1,1) = {"
 aab
@@ -32702,29 +34611,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
 "}
 (146,1,1) = {"
 aab
@@ -32904,29 +34813,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+giS
+wlg
+wlg
+wlg
+wlg
+wlg
+cyy
+uEq
+gXL
+gXL
+epv
+uQF
+hnD
+hnD
+ksq
+ksq
+ksq
+ksq
+brs
 "}
 (147,1,1) = {"
 aab
@@ -33106,29 +35015,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+giS
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+uEq
+gXL
+gXL
+epv
+uQF
+dma
+sxw
+sxw
+sxw
+riw
+ksq
+brs
 "}
 (148,1,1) = {"
 aab
@@ -33308,29 +35217,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+giS
+aKQ
+sxw
+sxw
+sxw
+riw
+wlg
+uEq
+gXL
+wqi
+hVA
+uQF
+fWy
+bfr
+bfr
+bfr
+ozU
+ksq
+brs
 "}
 (149,1,1) = {"
 aab
@@ -33510,29 +35419,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+giS
+vTa
+bfr
+bfr
+bfr
+ozU
+wlg
+uEq
+gXL
+vrD
+hVA
+uQF
+fWy
+bfr
+bfr
+bfr
+ozU
+ksq
+brs
 "}
 (150,1,1) = {"
 aab
@@ -33712,29 +35621,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+giS
+vTa
+bfr
+bfr
+bfr
+ozU
+wlg
+uEq
+gXL
+vrD
+hVA
+uQF
+fWy
+bfr
+bfr
+bfr
+ozU
+ksq
+brs
 "}
 (151,1,1) = {"
 aab
@@ -33914,29 +35823,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+giS
+vTa
+bfr
+bfr
+bfr
+ozU
+wlg
+uEq
+gXL
+vrD
+hVA
+uQF
+fWy
+bfr
+bfr
+bfr
+ozU
+ksq
+brs
 "}
 (152,1,1) = {"
 aab
@@ -34116,29 +36025,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+giS
+vTa
+bfr
+bfr
+bfr
+ozU
+wlg
+uEq
+gXL
+fOt
+hVA
+uQF
+fWy
+bfr
+bfr
+bfr
+ozU
+ksq
+brs
 "}
 (153,1,1) = {"
 aab
@@ -34318,29 +36227,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+giS
+gHG
+dkU
+dkU
+dkU
+tZw
+wlg
+uEq
+gXL
+gXL
+epv
+uQF
+bGp
+dkU
+dkU
+wHY
+jWi
+ksq
+brs
 "}
 (154,1,1) = {"
 aab
@@ -34520,29 +36429,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+giS
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+uEq
+gXL
+gXL
+epv
+uQF
+ksq
+ksq
+ksq
+ksq
+ksq
+ksq
+brs
 "}
 (155,1,1) = {"
 aab
@@ -34722,29 +36631,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+eVh
+vDa
+vDa
+jYi
+gzE
+gzE
+gzE
+gzE
+hUM
+aFj
+uEq
+jFe
+gXL
+epv
+dEZ
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+brs
 "}
 (156,1,1) = {"
 aab
@@ -34924,29 +36833,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
 "}
 (157,1,1) = {"
 aab
@@ -35126,29 +37035,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wwP
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+brs
 "}
 (158,1,1) = {"
 aab
@@ -35328,29 +37237,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+lMT
+tqo
+mnb
+mnb
+mnb
+mnb
+mnb
+cVu
+mnb
+lMT
+wwP
+mTd
+mTd
+vDa
+mTd
+mTd
+mTd
+mTd
+vDa
+mTd
+mTd
+brs
 "}
 (159,1,1) = {"
 aab
@@ -35530,29 +37439,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+rwj
+gXL
+gXL
+jGC
+aKQ
+edr
+fxn
+uyD
+fxn
+fbi
+wwP
+odt
+odt
+vtp
+odt
+odt
+odt
+odt
+cEq
+odt
+odt
+brs
 "}
 (160,1,1) = {"
 aab
@@ -35732,29 +37641,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+rwj
+gXL
+rwj
+gAH
+vTa
+nAG
+bvs
+vGW
+bvs
+vrt
+wwP
+fBO
+quz
+quz
+quz
+ifq
+wZU
+vMU
+vMU
+vMU
+fjJ
+brs
 "}
 (161,1,1) = {"
 aab
@@ -35934,29 +37843,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+rwj
+gXL
+bIj
+cxq
+vTa
+vGW
+vGW
+vGW
+bvs
+vrt
+wwP
+oje
+wlg
+wlg
+wlg
+vGb
+bMB
+wlg
+wlg
+wlg
+wxw
+brs
 "}
 (162,1,1) = {"
 aab
@@ -36136,29 +38045,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+rwj
+gXL
+rwj
+moK
+vTa
+nAG
+bvs
+vGW
+bvs
+vrt
+wwP
+fBO
+quz
+oje
+wlg
+vGb
+bMB
+wlg
+wxw
+vMU
+fjJ
+brs
 "}
 (163,1,1) = {"
 aab
@@ -36338,29 +38247,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+rwj
+gXL
+gXL
+nLn
+gHG
+mrt
+ixc
+jrk
+ixc
+fzF
+wwP
+pyz
+wlg
+oje
+wlg
+wAP
+bMB
+wlg
+wxw
+wlg
+xeY
+brs
 "}
 (164,1,1) = {"
 aab
@@ -36540,29 +38449,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+rwj
+gXL
+oXZ
+hbH
+hbH
+hbH
+hbH
+hbH
+hbH
+hbH
+wwP
+cHa
+xHM
+oje
+wlg
+vGb
+bMB
+wlg
+wxw
+utc
+wac
+brs
 "}
 (165,1,1) = {"
 aab
@@ -36742,29 +38651,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+rwj
+gXL
+niT
+uGD
+xpo
+xpo
+xpo
+xpo
+fpd
+rwj
+wwP
+oje
+wlg
+wlg
+wlg
+vGb
+bMB
+wlg
+wlg
+wlg
+wxw
+brs
 "}
 (166,1,1) = {"
 aab
@@ -36944,29 +38853,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+rwj
+gXL
+wDq
+frC
+fpB
+fpB
+fpB
+fpB
+eSf
+rwj
+wwP
+cHa
+xHM
+xHM
+xHM
+qyk
+dDN
+utc
+utc
+utc
+wac
+brs
 "}
 (167,1,1) = {"
 aab
@@ -37146,29 +39055,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
 "}
 (168,1,1) = {"
 aab
@@ -37348,29 +39257,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+eXw
+eXw
+eXw
+fcJ
+nbZ
+tCn
+wCS
+wCS
+wCS
+wCS
+brs
 "}
 (169,1,1) = {"
 aab
@@ -37550,29 +39459,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+tle
+upW
+upW
+upW
+upW
+upW
+upW
+tle
+upW
+wwP
+eXw
+eXw
+eXw
+eXw
+eXw
+rCx
+wCS
+rLM
+afa
+wCS
+brs
 "}
 (170,1,1) = {"
 aab
@@ -37752,29 +39661,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+eXw
+eXw
+eXw
+eXw
+eXw
+rCx
+mld
+wCS
+wCS
+wCS
+brs
 "}
 (171,1,1) = {"
 aab
@@ -37954,29 +39863,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+tle
+upW
+upW
+tle
+upW
+upW
+upW
+wwP
+eXw
+fDi
+oif
+wFX
+eXw
+rCx
+jIP
+duU
+drx
+wCS
+brs
 "}
 (172,1,1) = {"
 aab
@@ -38156,29 +40065,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+eXw
+rCx
+mld
+adO
+eXw
+rCx
+sBh
+wCS
+wCS
+cPC
+brs
 "}
 (173,1,1) = {"
 aab
@@ -38358,29 +40267,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+eXw
+rCx
+wCS
+adO
+eXw
+rCx
+wys
+wCS
+wCS
+wCS
+brs
 "}
 (174,1,1) = {"
 aab
@@ -38560,29 +40469,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+tle
+upW
+upW
+tle
+upW
+upW
+upW
+wwP
+eXw
+rCx
+wCS
+adO
+eXw
+rCx
+oOV
+wCS
+vsU
+wCS
+brs
 "}
 (175,1,1) = {"
 aab
@@ -38762,29 +40671,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+eXw
+rCx
+cPC
+adO
+eXw
+rCx
+wCS
+cPC
+wCS
+wCS
+brs
 "}
 (176,1,1) = {"
 aab
@@ -38964,29 +40873,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+tle
+upW
+upW
+upW
+upW
+upW
+upW
+tle
+upW
+wwP
+eXw
+fcJ
+nbZ
+ffi
+eXw
+rCx
+wCS
+afa
+wCS
+wCS
+brs
 "}
 (177,1,1) = {"
 aab
@@ -39166,29 +41075,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+eXw
+fDi
+oif
+oif
+oif
+ube
+wCS
+wCS
+wCS
+cPC
+brs
 "}
 (178,1,1) = {"
 aab
@@ -39368,29 +41277,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
 "}
 (179,1,1) = {"
 aab
@@ -39570,29 +41479,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+brs
 "}
 (180,1,1) = {"
 aab
@@ -39772,29 +41681,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+mTd
+mTd
+vDa
+mTd
+mTd
+mTd
+mTd
+vDa
+mTd
+mTd
+brs
 "}
 (181,1,1) = {"
 aab
@@ -39974,29 +41883,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+odt
+odt
+vtp
+odt
+odt
+odt
+odt
+cEq
+odt
+odt
+brs
 "}
 (182,1,1) = {"
 aab
@@ -40176,29 +42085,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+lmS
+quz
+quz
+quz
+cUq
+lsS
+vMU
+vMU
+vMU
+wAs
+brs
 "}
 (183,1,1) = {"
 aab
@@ -40378,29 +42287,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+lJF
+wlg
+wlg
+wlg
+tOl
+nRh
+wlg
+wlg
+wlg
+bDe
+brs
 "}
 (184,1,1) = {"
 aab
@@ -40580,29 +42489,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+lJF
+wlg
+wlg
+wlg
+tOl
+nRh
+wlg
+wlg
+wlg
+bDe
+brs
 "}
 (185,1,1) = {"
 aab
@@ -40782,29 +42691,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+lJF
+wlg
+wlg
+wlg
+tOl
+nRh
+wlg
+wlg
+wlg
+bDe
+brs
 "}
 (186,1,1) = {"
 aab
@@ -40984,29 +42893,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+lJF
+wlg
+wlg
+wlg
+tOl
+nRh
+wlg
+wlg
+wlg
+bDe
+brs
 "}
 (187,1,1) = {"
 aab
@@ -41186,29 +43095,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+lJF
+wlg
+wlg
+wlg
+tOl
+nRh
+wlg
+wlg
+wlg
+bDe
+brs
 "}
 (188,1,1) = {"
 aab
@@ -41388,29 +43297,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+upW
+wwP
+tFL
+xHM
+xHM
+xHM
+pgp
+eHL
+utc
+utc
+utc
+rYC
+brs
 "}
 (189,1,1) = {"
 aab
@@ -41590,29 +43499,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+qfW
+aAl
 "}
 (190,1,1) = {"
 aab
@@ -41792,29 +43701,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+wwP
+rar
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+brs
 "}
 (191,1,1) = {"
 aab
@@ -41994,29 +43903,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+mTd
+mTd
+vDa
+mTd
+mTd
+mTd
+mTd
+vDa
+mTd
+mTd
+wwP
+rar
+vDa
+vDa
+ftw
+ftw
+ftw
+ftw
+vDa
+vDa
+vDa
+brs
 "}
 (192,1,1) = {"
 aab
@@ -42196,29 +44105,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+odt
+odt
+vtp
+odt
+odt
+odt
+odt
+cEq
+odt
+odt
+wwP
+vDa
+vDa
+vDa
+ttb
+ttb
+ttb
+ttb
+vDa
+vDa
+vDa
+brs
 "}
 (193,1,1) = {"
 aab
@@ -42398,29 +44307,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+fBO
+quz
+quz
+quz
+quz
+vMU
+vMU
+vMU
+vMU
+fjJ
+wwP
+vDa
+vDa
+bRf
+fBO
+quz
+quz
+wlg
+xFT
+ftw
+vDa
+brs
 "}
 (194,1,1) = {"
 aab
@@ -42600,29 +44509,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+oje
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wxw
+wwP
+vDa
+ftw
+vam
+oje
+wZU
+jvv
+wxw
+xFT
+ftw
+vDa
+brs
 "}
 (195,1,1) = {"
 aab
@@ -42802,29 +44711,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+oje
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wxw
+wwP
+vDa
+ftw
+vam
+oje
+xyg
+qyk
+wxw
+xFT
+ftw
+vDa
+brs
 "}
 (196,1,1) = {"
 aab
@@ -43004,29 +44913,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+oje
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wxw
+wwP
+vDa
+ftw
+vam
+wlg
+utc
+utc
+wac
+jEI
+vDa
+vDa
+brs
 "}
 (197,1,1) = {"
 aab
@@ -43206,29 +45115,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+oje
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wxw
+wwP
+vDa
+vDa
+vDa
+rAB
+rAB
+rAB
+rAB
+vDa
+vDa
+vDa
+brs
 "}
 (198,1,1) = {"
 aab
@@ -43408,29 +45317,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+oje
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wlg
+wxw
+wwP
+iLP
+wvO
+vDa
+ftw
+ftw
+ftw
+ftw
+vDa
+vDa
+rtd
+brs
 "}
 (199,1,1) = {"
 aab
@@ -43610,29 +45519,29 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+rNA
+cHa
+xHM
+xHM
+xHM
+xHM
+utc
+utc
+utc
+utc
+wac
+wwP
+vDa
+xnP
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+vDa
+rtd
+brs
 "}
 (200,1,1) = {"
 aab
@@ -43812,27 +45721,27 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aAl
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+aAl
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+iKe
+aAl
 "}
