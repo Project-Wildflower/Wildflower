@@ -66,6 +66,13 @@ obj/effect/paint/palegreengray
 /obj/effect/paint/brown
 	color = COLOR_DARK_BROWN
 
+//Yo why this shit exist in another file to make multimap suffering -TT
+/obj/effect/paint/sol
+	color = COLOR_SOL
+
+/obj/effect/paint/sol_expeditionary
+	color = "#68099e"
+
 //Stripes the wall it spawns on, then dies
 /obj/effect/paint_stripe
 	name = "stripe of paint"
