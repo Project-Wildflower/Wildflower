@@ -7,6 +7,7 @@
 	unacidable = TRUE
 	simulated = FALSE
 	invisibility = 101
+	layer = OBFUSCATION_LAYER // Wildflower change.
 
 	var/landmark_tag
 	//ID of the controller on the dock side
