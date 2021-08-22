@@ -40,7 +40,8 @@
 		/area/exodus/storage/emergency2 = NO_SCRUBBER|NO_VENT,
 		/area/ship/exodus_pod_engineering = NO_SCRUBBER|NO_VENT,
 		/area/ship/exodus_pod_mining = NO_SCRUBBER|NO_VENT,
-		/area/ship/exodus_pod_research = NO_SCRUBBER|NO_VENT
+		/area/ship/exodus_pod_research = NO_SCRUBBER|NO_VENT,
+		/area/holodeck/alphadeck = NO_SCRUBBER|NO_VENT|NO_APC
 	)
 
 	area_coherency_test_exempt_areas = list(

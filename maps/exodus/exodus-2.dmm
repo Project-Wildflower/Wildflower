@@ -10318,9 +10318,9 @@
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/library)
 "att" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/security_port)
 "atu" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
@@ -11307,8 +11307,8 @@
 /area/exodus/crew_quarters/sleep/cryo)
 "avA" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/security_starboard)
 "avB" = (
 /obj/structure/bed/padded,
@@ -13583,8 +13583,8 @@
 /area/exodus/maintenance/evahallway)
 "azR" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated,
+/turf/simulated/open,
 /area/exodus/maintenance/dormitory)
 "azS" = (
 /obj/structure/cable/green{
@@ -18565,9 +18565,9 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/evahallway)
 "aJx" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -24536,8 +24536,8 @@
 /area/exodus/hallway/secondary/entry/port)
 "aVh" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/bar)
 "aVi" = (
 /obj/item/pinpointer,
@@ -28748,14 +28748,14 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/crew_quarters/locker)
 "bdw" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/arrivals)
 "bdx" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/library)
 "bdy" = (
 /obj/machinery/door/airlock/external/bolted{
@@ -28782,11 +28782,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/library)
-"bdA" = (
-/obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
-/area/exodus/maintenance/locker)
 "bdB" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -33978,8 +33973,8 @@
 "bob" = (
 /obj/structure/window/reinforced,
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/catwalk_plated,
+/turf/simulated/open,
 /area/exodus/turret_protected/ai_upload)
 "boc" = (
 /obj/structure/cable{
@@ -36070,8 +36065,8 @@
 /area/exodus/maintenance/substation/command)
 "bsb" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/research_shuttle)
 "bsc" = (
 /obj/structure/table/rack,
@@ -36305,8 +36300,8 @@
 /area/exodus/research/lab)
 "bsE" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/research_port)
 "bsF" = (
 /obj/structure/cable/green{
@@ -36338,8 +36333,8 @@
 /area/exodus/medical/exam_room)
 "bsH" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/engineering)
 "bsI" = (
 /obj/structure/cable{
@@ -38499,8 +38494,8 @@
 /area/exodus/research/mixing)
 "bwM" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/research_starboard)
 "bwN" = (
 /obj/structure/disposalpipe/segment,
@@ -38933,14 +38928,14 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/maintenance/atmos_control)
 "bxH" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/locker)
 "bxI" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/ladder,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/cargo)
 "bxJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
@@ -58421,8 +58416,8 @@
 /area/exodus/engineering/sublevel_access)
 "cik" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/engineering/sublevel_access)
 "cil" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -59627,8 +59622,8 @@
 /area/exodus/engineering/engine_monitoring)
 "ckS" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/medbay)
 "ckT" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -61435,8 +61430,8 @@
 /area/exodus/engineering)
 "coC" = (
 /obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/plating,
+/obj/effect/catwalk_plated/dark,
+/turf/simulated/open,
 /area/exodus/maintenance/engi_engine)
 "coD" = (
 /obj/structure/table/reinforced,
@@ -68374,6 +68369,10 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
+"glx" = (
+/obj/effect/landmark/test/safe_turf,
+/turf/simulated/floor/reinforced,
+/area/holodeck/alphadeck)
 "gny" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
@@ -68978,6 +68977,10 @@
 /area/space)
 "nky" = (
 /obj/effect/shuttle_landmark/exodus_main_starboard,
+/turf/space,
+/area/space)
+"noT" = (
+/obj/effect/landmark/test/space_turf,
 /turf/space,
 /area/space)
 "noV" = (
@@ -89127,7 +89130,7 @@ bgf
 bgf
 bgl
 aTS
-bdA
+bxH
 aSI
 bdO
 bgN
@@ -107860,7 +107863,7 @@ atW
 atW
 atW
 atW
-atW
+glx
 atW
 atW
 atW
@@ -119120,7 +119123,7 @@ cLU
 cLU
 cLU
 cLU
-cLU
+noT
 cLU
 cLU
 cLU

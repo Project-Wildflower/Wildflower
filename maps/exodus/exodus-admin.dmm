@@ -169,7 +169,7 @@
 "anT" = (
 /obj/structure/sign/warning/airlock,
 /turf/unsimulated/wall,
-/area/centcom/holding)
+/area/centcom/control)
 "anU" = (
 /obj/structure/bed/chair/wood{
 	dir = 1;
@@ -2775,7 +2775,7 @@
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom/holding)
+/area/centcom/control)
 "cWC" = (
 /obj/structure/closet{
 	name = "Clothing Storage"
@@ -4699,12 +4699,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_thunderdomecourt)
-"gPI" = (
-/obj/structure/bed/chair,
-/turf/unsimulated/floor{
-	icon_state = "steel"
-	},
-/area/centcom/holding)
 "gQL" = (
 /obj/effect/overlay/palmtree_r,
 /obj/effect/overlay/coconut,
@@ -4921,7 +4915,7 @@
 /turf/unsimulated/floor{
 	icon_state = "steel"
 	},
-/area/centcom/holding)
+/area/centcom/control)
 "hfX" = (
 /obj/structure/holostool,
 /obj/structure/window/reinforced/holowindow{
@@ -5779,7 +5773,7 @@
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom/holding)
+/area/centcom/control)
 "iIM" = (
 /obj/structure/table/rack,
 /obj/item/storage/box/lights/mixed,
@@ -6900,11 +6894,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_cafe)
-"kPj" = (
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
-/area/centcom/holding)
 "kPy" = (
 /obj/effect/floor_decal/corner/lime/three_quarters{
 	dir = 8
@@ -8005,10 +7994,6 @@
 /turf/unsimulated/floor{
 	icon_state = "white"
 	},
-/area/centcom/holding)
-"ngV" = (
-/obj/structure/sign/warning/secure_area,
-/turf/unsimulated/wall,
 /area/centcom/holding)
 "njh" = (
 /turf/unsimulated/beach/sand{
@@ -13058,7 +13043,7 @@
 	dir = 5;
 	icon_state = "vault"
 	},
-/area/centcom/holding)
+/area/centcom/control)
 "xEe" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -26870,11 +26855,11 @@ fBv
 fBv
 qZe
 bqs
-aRl
-aRl
+fBv
+fBv
 cWr
 cWr
-ngV
+uXg
 fBv
 fBv
 fBv
@@ -27072,10 +27057,10 @@ qLH
 qLH
 qLH
 kUH
-aRl
-gPI
-kPj
-kPj
+fBv
+rze
+pcl
+pcl
 anT
 xeX
 xeX
@@ -27274,11 +27259,11 @@ cjU
 rFu
 qLH
 tcR
-aRl
-gPI
-kPj
+fBv
+rze
+pcl
 iIK
-aKv
+owu
 xeX
 vWS
 yeU
@@ -27476,10 +27461,10 @@ qLH
 qLH
 qLH
 iNX
-aRl
-gPI
-kPj
-kPj
+fBv
+rze
+pcl
+pcl
 xDI
 okp
 vQP
@@ -27678,11 +27663,11 @@ qLH
 rFu
 qLH
 xXd
-aRl
-gPI
-kPj
-kPj
-aKv
+fBv
+rze
+pcl
+pcl
+owu
 xeX
 wnu
 iLL
@@ -27880,10 +27865,10 @@ cDm
 qLH
 qLH
 qLH
-aRl
+fBv
 hfk
-kPj
-kPj
+pcl
+pcl
 anT
 xeX
 xeX
@@ -28082,16 +28067,16 @@ bqs
 bqs
 bqs
 bqs
-aRl
-aRl
+fBv
+fBv
 cWr
 cWr
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
 aab
 ach
 aab
@@ -28279,21 +28264,21 @@ aBc
 aBz
 vkh
 nHR
-kPj
-kPj
-aRl
-kPj
-kPj
-kPj
-aRl
-kPj
-kPj
-aRl
-kPj
-kPj
-kPj
-kPj
-aRl
+pcl
+pcl
+fBv
+pcl
+pcl
+pcl
+fBv
+pcl
+pcl
+fBv
+pcl
+pcl
+pcl
+pcl
+fBv
 aab
 ach
 aab
@@ -28481,21 +28466,21 @@ aBc
 aBz
 vkh
 nHR
-kPj
-kPj
-aRl
-kPj
-kPj
-kPj
-aRl
-kPj
-kPj
-aRl
-kPj
-kPj
-kPj
-kPj
-aRl
+pcl
+pcl
+fBv
+pcl
+pcl
+pcl
+fBv
+pcl
+pcl
+fBv
+pcl
+pcl
+pcl
+pcl
+fBv
 ach
 ach
 aMr
@@ -28683,21 +28668,21 @@ aBc
 aBz
 vkh
 nHR
-kPj
-kPj
-aRl
-kPj
-kPj
-kPj
-aRl
-kPj
-kPj
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
+pcl
+pcl
+fBv
+pcl
+pcl
+pcl
+fBv
+pcl
+pcl
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
 aab
 aMr
 aMr
@@ -28885,21 +28870,21 @@ aAM
 aCt
 vkh
 nHR
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-kPj
-kPj
-aRl
-kPj
-kPj
-kPj
-kPj
-aRl
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+pcl
+pcl
+fBv
+pcl
+pcl
+pcl
+pcl
+fBv
 aab
 aIR
 aDR
@@ -29087,21 +29072,21 @@ aAM
 vkh
 vkh
 nHR
-kPj
-kPj
-kPj
-kPj
-kPj
-kPj
-aRl
-kPj
-kPj
-aRl
-kPj
-kPj
-kPj
-kPj
-aRl
+pcl
+pcl
+pcl
+pcl
+pcl
+pcl
+fBv
+pcl
+pcl
+fBv
+pcl
+pcl
+pcl
+pcl
+fBv
 aab
 aIR
 aEX
@@ -29289,21 +29274,21 @@ vkh
 vkh
 vkh
 nHR
-kPj
-kPj
-kPj
-kPj
-kPj
-kPj
-kPj
-kPj
-kPj
-aRl
-kPj
-kPj
-kPj
-kPj
-aRl
+pcl
+pcl
+pcl
+pcl
+pcl
+pcl
+pcl
+pcl
+pcl
+fBv
+pcl
+pcl
+pcl
+pcl
+fBv
 aab
 aIR
 aDR
@@ -29491,21 +29476,21 @@ hyV
 hyV
 hyV
 nHR
-kPj
-kPj
-kPj
-kPj
-kPj
-kPj
-aRl
-kPj
-kPj
-aRl
-kPj
-kPj
-kPj
-kPj
-aRl
+pcl
+pcl
+pcl
+pcl
+pcl
+pcl
+fBv
+pcl
+pcl
+fBv
+pcl
+pcl
+pcl
+pcl
+fBv
 aab
 aIR
 aDF
@@ -29692,22 +29677,22 @@ aab
 aab
 aab
 aab
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
-aRl
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
+fBv
 aab
 aIR
 aDR
@@ -29894,7 +29879,7 @@ aab
 aab
 aab
 aab
-aRl
+aab
 aab
 aab
 aab
@@ -30096,7 +30081,7 @@ aab
 aab
 aab
 aab
-aRl
+aab
 aab
 aab
 aab
@@ -30298,7 +30283,7 @@ aab
 aab
 aab
 aab
-aRl
+aab
 aab
 aab
 aab
@@ -30500,7 +30485,7 @@ aab
 aab
 aab
 aab
-aRl
+aab
 aab
 aab
 aab
@@ -30702,7 +30687,7 @@ aab
 aab
 aab
 aab
-aRl
+aab
 aab
 aab
 aab
@@ -30904,7 +30889,7 @@ aab
 aab
 aab
 aab
-aRl
+aab
 aab
 aab
 aab
