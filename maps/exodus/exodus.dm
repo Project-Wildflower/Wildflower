@@ -46,6 +46,7 @@
 	#include "exodus_shuttles.dm"
 	#include "exodus_holodecks.dm"
 	#include "exodus_unit_testing.dm"
+	#include "exodus_npcs.dm"
 
 	//Maps
 	#include "exodus-1.dmm"
