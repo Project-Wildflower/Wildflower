@@ -1,4 +1,4 @@
-#if !defined(USING_MAP_DATUM)
+#if !defined(using_map_DATUM) //Nebula uses a different capitalization of this for... reasons... Waste of my fucking time...
 
 	//Packs
 	#include "../../packs/faction_iccgn/_pack.dm"

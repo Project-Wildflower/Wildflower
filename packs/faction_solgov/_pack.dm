@@ -36,7 +36,8 @@
 
 
 
-	#ifdef ALLOW_LOADOUT_PACK_SOLGOV
-		#warn ALLOW_LOADOUT_PACK_SOLGOV Unimplimented.
-	#endif
+
+#endif
+#ifdef ALLOW_LOADOUT_PACK_SOLGOV
+	#warn ALLOW_LOADOUT_PACK_SOLGOV Unimplimented.
 #endif
