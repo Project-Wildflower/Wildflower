@@ -2,13 +2,31 @@ var/global/const/NETWORK_COMMAND = "Command"
 var/global/const/NETWORK_ENGINE  = "Engine"
 var/global/const/NETWORK_ENGINEERING_OUTPOST = "Engineering Outpost"
 
-/datum/map/proc/get_shared_network_access(var/network)
+/datum/map/exodus
+	// Networks that will show up as options in the camera monitor program
+	station_networks = list(
+		NETWORK_ROBOTS,
+		NETWORK_COMMAND,
+		NETWORK_ENGINE,
+		NETWORK_ENGINEERING,
+		NETWORK_MEDICAL,
+		NETWORK_RESEARCH,
+		NETWORK_SECURITY,
+		NETWORK_ALARM_ATMOS,
+		NETWORK_ALARM_CAMERA,
+		NETWORK_ALARM_FIRE,
+		NETWORK_ALARM_MOTION,
+		NETWORK_ALARM_POWER,
+		NETWORK_THUNDER,
+	)
+
+/datum/map/exodus/get_network_access(var/network)
 	switch(network)
 		if(NETWORK_COMMAND)
 			return access_heads
 		if(NETWORK_ENGINE, NETWORK_ENGINEERING_OUTPOST)
 			return access_engine
-
+	return ..()
 //
 // Cameras
 //
