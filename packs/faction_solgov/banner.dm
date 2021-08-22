@@ -29,7 +29,7 @@
 	icon = 'packs/faction_solgov/icons/obj/uniques.dmi'
 	icon_state = "banner_stowed"
 	w_class = ITEM_SIZE_HUGE
-	req_access = list(access_pathfinder)
+//	req_access = list(access_pathfinder)
 
 /obj/item/solbanner/attack_self(mob/living/carbon/human/user)
 	..()
