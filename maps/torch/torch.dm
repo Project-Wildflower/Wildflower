@@ -171,6 +171,7 @@
 //	#include "../away/ascent_caulship/_ascent_caulship.dm"
 
 	#define using_map_DATUM /datum/map/torch
+	#define PREVENT_USE_OF_PACK_SOLGOV //Wildflower Change, faction_solgov pack safety measure
 
 #elif !defined(MAP_OVERRIDE)
 
