@@ -544,6 +544,11 @@
 	icon_state = "nuke_storage"
 	req_access = list(access_heads_vault)
 
+/area/prison/solitary
+	name = "Solitary Confinement"
+	icon_state = "brig"
+	req_access = list(access_brig)
+
 /area/exodus/security/vacantoffice
 	name = "\improper Vacant Office"
 	icon_state = "security"
@@ -732,9 +737,24 @@
 
 /area/shuttle/arrival/station
 	icon_state = "shuttle"
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
+
+/area/shuttle/supply_shuttle
+	name = "Supply Shuttle"
+	icon_state = "shuttle3"
+	req_access = list(access_cargo)
 
 /area/shuttle/escape_shuttle
 	name = "\improper Emergency Shuttle"
+	icon_state = "shuttle"
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
+
+/area/shuttle/administration/centcom
+	name = "\improper Administration Shuttle"
+	icon_state = "shuttlered"
+	req_access = list(access_cent_general)
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
+
 
 // SUBSTATIONS. (Subtype of maint, that should let them serve as shielded area during radstorm)
 
@@ -1063,15 +1083,32 @@
 	name = "\improper Thunderdome (Observer.)"
 	icon_state = "purple"
 
-/area/centcom
-	name = "\improper Centcom"
-	icon_state = "centcom"
-	requires_power = FALSE
-	dynamic_lighting = FALSE
-	req_access = list(access_cent_general)
+//Centcom
 
-/area/centcom/holding
-	name = "\improper Holding Facility"
+/area/shuttle/transport1/centcom
+	icon_state = "shuttle"
+	name = "\improper Transport Shuttle Centcom"
+
+/area/centcom/control
+	name = "\improper Centcom Control"
+
+/area/centcom/creed
+	name = "Creed's Office"
+
+/area/centcom/evac
+	name = "\improper Centcom Emergency Shuttle"
+
+/area/centcom/ferry
+	name = "\improper Centcom Transport Shuttle"
+
+/area/centcom/living
+	name = "\improper Centcom Living Quarters"
+
+/area/centcom/suppy
+	name = "\improper Centcom Supply Shuttle"
+
+/area/centcom/test
+	name = "\improper Centcom Testing Facility"
 
 /area/shuttle/supply_shuttle
 	name = "Supply Shuttle"
@@ -1081,3 +1118,25 @@
 /area/shuttle/escape_shuttle
 	name = "\improper Emergency Shuttle"
 	icon_state = "shuttle"
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
+
+/area/shuttle/administration/centcom
+	name = "\improper Administration Shuttle"
+	icon_state = "shuttlered"
+	req_access = list(access_cent_general)
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
+
+//OFFSTATION.
+
+// Merchant
+
+/area/merchant_station
+	name = "\improper Merchant Station"
+	icon_state = "LP"
+	req_access = list(access_merchant)
+
+/area/shuttle/merchant/home
+	name = "\improper Merchant Vessel"
+	icon_state = "shuttlegrn"
+	req_access = list(access_merchant)
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT

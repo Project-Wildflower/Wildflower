@@ -28,6 +28,8 @@ ESCAPE_POD(2)
 ESCAPE_POD(3)
 ESCAPE_POD(4)
 
+//Station departmental shuttles
+
 /obj/machinery/computer/shuttle_control/explore/research
 	name = "research pod control console"
 	shuttle_tag = "Research Pod"
@@ -85,6 +87,55 @@ ESCAPE_POD(4)
 	landmark_tag = "nav_exodus_engineering_pod_dock"
 	docking_controller = "engineering_dock_airlock"
 
+//Ninja Shuttle.
+/datum/shuttle/autodock/multi/antag/ninja
+	destination_tags = list(
+		"nav_ninja_deck1",
+		"nav_ninja_deck2",
+		"nav_ninja_deck3",
+		"nav_ninja_deck4",
+		"nav_ninja_deck5",
+		"nav_ninja_hanger",
+		"nav_away_6",
+		"nav_derelict_5",
+		"nav_cluster_6",
+		"nav_ninja_start",
+		"nav_lost_supply_base_antag",
+		"nav_marooned_antag",
+		"nav_smugglers_antag",
+		"nav_magshield_antag",
+		"nav_casino_antag",
+		"nav_yacht_antag",
+		"nav_slavers_base_antag"
+		)
+
+/obj/effect/shuttle_landmark/ninja/arivals
+	name = "Contract target docking port"
+	landmark_tag = "nav_ninja_arivals"
+
+
+//Merchant
+
+/datum/shuttle/autodock/ferry/merchant
+	name = "Merchant"
+	warmup_time = 10
+	shuttle_area = /area/shuttle/merchant/home
+	waypoint_station = "nav_merchant_start"
+	waypoint_offsite = "nav_merchant_out"
+	dock_target = "merchant_ship_dock"
+
+/obj/effect/shuttle_landmark/merchant/start
+	name = "Merchant Base"
+	landmark_tag = "nav_merchant_start"
+	docking_controller = "merchant_station_dock"
+
+/obj/effect/shuttle_landmark/merchant/out
+	name = "Exodus north dock"
+	landmark_tag = "nav_merchant_out"
+	docking_controller = "merchant_shuttle_station_dock"
+
+//Centcom
+
 /datum/shuttle/autodock/ferry/emergency/escape_shuttle
 	name = "Escape Shuttle"
 	warmup_time = 10
@@ -123,3 +174,122 @@ ESCAPE_POD(4)
 	landmark_tag = "nav_cargo_station"
 	docking_controller = "cargo_bay"
 
+/datum/shuttle/autodock/ferry/centcom
+	name = "Centcom"
+	location = 1
+	warmup_time = 10
+	shuttle_area = /area/shuttle/transport1/centcom
+	dock_target = "centcom_shuttle"
+	waypoint_offsite = "nav_ferry_start"
+	waypoint_station = "nav_ferry_out"
+
+/obj/effect/shuttle_landmark/ferry/start
+	name = "Centcom"
+	landmark_tag = "nav_ferry_start"
+	docking_controller = "centcom_shuttle_bay"
+
+/obj/effect/shuttle_landmark/ferry/out
+	name = "Docking Bay"
+	landmark_tag = "nav_ferry_out"
+	docking_controller = "centcom_shuttle_dock_airlock"
+
+/obj/effect/shuttle_landmark/merc/arivals
+	name = "Exodus north dock"
+	landmark_tag = "nav_merc_arivals"
+
+//Admin
+
+/datum/shuttle/autodock/ferry/administration
+	name = "Administration"
+	warmup_time = 10	//want some warmup time so people can cancel.
+	shuttle_area = /area/shuttle/administration/centcom
+	dock_target = "admin_shuttle"
+	waypoint_station = "nav_admin_start"
+	waypoint_offsite = "nav_admin_out"
+
+/obj/effect/shuttle_landmark/admin/start
+	name = "Centcom"
+	landmark_tag = "nav_admin_start"
+	docking_controller = "admin_shuttle"
+	base_area = /area/centcom
+	base_turf = /turf/simulated/floor/plating
+
+/obj/effect/shuttle_landmark/admin/out
+	name = "Exodus north dock"
+	landmark_tag = "nav_admin_out"
+	docking_controller = "admin_shuttle_dock_airlock"
+
+//NT Rescue Shuttle
+
+/datum/shuttle/autodock/multi/antag/rescue
+	destination_tags = list(
+		"nav_ert_hanger",
+		"nav_away_4",
+		"nav_derelict_4",
+		"nav_cluster_4",
+		"nav_ert_dock",
+		"nav_ert_start",
+		"nav_lost_supply_base_antag",
+		"nav_marooned_antag",
+		"nav_smugglers_antag",
+		"nav_magshield_antag",
+		"nav_casino_antag",
+		"nav_yacht_antag",
+		"nav_slavers_base_antag",
+		)
+
+/obj/effect/shuttle_landmark/ert/arivals
+	name =  "Exodus arivals south dock"
+	landmark_tag = "nav_ert_arivals"
+
+//Skipjack
+/datum/shuttle/autodock/multi/antag/skipjack
+	destination_tags = list(
+		"nav_skipjack_arivals",
+		"nav_away_7",
+		"nav_derelict_7",
+		"nav_cluster_7",
+		"nav_skipjack_dock",
+		"nav_skipjack_start",
+		"nav_lost_supply_base_antag",
+		"nav_marooned_antag",
+		"nav_smugglers_antag",
+		"nav_magshield_antag",
+		"nav_casino_antag",
+		"nav_yacht_antag",
+		"nav_slavers_base_antag",
+		)
+
+/obj/effect/shuttle_landmark/skipjack/arivals
+	name = "Exodus arivals south dock"
+	landmark_tag = "nav_skipjack_arivals"
+
+//SCGMC Assault Pod
+
+/datum/shuttle/autodock/ferry/specops/ert
+	name = "Special Operations"
+	warmup_time = 10
+	shuttle_area = /area/shuttle/specops/centcom
+	dock_target = "specops_shuttle_fore"
+	waypoint_station = "nav_specops_start"
+	waypoint_offsite = "nav_specops_out"
+
+/obj/effect/shuttle_landmark/specops/start
+	name = "Centcom"
+	landmark_tag = "nav_specops_start"
+	docking_controller = "specops_shuttle_port"
+
+/obj/effect/shuttle_landmark/specops/out
+	name = "Docking Bay"
+	landmark_tag = "nav_specops_out"
+	docking_controller = "specops_dock_airlock"
+
+//generic docking ports (Work this shit out if anyone wants to slap their nipples at it)
+	//Large
+
+	//Small
+
+
+//Makes the deck management program use other access types
+/datum/nano_module/deck_management
+	default_access = list(access_heads)
