@@ -1,8 +1,8 @@
-var/global/const/NETWORK_COMMAND = "Command"
-var/global/const/NETWORK_ENGINE  = "Engine"
-var/global/const/NETWORK_ENGINEERING_OUTPOST = "Engineering Outpost"
-var/global/const/NETWORK_PUBLIC_EAST = "Starboard Quarter"
-var/global/const/NETWORK_PUBLIC_WEST = "Port Quarter"
+var/const/NETWORK_COMMAND = "Command"
+var/const/NETWORK_ENGINE  = "Engine"
+var/const/NETWORK_ENGINEERING_OUTPOST = "Engineering Outpost"
+var/const/NETWORK_PUBLIC_EAST = "Starboard Quarter"
+var/const/NETWORK_PUBLIC_WEST = "Port Quarter"
 
 /datum/map/exodus
 	// Networks that will show up as options in the camera monitor program

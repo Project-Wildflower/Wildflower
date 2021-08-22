@@ -1,8 +1,8 @@
 /datum/department/command
 	goals = list(/datum/goal/department/paperwork/exodus)
 
-var/global/list/exodus_paperwork_spawn_turfs = list()
-var/global/list/exodus_paperwork_end_areas = list()
+GLOBAL_LIST_EMPTY(exodus_paperwork_spawn_turfs)
+GLOBAL_LIST_EMPTY(exodus_paperwork_end_areas)
 
 /obj/effect/landmark/paperwork_spawn_exodus
 	name = "Exodus Paperwork Goal Spawn Point"
@@ -11,7 +11,7 @@ var/global/list/exodus_paperwork_end_areas = list()
 	..()
 	var/turf/T = get_turf(src)
 	if(istype(T))
-		global.exodus_paperwork_spawn_turfs |= T
+		GLOB.exodus_paperwork_spawn_turfs |= T
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/paperwork_finish_exodus
@@ -23,7 +23,7 @@ var/global/list/exodus_paperwork_end_areas = list()
 	if(istype(T))
 		var/area/A = get_area(T)
 		if(istype(A))
-			global.exodus_paperwork_end_areas |= A
+			GLOB.exodus_paperwork_end_areas |= A
 	return INITIALIZE_HINT_QDEL
 
 /datum/goal/department/paperwork/exodus
@@ -38,10 +38,10 @@ var/global/list/exodus_paperwork_end_areas = list()
 	)
 
 /datum/goal/department/paperwork/exodus/get_spawn_turfs()
-	return global.exodus_paperwork_spawn_turfs
+	return GLOB.exodus_paperwork_spawn_turfs
 
 /datum/goal/department/paperwork/exodus/get_end_areas()
-	return global.exodus_paperwork_end_areas
+	return GLOB.exodus_paperwork_end_areas
 
 /obj/item/paperwork/exodus
 	name = "\improper Exodus payroll paperwork"
