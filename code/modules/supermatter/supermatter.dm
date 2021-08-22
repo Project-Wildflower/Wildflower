@@ -36,7 +36,7 @@
 	layer = ABOVE_HUMAN_LAYER
 
 	var/nitrogen_retardation_factor = 0.15	//Higher == N2 slows reaction more
-	var/thermal_release_modifier = 10000		//Higher == more heat released during reaction
+	var/thermal_release_modifier = 15000		//Higher == more heat released during reaction
 	var/phoron_release_modifier = 1500		//Higher == less phoron released by reaction
 	var/oxygen_release_modifier = 15000		//Higher == less oxygen released at high temperature/power
 	var/radiation_release_modifier = 2      //Higher == more radiation released with more power.
@@ -70,7 +70,7 @@
 
 	var/grav_pulling = 0
 	// Time in ticks between delamination ('exploding') and exploding (as in the actual boom)
-	var/pull_time = 300
+	var/pull_time = 30 SECONDS
 	var/explosion_power = 9
 
 	var/emergency_issued = 0
@@ -97,7 +97,6 @@
 	var/disable_adminwarn = FALSE
 
 	var/aw_normal = FALSE
-	var/aw_notify = FALSE
 	var/aw_warning = FALSE
 	var/aw_danger = FALSE
 	var/aw_emerg = FALSE
@@ -121,7 +120,6 @@
 
 	// Generic checks, similar to checks done by supermatter monitor program.
 	aw_normal = status_adminwarn_check(SUPERMATTER_NORMAL, aw_normal, "INFO: Supermatter crystal has been energised", FALSE)
-	aw_notify = status_adminwarn_check(SUPERMATTER_NOTIFY, aw_notify, "INFO: Supermatter crystal is approaching unsafe operating temperature", FALSE)
 	aw_warning = status_adminwarn_check(SUPERMATTER_WARNING, aw_warning, "WARN: Supermatter crystal is taking integrity damage", FALSE)
 	aw_danger = status_adminwarn_check(SUPERMATTER_DANGER, aw_danger, "WARN: Supermatter integrity is below 50%", TRUE)
 	aw_emerg = status_adminwarn_check(SUPERMATTER_EMERGENCY, aw_emerg, "CRIT: Supermatter integrity is below 25%", FALSE)
@@ -177,9 +175,6 @@
 
 	if((get_integrity() < 100) || (air.temperature > critical_temperature))
 		return SUPERMATTER_WARNING
-
-	if(air.temperature > (critical_temperature * 0.9))
-		return SUPERMATTER_NOTIFY
 
 	if(power > 5)
 		return SUPERMATTER_NORMAL

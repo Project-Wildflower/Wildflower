@@ -37,7 +37,6 @@ meteor_act
 	stun_amount *= siemens_coeff
 	agony_amount *= siemens_coeff
 	agony_amount *= affected.get_agony_multiplier()
-
 	affected.stun_act(stun_amount, agony_amount)
 
 	radio_interrupt_cooldown = world.time + RADIO_INTERRUPT_DEFAULT
@@ -92,6 +91,9 @@ meteor_act
 
 	var/list/clothing_items = list(head, wear_mask, wear_suit, w_uniform, gloves, shoes) // What all are we checking?
 	for(var/obj/item/clothing/C in clothing_items)
+		for(var/obj/item/clothing/accessories in C.accessories)
+			if (accessories.body_parts_covered & def_zone.body_part)
+				siemens_coefficient *= accessories.siemens_coefficient
 		if(istype(C) && (C.body_parts_covered & def_zone.body_part)) // Is that body part being targeted covered?
 			siemens_coefficient *= C.siemens_coefficient
 
@@ -162,7 +164,7 @@ meteor_act
 		return target_zone
 
 	var/accuracy_penalty = user.melee_accuracy_mods()
-	accuracy_penalty += 10*get_skill_difference(SKILL_COMBAT, user)
+	accuracy_penalty += 5*get_skill_difference(SKILL_COMBAT, user)
 	accuracy_penalty += 10*(I.w_class - ITEM_SIZE_NORMAL)
 	accuracy_penalty -= I.melee_accuracy_bonus
 
@@ -297,7 +299,7 @@ meteor_act
 		return 0
 
 	//want the dislocation chance to be such that the limb is expected to dislocate after dealing a fraction of the damage needed to break the limb
-	var/dislocate_chance = effective_force/(dislocate_mult * organ.min_broken_damage * config.organ_health_multiplier)*100
+	var/dislocate_chance = effective_force/(dislocate_mult * organ.min_broken_damage * config.organ_health_multiplier) * (organ.damage * 1.75)
 	if(prob(dislocate_chance * blocked_mult(blocked)))
 		visible_message("<span class='danger'>[src]'s [organ.joint] [pick("gives way","caves in","crumbles","collapses")]!</span>")
 		organ.dislocate(1)
