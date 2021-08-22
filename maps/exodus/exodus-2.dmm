@@ -3999,10 +3999,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
 /area/exodus/engineering/sublevel_access)
 "ahQ" = (
@@ -5958,12 +5955,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/obj/structure/disposalpipe/sortjunction/flipped{
-	dir = 1;
-	name = "Atmospherics";
-	sort_type = "Atmospherics";
-	sortdir = 8
-	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
 /area/exodus/engineering/sublevel_access)
 "alm" = (
@@ -49971,7 +49963,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/sortjunction/flipped{
+	dir = 1;
+	name = "Atmospherics";
+	sort_type = "Atmospherics";
+	sortdir = 8
+	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/sublevel_access)
 "bRX" = (
@@ -50103,6 +50100,10 @@
 "bSh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/sublevel_access)

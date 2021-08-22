@@ -48,7 +48,7 @@
 			bloodsies.appearance_flags |= NO_CLIENT_COLOR
 			ret.overlays	+= bloodsies
 
-	if(accessories.len)
+	if(accessories?.len)
 		for(var/obj/item/clothing/accessory/A in accessories)
 			ret.overlays |= A.get_mob_overlay(user_mob, slot)
 	return ret
