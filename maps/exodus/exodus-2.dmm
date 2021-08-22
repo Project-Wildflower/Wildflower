@@ -9138,16 +9138,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/dormitory)
-"arf" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/camera/network/civilian_east{
-	c_tag = "Dormitory Holodeck South";
-	dir = 1;
-	pixel_y = 6
-	},
-/turf/simulated/floor/plating,
-/area/exodus/crew_quarters/fitness)
 "arg" = (
 /obj/structure/table/glass,
 /obj/item/forensics/sample_kit,
@@ -15511,15 +15501,6 @@
 "aDW" = (
 /obj/machinery/self_destruct,
 /obj/effect/floor_decal/industrial/hatch/orange,
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /obj/machinery/light/small/red{
 	dir = 4
 	},
@@ -15550,10 +15531,14 @@
 "aEa" = (
 /obj/machinery/self_destruct,
 /obj/effect/floor_decal/industrial/hatch/orange,
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
 /obj/structure/cable/green{
-	d1 = 1;
 	d2 = 2;
-	icon_state = "1-2"
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/security/nuke_storage)
@@ -69956,11 +69941,26 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_three)
+"ybr" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 9
+	},
+/obj/item/cell/crap,
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/primary/central_one)
 "yce" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/exit)
+"ydN" = (
+/obj/machinery/camera/network/civilian_east{
+	c_tag = "Dormitory Holodeck South";
+	dir = 4;
+	pixel_y = 0
+	},
+/turf/simulated/floor/reinforced,
+/area/holodeck/alphadeck)
 "yeJ" = (
 /obj/machinery/light,
 /obj/machinery/shieldwallgen,
@@ -94525,7 +94525,7 @@ bgu
 bfR
 bjb
 bkE
-bkE
+ybr
 bkE
 bpz
 brz
@@ -106828,7 +106828,7 @@ cLU
 cLU
 aaf
 anU
-atW
+ydN
 atW
 atW
 atW
@@ -108123,7 +108123,7 @@ atW
 atW
 atW
 atW
-arf
+anS
 aap
 atC
 aHK

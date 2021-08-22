@@ -1,6 +1,8 @@
 var/global/const/NETWORK_COMMAND = "Command"
 var/global/const/NETWORK_ENGINE  = "Engine"
 var/global/const/NETWORK_ENGINEERING_OUTPOST = "Engineering Outpost"
+var/global/const/NETWORK_PUBLIC_EAST = "Starboard Quarter"
+var/global/const/NETWORK_PUBLIC_WEST = "Port Quarter"
 
 /datum/map/exodus
 	// Networks that will show up as options in the camera monitor program
@@ -12,6 +14,8 @@ var/global/const/NETWORK_ENGINEERING_OUTPOST = "Engineering Outpost"
 		NETWORK_MEDICAL,
 		NETWORK_RESEARCH,
 		NETWORK_SECURITY,
+		NETWORK_PUBLIC_EAST,
+		NETWORK_PUBLIC_WEST,
 		NETWORK_ALARM_ATMOS,
 		NETWORK_ALARM_CAMERA,
 		NETWORK_ALARM_FIRE,
@@ -66,10 +70,10 @@ var/global/const/NETWORK_ENGINEERING_OUTPOST = "Engineering Outpost"
 	network = list(NETWORK_SECURITY)
 
 /obj/machinery/camera/network/civilian_east
-	network = list(NETWORK_SECURITY)
+	network = list(NETWORK_PUBLIC_EAST)
 
 /obj/machinery/camera/network/civilian_west
-	network = list(NETWORK_SECURITY)
+	network = list(NETWORK_PUBLIC_WEST)
 
 /obj/machinery/camera/network/prison
 	network = list(NETWORK_SECURITY)

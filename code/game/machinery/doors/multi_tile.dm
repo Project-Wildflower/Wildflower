@@ -46,6 +46,7 @@
 			set_dir(WEST)
 	else
 		set_dir(SOUTH)
+	SetBounds() //We may have made directional edits. Need to make sure. Wildflower edit.
 
 /obj/machinery/door/airlock/multi_tile/update_connections(var/propagate = 0)
 	var/dirs = 0
