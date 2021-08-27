@@ -1,10 +1,8 @@
 /datum/job/cmo
 	title = "Chief Medical Officer"
 	head_position = 1
-	department_types = list(
-		/decl/department/medical,
-		/decl/department/command
-	)
+	department_flag = MED|COM
+
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the captain"
@@ -48,10 +46,6 @@
 		access_external_airlocks
 	)
 	minimal_player_age = 14
-	ideal_character_age = 50
-	guestbanned = 1
-	must_fill = 1
-	not_random_selectable = 1
 	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
@@ -74,7 +68,8 @@
 
 /datum/job/doctor
 	title = "Medical Doctor"
-	department_types = list(/decl/department/medical)
+	department_flag = MED
+
 	minimal_player_age = 3
 	total_positions = 5
 	spawn_positions = 3
@@ -105,7 +100,10 @@
 		"Surgeon" =             /decl/hierarchy/outfit/job/medical/doctor/surgeon,
 		"Emergency Physician" = /decl/hierarchy/outfit/job/medical/doctor/emergency_physician,
 		"Nurse" =               /decl/hierarchy/outfit/job/medical/doctor/nurse,
-		"Virologist" =          /decl/hierarchy/outfit/job/medical/doctor/virologist
+		"Virologist" =          /decl/hierarchy/outfit/job/medical/doctor/virologist,
+		//Just gonna put these here. Might move them later.
+		"Paramedic" =           /decl/hierarchy/outfit/job/medical/paramedic,
+		"Emergency Medical Technician" = /decl/hierarchy/outfit/job/medical/paramedic/emt
 	)
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor
 	min_skill = list(
@@ -123,11 +121,10 @@
 		/datum/computer_file/program/camera_monitor
 	)
 	skill_points = 22
-	title = "Paramedic"
 
 /datum/job/chemist
 	title = "Pharmacist"
-	department_types = list(/decl/department/medical)
+	department_flag = MED
 	minimal_player_age = 7
 	total_positions = 2
 	spawn_positions = 2
@@ -163,7 +160,7 @@
 /datum/job/counselor
 	title = "Counselor"
 	alt_titles = list("Mentalist")
-	department_types = list(/decl/department/medical)
+	department_flag = MED
 	total_positions = 1
 	spawn_positions = 1
 	economic_power = 5

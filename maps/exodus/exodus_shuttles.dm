@@ -140,6 +140,7 @@ ESCAPE_POD(4)
 	name = "Escape Shuttle"
 	warmup_time = 10
 	location = 1
+	crack_docking_codes = TRUE
 	dock_target = "escape_shuttle"
 	shuttle_area = /area/shuttle/escape_shuttle
 	waypoint_offsite = "nav_escape_shuttle_start"
@@ -161,6 +162,7 @@ ESCAPE_POD(4)
 	name = "Supply Shuttle"
 	warmup_time = 10
 	location = 1
+	crack_docking_codes = TRUE
 	dock_target = "supply_shuttle"
 	shuttle_area = /area/shuttle/supply_shuttle
 	waypoint_offsite = "nav_cargo_start"

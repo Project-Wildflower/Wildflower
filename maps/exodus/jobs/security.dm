@@ -1,10 +1,7 @@
 /datum/job/hos
 	title = "Head of Security"
 	head_position = 1
-	department_types = list(
-		/decl/department/security,
-		/decl/department/command
-	)
+	department_flag = SEC|COM
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the captain"
@@ -60,9 +57,7 @@
 		access_external_airlocks
 	)
 	minimal_player_age = 14
-	guestbanned = 1
-	must_fill = 1
-	not_random_selectable = 1
+
 	outfit_type = /decl/hierarchy/outfit/job/security/hos
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
@@ -91,7 +86,7 @@
 
 /datum/job/warden
 	title = "Warden"
-	department_types = list(/decl/department/security)
+	department_flag = SEC
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the head of security"
@@ -118,7 +113,6 @@
 	)
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/warden
-	guestbanned = 1
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_EVA       = SKILL_BASIC,
@@ -139,7 +133,7 @@
 
 /datum/job/detective
 	title = "Detective"
-	department_types = list(/decl/department/security)
+	department_flag = SEC
 
 	total_positions = 2
 	spawn_positions = 2
@@ -165,7 +159,6 @@
 	)
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/detective
-	guestbanned = 1
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_COMPUTER  = SKILL_BASIC,
@@ -187,7 +180,7 @@
 
 /datum/job/officer
 	title = "Security Officer"
-	department_types = list(/decl/department/security)
+	department_flag = SEC
 	total_positions = 4
 	spawn_positions = 4
 	supervisors = "the head of security"
@@ -213,7 +206,6 @@
 	)
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/security/officer
-	guestbanned = 1
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_BASIC,
 		SKILL_EVA       = SKILL_BASIC,

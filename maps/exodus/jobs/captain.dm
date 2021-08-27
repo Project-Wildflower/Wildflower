@@ -12,6 +12,7 @@
 	minimal_access = list() 	//See get_access()
 	minimal_player_age = 14
 	economic_power = 20
+
 	ideal_character_age = 70
 	outfit_type = /decl/hierarchy/outfit/job/captain
 	min_skill = list(
@@ -42,10 +43,8 @@
 /datum/job/hop
 	title = "Head of Personnel"
 	head_position = 1
-	department_types = list(
-		/decl/department/command,
-		/decl/department/civilian
-	)
+	department_flag = COM|CIV
+
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the captain"
@@ -54,8 +53,7 @@
 	minimal_player_age = 14
 	economic_power = 10
 	ideal_character_age = 50
-	guestbanned = 1
-	not_random_selectable = 1
+
 	access = list(
 		access_security,
 		access_sec_doors,

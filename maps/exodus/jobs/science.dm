@@ -1,10 +1,8 @@
 /datum/job/rd
 	title = "Chief Science Officer"
 	head_position = 1
-	department_types = list(
-		/decl/department/science,
-		/decl/department/command
-	)
+	department_flag = COM|SCI
+
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the captain"
@@ -30,7 +28,8 @@
 		access_tcomsat,
 		access_gateway,
 		access_xenoarch,
-		access_network
+		access_network,
+		access_network_admin
 	)
 	minimal_access = list(access_rd,
 		access_bridge,
@@ -50,13 +49,12 @@
 		access_tcomsat,
 		access_gateway,
 		access_xenoarch,
-		access_network
+		access_network,
+		access_network_admin
 	)
 	minimal_player_age = 14
 	ideal_character_age = 50
-	guestbanned = 1
-	must_fill = 1
-	not_random_selectable = 1
+
 	outfit_type = /decl/hierarchy/outfit/job/science/rd
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
@@ -75,7 +73,7 @@
 
 /datum/job/scientist
 	title = "Scientist"
-	department_types = list(/decl/department/science)
+	department_flag = SCI
 	total_positions = 6
 	spawn_positions = 4
 	supervisors = "the Chief Science Officer"
@@ -98,9 +96,9 @@
 		access_xenobiology,
 		access_hydroponics
 	)
-	alt_titles = list(
-		"Xenobiologist",
-		"Xenobotanist",
+	alt_titles = list(//Bay has outfits for the first two. Might as well put them there.
+		"Xenobiologist" = /decl/hierarchy/outfit/job/science/xenobiologist,
+		"Xenobotanist" =  /decl/hierarchy/outfit/job/science/xenobiologist,
 		"Xenoarcheologist",
 		"Anomalist",
 		"Phoron Researcher"
@@ -122,7 +120,7 @@
 
 /datum/job/roboticist
 	title = "Roboticist"
-	department_types = list(/decl/department/science)
+	department_flag = SCI
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Chief Science Officer"

@@ -1,20 +1,19 @@
 /datum/job/chief_engineer
 	title = "Chief Engineer"
 	head_position = 1
-	department_types = list(
-		/decl/department/engineering,
-		/decl/department/command
-	)
+	department_flag = ENG|COM
+
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the captain"
 	selection_color = "#7f6e2c"
 	req_admin_notify = 1
 	economic_power = 10
+
 	ideal_character_age = 50
-	guestbanned = 1
-	must_fill = 1
-	not_random_selectable = 1
+
+
+
 	access = list(
 		access_engine,
 		access_engine_equip,
@@ -76,7 +75,6 @@
 	skill_points = 30
 	software_on_spawn = list(
 		/datum/computer_file/program/comm,
-		/datum/computer_file/program/network_monitor,
 		/datum/computer_file/program/power_monitor,
 		/datum/computer_file/program/supermatter_monitor,
 		/datum/computer_file/program/alarm_monitor,
@@ -89,7 +87,7 @@
 
 /datum/job/engineer
 	title = "Engineer"
-	department_types = list(/decl/department/engineering)
+	department_flag = ENG
 
 	total_positions = 8
 	spawn_positions = 7

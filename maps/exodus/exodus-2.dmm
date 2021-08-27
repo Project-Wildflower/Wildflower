@@ -39931,6 +39931,7 @@
 /area/exodus/crew_quarters/heads/hor)
 "bzJ" = (
 /obj/structure/closet/secure_closet/hop,
+/obj/item/stamp/hop,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/crew_quarters/heads/hop)
 "bzK" = (

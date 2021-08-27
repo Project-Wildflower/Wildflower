@@ -24,6 +24,12 @@
 
 	//Job Information
 	#include "jobs/_goals.dm"
+	#include "jobs/captain.dm"
+	#include "jobs/civilian.dm"
+	#include "jobs/engineering.dm"
+	#include "jobs/medical.dm"
+	#include "jobs/science.dm"
+	#include "jobs/security.dm"
 
 	//Outfits
 	//Empty
@@ -32,6 +38,7 @@
 
 	//Objects
 	#include "items/mecha.dm"
+	#include "items/stamps.dm"
 
 	//Misc
 	#include "exodus_announcements.dm"
@@ -47,6 +54,7 @@
 	#include "exodus_holodecks.dm"
 	#include "exodus_unit_testing.dm"
 	#include "exodus_npcs.dm"
+	#include "exodus_overrides.dm"
 
 	//Maps
 	#include "exodus-1.dmm"

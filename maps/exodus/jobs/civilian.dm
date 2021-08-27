@@ -1,6 +1,6 @@
 /datum/job/chaplain
 	title = "Chaplain"
-	department_types = list(/decl/department/civilian)
+	department_flag = CIV
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the head of personnel"
@@ -16,7 +16,6 @@
 		access_crematorium
 	)
 	outfit_type = /decl/hierarchy/outfit/job/chaplain
-	is_holy = TRUE
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_FINANCE  = SKILL_BASIC
@@ -27,7 +26,7 @@
 //Food
 /datum/job/bartender
 	title = "Bartender"
-	department_types = list(/decl/department/service)
+	department_flag = SRV
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the head of personnel"
@@ -48,7 +47,7 @@
 
 /datum/job/chef
 	title = "Chef"
-	department_types = list(/decl/department/service)
+	department_flag = SRV
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the head of personnel"
@@ -69,7 +68,7 @@
 
 /datum/job/hydro
 	title = "Gardener"
-	department_types = list(/decl/department/service)
+	department_flag = SRV
 	total_positions = 2
 	spawn_positions = 1
 	supervisors = "the head of personnel"
@@ -90,7 +89,7 @@
 //Cargo
 /datum/job/qm
 	title = "Quartermaster"
-	department_types = list(/decl/department/supply)
+	department_flag = SUP
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the head of personnel"
@@ -135,7 +134,7 @@
 
 /datum/job/cargo_tech
 	title = "Cargo Technician"
-	department_types = list(/decl/department/supply)
+	department_flag = SUP
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the quartermaster and the head of personnel"
@@ -171,7 +170,7 @@
 
 /datum/job/mining
 	title = "Shaft Miner"
-	department_types = list(/decl/department/supply)
+	department_flag = SUP
 	total_positions = 3
 	spawn_positions = 3
 	supervisors = "the quartermaster and the head of personnel"
@@ -206,7 +205,7 @@
 
 /datum/job/janitor
 	title = "Janitor"
-	department_types = list(/decl/department/service)
+	department_flag = SRV
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the head of personnel"
@@ -239,7 +238,7 @@
 //More or less assistants
 /datum/job/librarian
 	title = "Librarian"
-	department_types = list(/decl/department/civilian)
+	department_flag = CIV
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the head of personnel"
@@ -259,7 +258,7 @@
 
 /datum/job/lawyer
 	title = "Internal Affairs Agent"
-	department_types = list(/decl/department/support)
+	department_flag = SPT
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "company officials and Corporate Regulations"
