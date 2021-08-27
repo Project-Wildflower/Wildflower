@@ -30,12 +30,14 @@ ESCAPE_POD(4)
 
 //Station departmental shuttles
 
+// Sci/Explo
 /obj/machinery/computer/shuttle_control/explore/research
 	name = "research pod control console"
 	shuttle_tag = "Research Pod"
 /datum/shuttle/autodock/overmap/research
 	name = "Research Pod"
 	shuttle_area = /area/ship/exodus_pod_research
+	logging_home_tag = "nav_exodus_research_pod_dock"
 	dock_target = "research_shuttle"
 	current_location = "nav_exodus_research_pod_dock"
 /area/ship/exodus_pod_research
@@ -49,12 +51,14 @@ ESCAPE_POD(4)
 	landmark_tag = "nav_exodus_research_pod_dock"
 	docking_controller = "research_dock_airlock"
 
+// Mining
 /obj/machinery/computer/shuttle_control/explore/mining
 	name = "mining pod control console"
 	shuttle_tag = "Mining Pod"
 /datum/shuttle/autodock/overmap/mining
 	name = "Mining Pod"
 	shuttle_area = /area/ship/exodus_pod_mining
+	logging_home_tag = "nav_exodus_mining_pod_dock"
 	dock_target = "mining_shuttle"
 	current_location = "nav_exodus_mining_pod_dock"
 /area/ship/exodus_pod_mining
@@ -68,12 +72,14 @@ ESCAPE_POD(4)
 	landmark_tag = "nav_exodus_mining_pod_dock"
 	docking_controller = "mining_dock_airlock"
 
+// Engineering
 /obj/machinery/computer/shuttle_control/explore/engineering
 	name = "engineering pod control console"
 	shuttle_tag = "Engineering Pod"
 /datum/shuttle/autodock/overmap/engineering
 	name = "Engineering Pod"
 	shuttle_area = /area/ship/exodus_pod_engineering
+	logging_home_tag = "nav_exodus_engineering_pod_dock"
 	dock_target = "engineering_shuttle"
 	current_location = "nav_exodus_engineering_pod_dock"
 /area/ship/exodus_pod_engineering
@@ -294,4 +300,4 @@ ESCAPE_POD(4)
 
 //Makes the deck management program use other access types
 /datum/nano_module/deck_management
-	default_access = list(access_heads)
+	default_access = list(access_cargo, access_heads)

@@ -6655,6 +6655,7 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Security Subgrid";
+	name_tag = "Security Subgrid";
 	name = "Powernet Sensor - Security Subgrid"
 	},
 /obj/structure/cable/green{
@@ -16614,6 +16615,7 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Civilian East Subgrid";
+	name_tag = "Civilian East Subgrid";
 	name = "Powernet Sensor - Civilian East Subgrid"
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -18853,6 +18855,7 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Civilian West Subgrid";
+	name_tag = "Civilian West Subgrid";
 	name = "Powernet Sensor - Civilian West"
 	},
 /obj/structure/cable/green{
@@ -22325,6 +22328,7 @@
 "aQC" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad2";
 	id_tag = "QMLoad2"
 	},
 /obj/machinery/door/firedoor,
@@ -22822,6 +22826,7 @@
 "aRF" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad";
 	id_tag = "QMLoad"
 	},
 /obj/machinery/door/firedoor,
@@ -23312,6 +23317,7 @@
 /area/exodus/quartermaster/miningdock)
 "aSD" = (
 /obj/machinery/computer/modular/preset/cardslot/command,
+/obj/item/modular_computer/tablet/lease/preset/command,
 /turf/simulated/floor/wood/walnut,
 /area/exodus/crew_quarters/captain)
 "aSE" = (
@@ -23653,6 +23659,7 @@
 "aTl" = (
 /obj/machinery/conveyor{
 	dir = 10;
+	id = "garbage";
 	id_tag = "garbage"
 	},
 /turf/simulated/floor/plating,
@@ -28842,6 +28849,7 @@
 	},
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "packageSort2";
 	id_tag = "packageSort2"
 	},
 /turf/simulated/floor/plating,
@@ -28984,6 +28992,7 @@
 "bdS" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "packageSort2";
 	id_tag = "packageSort2"
 	},
 /turf/simulated/floor/plating,
@@ -28991,6 +29000,7 @@
 "bdT" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "packageSort2";
 	id_tag = "packageSort2"
 	},
 /obj/structure/plasticflaps,
@@ -29356,6 +29366,7 @@
 /area/exodus/quartermaster/office)
 "beR" = (
 /obj/machinery/conveyor_switch/oneway{
+	id = "packageSort2";
 	id_tag = "packageSort2"
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -29547,6 +29558,7 @@
 "bfi" = (
 /obj/machinery/conveyor{
 	dir = 1;
+	id = "packageSort1";
 	id_tag = "packageSort1"
 	},
 /turf/simulated/floor/plating,
@@ -30761,6 +30773,7 @@
 /area/exodus/quartermaster/storage)
 "bhK" = (
 /obj/machinery/conveyor_switch/oneway{
+	id = "packageSort1";
 	id_tag = "packageSort1"
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -30837,6 +30850,7 @@
 "bhS" = (
 /obj/machinery/power/sensor{
 	id_tag = "AI Subgrid";
+	name_tag = "AI Subgrid";
 	name = "Powernet Sensor - AI Subgrid"
 	},
 /obj/structure/cable/cyan{
@@ -31346,6 +31360,7 @@
 "biS" = (
 /obj/machinery/conveyor{
 	dir = 1;
+	id = "garbage";
 	id_tag = "garbage"
 	},
 /obj/structure/sign/warning/vacuum{
@@ -32418,6 +32433,7 @@
 "bkQ" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "garbage";
 	id_tag = "garbage"
 	},
 /obj/machinery/light/small{
@@ -32428,6 +32444,7 @@
 "bkR" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "garbage";
 	id_tag = "garbage"
 	},
 /turf/simulated/floor/plating,
@@ -32995,6 +33012,7 @@
 "bmg" = (
 /obj/machinery/conveyor{
 	dir = 1;
+	id = "garbage";
 	id_tag = "garbage"
 	},
 /turf/simulated/floor/plating,
@@ -33532,11 +33550,7 @@
 /obj/machinery/light_switch{
 	pixel_x = -25
 	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
-/obj/item/storage/belt/utility,
-/obj/item/storage/belt/utility,
+/obj/machinery/computer/rdconsole/robotics,
 /turf/simulated/floor/tiled/white/monotile,
 /area/exodus/research/robotics)
 "bnf" = (
@@ -33565,6 +33579,8 @@
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
+/obj/item/storage/belt/utility,
+/obj/item/storage/belt/utility,
 /turf/simulated/floor/tiled/white/monotile,
 /area/exodus/research/robotics)
 "bnh" = (
@@ -33959,6 +33975,7 @@
 "bnT" = (
 /obj/machinery/conveyor_switch/oneway{
 	convdir = -1;
+	id = "garbage";
 	id_tag = "garbage";
 	name = "disposal coveyor"
 	},
@@ -34476,6 +34493,7 @@
 "bpb" = (
 /obj/machinery/conveyor{
 	dir = 1;
+	id = "garbage";
 	id_tag = "garbage"
 	},
 /obj/machinery/door/blast/regular{
@@ -34657,6 +34675,7 @@
 "bpw" = (
 /obj/machinery/conveyor_switch/oneway{
 	convdir = -1;
+	id = "packageExternal";
 	id_tag = "packageExternal"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -34727,6 +34746,7 @@
 /obj/structure/cable/green,
 /obj/machinery/power/sensor{
 	id_tag = "Command Subgrid";
+	name_tag = "Command Subgrid";
 	name = "Powernet Sensor - Command Subgrid"
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -35744,6 +35764,7 @@
 "brw" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "packageExternal";
 	id_tag = "packageExternal"
 	},
 /obj/machinery/door/firedoor,
@@ -35757,6 +35778,7 @@
 "brx" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "packageExternal";
 	id_tag = "packageExternal"
 	},
 /obj/structure/plasticflaps{
@@ -36177,10 +36199,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/research/chargebay)
-"bsl" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/research/robotics)
 "bsm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -36502,6 +36520,7 @@
 	dir = 8
 	},
 /obj/machinery/conveyor_switch/oneway{
+	id = "QMLoad3";
 	id_tag = "QMLoad3"
 	},
 /obj/structure/disposalpipe/segment{
@@ -36734,6 +36753,7 @@
 	pixel_x = -22
 	},
 /obj/structure/table/glass,
+/obj/item/stack/material/phoron,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/chemistry)
 "btt" = (
@@ -37313,6 +37333,7 @@
 	},
 /obj/machinery/conveyor{
 	dir = 1;
+	id = "QMLoad3";
 	id_tag = "QMLoad3"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -37452,7 +37473,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/multi_tile/glass/mining{
-	dir = 4
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/quartermaster/storage)
@@ -38205,6 +38226,7 @@
 "bwc" = (
 /obj/machinery/conveyor{
 	dir = 1;
+	id = "QMLoad3";
 	id_tag = "QMLoad3"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -38827,6 +38849,8 @@
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = -5
 	},
+/obj/item/device/scanner/health,
+/obj/item/device/scanner/health,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/chemistry)
 "bxu" = (
@@ -39053,6 +39077,7 @@
 "bxR" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad2";
 	id_tag = "QMLoad2"
 	},
 /obj/effect/floor_decal/industrial/warning/cee{
@@ -39064,6 +39089,7 @@
 "bxS" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad2";
 	id_tag = "QMLoad2"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -39072,6 +39098,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad2";
 	id_tag = "QMLoad2"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -39764,6 +39791,7 @@
 	dir = 1
 	},
 /obj/machinery/conveyor_switch/oneway{
+	id = "QMLoad2";
 	id_tag = "QMLoad2"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -39974,6 +40002,7 @@
 "bzK" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad2";
 	id_tag = "QMLoad2"
 	},
 /obj/machinery/door/firedoor,
@@ -40571,6 +40600,7 @@
 /obj/structure/cable/green,
 /obj/machinery/power/sensor{
 	id_tag = "Medbay Subgrid";
+	name_tag = "Medbay Subgrid";
 	name = "Powernet Sensor - Medbay Subgrid"
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -41635,6 +41665,7 @@
 "bCG" = (
 /obj/machinery/conveyor_switch/oneway{
 	convdir = -1;
+	id = "QMLoad";
 	id_tag = "QMLoad"
 	},
 /obj/effect/floor_decal/industrial/warning,
@@ -42209,6 +42240,7 @@
 "bDL" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad";
 	id_tag = "QMLoad"
 	},
 /obj/machinery/light,
@@ -42451,6 +42483,7 @@
 "bEf" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad";
 	id_tag = "QMLoad"
 	},
 /obj/effect/floor_decal/industrial/warning/cee,
@@ -42470,6 +42503,7 @@
 "bEh" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad";
 	id_tag = "QMLoad"
 	},
 /obj/machinery/status_display/supply_display{
@@ -42480,6 +42514,7 @@
 "bEi" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad";
 	id_tag = "QMLoad"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -42894,6 +42929,7 @@
 "bFb" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad";
 	id_tag = "QMLoad"
 	},
 /obj/machinery/door/firedoor,
@@ -43709,7 +43745,7 @@
 /area/exodus/turret_protected/ai_cyborg_station)
 "bGy" = (
 /obj/machinery/door/airlock/multi_tile/glass/medical{
-	dir = 4
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/medical/sleeper)
@@ -45130,6 +45166,7 @@
 /obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 1
 	},
+/obj/item/modular_computer/tablet/lease/preset/command,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/crew_quarters/heads/hop)
 "bIW" = (
@@ -46139,6 +46176,7 @@
 "bKH" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "cargo_mining_conveyor";
 	id_tag = "cargo_mining_conveyor"
 	},
 /obj/structure/window/reinforced{
@@ -46719,6 +46757,7 @@
 	pixel_y = 22
 	},
 /obj/machinery/computer/modular/preset/civilian,
+/obj/item/modular_computer/tablet/lease/preset/command,
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/heads/hor)
 "bLW" = (
@@ -47169,10 +47208,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering/engineering_monitoring)
-"bMI" = (
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/wall/prepainted,
-/area/exodus/engineering/sublevel_access)
 "bMJ" = (
 /obj/machinery/light{
 	dir = 1
@@ -48814,6 +48849,7 @@
 	name = "plastic table frame"
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
+/obj/item/modular_computer/tablet/lease/preset/medical,
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
 "bPO" = (
@@ -52271,6 +52307,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/effect/floor_decal/sign/a,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/patient_wing)
 "bWz" = (
@@ -52296,6 +52333,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
+/obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/patient_wing)
 "bWB" = (
@@ -52306,6 +52344,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/floor_decal/sign/b,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/patient_wing)
 "bWC" = (
@@ -52396,6 +52435,7 @@
 /obj/machinery/computer/modular/preset/medical{
 	dir = 8
 	},
+/obj/item/modular_computer/tablet/lease/preset/command,
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/heads/cmo)
 "bWN" = (
@@ -52891,6 +52931,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/effect/floor_decal/sign/p,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay4)
 "bXJ" = (
@@ -53022,7 +53063,6 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/patient_wing)
 "bXS" = (
-/obj/machinery/hologram/holopad,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -53035,6 +53075,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/sign/c,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/patient_wing)
 "bXT" = (
@@ -55203,6 +55244,7 @@
 /obj/structure/cable/green,
 /obj/machinery/power/sensor{
 	id_tag = "Research Subgrid";
+	name_tag = "Research Subgrid";
 	name = "Powernet Sensor - Research Subgrid"
 	},
 /obj/structure/disposalpipe/segment,
@@ -55701,7 +55743,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/multi_tile/glass/engineering{
-	dir = 4;
+	dir = 8;
 	name = "Engineering Break Room"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -57170,6 +57212,7 @@
 /obj/item/device/radio/intercom{
 	pixel_y = 22
 	},
+/obj/item/modular_computer/tablet/lease/preset/command,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/crew_quarters/heads/chief)
 "cfU" = (
@@ -57376,7 +57419,7 @@
 "cgp" = (
 /obj/structure/bed/chair/comfy/brown,
 /obj/effect/landmark/start{
-	name = "Psychiatrist"
+	name = "Counselor"
 	},
 /turf/simulated/floor/carpet/blue,
 /area/exodus/medical/psych)
@@ -58185,6 +58228,7 @@
 /obj/structure/table/standard,
 /obj/item/gun/launcher/syringe,
 /obj/item/storage/box/syringegun,
+/obj/item/defibrillator,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/biostorage)
 "chM" = (
@@ -58639,7 +58683,7 @@
 "ciI" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/multi_tile/glass/engineering{
-	dir = 4;
+	dir = 8;
 	name = "Engineering EVA Storage"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -58942,6 +58986,7 @@
 /obj/effect/floor_decal/corner/blue/three_quarters{
 	dir = 8
 	},
+/obj/item/defibrillator/loaded,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/medical/surgeryprep)
 "cjq" = (
@@ -59360,6 +59405,7 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Engineering Subgrid";
+	name_tag = "Engineering Subgrid";
 	name = "Powernet Sensor - Engineering Subgrid"
 	},
 /obj/effect/floor_decal/industrial/warning,
@@ -59380,9 +59426,7 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/virology)
 "ckj" = (
-/obj/machinery/computer/operating{
-	dir = 8
-	},
+/obj/machinery/vitals_monitor,
 /turf/simulated/floor/tiled/white/monotile,
 /area/exodus/medical/surgery)
 "ckk" = (
@@ -59435,9 +59479,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/exodus/medical/surgery2)
 "ckq" = (
-/obj/machinery/computer/operating{
-	dir = 4
-	},
+/obj/machinery/vitals_monitor,
 /turf/simulated/floor/tiled/white/monotile,
 /area/exodus/medical/surgery2)
 "ckr" = (
@@ -59854,7 +59896,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/multi_tile/glass/engineering{
-	dir = 4
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering/locker_room)
@@ -60964,7 +61006,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/multi_tile/glass/engineering{
-	dir = 4
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering)
@@ -66562,6 +66604,7 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Master";
+	name_tag = "Master";
 	name = "Powernet Sensor - Master Grid"
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -66785,6 +66828,7 @@
 /obj/structure/cable/yellow,
 /obj/machinery/power/sensor{
 	id_tag = "Engine Output";
+	name_tag = "Engine Output";
 	name = "Powernet Sensor - Engine Output"
 	},
 /obj/structure/cable/yellow{
@@ -67680,6 +67724,7 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Engine Power";
+	name_tag = "Engine Power";
 	name = "Powernet Sensor - Engine Power"
 	},
 /obj/machinery/power/apc/super/critical{
@@ -68378,6 +68423,7 @@
 /area/exodus/security/nuke_storage)
 "gdx" = (
 /obj/machinery/conveyor_switch{
+	id = "cargo_mining_conveyor";
 	id_tag = "cargo_mining_conveyor"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -68441,6 +68487,16 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/central_two)
+"gHt" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/patient_wing)
 "gOE" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 8
@@ -68658,6 +68714,7 @@
 /area/shuttle/arrival/station)
 "iKS" = (
 /obj/machinery/conveyor{
+	id = "cargo_mining_conveyor";
 	id_tag = "cargo_mining_conveyor"
 	},
 /turf/simulated/floor/plating,
@@ -68834,6 +68891,7 @@
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/structure/table/glass,
 /obj/item/reagent_containers/dropper,
+/obj/item/stack/material/phoron,
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/chemistry)
 "lfJ" = (
@@ -68920,10 +68978,14 @@
 /obj/machinery/robotics_fabricator,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/research/robotics)
+"mGM" = (
+/obj/effect/floor_decal/sign/or2,
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/surgery2)
 "mKS" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/multi_tile/glass/engineering{
-	dir = 4;
+	dir = 8;
 	name = "Engineering Locker Room"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -69304,6 +69366,13 @@
 /obj/machinery/light,
 /turf/simulated/floor/bluegrid,
 /area/exodus/turret_protected/ai_upload)
+"rCg" = (
+/obj/machinery/computer/modular/preset/cardslot/command{
+	dir = 1
+	},
+/obj/item/modular_computer/tablet/lease/preset/command,
+/turf/simulated/floor/tiled/dark,
+/area/exodus/crew_quarters/heads/hos)
 "rNu" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -69397,6 +69466,7 @@
 	dir = 9;
 	forwards = 2;
 	icon_state = "conveyor1";
+	id = "cargo_mining_conveyor";
 	id_tag = "cargo_mining_conveyor";
 	movedir = 6
 	},
@@ -69650,6 +69720,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/quartermaster/miningdock)
+"uDW" = (
+/obj/effect/floor_decal/sign/or1,
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/surgery)
 "uFU" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -69763,7 +69837,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/exodus/bridge)
 "vRS" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -94838,7 +94912,7 @@ cej
 cej
 cnD
 cnD
-bMI
+bUg
 bUg
 bUg
 cfE
@@ -101691,7 +101765,7 @@ ahf
 ahN
 ais
 ajf
-ajO
+rCg
 agv
 akE
 alm
@@ -104084,7 +104158,7 @@ ccL
 ceP
 cgd
 aZS
-ciS
+uDW
 ckj
 clz
 cmV
@@ -106654,7 +106728,7 @@ cdp
 ceV
 cgi
 caE
-cjc
+mGM
 ckq
 clI
 cnc
@@ -109729,7 +109803,7 @@ bRg
 bSz
 bTH
 aUL
-bWv
+gHt
 bXP
 bZy
 cdw
@@ -114592,10 +114666,10 @@ blO
 brh
 boM
 bqE
-bsl
 bsj
 bsj
-bsl
+bsj
+bsj
 bze
 cfN
 bpp

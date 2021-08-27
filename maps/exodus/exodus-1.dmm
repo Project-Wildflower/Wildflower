@@ -1849,6 +1849,7 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Command Sublevel Subgrid";
+	name_tag = "Command Sublevel Subgrid";
 	name = "Powernet Sensor - Command Sublevel Subgrid"
 	},
 /obj/structure/cable/cyan{
@@ -4037,6 +4038,7 @@
 "jx" = (
 /obj/machinery/power/sensor{
 	id_tag = "Atmospherics Subgrid";
+	name_tag = "Atmospherics Subgrid";
 	name = "Powernet Sensor - Atmospherics Subgrid"
 	},
 /obj/machinery/alarm{

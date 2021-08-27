@@ -9,3 +9,6 @@
 
 /obj/item/light/tube
 	b_outer_range = 6
+
+/datum/language/human/euro
+	warning = "Automatically given if spawning on the Exodus."

@@ -82,3 +82,7 @@
 	)
 
 #undef HUMAN_ONLY_JOBS
+
+//Force ZAC
+/datum/job
+	required_language = LANGUAGE_HUMAN_EURO
