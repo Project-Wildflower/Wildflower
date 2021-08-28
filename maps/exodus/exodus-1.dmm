@@ -3396,6 +3396,10 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/atmos)
 "ij" = (
@@ -3417,6 +3421,9 @@
 /obj/machinery/door/airlock/glass/atmos{
 	name = "Atmospherics"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/engineering/atmos)
 "ik" = (
@@ -3433,6 +3440,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/sub/aft)
@@ -3451,6 +3461,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/sub/aft)
 "im" = (
@@ -3465,13 +3478,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/light{
-	dir = 1
-	},
 /obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
+	dir = 4
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/sub/aft)
 "in" = (
@@ -3482,16 +3492,15 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
+/obj/structure/disposalpipe/sortjunction/flipped{
+	dir = 1;
+	name = "Atmospherics";
+	sort_type = "Atmospherics";
+	sortdir = 8
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/sub/aft)
 "io" = (
-/obj/machinery/alarm{
-	pixel_y = 22
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
@@ -3538,23 +3547,17 @@
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 6
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/atmos)
 "iy" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/machinery/door/airlock/glass/atmos{
@@ -3564,9 +3567,6 @@
 /area/exodus/engineering/atmos)
 "iz" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -3584,18 +3584,15 @@
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/sub/aft)
 "iB" = (
 /obj/machinery/atmospherics/pipe/zpipe/up/red{
 	dir = 8
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
+/obj/structure/disposalpipe/up{
+	icon_state = "pipe-u";
+	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/sub/aft)
@@ -5963,6 +5960,12 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/bluegrid,
 /area/exodus/maintenance/telecomms)
+"ts" = (
+/obj/machinery/alarm{
+	pixel_y = 22
+	},
+/turf/simulated/floor/plating,
+/area/exodus/maintenance/sub/aft)
 "tE" = (
 /obj/machinery/telecomms/processor/preset_four,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -6676,6 +6679,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/maintenance/telecomms)
+"Wb" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/plating,
+/area/exodus/maintenance/sub/aft)
 "Xu" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/maintenance/sub/fore)
@@ -6716,6 +6729,20 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_grid,
+/area/exodus/maintenance/sub/aft)
+"ZN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/plating,
 /area/exodus/maintenance/sub/aft)
 
 (1,1,1) = {"
@@ -31557,7 +31584,7 @@ ac
 ac
 aa
 aa
-aa
+IA
 IA
 ik
 iz
@@ -31811,11 +31838,11 @@ aa
 aa
 aa
 aa
-ac
 hs
 hs
 hs
 IA
+mR
 il
 iA
 iW
@@ -32068,11 +32095,11 @@ aa
 aa
 aa
 aa
-aa
 hs
 hB
 hK
 IA
+Wb
 im
 iB
 iW
@@ -32325,11 +32352,11 @@ aa
 aa
 aa
 aa
-aa
 hs
 hC
 hL
 hX
+ZN
 in
 iC
 IA
@@ -32582,11 +32609,11 @@ aa
 aa
 aa
 aa
-aa
 hs
 hD
 hM
 IA
+ts
 io
 iD
 iX
@@ -32839,10 +32866,10 @@ aa
 aa
 aa
 aa
-aa
 hs
 hs
 hs
+IA
 IA
 IA
 IA
