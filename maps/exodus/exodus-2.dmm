@@ -69180,7 +69180,7 @@
 "oxE" = (
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	tag = "mining_shuttle_pump"
+	id_tag = "mining_shuttle_pump"
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	frequency = 1380;
