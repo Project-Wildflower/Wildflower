@@ -8061,16 +8061,11 @@
 /turf/simulated/floor/airless,
 /area/exodus/solar/auxport)
 "apl" = (
-/obj/machinery/power/smes/buildable{
-	RCon_tag = "Engine - Main";
-	charge = 1e+007;
-	input_attempt = 1;
-	input_level = 1e+006;
-	output_attempt = 1;
-	output_level = 1e+006
-	},
 /obj/structure/cable,
 /obj/effect/engine_setup/smes,
+/obj/machinery/power/smes/buildable/preset/exodus/engine_main{
+	RCon_tag = "Engine - Main"
+	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/engine_smes)
 "apm" = (
@@ -15717,6 +15712,7 @@
 	icon_state = "2-8"
 	},
 /obj/random/closet,
+/obj/item/device/synthesized_instrument/trumpet,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/bar)
 "aEv" = (
@@ -21007,6 +21003,7 @@
 /area/exodus/crew_quarters/bar)
 "aOh" = (
 /obj/structure/closet/emcloset,
+/obj/item/device/synthesized_instrument/violin,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/locker)
 "aOi" = (
@@ -42375,26 +42372,6 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/heads/hor)
 "bDX" = (
-/obj/item/stack/material/glass{
-	amount = 20;
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
-/obj/item/stack/material/steel{
-	amount = 50
-	},
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/research/robotics)
@@ -62203,6 +62180,11 @@
 /area/exodus/medical/surgery)
 "cqk" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/closet/crate/medical,
+/obj/item/tank/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/tank/anesthetic,
+/obj/item/clothing/mask/breath/medical,
 /turf/simulated/floor/tiled/freezer,
 /area/exodus/medical/surgery)
 "cql" = (
@@ -62238,6 +62220,11 @@
 /area/exodus/medical/surgery2)
 "cqp" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/closet/crate/medical,
+/obj/item/tank/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/tank/anesthetic,
+/obj/item/clothing/mask/breath/medical,
 /turf/simulated/floor/tiled/freezer,
 /area/exodus/medical/surgery2)
 "cqq" = (
@@ -68775,6 +68762,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
+"jpR" = (
+/obj/structure/table/woodentable/walnut,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/item/device/synthesized_instrument/synthesizer,
+/turf/simulated/floor/tiled/dark,
+/area/exodus/crew_quarters/sleep)
 "jsn" = (
 /obj/item/device/radio/intercom{
 	dir = 4;
@@ -69248,6 +69251,10 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
+"pLr" = (
+/obj/structure/synthesized_instrument/synthesizer/piano,
+/turf/simulated/floor/wood/walnut,
+/area/exodus/crew_quarters/bar)
 "pWa" = (
 /obj/effect/shuttle_landmark/exodus_main_fore,
 /turf/space,
@@ -69921,7 +69928,15 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/port)
 "wJf" = (
-/obj/structure/table/standard,
+/obj/structure/closet/crate,
+/obj/item/stack/material/plastic/fifty,
+/obj/item/stack/material/aluminium/fifty,
+/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/robotics)
 "wTp" = (
@@ -102300,7 +102315,7 @@ avE
 aoj
 axq
 ash
-aua
+jpR
 axT
 aAY
 aBj
@@ -106169,7 +106184,7 @@ aMl
 aNd
 aDG
 aRw
-aSS
+pLr
 aUF
 aWm
 aSS

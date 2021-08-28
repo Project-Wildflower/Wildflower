@@ -1,15 +1,15 @@
 /datum/map/exodus
 	name          = "Exodus"
-	full_name     = "NSS Exodus"
+	full_name     = "JEF Exodus"
 	path          = "exodus"
 
-	station_name  = "NSS Exodus"
+	station_name  = "JEF Exodus"
 	station_short = "Exodus"
 	dock_name     = "NAS Crescent"
-	boss_name     = "Central Command"
-	boss_short    = "Centcomm"
-	company_name  = "NanoTrasen"
-	company_short = "NT"
+	boss_name     = "JEF Oversight Board"
+	boss_short    = "The Board"
+	company_name  = "Joint Exploration Foundation"
+	company_short = "JEF"
 	system_name   = "Nyx"
 
 	station_levels = list(1,2)
@@ -42,4 +42,4 @@
 //	shuttle_recall_message = "Attention all hands: Jump sequence aborted, return to normal operating conditions."
 
 /datum/map/exodus/get_map_info()
-	return "Welcome to Exodus Station, one of the largest remaining stopovers between the core worlds and the rim. Enjoy your stay!"
+	return "Welcome to JEF Installation Exodus, A recommissioned Nanotrasen derelict.<br>It's... Probably not going to kill you. Welcome aboard!"

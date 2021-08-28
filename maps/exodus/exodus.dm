@@ -55,6 +55,7 @@
 	#include "exodus_unit_testing.dm"
 	#include "exodus_npcs.dm"
 	#include "exodus_overrides.dm"
+	#include "exodus_presets.dm"
 
 	//Maps
 	#include "exodus-1.dmm"

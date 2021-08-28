@@ -161,3 +161,8 @@ var/global/list/stool_cache = list() //haha stool
 
 /obj/item/stool/wood/New(var/newloc)
 	..(newloc,MATERIAL_WOOD)
+
+//Wildflower Start
+/obj/item/stool/wood_yew/New(var/newloc)
+	..(newloc,MATERIAL_YEW)
+//Wildflower End
