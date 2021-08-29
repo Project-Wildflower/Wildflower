@@ -115,6 +115,8 @@
 			return global.SSobj;
 		if("SSpersistence")
 			return global.SSpersistence;
+		if("SSping")
+			return global.SSping;
 		if("SSplants")
 			return global.SSplants;
 		if("SSprocessing")
@@ -439,8 +441,6 @@
 			return global.fusion_reactions;
 		if("game_id")
 			return global.game_id;
-		if("gamemode_cache")
-			return global.gamemode_cache;
 		if("gas_data")
 			return global.gas_data;
 		if("gear_datums")
@@ -994,6 +994,8 @@
 			global.SSobj=newval;
 		if("SSpersistence")
 			global.SSpersistence=newval;
+		if("SSping")
+			global.SSping=newval;
 		if("SSplants")
 			global.SSplants=newval;
 		if("SSprocessing")
@@ -1318,8 +1320,6 @@
 			global.fusion_reactions=newval;
 		if("game_id")
 			global.game_id=newval;
-		if("gamemode_cache")
-			global.gamemode_cache=newval;
 		if("gas_data")
 			global.gas_data=newval;
 		if("gear_datums")
@@ -1815,6 +1815,7 @@
 	"SSnano",
 	"SSobj",
 	"SSpersistence",
+	"SSping",
 	"SSplants",
 	"SSprocessing",
 	"SSpsi",
@@ -1977,7 +1978,6 @@
 	"fruit_icon_cache",
 	"fusion_reactions",
 	"game_id",
-	"gamemode_cache",
 	"gas_data",
 	"gear_datums",
 	"gear_tweak_free_color_choice_",

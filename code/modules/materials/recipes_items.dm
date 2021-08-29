@@ -147,6 +147,12 @@
 	req_amount = 2
 	difficulty = 2
 
+/datum/stack_recipe/intercom
+	title = "intercom frame"
+	result_type = /obj/item/frame/intercom
+	req_amount = 2
+	difficulty = 2
+
 /datum/stack_recipe/computer/telescreen
 	title = "modular telescreen frame"
 	result_type = /obj/item/modular_computer/telescreen
@@ -219,6 +225,14 @@
 	result_type = /obj/item/material/stick
 	send_material_data = 1
 	difficulty = 0
+
+/datum/stack_recipe/shield
+	title = "Buckler"
+	result_type = /obj/item/shield/buckler
+	req_amount = 5
+	send_material_data = TRUE
+	time = 20
+	difficulty = 2
 
 /datum/stack_recipe/crossbowframe
 	title = "crossbow frame"
