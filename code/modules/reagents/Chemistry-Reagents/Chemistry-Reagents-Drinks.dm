@@ -1418,3 +1418,13 @@
 	color = "#0e0900"
 	glass_name = "skrianhi tea"
 	glass_desc = "A blend of teas from Moghes, commonly drank by Unathi."
+
+//ITS BAJA BLAST BABEY!!!!!!!!!!!!1!!!!
+/datum/reagent/drink/bajablast
+	name = "Baja Blast"
+	description = "A Tropical Lime Flavored Soda. Dangerously Tasty."
+	taste_description = "Dangerously Good Tropical Lime"
+	color = "#63FFE0"
+	glass_name = "Baja Blast"
+	glass_desc = "A Tropical Lime Flavored Soda. Dangerously Tasty."
+	glass_special = list(DRINK_FIZZ)
