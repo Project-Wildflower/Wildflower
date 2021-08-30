@@ -1428,7 +1428,7 @@
 	glass_name = "Baja Blast"
 	glass_desc = "A Tropical Lime Flavored Soda. Dangerously Tasty."
 	glass_special = list(DRINK_FIZZ)
-	var/pain_power = 80 //Painkilling Effect
+	var/pain_power = 120 //Painkilling Effect
 
 /datum/reagent/drink/bajablast/affect_blood(mob/living/carbon/M, alien, removed)
 	var/drug_strength = 15
