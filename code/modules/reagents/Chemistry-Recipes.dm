@@ -3128,6 +3128,6 @@
 	name = "Baja Blast"
 	result = /datum/reagent/drink/bajablast
 	result_amount = 1
-	required_reagents = list(/datum/reagent/ethanol/gargle_blaster=1,
+	required_reagents = list(/datum/reagent/space_drugs=1,
 	/datum/reagent/tramadol/oxycodone=1,
-	/datum/reagent/drink/sodawater=1)
+	/datum/reagent/drink/sodawater=2)
