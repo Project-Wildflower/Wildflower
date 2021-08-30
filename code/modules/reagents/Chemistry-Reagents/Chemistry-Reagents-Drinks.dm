@@ -1428,3 +1428,17 @@
 	glass_name = "Baja Blast"
 	glass_desc = "A Tropical Lime Flavored Soda. Dangerously Tasty."
 	glass_special = list(DRINK_FIZZ)
+	var/pain_power = 80 //Painkilling Effect
+
+/datum/reagent/drink/bajablast/affect_blood(mob/living/carbon/M, alien, removed)
+	var/drug_strength = 15
+
+	M.druggy = max(M.druggy, drug_strength)
+	M.hallucination(50, 20)
+	if (prob(10))
+		M.SelfMove(pick(GLOB.cardinal))
+	if(prob(7))
+		M.emote(pick("twitch", "drool", "moan", "giggle"))
+	M.add_chemical_effect(CE_PULSE, -1)
+	M.add_chemical_effect(CE_PAINKILLER, pain_power)
+	M.add_chemical_effect(CE_MIND, -1)
