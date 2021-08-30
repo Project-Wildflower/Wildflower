@@ -1430,7 +1430,7 @@
 	glass_special = list(DRINK_FIZZ)
 	var/pain_power = 120 //Painkilling Effect
 
-/datum/reagent/drink/bajablast/affect_blood(mob/living/carbon/M, alien, removed)
+/datum/reagent/drink/bajablast/affect_ingest(mob/living/carbon/M, alien, removed)
 	var/drug_strength = 15
 
 	M.druggy = max(M.druggy, drug_strength)
