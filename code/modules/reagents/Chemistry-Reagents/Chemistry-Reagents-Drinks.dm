@@ -1435,7 +1435,7 @@
 
 	M.druggy = max(M.druggy, drug_strength)
 	M.hallucination(50, 20)
-	if (prob(10))
+	if (prob(55))
 		M.SelfMove(pick(GLOB.cardinal))
 	if(prob(7))
 		M.emote(pick("twitch", "drool", "moan", "giggle"))
