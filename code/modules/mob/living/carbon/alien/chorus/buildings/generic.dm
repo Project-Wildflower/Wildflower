@@ -109,9 +109,13 @@
 	to_chat(C, SPAN_WARNING("You extend \the [src] [extend_text]."))
 	a.visible_message(SPAN_DANGER("\The [a] [growth_verb] [through_text]!"))
 
-
-/obj/structure/chorus/spawner/can_activate()
-	return TRUE
+//Checks for base activation conditions before spawner specifics. Why? Because there's a massive global list of various mobs being iterated.
+//This proc used to just outright return TRUE for whatever reason.
+/obj/structure/chorus/spawner/can_activate(var/mob/living/carbon/alien/chorus/C, var/warning = TRUE)
+	if(..())
+		for(var/mob/observer/ghost/ghost in GLOB.player_list) //No player ghost GLOB :(
+			if(MODE_DEITY in ghost.client.prefs.be_special_role)
+				return TRUE
 
 /obj/structure/chorus/spawner/activate()
 	for(var/mob/observer/ghost/ghost in GLOB.player_list)
