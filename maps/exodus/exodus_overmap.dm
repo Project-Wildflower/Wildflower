@@ -18,6 +18,10 @@
 		"nav_exodus_mining_pod_dock",
 		"nav_exodus_research_pod_dock"
 	)
+	initial_restricted_waypoints = list(
+		"Cyclopes" = list("nav_merc_arivals"), //Mercship Dock
+		"Rescue" = list("nav_ert_dock")
+	)
 
 /obj/effect/overmap/visitable/ship/landable/pod
 	name = "Generic Pod"

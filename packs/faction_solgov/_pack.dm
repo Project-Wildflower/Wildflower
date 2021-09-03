@@ -1,5 +1,5 @@
 //Torch safety check to prevent possibly horrible behavioural conflicts.
-#ifdef PREVENT_USE_OF_PACK_SOLGOV
+#ifndef PREVENT_USE_OF_PACK_SOLGOV
 		//Skip everything.
 
 

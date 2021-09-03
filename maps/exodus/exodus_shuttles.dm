@@ -204,6 +204,7 @@ ESCAPE_POD(4)
 /obj/effect/shuttle_landmark/merc/arivals
 	name = "Exodus north dock"
 	landmark_tag = "nav_merc_arivals"
+	docking_controller = "nuke_shuttle_dock_airlock"
 
 //Admin
 

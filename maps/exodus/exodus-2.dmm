@@ -68191,6 +68191,10 @@
 /obj/machinery/computer/ship/helm,
 /turf/simulated/floor/tiled/steel_grid,
 /area/ship/exodus_pod_mining)
+"dYF" = (
+/obj/effect/shuttle_landmark/merc/arivals,
+/turf/space,
+/area/space)
 "eaE" = (
 /obj/structure/closet/crate,
 /obj/item/spacecash/bundle/c1000,
@@ -68652,6 +68656,10 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled/steel_grid,
 /area/ship/exodus_pod_mining)
+"ifW" = (
+/obj/effect/shuttle_landmark/admin/out,
+/turf/space,
+/area/space)
 "igB" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/landmark{
@@ -69670,6 +69678,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/research)
+"tDZ" = (
+/obj/effect/shuttle_landmark/merchant/out,
+/turf/space,
+/area/space)
 "tGf" = (
 /obj/effect/shuttle_landmark/mining_pod_dock,
 /obj/structure/cable/green{
@@ -70137,6 +70149,10 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/exit)
+"yks" = (
+/obj/effect/shuttle_landmark/ert/dock,
+/turf/space,
+/area/space)
 
 (1,1,1) = {"
 cLU
@@ -76168,7 +76184,7 @@ cLU
 cLU
 cLU
 cLU
-cLU
+dYF
 cLU
 cLU
 cLU
@@ -77438,7 +77454,7 @@ crP
 cLU
 cLU
 cLU
-cLU
+tDZ
 cLU
 cLU
 cLU
@@ -78717,7 +78733,7 @@ cLU
 cLU
 cLU
 cLU
-cLU
+ifW
 avN
 ayj
 aAp
@@ -81068,7 +81084,7 @@ aCj
 cze
 czy
 aQc
-cLU
+yks
 cLU
 cLU
 cLU

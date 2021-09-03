@@ -1,4 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/machinery/mech_recharger,
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/map_template/rescue_base/base)
 "ab" = (
 /turf/simulated/floor/wood,
 /area/map_template/rescue_base/base)
@@ -2256,10 +2263,6 @@
 	icon_state = "vault"
 	},
 /area/map_template/rescue_base/base)
-"eq" = (
-/obj/machinery/mech_recharger,
-/turf/space,
-/area/map_template/rescue_base/base)
 "er" = (
 /obj/item/clothing/head/solgov/dress/fleet/command{
 	dir = 4;
@@ -2271,7 +2274,7 @@
 	},
 /area/map_template/rescue_base/base)
 "es" = (
-/obj/structure/closet/secure_closet/cos,
+/obj/structure/closet/secure_closet/hos,
 /turf/unsimulated/floor{
 	dir = 1;
 	icon_state = "vault"
@@ -2679,7 +2682,7 @@
 	},
 /area/map_template/rescue_base/base)
 "eU" = (
-/obj/effect/paint/hull,
+/obj/item/clothing/suit/storage/jacket/solgov,
 /turf/simulated/wall/titanium,
 /area/map_template/rescue_base/start)
 "eV" = (
@@ -2691,7 +2694,7 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/hull,
+/obj/item/clothing/suit/storage/jacket/solgov,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/start)
 "eW" = (
@@ -2703,7 +2706,7 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/hull,
+/obj/item/clothing/suit/storage/jacket/solgov,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/start)
 "eX" = (
@@ -2917,7 +2920,7 @@
 /area/map_template/rescue_base/start)
 "fx" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/hull,
+/obj/item/clothing/suit/storage/jacket/solgov,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/start)
 "fy" = (
@@ -2930,7 +2933,7 @@
 "fz" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/hull,
+/obj/item/clothing/suit/storage/jacket/solgov,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/start)
 "fA" = (
@@ -2958,7 +2961,7 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/hull,
+/obj/item/clothing/suit/storage/jacket/solgov,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/start)
 "fD" = (
@@ -3022,7 +3025,7 @@
 	opacity = 0
 	},
 /obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/hull,
+/obj/item/clothing/suit/storage/jacket/solgov,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/start)
 "fK" = (
@@ -3470,7 +3473,7 @@
 	name = "Blast Shutters";
 	opacity = 0
 	},
-/obj/effect/paint/hull,
+/obj/item/clothing/suit/storage/jacket/solgov,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/start)
 "gV" = (
@@ -3524,7 +3527,7 @@
 	name = "Blast Shutters";
 	opacity = 0
 	},
-/obj/effect/paint/hull,
+/obj/item/clothing/suit/storage/jacket/solgov,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/start)
 "hc" = (
@@ -3615,6 +3618,73 @@
 /area/map_template/rescue_base/start)
 
 (1,1,1) = {"
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+"}
+(2,1,1) = {"
+ac
 ab
 an
 at
@@ -3677,8 +3747,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(2,1,1) = {"
+(3,1,1) = {"
+ac
 ac
 ac
 ac
@@ -3741,8 +3813,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(3,1,1) = {"
+(4,1,1) = {"
+ac
 ac
 ac
 ac
@@ -3805,8 +3879,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(4,1,1) = {"
+(5,1,1) = {"
+ac
 ac
 ac
 ac
@@ -3869,8 +3945,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(5,1,1) = {"
+(6,1,1) = {"
+ac
 ac
 ac
 ac
@@ -3933,8 +4011,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(6,1,1) = {"
+(7,1,1) = {"
+ac
 ac
 ac
 ac
@@ -3997,8 +4077,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(7,1,1) = {"
+(8,1,1) = {"
+ac
 ac
 ac
 ac
@@ -4061,8 +4143,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(8,1,1) = {"
+(9,1,1) = {"
+ac
 ac
 ac
 ac
@@ -4125,8 +4209,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(9,1,1) = {"
+(10,1,1) = {"
+ac
 ac
 ac
 ac
@@ -4189,8 +4275,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(10,1,1) = {"
+(11,1,1) = {"
+ac
 ac
 ac
 ac
@@ -4253,8 +4341,10 @@ bB
 ac
 ac
 ac
+ac
 "}
-(11,1,1) = {"
+(12,1,1) = {"
+ac
 ac
 ac
 ac
@@ -4317,8 +4407,10 @@ bB
 ac
 ac
 ac
+ac
 "}
-(12,1,1) = {"
+(13,1,1) = {"
+ac
 ac
 ac
 ac
@@ -4381,8 +4473,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(13,1,1) = {"
+(14,1,1) = {"
+ac
 ac
 ac
 ac
@@ -4445,8 +4539,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(14,1,1) = {"
+(15,1,1) = {"
+ac
 ac
 ad
 ad
@@ -4509,8 +4605,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(15,1,1) = {"
+(16,1,1) = {"
+ac
 ac
 ad
 au
@@ -4573,8 +4671,10 @@ bB
 bC
 bB
 ac
+ac
 "}
-(16,1,1) = {"
+(17,1,1) = {"
+ac
 ac
 ad
 ad
@@ -4637,8 +4737,10 @@ bB
 bB
 bB
 ac
+ac
 "}
-(17,1,1) = {"
+(18,1,1) = {"
+ac
 ac
 ad
 av
@@ -4701,8 +4803,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(18,1,1) = {"
+(19,1,1) = {"
+ac
 ac
 ad
 aw
@@ -4765,8 +4869,10 @@ bB
 bA
 ac
 ac
+ac
 "}
-(19,1,1) = {"
+(20,1,1) = {"
+ac
 ac
 ad
 ad
@@ -4829,8 +4935,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(20,1,1) = {"
+(21,1,1) = {"
+ac
 ac
 ac
 ac
@@ -4893,8 +5001,10 @@ bA
 bB
 ac
 ac
+ac
 "}
-(21,1,1) = {"
+(22,1,1) = {"
+ac
 ac
 ac
 ac
@@ -4957,8 +5067,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(22,1,1) = {"
+(23,1,1) = {"
+ac
 ac
 ac
 ac
@@ -5021,8 +5133,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(23,1,1) = {"
+(24,1,1) = {"
+ac
 ac
 ac
 ad
@@ -5085,8 +5199,10 @@ bB
 ac
 ac
 ac
+ac
 "}
-(24,1,1) = {"
+(25,1,1) = {"
+ac
 ac
 ac
 ad
@@ -5149,8 +5265,10 @@ bC
 ac
 ac
 ac
+ac
 "}
-(25,1,1) = {"
+(26,1,1) = {"
+ad
 ad
 ad
 ad
@@ -5213,8 +5331,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(26,1,1) = {"
+(27,1,1) = {"
+ad
 ae
 ao
 ad
@@ -5277,8 +5397,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(27,1,1) = {"
+(28,1,1) = {"
+ad
 af
 ao
 ad
@@ -5341,8 +5463,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(28,1,1) = {"
+(29,1,1) = {"
+ad
 ag
 ao
 ad
@@ -5405,8 +5529,10 @@ bB
 ac
 ac
 ac
+ac
 "}
-(29,1,1) = {"
+(30,1,1) = {"
+ad
 ad
 ap
 ad
@@ -5469,8 +5595,10 @@ bB
 ac
 ac
 ac
+ac
 "}
-(30,1,1) = {"
+(31,1,1) = {"
+ad
 ah
 ao
 ao
@@ -5533,8 +5661,10 @@ bB
 ac
 ac
 ac
+ac
 "}
-(31,1,1) = {"
+(32,1,1) = {"
+ad
 ah
 ao
 ao
@@ -5597,8 +5727,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(32,1,1) = {"
+(33,1,1) = {"
+ad
 ad
 ad
 ad
@@ -5661,8 +5793,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(33,1,1) = {"
+(34,1,1) = {"
+ad
 ai
 aq
 ax
@@ -5725,8 +5859,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(34,1,1) = {"
+(35,1,1) = {"
+ad
 aj
 ar
 ar
@@ -5789,8 +5925,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(35,1,1) = {"
+(36,1,1) = {"
+ad
 ak
 ar
 ay
@@ -5853,8 +5991,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(36,1,1) = {"
+(37,1,1) = {"
+ad
 al
 ar
 ar
@@ -5917,8 +6057,10 @@ bB
 ac
 ac
 ac
+ac
 "}
-(37,1,1) = {"
+(38,1,1) = {"
+ad
 am
 as
 az
@@ -5981,8 +6123,10 @@ bB
 ac
 ac
 ac
+ac
 "}
-(38,1,1) = {"
+(39,1,1) = {"
+ad
 ad
 ad
 ad
@@ -6045,8 +6189,10 @@ bB
 bB
 ac
 ac
+ac
 "}
-(39,1,1) = {"
+(40,1,1) = {"
+ac
 ac
 ac
 ac
@@ -6109,8 +6255,10 @@ bB
 ac
 ac
 ac
+ac
 "}
-(40,1,1) = {"
+(41,1,1) = {"
+ac
 ac
 ac
 ac
@@ -6136,9 +6284,9 @@ ad
 ac
 ad
 ee
-eq
-eq
-eq
+aa
+aa
+aa
 ao
 ec
 ad
@@ -6173,8 +6321,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(41,1,1) = {"
+(42,1,1) = {"
+ac
 ac
 ac
 ac
@@ -6237,8 +6387,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(42,1,1) = {"
+(43,1,1) = {"
+ac
 ac
 ac
 ac
@@ -6256,8 +6408,8 @@ ad
 ad
 ad
 ad
-dc
 ao
+dc
 ao
 ao
 ad
@@ -6301,8 +6453,10 @@ ac
 ac
 ac
 ac
+ac
 "}
-(43,1,1) = {"
+(44,1,1) = {"
+ac
 ac
 ac
 ac
@@ -6320,8 +6474,8 @@ ac
 ac
 ac
 ad
-dc
 ao
+dc
 ao
 ao
 ad
@@ -6331,7 +6485,7 @@ ac
 ac
 ad
 ec
-eq
+aa
 ec
 ad
 ac
@@ -6365,69 +6519,6 @@ ac
 ac
 ac
 ac
-"}
-(44,1,1) = {"
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ad
-ad
-ad
-ao
-ao
-ad
-ac
-ac
-ac
-ac
-ad
-ad
-ad
-ad
-ad
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-bA
-bA
-ac
-ac
-ac
-ac
-ac
-ac
-ac
 ac
 "}
 (45,1,1) = {"
@@ -6448,11 +6539,145 @@ ac
 ac
 ac
 ac
+ad
+ad
+ad
+ao
+ao
+ad
+ac
+ac
+ac
+ac
+ad
+ad
+ad
+ad
+ad
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+bA
+bA
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+"}
+(46,1,1) = {"
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ad
 do
 do
 ad
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+"}
+(47,1,1) = {"
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ad
+ad
+ad
+ad
+ac
 ac
 ac
 ac
