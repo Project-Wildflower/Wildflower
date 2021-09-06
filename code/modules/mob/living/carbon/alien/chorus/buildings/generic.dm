@@ -109,7 +109,7 @@
 	to_chat(C, SPAN_WARNING("You extend \the [src] [extend_text]."))
 	a.visible_message(SPAN_DANGER("\The [a] [growth_verb] [through_text]!"))
 
-//Checks for base activation conditions before spawner specifics. Why? Because there's a massive global list of various mobs being iterated.
+//Checks for base activation conditions before spawner specifics. Why? Because there's a massive global list of various mobs being iterated through, to check that there's even eligible ghosts.
 //This proc used to just outright return TRUE for whatever reason.
 /obj/structure/chorus/spawner/can_activate(var/mob/living/carbon/alien/chorus/C, var/warning = TRUE)
 	if(..())
@@ -134,13 +134,3 @@
 			sac.ckey = user.ckey
 			return TOPIC_HANDLED
 	. = ..()
-
-/obj/structure/chorus/spawner/attack_ghost(var/mob/observer/ghost/user)
-	if(GLOB.chorus.can_become_antag(user.mind))
-		if(!owner.use_resource(activation_cost_resource, activation_cost_amount))
-			var/datum/chorus_resource/resource = owner.get_resource(activation_cost_resource)
-			to_chat(user, SPAN_WARNING("\The [src] needs [activation_cost_amount - resource.amount] more [resource.name] in order to spawn."))
-			return
-		announce_ghost_joinleave(user, 0, "They have joined a chorus")
-		var/mob/living/carbon/alien/chorus/sac = new(get_turf(src), owner)
-		sac.ckey = user.ckey
