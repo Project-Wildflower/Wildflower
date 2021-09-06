@@ -120,13 +120,19 @@
 /obj/structure/chorus/spawner/activate()
 	for(var/mob/observer/ghost/ghost in GLOB.player_list)
 		if(MODE_DEITY in ghost.client.prefs.be_special_role)
-			to_chat(ghost, SPAN_NOTICE("A chorus spawn is available! <a href='?src=\ref[src];jump=1'>(Jump)</a>"))
+			to_chat(ghost, SPAN_NOTICE("A chorus spawn is available! (<a href='?src=\ref[src]'>(Join)</a>)"))
 
-/obj/structure/chorus/spawner/OnTopic(user, href_list)
-	if(href_list["jump"] && istype(user,/mob/observer/ghost))
-		var/mob/M = user
-		M.forceMove(get_turf(src))
-		return TOPIC_HANDLED
+/obj/structure/chorus/spawner/OnTopic(var/mob/user, href_list)
+	if(href_list["src"] && istype(user,/mob/observer/ghost))
+		if(GLOB.chorus.can_become_antag(user.mind))
+			if(!owner.use_resource(activation_cost_resource, activation_cost_amount))
+				var/datum/chorus_resource/resource = owner.get_resource(activation_cost_resource)
+				to_chat(user, SPAN_WARNING("\The [src] needs [activation_cost_amount - resource.amount] more [resource.name] in order to spawn."))
+				return
+			announce_ghost_joinleave(user, 0, "They have joined a chorus")
+			var/mob/living/carbon/alien/chorus/sac = new(get_turf(src), owner)
+			sac.ckey = user.ckey
+			return TOPIC_HANDLED
 	. = ..()
 
 /obj/structure/chorus/spawner/attack_ghost(var/mob/observer/ghost/user)
