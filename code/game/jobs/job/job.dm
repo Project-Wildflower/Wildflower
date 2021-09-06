@@ -27,6 +27,7 @@
 	var/economic_power = 2             // With how much does this job modify the initial account amount?
 
 	var/outfit_type                       // The outfit the employee will be dressed in, if any
+	var/species_outfit = list()           //Species outfits
 
 	var/loadout_allowed = TRUE            // Whether or not loadout equipment is allowed and to be created when joining.
 	var/list/allowed_branches             // For maps using branches and ranks, also expandable for other purposes
@@ -99,9 +100,21 @@
 				affected.implants += imp
 				imp.part = affected
 			to_chat(H, SPAN_DANGER("As a registered psionic, you are fitted with a psi-dampening control implant. Using psi-power while the implant is active will result in neural shocks and your violation being reported."))
+	var/datum/job/jb = SSjobs.get_by_title(alt_title)
+	var/handled_outfit = FALSE
+	if(jb.species_outfit)
+		for (var/branchi in species_outfit)
+			if (branchi == branch.name)
+				var/s = species_outfit[branchi]
+				var/decl/hierarchy/outfit/O = s[H.species.name]
+				if(O)
+					O = outfit_by_type(O)
+					O.equip(H, jb.title, alt_title)
+					handled_outfit = TRUE
 
-	var/decl/hierarchy/outfit/outfit = get_outfit(H, alt_title, branch, grade)
-	if(outfit) . = outfit.equip(H, title, alt_title)
+	if(!handled_outfit)
+		var/decl/hierarchy/outfit/outfit = get_outfit(H, alt_title, branch, grade)
+		if(outfit) . = outfit.equip(H, title, alt_title)
 
 /datum/job/proc/get_outfit(var/mob/living/carbon/human/H, var/alt_title, var/datum/mil_branch/branch, var/datum/mil_rank/grade)
 	if(alt_title && alt_titles)

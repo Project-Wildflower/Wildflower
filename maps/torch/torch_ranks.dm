@@ -45,7 +45,8 @@
 		/datum/species/unathi       = list(/datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
 		/datum/species/unathi/yeosa = list(/datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
 		/datum/species/adherent     = list(/datum/mil_branch/civilian),
-		/datum/species/vox          = list(/datum/mil_branch/alien)
+		/datum/species/vox          = list(/datum/mil_branch/alien),
+		/datum/species/resomi		= list(/datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps)
 	)
 
 	species_to_rank_blacklist = list(
@@ -98,6 +99,12 @@
 		/datum/species/vox = list(
 			/datum/mil_branch/alien = list(
 				/datum/mil_rank/alien
+			)
+		),
+		/datum/species/resomi = list(
+			/datum/mil_branch/expeditionary_corps = list(
+				/datum/mil_rank/ec/e3,
+				/datum/mil_rank/ec/e5
 			)
 		)
 	)

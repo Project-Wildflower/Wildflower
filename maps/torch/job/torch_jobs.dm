@@ -17,6 +17,7 @@
 		/datum/species/vox     = list(HUMAN_ONLY_JOBS),
 		/datum/species/machine = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/psychiatrist),
 		/datum/species/diona   = list(HUMAN_ONLY_JOBS, /datum/job/officer, /datum/job/liaison, /datum/job/warden, /datum/job/doctor, /datum/job/medical_trainee),	//Other jobs unavailable via branch restrictions,
+		/datum/species/resomi  = list(HUMAN_ONLY_JOBS)
 	)
 #undef HUMAN_ONLY_JOBS
 

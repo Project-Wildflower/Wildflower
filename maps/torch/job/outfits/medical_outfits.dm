@@ -101,3 +101,23 @@
 	name = OUTFIT_JOB_NAME("Counselor - Mentalist")
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	shoes = /obj/item/clothing/shoes/laceup
+
+////RESOMI OUTFITS////
+/decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor/senior
+	suit = /obj/item/clothing/suit/storage/hooded/resomi/lab
+
+/decl/hierarchy/outfit/job/torch/crew/medical/junior/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+
+/decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+
+/decl/hierarchy/outfit/job/torch/crew/medical/contractor/paramedic/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor/senior
+
+/decl/hierarchy/outfit/job/torch/crew/medical/counselor/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor
+
+/decl/hierarchy/outfit/job/torch/crew/medical/contractor/chemist/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/medical_doctor

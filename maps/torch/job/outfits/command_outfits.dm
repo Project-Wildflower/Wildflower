@@ -126,3 +126,7 @@
 	name = OUTFIT_JOB_NAME("Bridge Officer - Fleet")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/command
 	shoes = /obj/item/clothing/shoes/dutyboots
+
+////RESOMI OUTFITS////
+/decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/engineer/chief

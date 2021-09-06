@@ -23,3 +23,18 @@
 	name = OUTFIT_JOB_NAME("Torch Passenger")
 	hierarchy_type = /decl/hierarchy/outfit/job/torch/passenger
 	uniform = /obj/item/clothing/under/solgov/utility
+
+////RESOMI OUTFITS////
+/decl/hierarchy/outfit/job/torch/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/generic
+
+/decl/hierarchy/outfit/job/torch/crew/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/generic/crew
+
+/decl/hierarchy/outfit/job/torch/crew/fleet/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/generic/fleet
+
+/decl/hierarchy/outfit/job/torch/passenger/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/generic/passenger
+
+

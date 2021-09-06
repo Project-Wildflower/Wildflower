@@ -54,3 +54,7 @@
 	name = OUTFIT_JOB_NAME("Master at Arms - Fleet")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/security
 	shoes = /obj/item/clothing/shoes/dutyboots
+
+////RESOMI OUTFITS////
+/decl/hierarchy/outfit/job/torch/crew/security/maa/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/security

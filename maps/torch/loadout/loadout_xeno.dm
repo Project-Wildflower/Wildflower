@@ -22,6 +22,11 @@
 /datum/gear/uniform/harness
 	allowed_branches = null
 
+/datum/gear/suit/resomicoat
+	allowed_branches = CIVILIAN_BRANCHES
+	path = /obj/item/clothing/suit/storage/toggle/resomicoat
+	sort_category = "Xenowear"
+	whitelisted = list(SPECIES_RESOMI)
 // Patches
 /datum/gear/accessory/cultex_patch
 	display_name = "Cultural Exchange patch"

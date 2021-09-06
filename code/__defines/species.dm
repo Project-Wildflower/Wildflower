@@ -33,6 +33,7 @@
 #define HAS_SKIN_TONE_SPCR                                                        0x100  // Skin tone selectable in chargen for spacer humans (0-165)
 #define HAS_SKIN_TONE_TRITON                                                      0x200
 #define HAS_BASE_SKIN_COLOURS                                                     0x400  // Has multiple base skin sprites to go off of
+#define FORCED_XENOWEAR															  0x800  //Forced to wear xenowear
 #define HAS_A_SKIN_TONE (HAS_SKIN_TONE_NORMAL | HAS_SKIN_TONE_GRAV | HAS_SKIN_TONE_SPCR | HAS_SKIN_TONE_TRITON) // Species has a numeric skintone
 
 // Skin Defines

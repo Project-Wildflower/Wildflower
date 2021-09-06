@@ -47,6 +47,11 @@
 							 /datum/computer_file/program/rcon_console,
 							 /datum/computer_file/program/camera_monitor,
 							 /datum/computer_file/program/shields_monitor)
+	species_outfit = list(
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/resomi
+		),
+	)
 
 /datum/job/senior_engineer/get_description_blurb()
 	return "You are the Senior Engineer. You are a veteran SNCO. You are subordinate to the Chief Engineer though you may have many years more experience than them and your subordinates are the rest of engineering. You should be an expert in practically every engineering area and familiar and possess leadership skills. Coordinate the team and ensure the smooth running of the department along with the Chief Engineer."
@@ -109,6 +114,18 @@
 							 /datum/computer_file/program/camera_monitor,
 							 /datum/computer_file/program/shields_monitor)
 
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/resomi
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/contractor/resomi
+		)
+	)
+
 /datum/job/engineer/get_description_blurb()
 	return "You are an Engineer. You operate under one of many titles and may be highly specialised in a specific area of engineering. You probably have at least a general familiarity with most other areas though this is not expected. You are subordinate to the Senior Engineer and the Chief Engineer and are expected to follow them."
 
@@ -163,6 +180,15 @@
 							 /datum/computer_file/program/camera_monitor,
 							 /datum/computer_file/program/shields_monitor)
 
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/contractor/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/contractor/resomi
+		)
+	)
+
 /datum/job/engineer_trainee/get_description_blurb()
 	return "You are an Engineer Trainee. You are learning how to operate the various onboard engineering systems from senior engineering staff. You are subordinate to all of the other engineers aboard."
 
@@ -213,6 +239,16 @@
 	)
 
 	minimal_access = list()
-
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/roboticist/resomi,
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/roboticistec/resomi,
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/engineering/roboticist/resomi,
+		)
+	)
 /datum/job/roboticist/get_description_blurb()
 	return "You are the Roboticist. You are responsible for repairing, upgrading and handling ship synthetics (like robots). You are also responsible for the production of exosuits(mechs) and bots for various departments. You answer to the Chief Engineer."

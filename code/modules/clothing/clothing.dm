@@ -257,6 +257,7 @@ BLIND     // can't see anything
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_eyes_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_eyes_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_eyes_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_eyes_resomi.dmi'
 	)
 
 /obj/item/clothing/glasses/get_icon_state(mob/user_mob, slot)
@@ -287,13 +288,14 @@ BLIND     // can't see anything
 	slot_flags = SLOT_GLOVES
 	item_flags = ITEM_FLAG_WASHER_ALLOWED
 	attack_verb = list("challenged")
-	species_restricted = list("exclude",SPECIES_NABBER, SPECIES_MONARCH_QUEEN, SPECIES_UNATHI, SPECIES_VOX, SPECIES_VOX_ARMALIS)
+	species_restricted = list("exclude",SPECIES_NABBER, SPECIES_MONARCH_QUEEN, SPECIES_UNATHI, SPECIES_VOX, SPECIES_VOX_ARMALIS, SPECIES_RESOMI)
 	sprite_sheets = list(
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_hands_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_hands_vox_armalis.dmi',
 		SPECIES_NABBER = 'icons/mob/species/nabber/onmob_hands_gas.dmi',
 		SPECIES_MONARCH_QUEEN = 'icons/mob/species/nabber/msq/onmob_hands_msq.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_hands_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_hands_resomi.dmi'
 		)
 	blood_overlay_type = "bloodyhands"
 
@@ -398,7 +400,8 @@ BLIND     // can't see anything
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_head_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_head_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_head_unathi.dmi',
-		SPECIES_NABBER = 'icons/mob/species/nabber/onmob_head_gas.dmi'
+		SPECIES_NABBER = 'icons/mob/species/nabber/onmob_head_gas.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_head_resomi.dmi'
 	)
 	body_parts_covered = HEAD
 	slot_flags = SLOT_HEAD
@@ -523,6 +526,7 @@ BLIND     // can't see anything
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_mask_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_mask_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_mask_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_mask_resomi.dmi'
 		)
 
 	var/voicechange = 0
@@ -602,11 +606,12 @@ BLIND     // can't see anything
 	item_flags = ITEM_FLAG_WASHER_ALLOWED
 	permeability_coefficient = 0.50
 	force = 2
-	species_restricted = list("exclude", SPECIES_NABBER, SPECIES_UNATHI, SPECIES_VOX, SPECIES_VOX_ARMALIS)
+	species_restricted = list("exclude", SPECIES_NABBER, SPECIES_UNATHI, SPECIES_VOX, SPECIES_VOX_ARMALIS, SPECIES_RESOMI)
 	sprite_sheets = list(
 		SPECIES_VOX = 'icons/mob/species/vox/onmob_feet_vox.dmi',
 		SPECIES_VOX_ARMALIS = 'icons/mob/species/vox/onmob_feet_vox_armalis.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_feet_unathi.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_feet_resomi.dmi'
 		)
 	blood_overlay_type = "shoeblood"
 	var/overshoes = 0
@@ -769,7 +774,8 @@ BLIND     // can't see anything
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_suit_unathi.dmi',
 		SPECIES_NABBER = 'icons/mob/species/nabber/onmob_suit_gas.dmi',
 		SPECIES_MANTID_ALATE = 'icons/mob/species/mantid/onmob_suit_alate.dmi',
-		SPECIES_MANTID_GYNE = 'icons/mob/species/mantid/onmob_suit_gyne.dmi'
+		SPECIES_MANTID_GYNE = 'icons/mob/species/mantid/onmob_suit_gyne.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_suit_resomi.dmi'
 		)
 
 /obj/item/clothing/suit/update_clothing_icon()
@@ -828,7 +834,8 @@ BLIND     // can't see anything
 		SPECIES_MONARCH_QUEEN = 'icons/mob/species/nabber/msq/onmob_under_msq.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_under_unathi.dmi',
 		SPECIES_MANTID_ALATE = 'icons/mob/species/mantid/onmob_under_alate.dmi',
-		SPECIES_MANTID_GYNE = 'icons/mob/species/mantid/onmob_under_gyne.dmi'
+		SPECIES_MANTID_GYNE = 'icons/mob/species/mantid/onmob_under_gyne.dmi',
+		SPECIES_RESOMI = 'icons/mob/species/resomi/onmob_under_resomi.dmi'
 	)
 
 	//convenience var for defining the icon state for the overlay used when the clothing is worn.

@@ -44,6 +44,18 @@
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
 
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
+		)
+	)
+
 /datum/job/junior_doctor
 	title = "Medical Resident"
 	department = "Medical"
@@ -86,6 +98,18 @@
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
+
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/senior/resomi
+		)
+	)
 
 /datum/job/doctor
 	title = "Medical Technician"
@@ -134,6 +158,18 @@
 							 /datum/computer_file/program/camera_monitor)
 	skill_points = 22
 
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		)
+	)
+
 /datum/job/medical_trainee
 	title = "Trainee Medical Technician"
 	department = "Medical"
@@ -179,6 +215,18 @@
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
 
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		)
+	)
+
 /datum/job/medical_trainee/get_description_blurb()
 	return "You are a Trainee Medical Technician. You are learning how to treat and recover wounded crew from the more experienced medical personnel aboard. You are subordinate to the rest of the medical team."
 
@@ -215,6 +263,18 @@
 	)
 
 	minimal_access = list()
+
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		)
+	)
 
 /datum/job/chemist/get_description_blurb()
 	return "You are the Pharmacist. You make medicine and other useful substances. You are not a doctor or medic; you should not be treating patients, but rather providing the medicine to do so. You are subordinate to Physicians and Medical Technicians."
@@ -263,6 +323,17 @@
 		/datum/computer_file/program/camera_monitor
 	)
 	give_psionic_implant_on_join = FALSE
+	species_outfit = list(
+		BRANCH_SOLGOV = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		),
+		BRANCH_CORPS = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		),
+		BRANCH_CONTRACTOR = list(
+			SPECIES_RESOMI = /decl/hierarchy/outfit/job/torch/crew/medical/doctor/resomi
+		)
+	)
 
 /datum/job/psychiatrist/equip(var/mob/living/carbon/human/H)
 	if(H.mind?.role_alt_title == "Psionic Counselor")

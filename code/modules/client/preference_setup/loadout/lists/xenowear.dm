@@ -167,3 +167,57 @@
 	path = /obj/item/clothing/mask/gas/vox
 	sort_category = "Xenowear"
 	whitelisted = list(SPECIES_VOX, SPECIES_VOX_ARMALIS)
+
+// Resomi Clothing
+
+/datum/gear/uniform/resomi
+	display_name = "smock, grey (Resomi)"
+	path = /obj/item/clothing/under/resomi
+	sort_category = "Xenowear"
+	whitelisted = list(SPECIES_RESOMI)
+
+/datum/gear/uniform/resomi/rainbow
+	display_name = "smock, rainbow (Resomi)"
+	path = /obj/item/clothing/under/resomi/rainbow
+
+/datum/gear/uniform/resomi/white
+	display_name = "smock, colored (Resomi)"
+	path = /obj/item/clothing/under/resomi/white
+	flags = GEAR_HAS_COLOR_SELECTION
+
+/datum/gear/uniform/resomi/dress
+	display_name = "small dress (Resomi)"
+	path = /obj/item/clothing/under/resomi/dress
+
+/datum/gear/uniform/resomi/uniform
+	display_name = "small uniform (Resomi)"
+	path = /obj/item/clothing/under/resomi/uniform
+
+/datum/gear/uniform/resomi/formal
+	display_name = "small formal uniform (Resomi)"
+	path = /obj/item/clothing/under/resomi/formal
+
+/datum/gear/suit/resomicoat
+	display_name = "small coat (Resomi)"
+	sort_category = "Xenowear"
+	path = /obj/item/clothing/suit/storage/toggle/resomicoat
+
+/datum/gear/suit/resomi
+	display_name = "small grey coat (Resomi)"
+	sort_category = "Xenowear"
+	path = /obj/item/clothing/suit/cloak/resomi
+
+/datum/gear/suit/resomi/engineering_cloak
+	display_name = "small engineering coat (Resomi)"
+	path = /obj/item/clothing/suit/cloak/resomi/engineering
+	allowed_roles = list(/datum/job/engineer, /datum/job/engineer_trainee, /datum/job/senior_engineer)
+
+/datum/gear/suit/resomi/security_cloak
+	display_name = "small security coat (Resomi)"
+	path = /obj/item/clothing/suit/cloak/resomi/security
+	allowed_roles = list(/datum/job/officer)
+
+/datum/gear/suit/resomi/lab_cloak
+	display_name = "small lab cloak (Resomi)"
+	path = /obj/item/clothing/suit/cloak/resomi/lab
+	allowed_roles = list(/datum/job/doctor, /datum/job/medical_trainee, /datum/job/chemist, /datum/job/scientist_assistant, /datum/job/scientist, /datum/job/senior_doctor, /datum/job/junior_doctor)

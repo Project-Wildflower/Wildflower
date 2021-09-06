@@ -30,3 +30,11 @@
 /decl/hierarchy/outfit/job/torch/passenger/research/scientist/solgov
 	name = OUTFIT_JOB_NAME("Scientist - SCG")
 	head = /obj/item/clothing/head/beret/solgov/research
+
+////RESOMI OUTFITS////
+/decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/corporate/research/science
+
+/decl/hierarchy/outfit/job/torch/research/senior_scientist/resomi
+	uniform = /obj/item/clothing/under/resomi/solgov/corporate/research/science
+	suit = /obj/item/clothing/suit/storage/hooded/resomi/lab

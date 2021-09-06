@@ -112,3 +112,61 @@
 
 	var/new_skin = input(usr, "Choose your new skin colour: ", "Change Colour", rgb(r_skin, g_skin, b_skin)) as color|null
 	change_skin_color(hex2num(copytext(new_skin, 2, 4)), hex2num(copytext(new_skin, 4, 6)), hex2num(copytext(new_skin, 6, 8)))
+
+
+/**********
+resomi verbs
+***********/
+/mob/living/carbon/human/proc/sonar_ping()
+	set category = "Abilities"
+	set name = "Listen In"
+	set desc = "Allows you to listen in to movement and noises around you."
+
+
+	if(incapacitated())
+		to_chat(src, "<span class='warning'>You need to recover before you can use this ability.</span>")
+		return
+	if(world.time < next_sonar_ping)
+		to_chat(src, "<span class='warning'>You need another moment to focus.</span>")
+		return
+	if(is_deaf() || is_below_sound_pressure(get_turf(src)))
+		to_chat(src, "<span class='warning'>You are for all intents and purposes currently deaf!</span>")
+		return
+	playsound(src,'sound/voice/chirp.ogg', 100, 1)
+	next_sonar_ping = world.time + 10 SECONDS
+	var/heard_something = FALSE
+	to_chat(src, "<span class='notice'>You take a moment to listen in to your environment...</span>")
+	for(var/mob/living/L in range(client.view, src))
+		var/turf/T = get_turf(L)
+		if(!T || L == src || L.stat == DEAD || is_below_sound_pressure(T))
+			continue
+		heard_something = TRUE
+		var/image/ping_image = image(icon = 'icons/effects/effects.dmi', icon_state = "sonar_ping", loc = src)
+		ping_image.plane = EFFECTS_ABOVE_LIGHTING_PLANE
+		ping_image.layer = BEAM_PROJECTILE_LAYER
+		ping_image.pixel_x = (T.x - src.x) * WORLD_ICON_SIZE
+		ping_image.pixel_y = (T.y - src.y) * WORLD_ICON_SIZE
+		image_to(src, ping_image)
+		spawn(8)
+			qdel(ping_image)
+		var/feedback = list("<span class='notice'>There are noises of movement ")
+		var/direction = get_dir(src, L)
+		if(direction)
+			feedback += "towards the [dir2text(direction)], "
+			switch(get_dist(src, L) / client.view)
+				if(0 to 0.2)
+					feedback += "very close by."
+				if(0.2 to 0.4)
+					feedback += "close by."
+				if(0.4 to 0.6)
+					feedback += "some distance away."
+				if(0.6 to 0.8)
+					feedback += "further away."
+				else
+					feedback += "far away."
+		else // No need to check distance if they're standing right on-top of us
+			feedback += "right on top of you."
+		feedback += "</span>"
+		to_chat(src, jointext(feedback,null))
+	if(!heard_something)
+		to_chat(src, "<span class='notice'>You hear no movement but your own.</span>")
