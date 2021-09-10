@@ -184,6 +184,11 @@
 	icon_dead = "cat_dead"
 	skin_material = MATERIAL_SKIN_FUR_BLACK
 
+/mob/living/simple_animal/friendly/cat/fluff/Runtime/attack_hand(mob/living/carbon/human/M)
+	. = ..()
+	if(prob(30))
+		audible_emote("purrs")
+
 /mob/living/simple_animal/friendly/cat/kitten
 	name = "kitten"
 	desc = "D'aaawwww."
