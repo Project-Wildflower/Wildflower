@@ -1849,8 +1849,8 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Command Sublevel Subgrid";
-	name_tag = "Command Sublevel Subgrid";
-	name = "Powernet Sensor - Command Sublevel Subgrid"
+	name = "Powernet Sensor - Command Sublevel Subgrid";
+	name_tag = "Command Sublevel Subgrid"
 	},
 /obj/structure/cable/cyan{
 	d2 = 4;
@@ -3591,8 +3591,8 @@
 	dir = 8
 	},
 /obj/structure/disposalpipe/up{
-	icon_state = "pipe-u";
-	dir = 1
+	dir = 1;
+	icon_state = "pipe-u"
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/sub/aft)
@@ -3610,8 +3610,8 @@
 	icon_state = "0-4"
 	},
 /obj/structure/disposalpipe/up{
-	icon_state = "pipe-u";
-	dir = 1
+	dir = 1;
+	icon_state = "pipe-u"
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/sub/aft)
@@ -4035,8 +4035,8 @@
 "jx" = (
 /obj/machinery/power/sensor{
 	id_tag = "Atmospherics Subgrid";
-	name_tag = "Atmospherics Subgrid";
-	name = "Powernet Sensor - Atmospherics Subgrid"
+	name = "Powernet Sensor - Atmospherics Subgrid";
+	name_tag = "Atmospherics Subgrid"
 	},
 /obj/machinery/alarm{
 	dir = 4;

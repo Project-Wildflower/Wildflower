@@ -645,8 +645,8 @@
 /area/exodus/security/tactical)
 "abz" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "brig_solar_inner";
 	frequency = 1380;
+	id_tag = "brig_solar_inner";
 	name = "Engineering External Access"
 	},
 /obj/structure/cable/yellow{
@@ -938,8 +938,8 @@
 /area/exodus/solar/fore)
 "abX" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "brig_solar_outer";
 	frequency = 1380;
+	id_tag = "brig_solar_outer";
 	name = "Engineering External Access"
 	},
 /obj/structure/cable/yellow{
@@ -962,8 +962,8 @@
 /area/exodus/maintenance/foresolar)
 "abZ" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "brig_solar_airlock";
 	frequency = 1380;
+	master_tag = "brig_solar_airlock";
 	name = "exterior access button";
 	pixel_x = 25;
 	pixel_y = 25
@@ -1049,8 +1049,8 @@
 	id_tag = "brig_solar_pump"
 	},
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	frequency = 1380;
 	dir = 1;
+	frequency = 1380;
 	id_tag = "brig_solar_airlock";
 	pixel_y = -25;
 	tag_airpump = "brig_solar_pump";
@@ -1098,8 +1098,8 @@
 /area/exodus/security/meeting)
 "aci" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "brig_solar_airlock";
 	frequency = 1380;
+	master_tag = "brig_solar_airlock";
 	name = "interior access button";
 	pixel_x = -25;
 	pixel_y = -25
@@ -3135,8 +3135,8 @@
 	pixel_y = 32
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1380;
 	dir = 1;
+	frequency = 1380;
 	id_tag = "escape_pod_3";
 	pixel_y = -25;
 	tag_door = "escape_pod_3_hatch"
@@ -3168,8 +3168,8 @@
 /area/exodus/security/meeting)
 "agl" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "escape_pod_3_berth";
 	pixel_x = 25;
 	pixel_y = 32;
@@ -3204,16 +3204,16 @@
 /area/exodus/security/meeting)
 "agq" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_pod_3_berth_hatch";
 	frequency = 1380;
+	id_tag = "escape_pod_3_berth_hatch";
 	name = "Escape Pod"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/maintenance/security_starboard)
 "agr" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_pod_3_hatch";
 	frequency = 1380;
+	id_tag = "escape_pod_3_hatch";
 	name = "Escape Pod Hatch"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -4900,8 +4900,8 @@
 /area/exodus/security/prison)
 "ajD" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "solar_chapel_airlock";
 	frequency = 1380;
+	master_tag = "solar_chapel_airlock";
 	name = "interior access button";
 	pixel_x = 25;
 	pixel_y = 25
@@ -6653,8 +6653,8 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Security Subgrid";
-	name_tag = "Security Subgrid";
-	name = "Powernet Sensor - Security Subgrid"
+	name = "Powernet Sensor - Security Subgrid";
+	name_tag = "Security Subgrid"
 	},
 /obj/structure/cable/green{
 	d2 = 4;
@@ -8252,8 +8252,8 @@
 	pixel_x = 32
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1380;
 	dir = 4;
+	frequency = 1380;
 	id_tag = "escape_pod_1";
 	pixel_x = -25;
 	tag_door = "escape_pod_1_hatch"
@@ -8906,8 +8906,8 @@
 /area/exodus/maintenance/dormitory)
 "aqK" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "dorm_airlock";
 	frequency = 1380;
+	master_tag = "dorm_airlock";
 	name = "interior access button";
 	pixel_x = -25;
 	pixel_y = 25
@@ -9334,8 +9334,8 @@
 /area/exodus/security/prison)
 "arz" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "eva_inner";
 	frequency = 1380;
+	id_tag = "eva_inner";
 	name = "EVA Internal Access"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -9561,8 +9561,8 @@
 /area/exodus/security/brig/solitaryA)
 "arX" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "eva_airlock";
 	frequency = 1380;
+	master_tag = "eva_airlock";
 	name = "interior access button";
 	pixel_y = 25
 	},
@@ -9834,8 +9834,8 @@
 	pixel_x = 32
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1380;
 	dir = 4;
+	frequency = 1380;
 	id_tag = "escape_pod_2";
 	pixel_x = -25;
 	tag_door = "escape_pod_2_hatch"
@@ -10578,8 +10578,8 @@
 /area/exodus/maintenance/arrivals)
 "auf" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_pod_1_berth_hatch";
 	frequency = 1380;
+	id_tag = "escape_pod_1_berth_hatch";
 	name = "Escape Pod"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -10994,8 +10994,8 @@
 /area/exodus/security/prison/dorm)
 "auV" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_pod_2_berth_hatch";
 	frequency = 1380;
+	id_tag = "escape_pod_2_berth_hatch";
 	name = "Escape Pod"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -11056,22 +11056,22 @@
 	dir = 4
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
-	dir = 4
+	dir = 4;
+	icon_state = "railing_preview"
 	},
 /turf/simulated/floor/pool,
 /area/exodus/crew_quarters/fitness)
 "ave" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "admin_shuttle_dock_airlock";
 	frequency = 1380;
+	master_tag = "admin_shuttle_dock_airlock";
 	name = "exterior access button";
 	pixel_x = -28;
 	pixel_y = -6
 	},
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "admin_shuttle_dock_outer";
 	frequency = 1380;
+	id_tag = "admin_shuttle_dock_outer";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -11399,8 +11399,8 @@
 /area/exodus/hallway/secondary/entry/pods)
 "avN" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "admin_shuttle_dock_outer";
 	frequency = 1380;
+	id_tag = "admin_shuttle_dock_outer";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -11432,8 +11432,8 @@
 	},
 /obj/item/stool/padded,
 /obj/effect/floor_decal/corner/grey{
-	icon_state = "corner_white";
-	dir = 1
+	dir = 1;
+	icon_state = "corner_white"
 	},
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
@@ -11557,8 +11557,8 @@
 /area/exodus/hallway/secondary/entry/fore)
 "avZ" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "arrivals_airlock";
 	frequency = 1380;
+	master_tag = "arrivals_airlock";
 	name = "exterior access button";
 	pixel_x = -25;
 	pixel_y = -25
@@ -11587,13 +11587,13 @@
 /area/exodus/engineering/engine_room)
 "awb" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "eva_outer";
 	frequency = 1380;
+	id_tag = "eva_outer";
 	name = "EVA External Access"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "eva_airlock";
 	frequency = 1380;
+	master_tag = "eva_airlock";
 	name = "exterior access button";
 	pixel_y = 25
 	},
@@ -11616,8 +11616,8 @@
 /area/exodus/maintenance/evahallway)
 "awd" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "arrivals_outer";
 	frequency = 1380;
+	id_tag = "arrivals_outer";
 	name = "Engineering External Access"
 	},
 /obj/machinery/shield_diffuser,
@@ -11827,16 +11827,16 @@
 /area/exodus/hallway/primary/fore)
 "awB" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_pod_1_hatch";
 	frequency = 1380;
+	id_tag = "escape_pod_1_hatch";
 	name = "Escape Pod Hatch"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/escape_pod_1)
 "awC" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_pod_2_hatch";
 	frequency = 1380;
+	id_tag = "escape_pod_2_hatch";
 	name = "Escape Pod Hatch"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -11989,8 +11989,8 @@
 /area/exodus/crew_quarters/fitness)
 "awR" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "eva_inner";
 	frequency = 1380;
+	id_tag = "eva_inner";
 	name = "EVA Internal Access"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -12018,8 +12018,8 @@
 /area/exodus/maintenance/arrivals)
 "awW" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "solar_tool_airlock";
 	frequency = 1380;
+	master_tag = "solar_tool_airlock";
 	name = "exterior access button";
 	pixel_x = -25;
 	pixel_y = -25
@@ -12217,8 +12217,8 @@
 /area/exodus/crew_quarters/sleep)
 "axo" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "eva_outer";
 	frequency = 1380;
+	id_tag = "eva_outer";
 	name = "EVA External Access"
 	},
 /obj/machinery/shield_diffuser,
@@ -13036,15 +13036,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/exodus/crew_quarters/sleep)
 "ayQ" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/white/three_quarters{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/turf/simulated/floor/tiled/dark,
-/area/shuttle/arrival/station)
+/obj/item/drain,
+/turf/simulated/floor/pool,
+/area/exodus/crew_quarters/fitness)
 "ayR" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/dice/d20,
@@ -13257,8 +13251,8 @@
 /area/exodus/hallway/secondary/entry/fore)
 "azj" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "solar_tool_outer";
 	frequency = 1380;
+	id_tag = "solar_tool_outer";
 	name = "Engineering External Access"
 	},
 /obj/structure/cable/yellow{
@@ -13387,7 +13381,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/fore)
 "azv" = (
-/obj/machinery/vending/cola,
+/obj/machinery/vending/cola{
+	dir = 1
+	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/fore)
@@ -13761,7 +13757,9 @@
 /turf/simulated/floor/plating,
 /area/exodus/hallway/secondary/entry/fore)
 "aAm" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee{
+	dir = 1
+	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/entry/fore)
@@ -13784,8 +13782,8 @@
 	dir = 4
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "admin_shuttle_dock_airlock";
 	pixel_x = 30;
 	tag_airpump = "admin_shuttle_dock_pump";
@@ -13867,8 +13865,8 @@
 	pixel_y = 12
 	},
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "solar_tool_airlock";
 	pixel_x = 25;
 	tag_airpump = "solar_tool_pump";
@@ -14265,8 +14263,8 @@
 "aBl" = (
 /obj/effect/floor_decal/spline/plain,
 /obj/structure/hygiene/faucet{
-	icon_state = "faucet";
-	dir = 1
+	dir = 1;
+	icon_state = "faucet"
 	},
 /turf/simulated/floor/pool,
 /area/exodus/crew_quarters/fitness)
@@ -14409,8 +14407,8 @@
 	dir = 4
 	},
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "nuke_shuttle_dock_airlock";
 	frequency = 1380;
+	master_tag = "nuke_shuttle_dock_airlock";
 	name = "interior access button";
 	pixel_x = -28;
 	pixel_y = 26
@@ -14445,8 +14443,8 @@
 /area/exodus/gateway)
 "aBK" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "nuke_shuttle_dock_inner";
 	frequency = 1380;
+	id_tag = "nuke_shuttle_dock_inner";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -15596,7 +15594,9 @@
 /turf/simulated/floor/plating,
 /area/exodus/hallway/primary/starboard)
 "aEj" = (
-/obj/machinery/vending/tool,
+/obj/machinery/vending/tool{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/exodus/storage/primary)
 "aEk" = (
@@ -15826,8 +15826,8 @@
 /area/exodus/maintenance/library)
 "aEE" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "solar_tool_inner";
 	frequency = 1380;
+	id_tag = "solar_tool_inner";
 	name = "Engineering External Access"
 	},
 /obj/structure/cable/yellow{
@@ -16328,8 +16328,8 @@
 /area/exodus/security/nuke_storage)
 "aFu" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "escape_dock_north_airlock";
 	frequency = 1380;
+	master_tag = "escape_dock_north_airlock";
 	name = "interior access button";
 	pixel_x = 26;
 	pixel_y = 26
@@ -16347,8 +16347,8 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/fire{
-	icon_state = "stripe";
-	dir = 1
+	dir = 1;
+	icon_state = "stripe"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/nuke_storage)
@@ -16390,8 +16390,8 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/fire{
-	icon_state = "stripe";
-	dir = 1
+	dir = 1;
+	icon_state = "stripe"
 	},
 /obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 1
@@ -16444,8 +16444,8 @@
 /area/exodus/maintenance/substation/civilian_west)
 "aFD" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "merchant_shuttle_station_exterior";
 	frequency = 1380;
+	id_tag = "merchant_shuttle_station_exterior";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -16575,7 +16575,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/secondary/entry/port)
 "aFO" = (
-/obj/machinery/lapvend,
+/obj/machinery/lapvend{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/exodus/storage/primary)
 "aFP" = (
@@ -16612,8 +16614,8 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Civilian East Subgrid";
-	name_tag = "Civilian East Subgrid";
-	name = "Powernet Sensor - Civilian East Subgrid"
+	name = "Powernet Sensor - Civilian East Subgrid";
+	name_tag = "Civilian East Subgrid"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -16889,8 +16891,8 @@
 /area/exodus/security/checkpoint2)
 "aGk" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_dock_north_inner";
 	frequency = 1380;
+	id_tag = "escape_dock_north_inner";
 	name = "Escape Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -16980,8 +16982,8 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/industrial/fire{
-	icon_state = "stripe";
-	dir = 1
+	dir = 1;
+	icon_state = "stripe"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/nuke_storage)
@@ -17015,8 +17017,8 @@
 	icon_state = "1-8"
 	},
 /obj/effect/floor_decal/industrial/fire{
-	icon_state = "stripe";
-	dir = 1
+	dir = 1;
+	icon_state = "stripe"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/nuke_storage)
@@ -17030,8 +17032,8 @@
 /area/exodus/maintenance/locker)
 "aGB" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "centcom_shuttle_dock_inner";
 	frequency = 1380;
+	id_tag = "centcom_shuttle_dock_inner";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -17311,8 +17313,8 @@
 	dir = 4
 	},
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "escape_dock_south_airlock";
 	frequency = 1380;
+	master_tag = "escape_dock_south_airlock";
 	name = "interior access button";
 	pixel_x = 26;
 	pixel_y = -26
@@ -17485,8 +17487,8 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_dock_south_inner";
 	frequency = 1380;
+	id_tag = "escape_dock_south_inner";
 	name = "Escape Airlock"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -18117,8 +18119,8 @@
 /area/exodus/gateway)
 "aIu" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "xeno_airlock_control";
 	frequency = 1380;
+	master_tag = "xeno_airlock_control";
 	name = "Xenobiology Access Button";
 	pixel_x = -24
 	},
@@ -18852,8 +18854,8 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Civilian West Subgrid";
-	name_tag = "Civilian West Subgrid";
-	name = "Powernet Sensor - Civilian West"
+	name = "Powernet Sensor - Civilian West";
+	name_tag = "Civilian West Subgrid"
 	},
 /obj/structure/cable/green{
 	d2 = 8;
@@ -19690,8 +19692,8 @@
 /area/exodus/hallway/primary/starboard)
 "aLE" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "nuke_shuttle_dock_outer";
 	frequency = 1380;
+	id_tag = "nuke_shuttle_dock_outer";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -19789,13 +19791,13 @@
 /area/exodus/bridge)
 "aLP" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "nuke_shuttle_dock_outer";
 	frequency = 1380;
+	id_tag = "nuke_shuttle_dock_outer";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "nuke_shuttle_dock_airlock";
 	frequency = 1380;
+	master_tag = "nuke_shuttle_dock_airlock";
 	name = "exterior access button";
 	pixel_x = -5;
 	pixel_y = -26
@@ -19837,13 +19839,13 @@
 /area/exodus/hallway/primary/central_two)
 "aLW" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_dock_north_outer";
 	frequency = 1380;
+	id_tag = "escape_dock_north_outer";
 	name = "Escape Airlock"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "escape_dock_north_airlock";
 	frequency = 1380;
+	master_tag = "escape_dock_north_airlock";
 	name = "exterior access button";
 	pixel_x = 4;
 	pixel_y = -26
@@ -20326,8 +20328,8 @@
 	pixel_y = 12
 	},
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "arrivals_airlock";
 	pixel_x = 25;
 	tag_airpump = "arrivals_pump";
@@ -20460,13 +20462,13 @@
 /area/exodus/hallway/primary/port)
 "aNl" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "centcom_shuttle_dock_outer";
 	frequency = 1380;
+	id_tag = "centcom_shuttle_dock_outer";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "centcom_shuttle_dock_airlock";
 	frequency = 1380;
+	master_tag = "centcom_shuttle_dock_airlock";
 	name = "exterior access button";
 	pixel_x = -5;
 	pixel_y = -26
@@ -20760,13 +20762,13 @@
 /area/exodus/hallway/primary/central_one)
 "aNM" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_dock_south_outer";
 	frequency = 1380;
+	id_tag = "escape_dock_south_outer";
 	name = "Escape Airlock"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "escape_dock_south_airlock";
 	frequency = 1380;
+	master_tag = "escape_dock_south_airlock";
 	name = "exterior access button";
 	pixel_x = 4;
 	pixel_y = 26
@@ -20950,13 +20952,13 @@
 /area/exodus/hallway/primary/central_two)
 "aOd" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "specops_dock_outer";
 	frequency = 1380;
+	id_tag = "specops_dock_outer";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "specops_dock_airlock";
 	frequency = 1380;
+	master_tag = "specops_dock_airlock";
 	name = "exterior access button";
 	pixel_x = -5;
 	pixel_y = -26
@@ -22036,7 +22038,9 @@
 /turf/simulated/floor/plating,
 /area/exodus/medical/sleeper)
 "aPW" = (
-/obj/machinery/seed_storage/garden,
+/obj/machinery/seed_storage/garden{
+	dir = 4
+	},
 /obj/effect/floor_decal/corner/lime{
 	dir = 9
 	},
@@ -22082,8 +22086,8 @@
 /area/exodus/chapel/main)
 "aQc" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "rescue_shuttle_dock_outer";
 	frequency = 1380;
+	id_tag = "rescue_shuttle_dock_outer";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -22091,13 +22095,13 @@
 /area/exodus/hallway/secondary/entry/aft)
 "aQd" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "rescue_shuttle_dock_outer";
 	frequency = 1380;
+	id_tag = "rescue_shuttle_dock_outer";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "rescue_shuttle_dock_airlock";
 	frequency = 1380;
+	master_tag = "rescue_shuttle_dock_airlock";
 	name = "exterior access button";
 	pixel_x = -26;
 	pixel_y = -5
@@ -22331,8 +22335,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "cargo_bay_door";
 	frequency = 1380;
+	id_tag = "cargo_bay_door";
 	name = "Cargo Docking Hatch"
 	},
 /obj/machinery/shield_diffuser,
@@ -22533,11 +22537,15 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hydroponics)
 "aRb" = (
-/obj/machinery/vending/hydroseeds,
+/obj/machinery/vending/hydroseeds{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hydroponics)
 "aRc" = (
-/obj/machinery/vending/hydronutrients,
+/obj/machinery/vending/hydronutrients{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hydroponics)
 "aRd" = (
@@ -22554,7 +22562,9 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 9
 	},
-/obj/machinery/vending/hydronutrients/generic,
+/obj/machinery/vending/hydronutrients/generic{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hydroponics)
 "aRf" = (
@@ -22782,8 +22792,8 @@
 "aRB" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "cargo_bay_door";
 	frequency = 1380;
+	id_tag = "cargo_bay_door";
 	name = "Cargo Docking Hatch"
 	},
 /obj/machinery/shield_diffuser,
@@ -22791,8 +22801,8 @@
 /area/exodus/quartermaster/storage)
 "aRC" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "research_dock_outer";
 	frequency = 1380;
+	id_tag = "research_dock_outer";
 	name = "Shuttle Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -22829,8 +22839,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "cargo_bay_door";
 	frequency = 1380;
+	id_tag = "cargo_bay_door";
 	name = "Cargo Docking Hatch"
 	},
 /obj/machinery/shield_diffuser,
@@ -22855,8 +22865,8 @@
 /area/exodus/crew_quarters/captain)
 "aRH" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "arrivals_inner";
 	frequency = 1380;
+	id_tag = "arrivals_inner";
 	name = "Engineering External Access"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -23320,8 +23330,8 @@
 /area/exodus/crew_quarters/captain)
 "aSE" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "solar_tool_airlock";
 	frequency = 1380;
+	master_tag = "solar_tool_airlock";
 	name = "interior access button";
 	pixel_x = 25;
 	pixel_y = 25
@@ -23609,10 +23619,10 @@
 /area/exodus/research/docking)
 "aTg" = (
 /obj/machinery/embedded_controller/radio/docking_port_multi{
-	frequency = 1380;
 	child_names_txt = "Airlock One;Airlock Two";
 	child_tags_txt = "escape_dock_north_airlock;escape_dock_south_airlock";
 	dir = 1;
+	frequency = 1380;
 	id_tag = "escape_dock";
 	pixel_y = -25
 	},
@@ -23639,8 +23649,8 @@
 /area/exodus/library)
 "aTj" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "specops_dock_inner";
 	frequency = 1380;
+	id_tag = "specops_dock_inner";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -26006,8 +26016,8 @@
 /area/exodus/engineering/break_room)
 "aYm" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "nuke_shuttle_dock_inner";
 	frequency = 1380;
+	id_tag = "nuke_shuttle_dock_inner";
 	name = "Docking Port Airlock"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -26779,8 +26789,8 @@
 	},
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
-	dir = 4
+	dir = 4;
+	icon_state = "railing_preview"
 	},
 /turf/simulated/floor/pool,
 /area/exodus/crew_quarters/fitness)
@@ -26788,7 +26798,9 @@
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/white/three_quarters,
+/obj/effect/floor_decal/corner/white/three_quarters{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/arrival/station)
@@ -27122,19 +27134,24 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/storage/tools)
 "bat" = (
-/obj/machinery/atmospherics/pipe/zpipe/down/supply{
-	dir = 1
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
 	},
-/obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
-	dir = 1
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
 	},
-/obj/machinery/atmospherics/pipe/zpipe/down/cyan{
-	dir = 1
-	},
-/obj/structure/lattice,
-/turf/simulated/floor/plating,
-/turf/simulated/open,
-/area/exodus/engineering/sublevel_access)
+/obj/structure/table/standard,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/device/flashlight/pen,
+/obj/item/device/flashlight/pen,
+/obj/item/device/flashlight/pen,
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/medbay3)
 "bau" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -27536,16 +27553,16 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/crew_quarters/locker)
 "bbd" = (
-/obj/machinery/atmospherics/pipe/zpipe/down/red{
-	dir = 1
+/obj/structure/table/standard,
+/obj/item/clothing/suit/straight_jacket,
+/obj/item/clothing/mask/muzzle,
+/obj/machinery/light,
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
 	},
-/obj/structure/lattice,
-/obj/structure/disposalpipe/down{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/turf/simulated/open,
-/area/exodus/engineering/sublevel_access)
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/medbay3)
 "bbe" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -27566,23 +27583,15 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/starboard)
 "bbg" = (
-/obj/machinery/atmospherics/pipe/zpipe/down{
-	dir = 4
+/obj/effect/floor_decal/corner/pink{
+	dir = 5
 	},
-/obj/structure/cable{
-	d1 = 32;
-	d2 = 4;
-	icon_state = "32-4"
+/obj/machinery/light_switch{
+	pixel_y = 24
 	},
-/obj/machinery/light,
-/obj/structure/lattice,
-/obj/structure/disposalpipe/down{
-	icon_state = "pipe-d";
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/turf/simulated/open,
-/area/exodus/engineering/sublevel_access)
+/obj/machinery/atmospherics/unary/cryo_cell,
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/cryo)
 "bbh" = (
 /obj/structure/table/marble,
 /obj/structure/disposalpipe/segment{
@@ -27647,6 +27656,13 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/starboard)
+"bbo" = (
+/obj/effect/floor_decal/corner/pink{
+	dir = 5
+	},
+/obj/machinery/atmospherics/unary/cryo_cell,
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/cryo)
 "bbp" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/dark,
@@ -27739,8 +27755,8 @@
 /area/exodus/research/test_area)
 "bbz" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "centcom_shuttle_dock_airlock";
 	frequency = 1380;
+	master_tag = "centcom_shuttle_dock_airlock";
 	name = "interior access button";
 	pixel_x = -28;
 	pixel_y = 26
@@ -28579,6 +28595,41 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/chapel/main)
+"bdb" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/device/radio/intercom{
+	pixel_y = 22
+	},
+/obj/item/wrench,
+/obj/machinery/camera/network/medbay{
+	c_tag = "Medbay Cryogenics"
+	},
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/effect/floor_decal/corner/pink{
+	dir = 5
+	},
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = 10;
+	pixel_y = 7
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/cryo)
+"bdc" = (
+/obj/machinery/computer/modular/preset/civilian{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/white/three_quarters,
+/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/arrival/station)
 "bdd" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -28797,8 +28848,8 @@
 /area/exodus/maintenance/library)
 "bdy" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "admin_shuttle_dock_inner";
 	frequency = 1380;
+	id_tag = "admin_shuttle_dock_inner";
 	name = "Docking Port Airlock"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -28820,6 +28871,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/library)
+"bdA" = (
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 8;
+	icon_state = "shutter0";
+	id_tag = "medbayquar";
+	name = "Medbay Emergency Quarantine Shutters";
+	opacity = 0
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/medical/sleeper)
 "bdB" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -29212,7 +29278,9 @@
 /turf/simulated/floor/carpet,
 /area/exodus/bridge/meeting_room)
 "bey" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/exodus/library)
 "bez" = (
@@ -29231,6 +29299,12 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/office)
+"beA" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/cryo)
 "beB" = (
 /obj/machinery/atmospherics/unary/tank/air{
 	dir = 4
@@ -29249,6 +29323,12 @@
 	},
 /turf/simulated/floor/carpet,
 /area/exodus/crew_quarters/captain)
+"beD" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/cryo)
 "beE" = (
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
@@ -29771,6 +29851,12 @@
 	},
 /turf/simulated/floor/carpet,
 /area/exodus/crew_quarters/captain)
+"bfG" = (
+/obj/effect/floor_decal/corner/white{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/hallway/primary/central_two)
 "bfH" = (
 /obj/machinery/status_display{
 	pixel_y = 32
@@ -29916,13 +30002,13 @@
 /area/exodus/quartermaster/storage)
 "bfY" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "eng_eva_outer";
 	frequency = 1380;
+	id_tag = "eng_eva_outer";
 	name = "Engineering EVA External Access"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "eng_eva_airlock";
 	frequency = 1380;
+	master_tag = "eng_eva_airlock";
 	name = "exterior access button";
 	pixel_y = 25
 	},
@@ -30048,6 +30134,21 @@
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/crew_quarters/locker)
+"bgm" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible,
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/cryo)
 "bgn" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/status_display{
@@ -30216,6 +30317,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/central_one)
+"bgD" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/cryo)
 "bgE" = (
 /obj/machinery/door/airlock/glass{
 	name = "Central Access"
@@ -30852,8 +30962,8 @@
 "bhS" = (
 /obj/machinery/power/sensor{
 	id_tag = "AI Subgrid";
-	name_tag = "AI Subgrid";
-	name = "Powernet Sensor - AI Subgrid"
+	name = "Powernet Sensor - AI Subgrid";
+	name_tag = "AI Subgrid"
 	},
 /obj/structure/cable/cyan{
 	d2 = 8;
@@ -30875,6 +30985,15 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/exodus/turret_protected/ai)
+"bhU" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/cryo)
 "bhV" = (
 /obj/machinery/light{
 	dir = 4
@@ -31088,6 +31207,22 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/starboard)
+"bio" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/cryo)
 "bip" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -31102,6 +31237,26 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/storage)
+"bir" = (
+/obj/machinery/light_switch{
+	pixel_x = -22
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/freezer{
+	dir = 1;
+	icon_state = "freezer"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/medical/cryo)
+"bis" = (
+/obj/machinery/light,
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/medical/cryo)
 "bit" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -31130,6 +31285,18 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/wood/walnut,
 /area/exodus/bridge/meeting_room)
+"biv" = (
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/freezer{
+	dir = 1;
+	icon_state = "freezer"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/exodus/medical/cryo)
 "biw" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -31164,7 +31331,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/bridge)
 "biA" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/exodus/crew_quarters/captain)
 "biB" = (
@@ -31183,6 +31352,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/bluegrid,
 /area/exodus/turret_protected/ai)
+"biE" = (
+/obj/item/device/radio/intercom{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/effect/floor_decal/corner/pink{
+	dir = 9
+	},
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/sleeper)
 "biF" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -31397,6 +31579,15 @@
 /obj/structure/sign/directions/examroom,
 /turf/simulated/wall/prepainted,
 /area/exodus/medical/reception)
+"biX" = (
+/obj/effect/floor_decal/corner/pink{
+	dir = 9
+	},
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/medical/sleeper)
 "biY" = (
 /obj/machinery/light{
 	dir = 1
@@ -31481,8 +31672,8 @@
 	dir = 1
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port_multi{
-	frequency = 1380;
 	dir = 1;
+	frequency = 1380;
 	id_tag = "escape_dock_south_airlock";
 	master_tag = "escape_dock";
 	pixel_y = -25;
@@ -31841,6 +32032,31 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/starboard)
+"bjI" = (
+/obj/machinery/atmospherics/pipe/zpipe/down/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/zpipe/down/cyan{
+	dir = 1
+	},
+/obj/structure/lattice,
+/turf/simulated/floor/plating,
+/turf/simulated/open,
+/area/exodus/engineering/sublevel_access)
+"bjJ" = (
+/obj/machinery/atmospherics/pipe/zpipe/down/red{
+	dir = 1
+	},
+/obj/structure/lattice,
+/obj/structure/disposalpipe/down{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/turf/simulated/open,
+/area/exodus/engineering/sublevel_access)
 "bjK" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -31863,7 +32079,9 @@
 /turf/simulated/floor/wood/walnut,
 /area/exodus/bridge/meeting_room)
 "bjM" = (
-/obj/structure/reagent_dispensers/water_cooler,
+/obj/structure/reagent_dispensers/water_cooler{
+	dir = 8
+	},
 /turf/simulated/floor/wood/walnut,
 /area/exodus/bridge/meeting_room)
 "bjN" = (
@@ -31937,7 +32155,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/starboard)
 "bjT" = (
-/obj/machinery/vending/cigarette,
+/obj/machinery/vending/cigarette{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/exodus/crew_quarters/captain)
 "bjU" = (
@@ -32181,8 +32401,8 @@
 /area/exodus/hallway/secondary/exit)
 "bkq" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "specops_dock_airlock";
 	frequency = 1380;
+	master_tag = "specops_dock_airlock";
 	name = "interior access button";
 	pixel_x = -28;
 	pixel_y = 26
@@ -32194,8 +32414,8 @@
 /area/exodus/hallway/secondary/entry/aft)
 "bkr" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "research_dock_airlock";
 	frequency = 1380;
+	master_tag = "research_dock_airlock";
 	name = "interior access button";
 	pixel_x = 25;
 	pixel_y = -25
@@ -32363,6 +32583,24 @@
 	},
 /turf/simulated/floor/carpet,
 /area/exodus/bridge/meeting_room)
+"bkH" = (
+/obj/machinery/atmospherics/pipe/zpipe/down{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 32;
+	d2 = 4;
+	icon_state = "32-4"
+	},
+/obj/machinery/light,
+/obj/structure/lattice,
+/obj/structure/disposalpipe/down{
+	dir = 4;
+	icon_state = "pipe-d"
+	},
+/turf/simulated/floor/plating,
+/turf/simulated/open,
+/area/exodus/engineering/sublevel_access)
 "bkJ" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -32468,8 +32706,8 @@
 /area/exodus/maintenance/disposal)
 "bkU" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "research_dock_inner";
 	frequency = 1380;
+	id_tag = "research_dock_inner";
 	name = "Shuttle Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -32733,7 +32971,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/maintenance/atmos_control)
 "bly" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/coffee{
+	dir = 8
+	},
 /turf/simulated/floor/wood/walnut,
 /area/exodus/bridge/meeting_room)
 "blz" = (
@@ -33369,8 +33609,8 @@
 /area/exodus/turret_protected/ai)
 "bmL" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "eng_eva_airlock";
 	frequency = 1380;
+	master_tag = "eng_eva_airlock";
 	name = "interior access button";
 	pixel_y = 25
 	},
@@ -34748,8 +34988,8 @@
 /obj/structure/cable/green,
 /obj/machinery/power/sensor{
 	id_tag = "Command Subgrid";
-	name_tag = "Command Subgrid";
-	name = "Powernet Sensor - Command Subgrid"
+	name = "Powernet Sensor - Command Subgrid";
+	name_tag = "Command Subgrid"
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -35502,8 +35742,8 @@
 /area/exodus/storage/emergency)
 "bqW" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1380;
 	dir = 4;
+	frequency = 1380;
 	id_tag = "cargo_bay";
 	name = "cargo bay hatch controller";
 	pixel_x = -30;
@@ -35699,8 +35939,8 @@
 /area/exodus/quartermaster/office)
 "brq" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "admin_shuttle_dock_inner";
 	frequency = 1380;
+	id_tag = "admin_shuttle_dock_inner";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -36440,8 +36680,8 @@
 /area/exodus/hallway/secondary/entry/aft)
 "bsR" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "eng_eva_outer";
 	frequency = 1380;
+	id_tag = "eng_eva_outer";
 	name = "Engineering EVA External Access"
 	},
 /obj/machinery/shield_diffuser,
@@ -36848,8 +37088,8 @@
 /area/exodus/research/xenobiology)
 "btE" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "admin_shuttle_dock_airlock";
 	frequency = 1380;
+	master_tag = "admin_shuttle_dock_airlock";
 	name = "interior access button";
 	pixel_x = -8;
 	pixel_y = 26
@@ -39205,8 +39445,8 @@
 	dir = 1
 	},
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "arrivals_airlock";
 	frequency = 1380;
+	master_tag = "arrivals_airlock";
 	name = "interior access button";
 	pixel_x = -25;
 	pixel_y = 25
@@ -39387,18 +39627,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay)
-"byy" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/medbay3)
 "byz" = (
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay3)
@@ -40006,8 +40234,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "cargo_bay_door";
 	frequency = 1380;
+	id_tag = "cargo_bay_door";
 	name = "Cargo Docking Hatch"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -40599,8 +40827,8 @@
 /obj/structure/cable/green,
 /obj/machinery/power/sensor{
 	id_tag = "Medbay Subgrid";
-	name_tag = "Medbay Subgrid";
-	name = "Powernet Sensor - Medbay Subgrid"
+	name = "Powernet Sensor - Medbay Subgrid";
+	name_tag = "Medbay Subgrid"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -41031,8 +41259,8 @@
 "bBu" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "cargo_bay_door";
 	frequency = 1380;
+	id_tag = "cargo_bay_door";
 	name = "Cargo Docking Hatch"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -41848,25 +42076,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/turret_protected/ai_cyborg_station)
-"bDa" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/item/device/radio/intercom{
-	pixel_y = 22
-	},
-/obj/item/wrench,
-/obj/machinery/camera/network/medbay{
-	c_tag = "Medbay Cryogenics"
-	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
-/obj/effect/floor_decal/corner/pink{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/cryo)
 "bDb" = (
 /obj/structure/closet/crate{
 	name = "Camera Assembly Crate"
@@ -42022,27 +42231,6 @@
 "bDp" = (
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay)
-"bDq" = (
-/obj/structure/table/standard,
-/obj/item/clothing/suit/straight_jacket,
-/obj/item/clothing/mask/muzzle,
-/obj/machinery/light,
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/obj/item/device/flashlight/pen,
-/obj/item/device/flashlight/pen,
-/obj/item/device/flashlight/pen,
-/obj/item/device/flashlight/pen,
-/obj/item/device/flashlight/pen,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/obj/item/clothing/glasses/hud/health,
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/medbay3)
 "bDr" = (
 /obj/structure/table/rack,
 /obj/item/storage/belt/medical,
@@ -42134,14 +42322,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay2)
-"bDA" = (
-/obj/effect/floor_decal/corner/pink{
-	dir = 5
-	},
-/obj/structure/bed/padded,
-/obj/item/bedsheet/medical,
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/cryo)
 "bDB" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk,
@@ -42307,8 +42487,8 @@
 /area/exodus/research/server)
 "bDQ" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "research_shuttle_hatch";
 	frequency = 1380;
+	id_tag = "research_shuttle_hatch";
 	name = "Shuttle Hatch"
 	},
 /obj/structure/cable/green{
@@ -42536,8 +42716,8 @@
 /area/exodus/maintenance/research_shuttle)
 "bEo" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "toxin_test_airlock";
 	frequency = 1380;
+	master_tag = "toxin_test_airlock";
 	name = "exterior access button";
 	pixel_x = -20;
 	pixel_y = -20
@@ -42748,21 +42928,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/teleporter)
-"bEJ" = (
-/obj/machinery/door/blast/shutters{
-	density = 0;
-	dir = 8;
-	icon_state = "shutter0";
-	id_tag = "medbayquar";
-	name = "Medbay Emergency Quarantine Shutters";
-	opacity = 0
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/floor_decal/industrial/loading{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/exodus/medical/sleeper)
 "bEK" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
@@ -42866,9 +43031,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay2)
-"bEX" = (
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/cryo)
 "bEY" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/corner/pink{
@@ -42914,8 +43076,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "cargo_bay_door";
 	frequency = 1380;
+	id_tag = "cargo_bay_door";
 	name = "Cargo Docking Hatch"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -42924,20 +43086,6 @@
 /obj/machinery/recharge_station,
 /turf/simulated/floor/bluegrid,
 /area/exodus/turret_protected/ai_cyborg_station)
-"bFd" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/cryo)
 "bFe" = (
 /obj/structure/cable/green{
 	d2 = 2;
@@ -43894,12 +44042,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay2)
-"bGQ" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/cryo)
 "bGR" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment{
@@ -44279,8 +44421,8 @@
 /area/exodus/research/docking)
 "bHt" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_pod_4_berth_hatch";
 	frequency = 1380;
+	id_tag = "escape_pod_4_berth_hatch";
 	name = "Escape Pod"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -44348,8 +44490,8 @@
 	dir = 4
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "research_dock_airlock";
 	pixel_x = 25;
 	tag_airpump = "research_dock_pump";
@@ -44904,19 +45046,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay2)
-"bIv" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/cryo)
 "bIw" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/exodus/maintenance/research_port)
@@ -44938,17 +45067,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/docking)
-"bIA" = (
-/obj/effect/floor_decal/corner/pink{
-	dir = 5
-	},
-/obj/structure/bed/padded,
-/obj/item/bedsheet/medical,
-/obj/machinery/light_switch{
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/cryo)
 "bIB" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -44963,16 +45081,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/docking)
-"bIC" = (
-/obj/machinery/light_switch{
-	pixel_x = -22
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/sleeper{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/medical/cryo)
 "bID" = (
 /obj/item/material/shard{
 	icon_state = "small"
@@ -45758,37 +45866,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay2)
-"bJT" = (
-/obj/item/device/radio/intercom{
-	dir = 4;
-	pixel_x = -22
-	},
-/obj/effect/floor_decal/corner/pink{
-	dir = 9
-	},
-/obj/structure/bed/roller,
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/sleeper)
-"bJU" = (
-/obj/effect/floor_decal/corner/pink{
-	dir = 9
-	},
-/obj/structure/bed/roller,
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/sleeper)
-"bJV" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
-	},
-/obj/machinery/light,
-/obj/machinery/vending/medical{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/exodus/medical/cryo)
 "bJW" = (
 /obj/machinery/constructable_frame/machine_frame,
 /obj/item/material/shard{
@@ -46974,8 +47051,8 @@
 	pixel_y = 8
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "mining_dock_airlock";
 	pixel_x = 25;
 	pixel_y = -5;
@@ -47223,8 +47300,8 @@
 /area/exodus/crew_quarters/medbreak)
 "bMN" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "eng_eva_inner";
 	frequency = 1380;
+	id_tag = "eng_eva_inner";
 	name = "Engineering EVA Internal Access"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -47497,8 +47574,8 @@
 	dir = 8
 	},
 /obj/machinery/computer/modular/preset/filemanager{
-	icon_state = "computer";
-	dir = 8
+	dir = 8;
+	icon_state = "computer"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/research/server)
@@ -48276,17 +48353,6 @@
 	},
 /turf/simulated/floor,
 /area/exodus/construction)
-"bOT" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/sleeper{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/medical/cryo)
 "bOU" = (
 /obj/machinery/atmospherics/omni/filter{
 	tag_east = 1;
@@ -48381,8 +48447,8 @@
 /area/exodus/research/xenobiology)
 "bPb" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "mining_dock_airlock";
 	frequency = 1380;
+	master_tag = "mining_dock_airlock";
 	name = "interior access button";
 	pixel_x = -25;
 	pixel_y = 25
@@ -51540,8 +51606,8 @@
 	pixel_y = 32
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1380;
 	dir = 1;
+	frequency = 1380;
 	id_tag = "escape_pod_4";
 	pixel_y = -25;
 	tag_door = "escape_pod_4_hatch"
@@ -51923,8 +51989,8 @@
 /area/shuttle/escape_pod_4)
 "bVN" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "escape_pod_4_hatch";
 	frequency = 1380;
+	id_tag = "escape_pod_4_hatch";
 	name = "Escape Pod Hatch"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -52602,8 +52668,8 @@
 /area/exodus/medical/patient_wing/washroom)
 "bXk" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	frequency = 1380;
 	dir = 1;
+	frequency = 1380;
 	id_tag = "robotics_solar_airlock";
 	pixel_y = -25;
 	tag_airpump = "robotics_solar_pump";
@@ -53469,8 +53535,8 @@
 	name = "Virology Exterior Airlock"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "virology_airlock_control";
 	frequency = 1380;
+	master_tag = "virology_airlock_control";
 	name = "Virology Access Button";
 	pixel_x = -24
 	},
@@ -54852,8 +54918,8 @@
 /area/exodus/engineering/engine_monitoring)
 "cbu" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "eng_eva_inner";
 	frequency = 1380;
+	id_tag = "eng_eva_inner";
 	name = "Engineering EVA Internal Access"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -54998,8 +55064,8 @@
 /area/exodus/maintenance/engi_shuttle)
 "cbK" = (
 /obj/machinery/embedded_controller/radio/airlock/advanced_airlock_controller{
-	frequency = 1380;
 	dir = 4;
+	frequency = 1380;
 	id_tag = "engine_room_airlock";
 	name = "Engine Room Airlock";
 	pixel_x = -24;
@@ -55204,8 +55270,8 @@
 /obj/structure/cable/green,
 /obj/machinery/power/sensor{
 	id_tag = "Research Subgrid";
-	name_tag = "Research Subgrid";
-	name = "Powernet Sensor - Research Subgrid"
+	name = "Powernet Sensor - Research Subgrid";
+	name_tag = "Research Subgrid"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/warning{
@@ -55277,8 +55343,8 @@
 	name = "Virology Quarantine Airlock"
 	},
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "virologyq_airlock_control";
 	frequency = 1380;
+	master_tag = "virologyq_airlock_control";
 	name = "Virology Quarantine Access Button";
 	pixel_x = -24
 	},
@@ -56643,8 +56709,8 @@
 /area/exodus/engineering/break_room)
 "ceH" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "merchant_shuttle_station_dock";
 	frequency = 1380;
+	master_tag = "merchant_shuttle_station_dock";
 	name = "interior access button";
 	pixel_x = -28;
 	pixel_y = 26
@@ -56656,8 +56722,8 @@
 /area/exodus/hallway/secondary/entry/fore)
 "ceI" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "merchant_shuttle_station_interior";
 	frequency = 1380;
+	id_tag = "merchant_shuttle_station_interior";
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -56998,8 +57064,8 @@
 /area/exodus/research/xenobiology/xenoflora)
 "cfv" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "robotics_solar_inner";
 	frequency = 1380;
+	id_tag = "robotics_solar_inner";
 	name = "Engineering External Access"
 	},
 /obj/structure/cable/yellow{
@@ -57100,8 +57166,8 @@
 /area/exodus/maintenance/atmos_control)
 "cfI" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "toxin_test_inner";
 	frequency = 1380;
+	id_tag = "toxin_test_inner";
 	name = "Engineering External Access"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -57177,8 +57243,8 @@
 /area/exodus/crew_quarters/heads/chief)
 "cfU" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "toxin_test_outer";
 	frequency = 1380;
+	id_tag = "toxin_test_outer";
 	name = "Engineering External Access"
 	},
 /obj/structure/cable{
@@ -57332,7 +57398,9 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/ward)
 "cgj" = (
-/obj/machinery/vending/engineering,
+/obj/machinery/vending/engineering{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/engineering/workshop)
 "cgk" = (
@@ -58207,8 +58275,8 @@
 /area/exodus/medical/biostorage)
 "chN" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "virology_airlock";
 	frequency = 1380;
+	master_tag = "virology_airlock";
 	name = "interior access button";
 	pixel_x = -20;
 	pixel_y = -20
@@ -58861,8 +58929,8 @@
 /area/exodus/medical/virology)
 "cjk" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "incinerator_access_control";
 	frequency = 1380;
+	master_tag = "incinerator_access_control";
 	name = "Incinerator airlock control";
 	pixel_x = 10;
 	pixel_y = -22
@@ -58890,8 +58958,8 @@
 /area/exodus/maintenance/research_port)
 "cjm" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "incinerator_access_control";
 	frequency = 1380;
+	master_tag = "incinerator_access_control";
 	name = "Incinerator airlock control";
 	pixel_x = -8;
 	pixel_y = 24
@@ -59365,8 +59433,8 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Engineering Subgrid";
-	name_tag = "Engineering Subgrid";
-	name = "Powernet Sensor - Engineering Subgrid"
+	name = "Powernet Sensor - Engineering Subgrid";
+	name_tag = "Engineering Subgrid"
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
@@ -59615,8 +59683,8 @@
 /area/exodus/research/xenobiology/xenoflora)
 "ckO" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "solar_xeno_airlock";
 	frequency = 1380;
+	master_tag = "solar_xeno_airlock";
 	name = "interior access button";
 	pixel_x = -25;
 	pixel_y = -25
@@ -60663,8 +60731,8 @@
 /area/exodus/engineering/locker_room)
 "cmQ" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "robotics_solar_airlock";
 	frequency = 1380;
+	master_tag = "robotics_solar_airlock";
 	name = "exterior access button";
 	pixel_x = 25;
 	pixel_y = 25
@@ -60809,8 +60877,8 @@
 /area/exodus/medical/surgery2)
 "cng" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "robotics_solar_airlock";
 	frequency = 1380;
+	master_tag = "robotics_solar_airlock";
 	name = "interior access button";
 	pixel_x = -25;
 	pixel_y = -25
@@ -60871,8 +60939,8 @@
 /area/exodus/maintenance/arrivals)
 "cno" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "solar_xeno_airlock";
 	pixel_x = 25;
 	tag_airpump = "solar_xeno_pump";
@@ -61183,8 +61251,8 @@
 /area/exodus/medical/surgery2)
 "cob" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "solar_xeno_inner";
 	frequency = 1380;
+	id_tag = "solar_xeno_inner";
 	name = "Engineering External Access"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
@@ -61314,8 +61382,8 @@
 	pixel_y = 2
 	},
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "xeno_airlock_control";
 	frequency = 1380;
+	master_tag = "xeno_airlock_control";
 	name = "Xenobiology Access Button";
 	pixel_x = 8;
 	pixel_y = -28
@@ -61766,8 +61834,8 @@
 /area/exodus/engineering/storage)
 "cpm" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "solar_xeno_airlock";
 	frequency = 1380;
+	master_tag = "solar_xeno_airlock";
 	name = "exterior access button";
 	pixel_x = 25;
 	pixel_y = 25
@@ -62216,8 +62284,8 @@
 /area/exodus/medical/surgery2)
 "cqr" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "virology_outer";
 	frequency = 1380;
+	id_tag = "virology_outer";
 	name = "Engineering External Access"
 	},
 /obj/machinery/shield_diffuser,
@@ -62225,8 +62293,8 @@
 /area/exodus/maintenance/medbay)
 "cqs" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "solar_xeno_outer";
 	frequency = 1380;
+	id_tag = "solar_xeno_outer";
 	name = "Engineering External Access"
 	},
 /obj/structure/cable/yellow{
@@ -62263,8 +62331,8 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "engineering_dock_airlock";
 	frequency = 1380;
+	master_tag = "engineering_dock_airlock";
 	name = "interior access button";
 	pixel_x = -30;
 	pixel_y = -25
@@ -62294,8 +62362,8 @@
 /area/exodus/medical/virology/access)
 "cqA" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "virology_airlock";
 	frequency = 1380;
+	master_tag = "virology_airlock";
 	name = "exterior access button";
 	pixel_x = 20;
 	pixel_y = 20
@@ -62349,8 +62417,8 @@
 /area/space)
 "cqG" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "engineering_dock_inner";
 	frequency = 1380;
+	id_tag = "engineering_dock_inner";
 	name = "Engineering Dock Airlock"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -62453,8 +62521,8 @@
 	id_tag = "engineering_dock_pump"
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
-	frequency = 1380;
 	dir = 4;
+	frequency = 1380;
 	id_tag = "engineering_dock_airlock";
 	pixel_x = -25;
 	tag_airpump = "engineering_dock_pump";
@@ -62736,8 +62804,8 @@
 /area/exodus/maintenance/medbay)
 "crH" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "engineering_dock_outer";
 	frequency = 1380;
+	id_tag = "engineering_dock_outer";
 	name = "Engineering Dock Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -63903,8 +63971,8 @@
 	pixel_y = 2
 	},
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "virology_airlock_control";
 	frequency = 1380;
+	master_tag = "virology_airlock_control";
 	name = "Virology Access Button";
 	pixel_x = 8;
 	pixel_y = -28
@@ -65060,8 +65128,8 @@
 /area/exodus/hallway/secondary/entry/aft)
 "czf" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "virology_inner";
 	frequency = 1380;
+	id_tag = "virology_inner";
 	name = "Engineering External Access"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
@@ -65102,8 +65170,8 @@
 	dir = 9
 	},
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "rescue_shuttle_dock_airlock";
 	frequency = 1380;
+	master_tag = "rescue_shuttle_dock_airlock";
 	name = "interior access button";
 	pixel_x = -8;
 	pixel_y = 26
@@ -65128,8 +65196,8 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "rescue_shuttle_dock_inner";
 	frequency = 1380;
+	id_tag = "rescue_shuttle_dock_inner";
 	name = "Docking Port Airlock"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -65302,8 +65370,8 @@
 /area/exodus/maintenance/incinerator)
 "cAk" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "rescue_shuttle_dock_inner";
 	frequency = 1380;
+	id_tag = "rescue_shuttle_dock_inner";
 	name = "Docking Port Airlock"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -65845,8 +65913,8 @@
 /area/exodus/maintenance/engineering)
 "cDE" = (
 /obj/machinery/access_button/airlock_interior{
-	master_tag = "toxin_test_airlock";
 	frequency = 1380;
+	master_tag = "toxin_test_airlock";
 	name = "interior access button";
 	pixel_x = 20;
 	pixel_y = 20
@@ -66413,8 +66481,8 @@
 "cGA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "engineering_dock_inner";
 	frequency = 1380;
+	id_tag = "engineering_dock_inner";
 	name = "Engineering Dock Airlock"
 	},
 /obj/structure/cable/green{
@@ -66574,8 +66642,8 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Master";
-	name_tag = "Master";
-	name = "Powernet Sensor - Master Grid"
+	name = "Powernet Sensor - Master Grid";
+	name_tag = "Master"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
@@ -66798,8 +66866,8 @@
 /obj/structure/cable/yellow,
 /obj/machinery/power/sensor{
 	id_tag = "Engine Output";
-	name_tag = "Engine Output";
-	name = "Powernet Sensor - Engine Output"
+	name = "Powernet Sensor - Engine Output";
+	name_tag = "Engine Output"
 	},
 /obj/structure/cable/yellow{
 	d2 = 2;
@@ -67490,8 +67558,8 @@
 /area/exodus/engineering/engine_room)
 "cKH" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "engineering_dock_airlock";
 	frequency = 1380;
+	master_tag = "engineering_dock_airlock";
 	name = "exterior access button";
 	pixel_x = -25;
 	pixel_y = -8
@@ -67522,8 +67590,8 @@
 /area/exodus/solar/port)
 "cKO" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "engineering_shuttle_hatch";
 	frequency = 1380;
+	id_tag = "engineering_shuttle_hatch";
 	name = "Shuttle Hatch"
 	},
 /obj/structure/cable/green{
@@ -67547,8 +67615,8 @@
 	pixel_y = 12
 	},
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "virology_airlock";
 	pixel_x = 25;
 	tag_airpump = "virology_pump";
@@ -67694,8 +67762,8 @@
 	},
 /obj/machinery/power/sensor{
 	id_tag = "Engine Power";
-	name_tag = "Engine Power";
-	name = "Powernet Sensor - Engine Power"
+	name = "Powernet Sensor - Engine Power";
+	name_tag = "Engine Power"
 	},
 /obj/machinery/power/apc/super/critical{
 	dir = 1;
@@ -67856,8 +67924,8 @@
 /area/exodus/maintenance/engi_engine)
 "cLK" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "robotics_solar_outer";
 	frequency = 1380;
+	id_tag = "robotics_solar_outer";
 	name = "Engineering External Access"
 	},
 /obj/structure/cable/yellow{
@@ -68228,8 +68296,8 @@
 	pixel_y = 12
 	},
 /obj/effect/floor_decal/industrial/fire{
-	icon_state = "stripe";
-	dir = 1
+	dir = 1;
+	icon_state = "stripe"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/nuke_storage)
@@ -68334,8 +68402,8 @@
 /area/ship/exodus_pod_engineering)
 "fmR" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "mining_dock_inner";
 	frequency = 1380;
+	id_tag = "mining_dock_inner";
 	name = "Mining Dock Airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -68408,7 +68476,6 @@
 "fTj" = (
 /obj/machinery/mech_recharger,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/mob/living/exosuit/premade/light/exploration,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
 "gcu" = (
@@ -68556,7 +68623,6 @@
 	},
 /obj/machinery/mech_recharger,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/mob/living/exosuit/premade/powerloader,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/storage)
 "hoh" = (
@@ -68853,8 +68919,8 @@
 "klX" = (
 /obj/machinery/light,
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1380;
 	dir = 1;
+	frequency = 1380;
 	id_tag = "research_shuttle";
 	pixel_y = -25;
 	tag_door = "research_shuttle_hatch"
@@ -69761,8 +69827,8 @@
 /area/ship/exodus_pod_mining)
 "uoa" = (
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "mining_dock_outer";
 	frequency = 1380;
+	id_tag = "mining_dock_outer";
 	name = "Mining Dock Airlock"
 	},
 /obj/machinery/shield_diffuser,
@@ -69804,8 +69870,8 @@
 /area/exodus/engineering/engine_room)
 "uJB" = (
 /obj/machinery/access_button/airlock_exterior{
-	master_tag = "mining_dock_airlock";
 	frequency = 1380;
+	master_tag = "mining_dock_airlock";
 	name = "exterior access button";
 	pixel_x = -5;
 	pixel_y = 25
@@ -70011,12 +70077,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/exodus/teleporter)
-"wVz" = (
-/obj/effect/floor_decal/corner/white{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/exodus/hallway/primary/central_two)
 "xeI" = (
 /obj/machinery/computer/mining,
 /turf/simulated/wall/prepainted,
@@ -78745,9 +78805,9 @@ cec
 cLU
 cLU
 esY
-ayQ
-rNu
 aZJ
+rNu
+bdc
 esY
 cLU
 cLU
@@ -95253,7 +95313,7 @@ bxG
 bLY
 bPC
 cbZ
-bat
+bjI
 cfE
 cLU
 cLU
@@ -95510,7 +95570,7 @@ bxc
 bxJ
 bNP
 cbU
-bbd
+bjJ
 cfE
 cfE
 cfE
@@ -95767,7 +95827,7 @@ cfE
 bMc
 bSh
 ahP
-bbg
+bkH
 cfE
 cik
 ckT
@@ -103448,8 +103508,8 @@ beV
 aLY
 aLY
 bDl
-wVz
-wVz
+bfG
+bfG
 qHi
 bvj
 sfO
@@ -103705,8 +103765,8 @@ aJl
 aJl
 aJl
 aJl
-bEJ
-bEJ
+bdA
+bdA
 aJl
 aJl
 aJl
@@ -103969,9 +104029,9 @@ bJJ
 cpy
 bMx
 bDt
-bJT
+biE
 bQY
-bJU
+biX
 bDt
 aUM
 bWc
@@ -105205,7 +105265,7 @@ asJ
 asl
 atP
 auY
-auX
+ayQ
 aCa
 axA
 ayg
@@ -106271,10 +106331,10 @@ brQ
 bty
 bvn
 bxF
-byy
+bat
 bAn
 bCa
-bDq
+bbd
 bxF
 bEz
 bIl
@@ -108330,11 +108390,11 @@ bwk
 bqq
 bAw
 bwk
-bIA
-bEX
-bFd
-bGQ
-bIC
+bbg
+beA
+bgm
+bgD
+bir
 aSq
 bMJ
 bOk
@@ -108587,11 +108647,11 @@ bxm
 byL
 bAy
 bwk
-bDA
-bEX
+bbo
+beD
 bGT
-bGQ
-bJV
+bhU
+bis
 aSq
 bMM
 bOn
@@ -108844,11 +108904,11 @@ bkz
 byK
 bAx
 bwk
-bDa
+bdb
 bEZ
 bGS
-bIv
-bOT
+bio
+biv
 bDJ
 bML
 bOm
