@@ -1059,6 +1059,7 @@
 	tag_interior_door = "brig_solar_inner"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "brig_solar_sensor";
 	pixel_x = 12;
 	pixel_y = -25
@@ -3496,6 +3497,7 @@
 	},
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
+	frequency = 1380;
 	id_tag = "solar_chapel_sensor";
 	master_tag = null;
 	pixel_x = 25;
@@ -5045,6 +5047,7 @@
 /area/exodus/crew_quarters/heads/hos)
 "ajN" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	frequency = 1380;
 	id_tag = "dorm_sensor";
 	pixel_x = 25;
@@ -11611,6 +11614,7 @@
 /area/exodus/maintenance/evahallway)
 "awc" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "eva_sensor";
 	pixel_y = 25
 	},
@@ -13762,6 +13766,7 @@
 	id_tag = "admin_shuttle_dock_pump"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "admin_shuttle_dock_sensor";
 	pixel_x = -30;
 	pixel_y = 8
@@ -13875,6 +13880,7 @@
 	id_tag = "solar_tool_pump"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "solar_tool_sensor";
 	pixel_x = 25;
 	pixel_y = 12
@@ -17635,6 +17641,7 @@
 	dir = 8
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	pixel_y = 25
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -20341,6 +20348,7 @@
 	id_tag = "arrivals_pump"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "arrivals_sensor";
 	pixel_x = 25;
 	pixel_y = 12
@@ -26014,6 +26022,7 @@
 	id_tag = "nuke_shuttle_dock_pump"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "nuke_shuttle_dock_sensor";
 	pixel_y = -25
 	},
@@ -30699,6 +30708,7 @@
 /area/exodus/hallway/secondary/exit)
 "bhq" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "escape_dock_north_sensor";
 	pixel_y = -25
 	},
@@ -30716,6 +30726,7 @@
 	tag_interior_door = "centcom_shuttle_dock_inner"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "centcom_shuttle_dock_sensor";
 	pixel_y = -25
 	},
@@ -32034,6 +32045,7 @@
 /area/exodus/bridge/meeting_room)
 "bjF" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "eng_eva_sensor";
 	pixel_y = 25
 	},
@@ -32373,6 +32385,7 @@
 /area/exodus/crew_quarters/locker)
 "bkl" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "escape_dock_south_sensor";
 	pixel_y = 25
 	},
@@ -33162,6 +33175,7 @@
 	tag_interior_door = "specops_dock_inner"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "specops_dock_sensor";
 	pixel_y = -25
 	},
@@ -36733,6 +36747,7 @@
 	id_tag = "trash"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	pixel_x = -25;
 	pixel_y = 10
 	},
@@ -43464,6 +43479,7 @@
 /area/exodus/hallway/primary/port)
 "bFJ" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "tox_airlock_sensor";
 	pixel_y = 24
 	},
@@ -44492,6 +44508,7 @@
 /area/exodus/research/docking)
 "bHx" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "research_dock_sensor";
 	pixel_y = -25
 	},
@@ -51868,6 +51885,7 @@
 	dir = 1
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	pixel_y = -25
 	},
 /turf/simulated/floor/airless,
@@ -52075,6 +52093,7 @@
 	id_tag = "toxin_test_pump"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "toxin_test_sensor";
 	pixel_y = 16
 	},
@@ -52554,6 +52573,7 @@
 	pixel_x = -27
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "engine_room_airlock";
 	pixel_y = -22
 	},
@@ -52662,6 +52682,7 @@
 	tag_interior_door = "robotics_solar_inner"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "robotics_solar_sensor";
 	pixel_x = 12;
 	pixel_y = -25
@@ -56623,6 +56644,7 @@
 	},
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "merchant_shuttle_station_sensor";
 	pixel_y = -32
 	},
@@ -57111,6 +57133,7 @@
 /area/exodus/engineering/engine_room)
 "cfC" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "engine_room_airlock";
 	pixel_y = 22
 	},
@@ -60940,6 +60963,7 @@
 	tag_interior_door = "solar_xeno_inner"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "solar_xeno_sensor";
 	pixel_x = 25;
 	pixel_y = 12
@@ -61415,6 +61439,7 @@
 /area/exodus/research/xenobiology)
 "cor" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "eng_al_c_snsr";
 	pixel_x = -25
 	},
@@ -62642,6 +62667,7 @@
 	id_tag = "engineering_dock_pump"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "engineering_dock_sensor";
 	pixel_x = -25;
 	pixel_y = 8
@@ -65337,6 +65363,7 @@
 	dir = 10
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "rescue_shuttle_dock_sensor";
 	pixel_x = -25
 	},
@@ -67610,6 +67637,7 @@
 /area/exodus/maintenance/medbay)
 "cKV" = (
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "virology_sensor";
 	pixel_x = 25;
 	pixel_y = 12
@@ -69380,6 +69408,7 @@
 	dir = 8
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "mining_dock_sensor";
 	pixel_x = 25;
 	pixel_y = 8
@@ -69743,6 +69772,7 @@
 	tag_interior_door = "mining_shuttle_hatch_inner"
 	},
 /obj/machinery/airlock_sensor{
+	frequency = 1380;
 	id_tag = "mining_shuttle_sensor";
 	pixel_x = 25;
 	pixel_y = 8
