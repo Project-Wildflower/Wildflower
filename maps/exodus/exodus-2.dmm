@@ -3497,7 +3497,6 @@
 	},
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
-	frequency = 1380;
 	id_tag = "solar_chapel_sensor";
 	master_tag = null;
 	pixel_x = 25;
@@ -5047,7 +5046,6 @@
 /area/exodus/crew_quarters/heads/hos)
 "ajN" = (
 /obj/machinery/airlock_sensor{
-	frequency = 1380;
 	frequency = 1380;
 	id_tag = "dorm_sensor";
 	pixel_x = 25;
@@ -34818,7 +34816,7 @@
 "bpd" = (
 /obj/structure/plasticflaps,
 /obj/machinery/mineral/stacking_machine{
-	input_turf = 2;
+	input_turf = 8;
 	output_turf = 4
 	},
 /turf/simulated/floor/plating,
@@ -40289,7 +40287,10 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/quartermaster/storage)
 "bzL" = (
-/obj/machinery/mineral/unloading_machine,
+/obj/machinery/mineral/unloading_machine{
+	input_turf = 2;
+	output_turf = 1
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/miningdock)
@@ -41846,9 +41847,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/research/storage)
 "bCx" = (
-/obj/machinery/computer/shuttle_control/mining{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
@@ -45364,7 +45362,6 @@
 /turf/simulated/floor/reinforced,
 /area/exodus/quartermaster/miningdock)
 "bJa" = (
-/obj/machinery/computer/shuttle_control/explore/mining,
 /turf/simulated/floor/shuttle/black,
 /area/ship/exodus_pod_mining)
 "bJb" = (
@@ -68535,6 +68532,9 @@
 "fKm" = (
 /obj/effect/overmap/visitable/ship/landable/pod/mining,
 /obj/machinery/computer/ship/helm,
+/obj/machinery/computer/shuttle_control/explore/mining{
+	pixel_x = 32
+	},
 /turf/simulated/floor/shuttle/black,
 /area/ship/exodus_pod_mining)
 "fKS" = (
@@ -68580,7 +68580,10 @@
 	},
 /area/exodus/security/nuke_storage)
 "gdx" = (
-/obj/machinery/mineral/unloading_machine,
+/obj/machinery/mineral/unloading_machine{
+	input_turf = 2;
+	output_turf = 1
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
 	dir = 4
