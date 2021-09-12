@@ -70070,7 +70070,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/external/bolted{
+/obj/machinery/door/airlock/external{
 	frequency = 1380;
 	id_tag = "mining_shuttle_hatch_inner";
 	name = "Shuttle Hatch"
@@ -70188,7 +70188,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/maintenance/locker)
 "weD" = (
-/obj/machinery/door/airlock/external/bolted{
+/obj/machinery/door/airlock/external{
 	frequency = 1380;
 	id_tag = "mining_dock_inner";
 	name = "Mining Dock Airlock"
@@ -70299,7 +70299,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/external/bolted{
+/obj/machinery/door/airlock/external{
 	frequency = 1380;
 	id_tag = "mining_shuttle_hatch_outer";
 	name = "Shuttle Hatch"
@@ -70359,7 +70359,7 @@
 /area/ship/exodus_pod_mining)
 "xNc" = (
 /obj/machinery/shield_diffuser,
-/obj/machinery/door/airlock/external/bolted{
+/obj/machinery/door/airlock/external{
 	frequency = 1380;
 	id_tag = "mining_dock_outer";
 	name = "Mining Dock Airlock"
