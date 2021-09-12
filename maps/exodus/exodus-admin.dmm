@@ -24,25 +24,6 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/shuttle/supply_shuttle)
-"abi" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "QMLoad2"
-	},
-/turf/simulated/floor,
-/area/shuttle/supply_shuttle)
-"abn" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "QMLoad2"
-	},
-/obj/machinery/door/airlock/external/bolted{
-	frequency = 1380;
-	id_tag = "supply_shuttle_hatch";
-	name = "Shuttle Hatch"
-	},
-/turf/simulated/floor,
-/area/shuttle/supply_shuttle)
 "abr" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -59,7 +40,7 @@
 	id_tag = "supply_shuttle_hatch";
 	name = "Shuttle Hatch"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/supply_shuttle)
 "ach" = (
 /obj/structure/lattice,
@@ -71,8 +52,8 @@
 /area/shuttle/supply_shuttle)
 "acl" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "supply_shuttle";
 	pixel_x = 25;
 	tag_door = "supply_shuttle_hatch"
@@ -82,9 +63,10 @@
 "adL" = (
 /obj/machinery/conveyor{
 	dir = 4;
+	id = "QMLoad";
 	id_tag = "QMLoad"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/steel_ridged,
 /area/shuttle/supply_shuttle)
 "adP" = (
 /obj/machinery/camera/network/crescent{
@@ -296,16 +278,17 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/shuttle/supply_shuttle)
 "azS" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "QMLoad"
-	},
 /obj/machinery/door/airlock/external/bolted{
 	frequency = 1380;
 	id_tag = "supply_shuttle_hatch";
 	name = "Shuttle Hatch"
 	},
-/turf/simulated/floor,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad";
+	id_tag = "QMLoad"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/supply_shuttle)
 "aAa" = (
 /obj/machinery/light{
@@ -580,8 +563,8 @@
 /area/centcom/holding)
 "aHs" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1380;
 	dir = 1;
+	frequency = 1380;
 	id_tag = "escape_shuttle";
 	pixel_y = -25;
 	tag_door = "escape_shuttle_hatch"
@@ -1482,10 +1465,10 @@
 /area/centcom/holding)
 "aNL" = (
 /obj/machinery/embedded_controller/radio/docking_port_multi{
-	frequency = 1380;
 	child_names_txt = "Airlock One;Airlock Two";
 	child_tags_txt = "centcom_escape_dock_north_airlock;centcom_escape_dock_south_airlock";
 	dir = 1;
+	frequency = 1380;
 	id_tag = "centcom_escape_dock";
 	pixel_y = -25
 	},
@@ -1532,8 +1515,8 @@
 	id_tag = "centcom_escape_dock_south_pump"
 	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port_multi{
-	frequency = 1380;
 	dir = 1;
+	frequency = 1380;
 	id_tag = "centcom_escape_dock_south_airlock";
 	master_tag = "centcom_escape_dock";
 	pixel_y = -25;
@@ -11327,8 +11310,8 @@
 /area/centcom/specops)
 "tZT" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1380;
 	dir = 8;
+	frequency = 1380;
 	id_tag = "cargo_bay_centcom";
 	pixel_x = 25
 	},
@@ -28859,7 +28842,7 @@ vkh
 aAM
 azR
 abg
-abi
+adL
 azR
 acl
 azR
@@ -29061,7 +29044,7 @@ vkh
 aAM
 aAM
 aAM
-abn
+azS
 acd
 aAM
 acd
