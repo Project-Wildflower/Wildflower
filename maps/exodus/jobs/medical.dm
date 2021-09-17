@@ -123,6 +123,10 @@
 	)
 	skill_points = 22
 
+// We don't have actual parameds to cut down on job bloat. Might enable them in the future, for now just stub their card.
+/obj/item/card/id/medical/paramedic
+	job_access_type = /datum/job/doctor
+
 /datum/job/chemist
 	title = "Pharmacist"
 	department_flag = MED

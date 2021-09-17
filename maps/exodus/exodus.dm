@@ -5,22 +5,24 @@
 	#include "../../packs/faction_solgov/_pack.dm"
 
 	//Exoplanet Ruins
-	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
+	//#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 
 	// Space Ruins
-//	#include "../away/liberia/liberia.dm"
-	#include "../away/bearcat/bearcat.dm"
-	#include "../away/casino/casino.dm"
-	#include "../away/derelict/derelict.dm"
-	#include "../away/errant_pisces/errant_pisces.dm"
-	#include "../away/lost_supply_base/lost_supply_base.dm"
-	#include "../away/magshield/magshield.dm"
 	#include "../away/mining/mining.dm"
-	#include "../away/mobius_rift/mobius_rift.dm"
+	#include "../away/derelict/derelict.dm"
+	#include "../away/bearcat/bearcat.dm"
+	#include "../away/lost_supply_base/lost_supply_base.dm"
 	#include "../away/smugglers/smugglers.dm"
-	#include "../away/slavers/slavers_base.dm"
-//	#include "../away/unishi/unishi.dm"
+	#include "../away/magshield/magshield.dm"
+	#include "../away/casino/casino.dm"
 	#include "../away/yacht/yacht.dm"
+	#include "../away/slavers/slavers_base.dm"
+	#include "../away/mobius_rift/mobius_rift.dm"
+	#include "../away/errant_pisces/errant_pisces.dm"
+	//Nebula Defaults End
+	#include "../away/mininghome/mininghome.dm"
+
+
 
 	//Job Information
 	#include "jobs/_goals.dm"
@@ -58,10 +60,12 @@
 	#include "exodus_presets.dm"
 
 	//Maps
-	#include "exodus-1.dmm"
-	#include "exodus-2.dmm"
-	#include "exodus-admin.dmm"
-	#include "exodus-transit.dmm"
+	#include "exodus-1.dmm"       //1
+	#include "exodus-2.dmm"       //2
+	#include "exodus-admin.dmm"   //3
+	#include "exodus-transit.dmm" //4
+	#include "../away/empty.dmm"  //5
+
 
 	//Control Keys
 	#define using_map_DATUM /datum/map/exodus
