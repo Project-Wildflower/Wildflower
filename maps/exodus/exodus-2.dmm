@@ -10279,14 +10279,6 @@
 /obj/machinery/portable_atmospherics/canister/phoron/engine_setup,
 /turf/simulated/floor/plating,
 /area/exodus/engineering/storage)
-"atn" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
-/obj/effect/floor_decal/corner/grey/diagonal,
-/obj/random_multi/single_item/runtime,
-/turf/simulated/floor/tiled/white,
-/area/exodus/crew_quarters/medbreak)
 "ato" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/machinery/door/firedoor,
@@ -10620,7 +10612,10 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/item/stock_parts/computer/hard_drive/portable,
+/obj/item/stock_parts/computer/hard_drive/portable{
+	pixel_x = 5;
+	pixel_y = 14
+	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/crew_quarters/sleep)
 "aui" = (
@@ -11979,11 +11974,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/crew_quarters/sleep/cryo)
 "awP" = (
-/obj/machinery/door/airlock/glass{
-	name = "Cryogenic Storage"
-	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
 /area/exodus/crew_quarters/sleep/cryo)
 "awQ" = (
 /obj/machinery/alarm{
@@ -12349,10 +12341,11 @@
 /turf/simulated/floor/plating,
 /area/exodus/hallway/primary/central_one)
 "axC" = (
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 8;
 	name = "Holodeck"
 	},
-/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/crew_quarters/fitness)
 "axD" = (
@@ -13064,7 +13057,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/exodus/crew_quarters/sleep)
 "ayQ" = (
-/obj/item/drain,
+/obj/structure/hygiene/drain/bath,
 /turf/simulated/floor/pool,
 /area/exodus/crew_quarters/fitness)
 "ayR" = (
@@ -16601,7 +16594,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/multi_tile/glass{
 	name = "Arrivals"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -16620,9 +16613,6 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
-	},
-/obj/machinery/door/airlock/glass{
-	name = "Arrivals"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/secondary/entry/port)
@@ -18312,9 +18302,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/glass{
-	name = "Arrivals"
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/secondary/entry/starboard)
 "aIN" = (
@@ -18324,9 +18311,6 @@
 /turf/simulated/floor/wood/walnut,
 /area/exodus/crew_quarters/bar)
 "aIO" = (
-/obj/machinery/door/airlock/glass{
-	name = "Garden"
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -18374,7 +18358,9 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 9
 	},
-/obj/machinery/door/airlock/multi_tile/glass/civilian,
+/obj/machinery/door/airlock/multi_tile/glass/civilian{
+	name = "Rest Area"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/central_two)
 "aIT" = (
@@ -18615,7 +18601,8 @@
 /area/exodus/maintenance/bar)
 "aJA" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 8;
 	name = "Arrivals"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -19762,9 +19749,6 @@
 /area/exodus/ai_monitored/storage/eva)
 "aLI" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/command{
-	name = "E.V.A."
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -21714,10 +21698,10 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/port)
 "aPp" = (
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/multi_tile/glass{
 	name = "Locker Room"
 	},
-/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/port)
 "aPq" = (
@@ -21747,9 +21731,6 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
-	},
-/obj/machinery/door/airlock/glass{
-	name = "Arrivals"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/secondary/entry/starboard)
@@ -22985,9 +22966,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/glass{
-	name = "Locker Room"
-	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/port)
@@ -23902,7 +23880,7 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/research/xenobiology)
 "aTE" = (
-/obj/machinery/vending/cola,
+/obj/random/vendor,
 /turf/simulated/floor/tiled/monotile,
 /area/exodus/crew_quarters/locker)
 "aTF" = (
@@ -25277,7 +25255,7 @@
 "aWF" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/multi_tile/glass{
 	name = "Arrivals"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -25809,11 +25787,11 @@
 /obj/effect/floor_decal/industrial/loading{
 	dir = 8
 	},
-/obj/machinery/door/window/eastright,
 /obj/structure/closet/crate,
 /obj/machinery/computer/mining{
 	pixel_y = 28
 	},
+/obj/machinery/door/window/eastleft,
 /turf/simulated/floor/tiled/old_tile,
 /area/exodus/quartermaster/miningdock)
 "aXN" = (
@@ -26276,9 +26254,6 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/glass{
-	name = "Arrivals"
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/secondary/entry/port)
 "aYL" = (
@@ -27208,7 +27183,8 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/airlock/multi_tile/glass/civilian{
-	dir = 8
+	dir = 8;
+	name = "Fitness"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/crew_quarters/fitness)
@@ -28291,9 +28267,6 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
-	name = "Library"
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/starboard)
 "bcx" = (
@@ -28855,9 +28828,6 @@
 /area/exodus/crew_quarters/locker/locker_toilet)
 "bdu" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
-	name = "Library"
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -28868,6 +28838,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 8;
+	name = "Library"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/starboard)
@@ -29024,11 +28998,11 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/primary/starboard)
 "bdK" = (
-/obj/machinery/door/airlock/glass{
-	name = "Garden"
-	},
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/multi_tile/glass/civilian{
+	name = "Garden"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/starboard)
 "bdL" = (
@@ -37305,6 +37279,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/effect/landmark/start{
+	name = "Medical Doctor"
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/exam_room)
@@ -48035,9 +48012,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/medical/medbay2)
 "bOm" = (
-/obj/effect/landmark/start{
-	name = "Medical Doctor"
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 8;
@@ -48046,14 +48020,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/stool/padded,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
 "bOn" = (
-/obj/effect/landmark/start{
-	name = "Medical Doctor"
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -48062,7 +48032,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/stool/padded,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
@@ -48837,20 +48806,12 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay2)
 "bPM" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/item/stool/padded,
 /obj/effect/landmark/start{
 	name = "Medical Doctor"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/item/stool/padded,
-/obj/effect/floor_decal/corner/grey/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/exodus/crew_quarters/medbreak)
-"bPN" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
-/obj/effect/floor_decal/corner/grey/diagonal,
-/obj/item/modular_computer/tablet/lease/preset/medical,
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
 "bPO" = (
@@ -48865,11 +48826,11 @@
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/research_port)
 "bPP" = (
-/obj/machinery/recharger,
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
 /obj/effect/floor_decal/corner/grey/diagonal,
+/obj/item/stool/padded,
+/obj/effect/landmark/start{
+	name = "Chemist"
+	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
 "bPQ" = (
@@ -48880,10 +48841,6 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
 "bPR" = (
-/obj/effect/landmark/start{
-	name = "Geneticist"
-	},
-/obj/item/stool/padded,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
@@ -50248,14 +50205,14 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/heads/cmo)
 "bSs" = (
-/obj/effect/landmark/start{
-	name = "Chemist"
-	},
-/obj/item/stool/padded,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/item/device/radio/intercom{
 	dir = 1;
 	pixel_y = -22
+	},
+/obj/item/stool/padded,
+/obj/effect/landmark/start{
+	name = "Geneticist"
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
@@ -50293,6 +50250,10 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/random_multi/single_item/runtime,
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
 "bSw" = (
@@ -50309,11 +50270,17 @@
 	dir = 1;
 	pixel_y = -22
 	},
-/obj/effect/landmark/start{
-	name = "Chemist"
-	},
-/obj/item/stool/padded,
 /obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/heart{
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/diona{
+	pixel_x = 4;
+	pixel_y = 13
+	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/medbreak)
 "bSy" = (
@@ -50440,6 +50407,9 @@
 	},
 /obj/item/device/radio/intercom{
 	pixel_y = 22
+	},
+/obj/effect/landmark/start{
+	name = "Medical Doctor"
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/medbay4)
@@ -54458,6 +54428,9 @@
 	},
 /obj/effect/floor_decal/corner/pink/three_quarters{
 	dir = 8
+	},
+/obj/effect/landmark/start{
+	name = "Medical Doctor"
 	},
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/ward)
@@ -68434,10 +68407,10 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/exodus/quartermaster/miningdock)
 "fnT" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/command{
-	name = "E.V.A."
+/obj/machinery/door/airlock/multi_tile/glass/command{
+	name = "E.V.A"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/hallway/primary/central_one)
 "fpV" = (
@@ -68898,7 +68871,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/item/device/synthesized_instrument/synthesizer,
+/obj/item/device/synthesized_instrument/synthesizer{
+	pixel_x = 6;
+	pixel_y = 7
+	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/crew_quarters/sleep)
 "jqj" = (
@@ -69215,6 +69191,22 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/exodus_pod_mining)
+"mlI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/machinery/recharger{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/britcup{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/crew_quarters/medbreak)
 "mue" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/medical/sleeper)
@@ -69520,7 +69512,8 @@
 	icon_state = "nozzle"
 	},
 /obj/structure/cable/cyan,
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/effect/paint/red,
+/turf/simulated/wall/titanium,
 /area/ship/exodus_pod_mining)
 "poU" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -69798,8 +69791,8 @@
 /obj/effect/floor_decal/industrial/loading{
 	dir = 8
 	},
-/obj/machinery/door/window/eastleft,
 /obj/structure/closet/crate,
+/obj/machinery/door/window/eastright,
 /turf/simulated/floor/tiled/old_tile,
 /area/exodus/quartermaster/miningdock)
 "sgQ" = (
@@ -69810,6 +69803,7 @@
 	id_tag = "minprot";
 	name = "protective shutters"
 	},
+/obj/effect/paint/brown,
 /turf/simulated/floor,
 /area/ship/exodus_pod_mining)
 "ssg" = (
@@ -70472,6 +70466,23 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/hallway/secondary/exit)
+"yjW" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/item/modular_computer/tablet/lease/preset/medical{
+	pixel_y = 6
+	},
+/obj/item/modular_computer/tablet/lease/preset/medical{
+	pixel_x = -3
+	},
+/obj/item/material/ashtray/bronze{
+	pixel_x = -15;
+	pixel_y = -14
+	},
+/turf/simulated/floor/tiled/white,
+/area/exodus/crew_quarters/medbreak)
 "yks" = (
 /obj/effect/shuttle_landmark/ert/dock,
 /turf/space,
@@ -107072,7 +107083,7 @@ atP
 aoE
 aoE
 aoE
-axC
+ayb
 axC
 aoE
 atP
@@ -108662,7 +108673,7 @@ aSq
 bMJ
 bOk
 bPM
-bPM
+mlI
 bSv
 bMK
 bUU
@@ -108919,7 +108930,7 @@ aSq
 bMM
 bOn
 bPP
-bPN
+yjW
 bSx
 bMK
 bUP
@@ -109175,8 +109186,8 @@ biv
 bDJ
 bML
 bOm
-bPN
-atn
+bPR
+bPP
 bSs
 bMK
 bUW

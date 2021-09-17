@@ -162,7 +162,7 @@
 /area/holodeck/source_cafe)
 "aoA" = (
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 10;
+	dir = 9;
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/holofloor/concrete,
@@ -3051,15 +3051,14 @@
 	},
 /area/syndicate_elite_squad)
 "dBg" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/flora/ausbushes/ppflowers,
-/obj/structure/flora/ausbushes/brflowers,
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 9;
+	dir = 1;
 	icon_state = "spline_fancy"
 	},
-/turf/simulated/floor/holofloor/grass,
+/obj/structure/bed/chair/wood{
+	holographic = 1
+	},
+/turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
 "dBn" = (
 /turf/simulated/floor/holofloor/beach/sand{
@@ -4705,8 +4704,10 @@
 	},
 /area/space)
 "gVq" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 4
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/bed/chair/wood{
+	dir = 1;
+	holographic = 1
 	},
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
@@ -4749,7 +4750,8 @@
 /area/space)
 "gZe" = (
 /obj/structure/bed/chair/wood{
-	dir = 4
+	dir = 1;
+	holographic = 1
 	},
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
@@ -5466,15 +5468,10 @@
 	},
 /area/centcom/control)
 "idD" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/flora/ausbushes/ppflowers,
-/obj/structure/flora/ausbushes/brflowers,
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 10;
-	icon_state = "spline_fancy"
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
 	},
-/turf/simulated/floor/holofloor/grass,
+/turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
 "iel" = (
 /turf/unsimulated/beach/sand{
@@ -5576,7 +5573,8 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 6
+	dir = 9;
+	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_plaza)
@@ -5842,14 +5840,9 @@
 	},
 /area/centcom/creed)
 "iMU" = (
-/obj/structure/bed/chair/wood{
-	holographic = 1
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1;
-	icon_state = "spline_fancy"
-	},
-/turf/simulated/floor/holofloor/concrete,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_plaza)
 "iNr" = (
 /obj/machinery/vending/tool,
@@ -6032,14 +6025,6 @@
 	},
 /turf/simulated/floor/holofloor/beach/sand,
 /area/holodeck/source_volleyball)
-"jaC" = (
-/obj/structure/bed/chair/wood{
-	dir = 8;
-	holographic = 1;
-	icon_state = "wooden_chair_preview"
-	},
-/turf/simulated/floor/holofloor/concrete,
-/area/holodeck/source_plaza)
 "jaZ" = (
 /obj/structure/table/reinforced,
 /obj/item/cell/high,
@@ -6502,10 +6487,15 @@
 	},
 /area/centcom/living)
 "jZB" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 8
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5;
+	icon_state = "spline_fancy"
 	},
-/turf/simulated/floor/holofloor/concrete,
+/turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_plaza)
 "jZW" = (
 /obj/structure/table/rack,
@@ -6832,9 +6822,8 @@
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_theatre)
 "kKN" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 9;
-	icon_state = "spline_fancy"
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
 	},
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
@@ -7246,7 +7235,9 @@
 /turf/simulated/floor/airless,
 /area/merchant_station)
 "lLY" = (
-/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
 "lPd" = (
@@ -7672,10 +7663,8 @@
 /area/shuttle/merchant/home)
 "mzu" = (
 /obj/structure/bed/chair/wood{
-	dir = 1;
 	holographic = 1
 	},
-/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
 "mzH" = (
@@ -8354,9 +8343,15 @@
 	},
 /area/centcom/living)
 "nYr" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/holofloor/grass,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/structure/bed/chair/wood{
+	dir = 4;
+	holographic = 1;
+	icon_state = "wooden_chair_preview"
+	},
+/turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
 "nZL" = (
 /turf/simulated/floor/holofloor/reinforced,
@@ -9033,8 +9028,15 @@
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_boxingcourt)
 "poM" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner,
-/turf/simulated/floor/holofloor/concrete,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10;
+	icon_state = "spline_fancy"
+	},
+/turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_plaza)
 "poR" = (
 /obj/machinery/recharger/wallcharger{
@@ -9272,13 +9274,13 @@
 /turf/simulated/floor/tiled/freezer,
 /area/merchant_station)
 "pLD" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
 /obj/structure/bed/chair/wood{
 	dir = 8;
 	holographic = 1;
 	icon_state = "wooden_chair_preview"
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
 	},
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
@@ -11128,12 +11130,7 @@
 /turf/unsimulated/beach/sand,
 /area/beach)
 "tHr" = (
-/obj/structure/bed/chair/wood{
-	dir = 4
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8
-	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
 "tIf" = (
@@ -11711,8 +11708,7 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 5;
-	icon_state = "spline_fancy"
+	dir = 6
 	},
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_plaza)
@@ -12454,7 +12450,8 @@
 /area/holodeck/source_volleyball)
 "wya" = (
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 6
+	dir = 10;
+	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
@@ -12985,7 +12982,7 @@
 /area/holodeck/source_boxingcourt)
 "xCY" = (
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8
+	dir = 6
 	},
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
@@ -33821,14 +33818,14 @@ aab
 rNA
 voL
 uwl
-tSQ
-uwl
 voL
-uwl
-tSQ
 tSQ
 oGb
-nME
+tHr
+uwl
+tSQ
+voL
+tSQ
 uEq
 jBa
 jia
@@ -34021,16 +34018,16 @@ aab
 "}
 (103,1,1) = {"
 rNA
+uwl
 tSQ
-kKN
-tHr
-xCY
-xCY
-tHr
-aoA
+tSQ
 voL
 oGb
-nME
+tHr
+tSQ
+uwl
+tSQ
+uwl
 uEq
 apv
 apv
@@ -34225,14 +34222,14 @@ aab
 rNA
 tSQ
 iMU
-meK
-nME
-nME
-meK
-mzu
 tSQ
+voL
 oGb
-nME
+tHr
+uwl
+voL
+uwl
+tSQ
 uEq
 dQv
 apv
@@ -34425,16 +34422,16 @@ aab
 "}
 (105,1,1) = {"
 rNA
-uwl
-oGb
-jaC
-nME
-nME
-nME
+tSQ
+aoA
+nYr
+lLY
+idD
+kKN
 lLY
 nYr
-oGb
-nME
+wya
+tSQ
 uEq
 xdI
 owf
@@ -34627,16 +34624,16 @@ aab
 "}
 (106,1,1) = {"
 rNA
-voL
-oGb
-nME
+uwl
 dBg
-idD
+meK
 nME
-jZB
-xCY
+nME
+nME
+nME
+meK
 gVq
-nME
+voL
 uEq
 apv
 apv
@@ -34829,16 +34826,16 @@ aab
 "}
 (107,1,1) = {"
 rNA
-uwl
+voL
 oGb
 nME
-uVB
-irC
 nME
+irC
 poM
-vlh
-vlh
-vlh
+nME
+nME
+tHr
+uwl
 uEq
 jLz
 apv
@@ -35031,16 +35028,16 @@ aab
 "}
 (108,1,1) = {"
 rNA
-tSQ
-oGb
-gZe
-nME
-nME
-nME
-lLY
 uwl
+oGb
+nME
+nME
+jZB
+uVB
+nME
+nME
+tHr
 tSQ
-voL
 uEq
 sAT
 eCE
@@ -35234,14 +35231,14 @@ aab
 (109,1,1) = {"
 rNA
 tSQ
-iMU
+dBg
 meK
+gZe
 nME
 nME
-meK
 mzu
-tSQ
-uwl
+meK
+gVq
 tSQ
 uEq
 apv
@@ -35435,16 +35432,16 @@ aab
 "}
 (110,1,1) = {"
 rNA
-tSQ
+uwl
 oRN
 pLD
 vlh
 vlh
+vlh
+vlh
 pLD
-wya
-uwl
-voL
-uwl
+xCY
+iMU
 uEq
 mgL
 apv
@@ -35637,16 +35634,16 @@ aab
 "}
 (111,1,1) = {"
 rNA
-uwl
-nYr
-tSQ
-tSQ
-uwl
 voL
 tSQ
 tSQ
 uwl
+voL
+uwl
 tSQ
+tSQ
+tSQ
+uwl
 uEq
 efs
 vCX

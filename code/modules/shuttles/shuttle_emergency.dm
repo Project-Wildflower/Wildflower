@@ -29,9 +29,11 @@
 	if(next_location != waypoint_station)
 		emergency_controller.shuttle_leaving() // This is a hell of a line. v
 		priority_announcement.Announce(replacetext(replacetext((emergency_controller.emergency_evacuation ? GLOB.using_map.emergency_shuttle_leaving_dock : GLOB.using_map.shuttle_leaving_dock), "%dock_name%", "[GLOB.using_map.dock_name]"),  "%ETA%", "[round(emergency_controller.get_eta()/60,1)] minute\s"))
-	if(next_location == waypoint_offsite && emergency_controller.has_evacuated()) //Wildflower change. I wish bay actually kept this stuff up to date...
-		emergency_controller.shuttle_evacuated()
+
 	..()
+
+	if(current_location == waypoint_offsite && emergency_controller.has_evacuated())
+		emergency_controller.shuttle_evacuated() //Wildflower changes, Thanks neb for this info
 
 /datum/shuttle/autodock/ferry/emergency/can_launch(var/user)
 	if (istype(user, /obj/machinery/computer/shuttle_control/emergency))
