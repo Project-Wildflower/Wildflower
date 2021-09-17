@@ -6156,6 +6156,13 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/exodus/maintenance/telecomms)
+"Ay" = (
+/obj/item/clothing/head/hardhat{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/turf/simulated/floor/airless,
+/area/space)
 "AG" = (
 /obj/structure/table/steel,
 /obj/item/paper_bin,
@@ -6590,6 +6597,10 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/maintenance/sub/aft)
+"RX" = (
+/obj/machinery/field_generator,
+/turf/simulated/floor/airless,
+/area/space)
 "Se" = (
 /obj/machinery/newscaster{
 	pixel_y = -32
@@ -6692,6 +6703,10 @@
 "Xu" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/maintenance/sub/fore)
+"XG" = (
+/obj/machinery/gravity_generator,
+/turf/simulated/floor/airless,
+/area/space)
 "Yf" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/firedoor,
@@ -42625,7 +42640,7 @@ aa
 aa
 aa
 aa
-aQ
+RX
 aQ
 aQ
 aQ
@@ -42885,7 +42900,7 @@ aa
 aQ
 aQ
 aQ
-aQ
+Ay
 aQ
 ac
 aa
@@ -43141,7 +43156,7 @@ aa
 aa
 aa
 aQ
-aQ
+XG
 aQ
 ac
 aa
@@ -43915,7 +43930,7 @@ aa
 aQ
 aQ
 aQ
-aQ
+RX
 aa
 aa
 aa
