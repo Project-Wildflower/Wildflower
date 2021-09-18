@@ -184,6 +184,15 @@
 	icon_dead = "cat_dead"
 	skin_material = MATERIAL_SKIN_FUR_BLACK
 
+/mob/living/simple_animal/friendly/cat/fluff/Squimbus
+	name = "Squimbus"
+	desc = "Shittin. Poopin."
+	gender = MALE
+	icon_state = "squimbus"
+	item_state = "cat3"
+	icon_living = "squimbus"
+	icon_dead = "squimbus_dead"
+
 /mob/living/simple_animal/friendly/cat/kitten
 	name = "kitten"
 	desc = "D'aaawwww."
