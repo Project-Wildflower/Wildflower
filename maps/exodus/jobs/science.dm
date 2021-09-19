@@ -118,6 +118,9 @@
 	)
 	skill_points = 20
 
+/decl/hierarchy/outfit/job/science/xenobiologist
+	id_types = list(/obj/item/card/id/science)
+
 /datum/job/roboticist
 	title = "Roboticist"
 	department_flag = SCI

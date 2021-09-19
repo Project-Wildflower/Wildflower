@@ -32,7 +32,8 @@
 		access_RC_announce,
 		access_keycard_auth,
 		access_tcomsat,
-		access_ai_upload
+		access_ai_upload,
+		access_network
 	)
 	minimal_access = list(
 		access_engine,
@@ -52,7 +53,8 @@
 		access_RC_announce,
 		access_keycard_auth,
 		access_tcomsat,
-		access_ai_upload
+		access_ai_upload,
+		access_network
 	)
 	minimal_player_age = 14
 	outfit_type = /decl/hierarchy/outfit/job/engineering/chief_engineer
