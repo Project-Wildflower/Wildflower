@@ -11363,6 +11363,19 @@
 	icon_state = "vault"
 	},
 /area/centcom/specops)
+"ueG" = (
+/obj/machinery/door/airlock/external/bolted{
+	frequency = 1380;
+	id_tag = "supply_shuttle_hatch";
+	name = "Shuttle Hatch"
+	},
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad2";
+	id_tag = "QMLoad2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/supply_shuttle)
 "ugD" = (
 /obj/structure/bed/chair/wood{
 	dir = 1;
@@ -13318,6 +13331,14 @@
 	opacity = 1
 	},
 /area/beach)
+"yho" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad2";
+	id_tag = "QMLoad2"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/shuttle/supply_shuttle)
 "yiv" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/dark,
@@ -28839,7 +28860,7 @@ vkh
 aAM
 azR
 abg
-adL
+yho
 azR
 acl
 azR
@@ -29041,7 +29062,7 @@ vkh
 aAM
 aAM
 aAM
-azS
+ueG
 acd
 aAM
 acd

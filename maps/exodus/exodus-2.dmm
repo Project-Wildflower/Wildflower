@@ -47648,8 +47648,11 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/quartermaster/qm)
 "bNB" = (
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/wall/prepainted,
 /area/exodus/quartermaster/miningdock)
 "bNC" = (
 /obj/structure/table/rack{
@@ -91192,9 +91195,9 @@ brf
 bEk
 aLF
 bJb
-bGt
-ccN
 bNB
+ccN
+ccN
 ccN
 bPc
 jsn
