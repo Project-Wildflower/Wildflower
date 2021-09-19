@@ -1887,7 +1887,9 @@
 	id_tag = "Armoury";
 	name = "Armoury Access";
 	pixel_x = -1;
-	pixel_y = -28
+	pixel_y = -28;
+	req_access = list("ACCESS_ARMORY");
+	
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/armoury)
@@ -2128,7 +2130,8 @@
 	id_tag = "Armoury";
 	name = "Emergency Access";
 	pixel_x = -28;
-	pixel_y = 4
+	pixel_y = 4;
+	req_access = list("ACCESS_ARMORY")
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1

@@ -498,7 +498,7 @@
 
 /area/exodus/security/brig
 	name = "\improper Security - Brig"
-	req_access = list(access_brig)
+	req_access = list(access_sec_doors)
 
 /area/exodus/security/brig/processing
 	name = "\improper Security - Processing"
@@ -511,10 +511,12 @@
 /area/exodus/security/brig/solitaryA
 	name = "\improper Security - Solitary 1"
 	icon_state = "sec_prison"
+	req_access = list(access_brig)
 
 /area/exodus/security/brig/solitaryB
 	name = "\improper Security - Solitary 2"
 	icon_state = "sec_prison"
+	req_access = list(access_brig)
 
 //Prison
 
