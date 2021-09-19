@@ -25,7 +25,7 @@
 	use_overmap = TRUE
 	num_exoplanets = 1
 
-	away_site_budget = 3
+	away_site_budget = 5
 	min_offmap_players = 12
 
 	lobby_screens = list(

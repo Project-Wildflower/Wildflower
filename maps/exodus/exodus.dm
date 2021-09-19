@@ -20,9 +20,10 @@
 	#include "../away/mobius_rift/mobius_rift.dm"
 	#include "../away/errant_pisces/errant_pisces.dm"
 	//Nebula Defaults End
+	#include "../away/meatstation/meatstation.dm"
 	#include "../away/mininghome/mininghome.dm"
-
-
+	#include "../away/scavver/scavver_gantry.dm"
+	#include "../away/blueriver/blueriver.dm"
 
 	//Job Information
 	#include "jobs/_goals.dm"
