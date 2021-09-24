@@ -251,3 +251,4 @@
 			if (!read_authorization(H.get_active_hand()))	//try to read what's in their hand first
 				read_authorization(H.wear_id)
 				. = TOPIC_REFRESH
+	..()
