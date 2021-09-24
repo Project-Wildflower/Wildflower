@@ -1314,7 +1314,7 @@
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/security_starboard)
 "acE" = (
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/tactical)
 "acF" = (
@@ -3031,7 +3031,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/maintenance/auxsolarstarboard)
 "afX" = (
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/security_starboard)
 "afY" = (
@@ -10125,7 +10125,7 @@
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/evahallway)
 "asY" = (
@@ -10576,7 +10576,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/arrivals)
 "auf" = (
@@ -11153,7 +11153,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/security_port)
 "avl" = (
@@ -11688,7 +11688,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/library)
 "awj" = (
@@ -14877,7 +14877,7 @@
 	pixel_y = 23
 	},
 /obj/machinery/nuke_cylinder_dispenser,
-/mob/living/simple_animal/friendly/mouse/brown/Tom,
+/mob/living/simple_animal/passive/mouse/brown/Tom,
 /turf/simulated/floor/blackgrid{
 	light_inner_range = 2;
 	light_max_bright = 3;
@@ -17816,7 +17816,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/evahallway)
 "aHR" = (
@@ -19289,7 +19289,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/bar)
 "aKP" = (
@@ -32983,7 +32983,7 @@
 /obj/random/maintenance,
 /obj/random/maintenance,
 /obj/random/maintenance,
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/locker)
 "blw" = (
@@ -36865,7 +36865,7 @@
 /obj/random/maintenance,
 /obj/random/maintenance,
 /obj/random/maintenance,
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/research_shuttle)
 "btf" = (
@@ -39706,7 +39706,7 @@
 /turf/simulated/floor/carpet,
 /area/exodus/crew_quarters/heads/hop)
 "byI" = (
-/mob/living/simple_animal/friendly/corgi/Ian,
+/mob/living/simple_animal/passive/corgi/Ian,
 /turf/simulated/floor/carpet,
 /area/exodus/crew_quarters/heads/hop)
 "byJ" = (
@@ -47406,7 +47406,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/research/storage)
 "bMX" = (
@@ -49347,7 +49347,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/engineering)
 "bQU" = (
@@ -54617,7 +54617,7 @@
 /obj/random/maintenance,
 /obj/random/maintenance,
 /obj/random/maintenance,
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/research_port)
 "caT" = (
@@ -54690,7 +54690,7 @@
 /turf/simulated/floor/tiled/white,
 /area/exodus/medical/patient_c)
 "cbc" = (
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/research_starboard)
 "cbd" = (
@@ -64941,7 +64941,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exodus/research/storage)
 "cyF" = (
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/tiled/steel_grid,
 /area/exodus/maintenance/incinerator)
 "cyG" = (
@@ -67541,7 +67541,7 @@
 /turf/space,
 /area/space)
 "cKI" = (
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/engineering)
 "cKM" = (
@@ -67897,7 +67897,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/mob/living/simple_animal/friendly/mouse,
+/mob/living/simple_animal/passive/mouse,
 /turf/simulated/floor/plating,
 /area/exodus/maintenance/engi_engine)
 "cLK" = (
