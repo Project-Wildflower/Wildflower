@@ -261,6 +261,10 @@
 	if(istype(target, /obj/item/smallDelivery) || istype(target,/obj/structure/bigDelivery) \
 	|| istype(target, /obj/item/gift) || istype(target, /obj/item/evidencebag))
 		return
+	//Wildflower Change Start - Fix Package Wrap being unstackable
+	if(istype(target, /obj/item/stack/package_wrap))
+		return
+	//Wildflower Change End
 	if(target.anchored)
 		return
 	if(target in user)
@@ -418,7 +422,7 @@
 			if(AM.loc.y != src.loc.y-1) return
 		if(WEST)
 			if(AM.loc.x != src.loc.x-1) return
-			
+
 	var/mob/living/L = AM
 	if (istype(L) && L.ckey)
 		log_and_message_admins("has flushed themselves down \the [src].", L)
