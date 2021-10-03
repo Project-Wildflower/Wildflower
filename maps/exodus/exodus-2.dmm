@@ -1888,8 +1888,7 @@
 	name = "Armoury Access";
 	pixel_x = -1;
 	pixel_y = -28;
-	req_access = list("ACCESS_ARMORY");
-	
+	req_access = list("ACCESS_ARMORY")
 	},
 /turf/simulated/floor/tiled/dark,
 /area/exodus/security/armoury)
@@ -23789,7 +23788,7 @@
 	},
 /obj/structure/table/marble,
 /obj/item/material/kitchen/rollingpin,
-/obj/item/material/knife,
+/obj/item/material/knife/kitchen,
 /turf/simulated/floor/tiled/white,
 /area/exodus/crew_quarters/kitchen)
 "aTt" = (
