@@ -53,7 +53,9 @@ DM version compatibility macros & procs
 			if (0) . = "0[.]"
 			if (1 to 9) . = "[num & 0xf][.]"
 			else . = "[ascii2text((num & 0xf) + 87)][.]"
-		num >>= 4
+		num = SHIFTR(num, 4)
+
+#define Clamp(value, low, high) (value <= low ? low : (value >= high ? high : value))
 
 
 #else //513+
@@ -66,6 +68,7 @@ DM version compatibility macros & procs
 
 #define hex2num(hex) (text2num(hex, 16) || 0)
 #define num2hex(num) num2text(num, 1, 16)
+#define Clamp(value, low, high) clamp(value, low, high)
 
 
 #endif
