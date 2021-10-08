@@ -3222,6 +3222,8 @@
 #include "maps\away\away_sites.dm"
 #include "maps\away_sites_testing\away_sites_testing_define.dm"
 #include "maps\example\example_define.dm"
+#include "maps\exodus\exodus.dm"
+#include "maps\exodus\exodus_define.dm"
 #include "maps\random_ruins\exoplanet_ruins\exoplanet_ruins.dm"
 #include "maps\random_ruins\exoplanet_ruins\crashed_pod\crashed_pod.dm"
 #include "maps\random_ruins\exoplanet_ruins\datacapsule\datacapsule.dm"
@@ -3244,7 +3246,6 @@
 #include "maps\random_ruins\exoplanet_ruins\tar_anomaly\tar_anomaly.dm"
 #include "maps\random_ruins\exoplanet_ruins\trash_heap\trash_heap.dm"
 #include "maps\random_ruins\space_ruins\space_ruins.dm"
-#include "maps\torch\torch.dm"
 #include "maps\torch\torch_define.dm"
 #include "maps\~mapsystem\map_preferences.dm"
 #include "maps\~mapsystem\map_ranks.dm"
@@ -3254,5 +3255,6 @@
 #include "maps\~mapsystem\maps_jobs.dm"
 #include "maps\~mapsystem\maps_unit_testing.dm"
 #include "maps\~unit_tests\unit_testing.dm"
+#include "wildflower\code\modules\landmarks.dm"
 #include "~code\global_init.dm"
 // END_INCLUDE

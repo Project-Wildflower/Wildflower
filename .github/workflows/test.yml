@@ -3,13 +3,13 @@ name: Run Tests
 on:
   push:
     branches:
-      - dev
+      - master
   pull_request:
     branches:
-      - dev
+      - master
 env:
-  BYOND_MAJOR: "512"
-  BYOND_MINOR: "1485"
+  BYOND_MAJOR: "514"
+  BYOND_MINOR: "1557"
   SPACEMAN_DMM_VERSION: suite-1.7
 
 jobs:
@@ -67,7 +67,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        map_path: [example, torch, away_sites_testing]
+        map_path: [example, torch, exodus, away_sites_testing]
     steps:
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f
       - name: Setup Cache

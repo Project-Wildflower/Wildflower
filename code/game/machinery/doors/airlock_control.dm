@@ -147,6 +147,7 @@
 	name = "airlock sensor"
 
 	anchored = TRUE
+	layer = ABOVE_WINDOW_LAYER
 	power_channel = ENVIRON
 
 	var/master_tag
@@ -231,6 +232,7 @@
 	name = "access button"
 
 	anchored = TRUE
+	layer = ABOVE_WINDOW_LAYER
 	power_channel = ENVIRON
 
 	var/master_tag

@@ -8,6 +8,7 @@
 	var/dock_target = null
 	var/datum/computer/file/embedded_program/docking/shuttle_docking_controller
 	var/docking_codes
+	var/crack_docking_codes = 0 //Wildflower change, if we 'crack' the docking codes by reading them directly out of the target controller. Only used by the Escape Shuttle.
 
 	var/obj/effect/shuttle_landmark/next_location  //This is only used internally.
 	var/datum/computer/file/embedded_program/docking/active_docking_controller
@@ -112,6 +113,9 @@
 
 //not to be confused with the arrived() proc
 /datum/shuttle/autodock/proc/process_arrived()
+	//Wildflower Change start
+	if(crack_docking_codes)
+		set_docking_codes(next_location.docking_controller.docking_codes)
 	active_docking_controller = next_location.docking_controller
 	update_docking_target(next_location)
 	dock()

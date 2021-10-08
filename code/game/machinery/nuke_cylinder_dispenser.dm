@@ -3,7 +3,7 @@
 	desc = "It's a secure, armored storage unit embeded into the floor for storing the nuclear cylinders."
 	icon = 'icons/obj/machines/self_destruct.dmi'
 	icon_state = "base"
-	anchored = TRUE	
+	anchored = TRUE
 	density = FALSE
 	req_access = list(access_heads_vault)
 

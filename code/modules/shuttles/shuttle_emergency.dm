@@ -29,9 +29,11 @@
 	if(next_location != waypoint_station)
 		emergency_controller.shuttle_leaving() // This is a hell of a line. v
 		priority_announcement.Announce(replacetext(replacetext((emergency_controller.emergency_evacuation ? GLOB.using_map.emergency_shuttle_leaving_dock : GLOB.using_map.shuttle_leaving_dock), "%dock_name%", "[GLOB.using_map.dock_name]"),  "%ETA%", "[round(emergency_controller.get_eta()/60,1)] minute\s"))
-	else if(next_location == waypoint_offsite && emergency_controller.has_evacuated())
-		emergency_controller.shuttle_evacuated()
+
 	..()
+
+	if(current_location == waypoint_offsite && emergency_controller.has_evacuated())
+		emergency_controller.shuttle_evacuated() //Wildflower changes, Thanks neb for this info
 
 /datum/shuttle/autodock/ferry/emergency/can_launch(var/user)
 	if (istype(user, /obj/machinery/computer/shuttle_control/emergency))
@@ -102,7 +104,7 @@
 	..(user)
 
 /obj/machinery/computer/shuttle_control/emergency
-	shuttle_tag = "Escape"
+	shuttle_tag = "Escape Shuttle"
 	var/debug = 0
 	var/req_authorizations = 2
 	var/list/authorized = list()
@@ -249,3 +251,4 @@
 			if (!read_authorization(H.get_active_hand()))	//try to read what's in their hand first
 				read_authorization(H.wear_id)
 				. = TOPIC_REFRESH
+	..()
