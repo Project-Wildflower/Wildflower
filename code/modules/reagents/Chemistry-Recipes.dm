@@ -3122,3 +3122,12 @@
 	catalysts = list(
 		/datum/reagent/enzyme = 1
 	)
+
+//BajaBlast is apparently an InterStellar Delicacy. It's exact makeup however, has changed over the years.
+/datum/chemical_reaction/bajablast
+	name = "Baja Blast"
+	result = /datum/reagent/drink/bajablast
+	result_amount = 1
+	required_reagents = list(/datum/reagent/space_drugs=1,
+	/datum/reagent/tramadol/oxycodone=1,
+	/datum/reagent/drink/sodawater=2)

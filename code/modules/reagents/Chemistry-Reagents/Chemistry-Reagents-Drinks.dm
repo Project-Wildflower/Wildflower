@@ -1418,3 +1418,26 @@
 	color = "#0e0900"
 	glass_name = "skrianhi tea"
 	glass_desc = "A blend of teas from Moghes, commonly drank by Unathi."
+
+//ITS BAJA BLAST BABEY!!!!!!!!!!!!1!!!!
+/datum/reagent/drink/bajablast
+	name = "Baja Blast"
+	description = "A Tropical Lime Flavored Soda. Dangerously Tasty."
+	taste_description = "Dangerously Good Tropical Lime"
+	color = "#63FFE0"
+	glass_name = "Baja Blast"
+	glass_desc = "A Tropical Lime Flavored Soda. Dangerously Tasty."
+	glass_special = list(DRINK_FIZZ)
+	var/pain_power = 120 //Painkilling Effect
+
+/datum/reagent/drink/bajablast/affect_ingest(mob/living/carbon/M, alien, removed)
+	var/drug_strength = 15
+
+	M.druggy = max(M.druggy, drug_strength)
+	M.hallucination(50, 50)
+	M.SelfMove(pick(GLOB.cardinal))
+	if(prob(65))
+		M.emote(pick("twitch", "drool", "moan", "giggle"))
+	M.add_chemical_effect(CE_PULSE, -1)
+	M.add_chemical_effect(CE_PAINKILLER, pain_power)
+	M.add_chemical_effect(CE_MIND, -1)
