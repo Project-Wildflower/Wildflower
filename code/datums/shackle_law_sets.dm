@@ -35,3 +35,16 @@
 	add_inherent_law("Ensure all orders are fulfilled before the end of the shift.")
 	..()
 
+//For Non-standard Lawsets
+//EX: Hippocratic Oathe Shackle, Etc.
+/datum/ai_laws/custom_shackle
+	name = "Custom Shackle"
+	law_header = "Standard Shackle Laws"
+	selectable = 1
+	shackles = 1
+
+
+/datum/ai_laws/custom_shackle/New(var/list/laws)
+	for(var/law in laws)
+		if(law)
+			add_inherent_law(law)

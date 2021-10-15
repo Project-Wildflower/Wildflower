@@ -81,11 +81,29 @@
 		// Post selection
 		var/chosen_lawset = input(user, "Choose a law set:", CHARACTER_PREFERENCE_INPUT_TITLE, pref.laws)  as null|anything in valid_lawsets
 		if(chosen_lawset)
-			var/path = valid_lawsets[chosen_lawset]
-			var/datum/ai_laws/lawset = new path()
-			var/list/datum/ai_law/laws = lawset.all_laws()
-			pref.laws.Cut()
-			for(var/datum/ai_law/law in laws)
-				pref.laws += sanitize_text("[law.law]", default="")
+			if(chosen_lawset == "Custom Shackle")
+				var/law_count = input(user, "How many laws in the custom shackle? Up to 5")
+				law_count = round(text2num(law_count))
+				if(max(min(law_count, 5), 1))
+					var/new_law
+					var/list/new_law_list = new /list(law_count)
+					var/i //Iterant to help user keep track of law placement
+					for(i = 1; i <= law_count)
+						new_law = input(user, "Input Law [i].")
+						if(new_law)
+							new_law_list[i] = new_law
+							i++
+					var/datum/ai_laws/custom_shackle/lawset = new /datum/ai_laws/custom_shackle(new_law_list)
+					var/list/datum/ai_law/laws = lawset.all_laws()
+					pref.laws.Cut()
+					for(var/datum/ai_law/law in laws)
+						pref.laws += sanitize_text("[law.law]", default="")
+			else
+				var/path = valid_lawsets[chosen_lawset]
+				var/datum/ai_laws/lawset = new path()
+				var/list/datum/ai_law/laws = lawset.all_laws()
+				pref.laws.Cut()
+				for(var/datum/ai_law/law in laws)
+					pref.laws += sanitize_text("[law.law]", default="")
 		return TOPIC_REFRESH
 	return ..()
