@@ -48,11 +48,9 @@
 	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/suit/hoodie
-	allowed_roles = CASUAL_ROLES
 	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/suit/hoodie_sel
-	allowed_roles = CASUAL_ROLES
 	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/suit/labcoat
