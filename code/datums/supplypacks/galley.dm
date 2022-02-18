@@ -116,7 +116,8 @@
 /decl/hierarchy/supply_pack/galley/premiumalcohol
 	name = "Bar - Premium drinks"
 	contains = list(/obj/item/reagent_containers/food/drinks/bottle/premiumwine = 1,
-					/obj/item/reagent_containers/food/drinks/bottle/premiumvodka = 1)
+					/obj/item/reagent_containers/food/drinks/bottle/premiumvodka = 1,
+					/obj/item/reagent_containers/food/drinks/bottle/ketchupwhiskey = 1)
 	cost = 60
 	containertype = /obj/structure/closet/crate/freezer
 	containername = "premium drinks crate"
