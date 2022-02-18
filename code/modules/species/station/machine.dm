@@ -1,6 +1,6 @@
 /datum/species/machine
 	name = SPECIES_IPC
-	name_plural = "machines"
+	name_plural = "Machines"
 
 	description = "Positronic intelligence really took off in the 26th century, and it is not uncommon to see independant, free-willed \
 	robots on many human stations, particularly in fringe systems where standards are slightly lax and public opinion less relevant \
