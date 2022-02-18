@@ -74,6 +74,7 @@
 	animal_heal = 5
 	apply_sounds = list('sound/effects/rip1.ogg','sound/effects/rip2.ogg')
 	amount = 10
+	var/sterile = TRUE // If false, adds some germ level
 
 /obj/item/stack/medical/bruise_pack/attack(var/mob/living/carbon/M, var/mob/user)
 	if(..())
@@ -109,6 +110,8 @@
 					user.visible_message(SPAN_NOTICE("\The [user] places a bandaid over \a [W.desc] on [M]'s [affecting.name]."), \
 					                              SPAN_NOTICE("You place a bandaid over \a [W.desc] on [M]'s [affecting.name].") )
 				W.bandage()
+				if(!sterile)
+					W.germ_level += 25
 				if (M.stat == UNCONSCIOUS && prob(25))
 					to_chat(M, SPAN_NOTICE(SPAN_BOLD("... [pick("feels a little better", "hurts a little less")] ...")))
 				playsound(src, pick(apply_sounds), 25)
@@ -121,6 +124,29 @@
 					to_chat(user, SPAN_WARNING("\The [src] is used up, but there are more wounds to treat on \the [affecting.name]."))
 			use(used)
 			H.update_bandages(1)
+
+/obj/item/stack/medical/bruise_pack/add_blood(mob/living/carbon/human/M)
+	if(..()) // If blood actually gets on it
+		sterile = FALSE
+
+/obj/item/stack/medical/bruise_pack/clean_blood()
+	. = ..()
+	sterile = TRUE
+
+/obj/item/stack/medical/bruise_pack/makeshift
+	name = "roll of cloth"
+	singular_name = "cloth strip"
+	desc = "Some not-so-sterile pieces of jumpsuit to wrap around bloody stumps."
+	icon_state = "bandage"
+	origin_tech = null
+	animal_heal = 3
+	apply_sounds = list('sound/effects/rip1.ogg','sound/effects/rip2.ogg')
+	amount = 10
+	sterile = FALSE
+
+/obj/item/stack/medical/bruise_pack/makeshift/clean_blood()
+	. = ..()
+	sterile = FALSE // makeshift should always be not sterile
 
 /obj/item/stack/medical/ointment
 	name = "ointment"
