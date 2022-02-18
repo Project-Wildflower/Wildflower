@@ -75,7 +75,6 @@
 		/decl/emote/audible/alarm,
 		/decl/emote/audible/alert,
 		/decl/emote/audible/notice,
-		/decl/emote/audible/whistle,
 		/decl/emote/audible/synth,
 		/decl/emote/audible/boop,
 		/decl/emote/visible/blink,
@@ -163,7 +162,8 @@
 		/decl/emote/visible/rshoulder,
 		/decl/emote/visible/squint,
 		/decl/emote/visible/tfist,
-		/decl/emote/visible/tilt
+		/decl/emote/visible/tilt,
+		/decl/emote/audible/whistle
 	)
 
 /mob/living/silicon/robot
