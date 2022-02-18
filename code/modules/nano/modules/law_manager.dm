@@ -69,31 +69,31 @@
 
 	if(href_list["change_zeroth_law"])
 		var/new_law = sanitize(input("Enter new law Zero. Leaving the field blank will cancel the edit.", "Edit Law", zeroth_law))
-		if(new_law && new_law != zeroth_law && can_still_topic())
+		if(new_law && new_law != zeroth_law && isadmin(usr))
 			zeroth_law = new_law
 		return 1
 
 	if(href_list["change_ion_law"])
 		var/new_law = sanitize(input("Enter new ion law. Leaving the field blank will cancel the edit.", "Edit Law", ion_law))
-		if(new_law && new_law != ion_law && can_still_topic())
+		if(new_law && new_law != ion_law && is_malf(usr))
 			ion_law = new_law
 		return 1
 
 	if(href_list["change_inherent_law"])
 		var/new_law = sanitize(input("Enter new inherent law. Leaving the field blank will cancel the edit.", "Edit Law", inherent_law))
-		if(new_law && new_law != inherent_law && can_still_topic())
+		if(new_law && new_law != inherent_law && is_malf(usr))
 			inherent_law = new_law
 		return 1
 
 	if(href_list["change_supplied_law"])
 		var/new_law = sanitize(input("Enter new supplied law. Leaving the field blank will cancel the edit.", "Edit Law", supplied_law))
-		if(new_law && new_law != supplied_law && can_still_topic())
+		if(new_law && new_law != supplied_law && is_malf(usr))
 			supplied_law = new_law
 		return 1
 
 	if(href_list["change_supplied_law_position"])
 		var/new_position = input(usr, "Enter new supplied law position between 1 and [MAX_SUPPLIED_LAW_NUMBER], inclusive. Inherent laws at the same index as a supplied law will not be stated.", "Law Position", supplied_law_position) as num|null
-		if(isnum(new_position) && can_still_topic())
+		if(isnum(new_position) && is_malf(usr))
 			supplied_law_position = Clamp(new_position, 1, MAX_SUPPLIED_LAW_NUMBER)
 		return 1
 
@@ -102,7 +102,7 @@
 			var/datum/ai_law/AL = locate(href_list["edit_law"]) in owner.laws.all_laws()
 			if(AL)
 				var/new_law = sanitize(input(usr, "Enter new law. Leaving the field blank will cancel the edit.", "Edit Law", AL.law))
-				if(new_law && new_law != AL.law && is_malf(usr) && can_still_topic())
+				if(new_law && new_law != AL.law && is_malf(usr))
 					log_and_message_admins("has changed a law of [owner] from '[AL.law]' to '[new_law]'")
 					AL.law = new_law
 			return 1
@@ -203,8 +203,7 @@
 	return law_sets
 
 /datum/nano_module/law_manager/proc/is_malf(var/mob/user)
-	return (isadmin(user) && !owner.is_slaved()) || owner.is_malf_or_traitor()
-
+	return isadmin(user) || owner.is_malf_or_traitor()
 /mob/living/silicon/proc/is_slaved()
 	return 0
 
